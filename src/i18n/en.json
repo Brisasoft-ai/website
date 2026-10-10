@@ -111,7 +111,11 @@
     "ownerTitle": "Built by Brisasoft",
     "ownerText": "BIS is one of the products of Brisasoft, a software and AI company based in Vietnam.",
     "ctaTitle": "Interested in BIS?",
-    "ctaText": "Get in touch and we will be happy to talk."
+    "ctaText": "Get in touch and we will be happy to talk.",
+    "designTitle": "Design goals",
+    "designText": "BIS is designed to combine structured Biology knowledge, AI tutoring, exam analysis and personalized learning paths, to help students understand concepts, identify misconceptions and improve their learning outcomes.",
+    "focusTitle": "Initial focus",
+    "focusText": "We are initially focusing on advanced high-school Biology education and competition preparation."
   },
   "contact": {
     "eyebrow": "Contact",
