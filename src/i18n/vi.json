@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "Giới thiệu",
+    "products": "Sản phẩm",
+    "build": "Chúng tôi xây dựng",
+    "contact": "Liên hệ",
+    "menu": "Menu",
+    "language": "Ngôn ngữ"
+  },
+  "cta": {
+    "learnMore": "Tìm hiểu thêm",
+    "contactUs": "Liên hệ",
+    "exploreBis": "Khám phá BIS",
+    "sendEmail": "Gửi email"
+  },
+  "meta": {
+    "home": {
+      "title": "Brisasoft | Sản phẩm AI-native và giải pháp phần mềm",
+      "description": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam, xây dựng sản phẩm AI-native và giải pháp phần mềm. Sản phẩm chủ lực: BIS, Biology Intellectual System."
+    },
+    "about": {
+      "title": "Giới thiệu | Brisasoft",
+      "description": "Giới thiệu về Brisasoft, công ty phần mềm và AI tại Việt Nam, thành lập tháng 10/2024."
+    },
+    "bis": {
+      "title": "BIS, Biology Intellectual System | Brisasoft",
+      "description": "BIS (Biology Intellectual System) là sản phẩm giáo dục AI-native cho môn Sinh học, do Brisasoft xây dựng và sở hữu. Hiện là phiên bản thử nghiệm."
+    },
+    "contact": {
+      "title": "Liên hệ | Brisasoft",
+      "description": "Liên hệ Brisasoft về câu hỏi, hợp tác hoặc đề xuất đối tác."
+    }
+  },
+  "facts": {
+    "companyLabel": "Công ty",
+    "companyValue": "Brisasoft (thương hiệu: Brisa)",
+    "focusLabel": "Lĩnh vực",
+    "focusValue": "Phần mềm, AI, sản phẩm và giải pháp số",
+    "establishedLabel": "Thành lập",
+    "establishedValue": "Tháng 10/2024",
+    "locationLabel": "Địa điểm",
+    "locationValue": "Việt Nam"
+  },
+  "bis": {
+    "name": "BIS",
+    "full": "Biology Intellectual System",
+    "tagline": "Giáo dục AI-native cho môn Sinh học."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Brisasoft · Việt Nam",
+      "titleA": "Xây dựng sản phẩm AI-native và",
+      "titleB": "giải pháp phần mềm.",
+      "text": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam. Chúng tôi kết hợp kỹ thuật phần mềm, kiến thức chuyên ngành và AI để xây dựng sản phẩm và giải pháp số."
+    },
+    "about": {
+      "eyebrow": "Giới thiệu",
+      "title": "Công ty phần mềm và AI, xây dựng tại Việt Nam",
+      "text": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam, thành lập tháng 10/2024. Chúng tôi thiết kế và xây dựng sản phẩm AI-native, giải pháp số và nền tảng phần mềm. Chúng tôi là công ty ở giai đoạn đầu, do người sáng lập trực tiếp điều hành."
+    },
+    "product": {
+      "eyebrow": "Sản phẩm nổi bật",
+      "title": "BIS: Biology Intellectual System",
+      "text": "Giáo dục AI-native cho môn Sinh học. BIS là sản phẩm do Brisasoft xây dựng và sở hữu.",
+      "status": "Phiên bản thử nghiệm",
+      "statusText": "BIS hiện là phiên bản thử nghiệm."
+    },
+    "build": {
+      "eyebrow": "Chúng tôi xây dựng",
+      "title": "Bốn mảng công việc",
+      "sub": "Sản phẩm và hệ thống nơi kỹ thuật phần mềm, kiến thức chuyên ngành và AI kết hợp với nhau.",
+      "i1": {
+        "title": "Sản phẩm AI",
+        "text": "Sản phẩm mà AI là một phần của thiết kế cốt lõi, không phải tính năng gắn thêm."
+      },
+      "i2": {
+        "title": "Giải pháp số",
+        "text": "Giải pháp phần mềm giúp số hóa và cải thiện cách công việc được thực hiện."
+      },
+      "i3": {
+        "title": "Nền tảng phần mềm",
+        "text": "Nền tảng dễ mở rộng, dễ bảo trì để sản phẩm và đội ngũ phát triển trên đó."
+      },
+      "i4": {
+        "title": "Hệ thống AI chuyên ngành",
+        "text": "Hệ thống AI được định hình bởi kiến thức của một lĩnh vực cụ thể, ví dụ giáo dục."
+      }
+    }
+  },
+  "vision": {
+    "eyebrow": "Tầm nhìn",
+    "title": "Kỹ thuật phần mềm, kiến thức chuyên ngành và AI",
+    "text": "Chúng tôi tin những sản phẩm AI hữu ích nhất đến từ sự kết hợp của ba yếu tố: kỹ thuật phần mềm vững chắc, hiểu biết sâu về một lĩnh vực, và AI. Brisasoft xây dựng sản phẩm tại điểm giao đó.",
+    "p1": "Kỹ thuật phần mềm",
+    "p2": "Kiến thức chuyên ngành",
+    "p3": "AI"
+  },
+  "about": {
+    "eyebrow": "Giới thiệu",
+    "title": "Về Brisasoft",
+    "text": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam, thương hiệu là Brisa. Chúng tôi xây dựng sản phẩm AI-native và giải pháp phần mềm, bắt đầu từ sản phẩm chủ lực BIS.",
+    "companyTitle": "Thông tin công ty",
+    "companyText": "Brisasoft là công ty. BIS là sản phẩm do Brisasoft xây dựng và sở hữu. Trong tương lai, Brisasoft có thể xây dựng thêm các sản phẩm AI và phần mềm khác."
+  },
+  "bispage": {
+    "eyebrow": "Sản phẩm",
+    "whatTitle": "BIS là gì?",
+    "whatText": "BIS (Biology Intellectual System) là sản phẩm giáo dục AI-native tập trung vào môn Sinh học. BIS do Brisasoft xây dựng và sở hữu.",
+    "statusTitle": "Tình trạng hiện tại",
+    "statusText": "BIS hiện là phiên bản thử nghiệm.",
+    "ownerTitle": "Do Brisasoft xây dựng",
+    "ownerText": "BIS là một sản phẩm của Brisasoft, công ty phần mềm và AI có trụ sở tại Việt Nam.",
+    "ctaTitle": "Bạn quan tâm đến BIS?",
+    "ctaText": "Hãy liên hệ, chúng tôi sẵn sàng trao đổi."
+  },
+  "contact": {
+    "eyebrow": "Liên hệ",
+    "title": "Liên hệ với chúng tôi",
+    "text": "Với câu hỏi, đề xuất hợp tác hoặc đối tác, vui lòng gửi email cho chúng tôi.",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "tagline": "Sản phẩm AI-native và giải pháp phần mềm, xây dựng tại Việt Nam.",
+    "infoTitle": "Thông tin công ty",
+    "companyCol": "Công ty",
+    "productsCol": "Sản phẩm",
+    "labels": {
+      "company": "Công ty",
+      "legalName": "Tên pháp lý",
+      "registrationNumber": "Mã số doanh nghiệp",
+      "address": "Địa chỉ",
+      "phone": "Điện thoại",
+      "email": "Email",
+      "established": "Thành lập"
+    },
+    "rights": "Bảo lưu mọi quyền.",
+    "bisNote": "BIS là sản phẩm của Brisasoft."
+  }
+}

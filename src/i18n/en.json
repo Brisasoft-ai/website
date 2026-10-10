@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "build": "What we build",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "cta": {
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "exploreBis": "Explore BIS",
+    "sendEmail": "Send an email"
+  },
+  "meta": {
+    "home": {
+      "title": "Brisasoft | AI-native products and software solutions",
+      "description": "Brisasoft is a Vietnam-based software and AI company building AI-native products and software solutions. Flagship product: BIS, Biology Intellectual System."
+    },
+    "about": {
+      "title": "About | Brisasoft",
+      "description": "About Brisasoft, a Vietnam-based software and AI company established in October 2024."
+    },
+    "bis": {
+      "title": "BIS, Biology Intellectual System | Brisasoft",
+      "description": "BIS (Biology Intellectual System) is an AI-native education product for Biology, built and owned by Brisasoft. Currently an experimental version."
+    },
+    "contact": {
+      "title": "Contact | Brisasoft",
+      "description": "Contact Brisasoft for questions, collaboration or partnership enquiries."
+    }
+  },
+  "facts": {
+    "companyLabel": "Company",
+    "companyValue": "Brisasoft (brand: Brisa)",
+    "focusLabel": "Focus",
+    "focusValue": "Software, AI, digital products and solutions",
+    "establishedLabel": "Established",
+    "establishedValue": "October 2024",
+    "locationLabel": "Location",
+    "locationValue": "Vietnam"
+  },
+  "bis": {
+    "name": "BIS",
+    "full": "Biology Intellectual System",
+    "tagline": "AI-native education for Biology."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Brisasoft · Vietnam",
+      "titleA": "Building AI-native products and",
+      "titleB": "software solutions.",
+      "text": "Brisasoft is a software and AI company based in Vietnam. We combine software engineering, domain knowledge and AI to build products and digital solutions."
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "A software and AI company, built in Vietnam",
+      "text": "Brisasoft is a software and AI company based in Vietnam, established in October 2024. We design and build AI-native products, digital solutions and software platforms. We are an early-stage, founder-led company."
+    },
+    "product": {
+      "eyebrow": "Featured product",
+      "title": "BIS: Biology Intellectual System",
+      "text": "AI-native education for Biology. BIS is a product built and owned by Brisasoft.",
+      "status": "Experimental version",
+      "statusText": "BIS is currently an experimental version."
+    },
+    "build": {
+      "eyebrow": "What we build",
+      "title": "Four areas of work",
+      "sub": "Products and systems where software engineering, domain knowledge and AI work together.",
+      "i1": {
+        "title": "AI Products",
+        "text": "Products where AI is part of the core design, not an add-on."
+      },
+      "i2": {
+        "title": "Digital Solutions",
+        "text": "Software solutions that digitize and improve how work gets done."
+      },
+      "i3": {
+        "title": "Software Platforms",
+        "text": "Scalable, maintainable platforms that products and teams can build on."
+      },
+      "i4": {
+        "title": "Domain-specific AI Systems",
+        "text": "AI systems shaped by the knowledge of a specific field, such as education."
+      }
+    }
+  },
+  "vision": {
+    "eyebrow": "Vision",
+    "title": "Software engineering, domain knowledge and AI",
+    "text": "We believe the most useful AI products come from combining three things: strong software engineering, deep knowledge of a domain, and AI. Brisasoft builds products at that intersection.",
+    "p1": "Software engineering",
+    "p2": "Domain knowledge",
+    "p3": "AI"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "About Brisasoft",
+    "text": "Brisasoft is a software and AI company based in Vietnam. Our brand name is Brisa. We build AI-native products and software solutions, starting with our flagship product BIS.",
+    "companyTitle": "Company information",
+    "companyText": "Brisasoft is the company. BIS is a product owned and built by Brisasoft. We may build additional AI and software products in the future."
+  },
+  "bispage": {
+    "eyebrow": "Product",
+    "whatTitle": "What is BIS?",
+    "whatText": "BIS (Biology Intellectual System) is an AI-native education product focused on Biology. It is built and owned by Brisasoft.",
+    "statusTitle": "Current status",
+    "statusText": "BIS is currently an experimental version.",
+    "ownerTitle": "Built by Brisasoft",
+    "ownerText": "BIS is one of the products of Brisasoft, a software and AI company based in Vietnam.",
+    "ctaTitle": "Interested in BIS?",
+    "ctaText": "Get in touch and we will be happy to talk."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "text": "For questions, collaboration or partnership enquiries, please email us.",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "tagline": "AI-native products and software solutions, built in Vietnam.",
+    "infoTitle": "Company information",
+    "companyCol": "Company",
+    "productsCol": "Products",
+    "labels": {
+      "company": "Company",
+      "legalName": "Legal name",
+      "registrationNumber": "Business registration no.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "established": "Established"
+    },
+    "rights": "All rights reserved.",
+    "bisNote": "BIS is a product of Brisasoft."
+  }
+}

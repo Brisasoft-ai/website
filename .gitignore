@@ -1,0 +1,14 @@
+# generated
+dist/
+node_modules/
+.wrangler/
+.dev.vars*
+
+# never publish: old template pages with invented content, local backups
+_archive/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

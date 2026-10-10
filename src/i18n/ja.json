@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "会社概要",
+    "products": "製品",
+    "build": "事業領域",
+    "contact": "お問い合わせ",
+    "menu": "メニュー",
+    "language": "言語"
+  },
+  "cta": {
+    "learnMore": "詳しく見る",
+    "contactUs": "お問い合わせ",
+    "exploreBis": "BISを見る",
+    "sendEmail": "メールを送る"
+  },
+  "meta": {
+    "home": {
+      "title": "Brisasoft | AIネイティブな製品とソフトウェアソリューション",
+      "description": "Brisasoftは、ベトナムを拠点にAIネイティブな製品とソフトウェアソリューションを開発するソフトウェア・AI企業です。主力製品はBIS（Biology Intellectual System）。"
+    },
+    "about": {
+      "title": "会社概要 | Brisasoft",
+      "description": "2024年10月設立、ベトナム拠点のソフトウェア・AI企業Brisasoftの会社概要です。"
+    },
+    "bis": {
+      "title": "BIS（Biology Intellectual System） | Brisasoft",
+      "description": "BIS（Biology Intellectual System）は、Brisasoftが開発・所有する生物学向けのAIネイティブ教育製品です。現在は試験版です。"
+    },
+    "contact": {
+      "title": "お問い合わせ | Brisasoft",
+      "description": "ご質問、協業、パートナーシップに関するお問い合わせはBrisasoftまで。"
+    }
+  },
+  "facts": {
+    "companyLabel": "会社名",
+    "companyValue": "Brisasoft（ブランド名: Brisa）",
+    "focusLabel": "事業領域",
+    "focusValue": "ソフトウェア、AI、デジタル製品・ソリューション",
+    "establishedLabel": "設立",
+    "establishedValue": "2024年10月",
+    "locationLabel": "所在地",
+    "locationValue": "ベトナム"
+  },
+  "bis": {
+    "name": "BIS",
+    "full": "Biology Intellectual System",
+    "tagline": "生物学のためのAIネイティブ教育。"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Brisasoft · ベトナム",
+      "titleA": "AIネイティブな製品と",
+      "titleB": "ソフトウェアソリューションを開発します。",
+      "text": "Brisasoftはベトナムを拠点とするソフトウェア・AI企業です。ソフトウェアエンジニアリング、専門分野の知見、AIを組み合わせて、製品とデジタルソリューションを開発しています。"
+    },
+    "about": {
+      "eyebrow": "会社概要",
+      "title": "ベトナムで生まれたソフトウェア・AI企業",
+      "text": "Brisasoftは、2024年10月に設立されたベトナム拠点のソフトウェア・AI企業です。AIネイティブな製品、デジタルソリューション、ソフトウェアプラットフォームの設計・開発に取り組んでいます。創業者主導の初期段階の企業です。"
+    },
+    "product": {
+      "eyebrow": "注目の製品",
+      "title": "BIS: Biology Intellectual System",
+      "text": "生物学のためのAIネイティブ教育。BISはBrisasoftが開発・所有する製品です。",
+      "status": "試験版",
+      "statusText": "BISは現在、試験版です。"
+    },
+    "build": {
+      "eyebrow": "事業領域",
+      "title": "4つの取り組み領域",
+      "sub": "ソフトウェアエンジニアリング、専門分野の知見、AIを組み合わせた製品とシステムを開発します。",
+      "i1": {
+        "title": "AI製品",
+        "text": "AIを後付けではなく、設計の中核に据えた製品。"
+      },
+      "i2": {
+        "title": "デジタルソリューション",
+        "text": "業務のデジタル化と改善を支えるソフトウェアソリューション。"
+      },
+      "i3": {
+        "title": "ソフトウェアプラットフォーム",
+        "text": "製品やチームが土台にできる、拡張・保守しやすいプラットフォーム。"
+      },
+      "i4": {
+        "title": "専門領域特化型AIシステム",
+        "text": "教育など、特定分野の知識に基づいて設計されたAIシステム。"
+      }
+    }
+  },
+  "vision": {
+    "eyebrow": "ビジョン",
+    "title": "ソフトウェアエンジニアリング、専門知識、AI",
+    "text": "最も役に立つAI製品は、確かなソフトウェアエンジニアリング、専門分野の深い知見、そしてAIという3つの組み合わせから生まれると私たちは考えています。Brisasoftは、その交点で製品をつくります。",
+    "p1": "ソフトウェアエンジニアリング",
+    "p2": "専門分野の知見",
+    "p3": "AI"
+  },
+  "about": {
+    "eyebrow": "会社概要",
+    "title": "Brisasoftについて",
+    "text": "Brisasoftはベトナムを拠点とするソフトウェア・AI企業で、ブランド名はBrisaです。主力製品BISをはじめ、AIネイティブな製品とソフトウェアソリューションを開発しています。",
+    "companyTitle": "会社情報",
+    "companyText": "Brisasoftが会社であり、BISはBrisasoftが開発・所有する製品です。今後、AIやソフトウェアの製品を追加する可能性があります。"
+  },
+  "bispage": {
+    "eyebrow": "製品",
+    "whatTitle": "BISとは",
+    "whatText": "BIS（Biology Intellectual System）は、生物学に特化したAIネイティブな教育製品です。Brisasoftが開発・所有しています。",
+    "statusTitle": "現在の状況",
+    "statusText": "BISは現在、試験版です。",
+    "ownerTitle": "Brisasoftが開発",
+    "ownerText": "BISは、ベトナムを拠点とするソフトウェア・AI企業Brisasoftの製品の一つです。",
+    "ctaTitle": "BISにご興味がありますか？",
+    "ctaText": "お気軽にご連絡ください。"
+  },
+  "contact": {
+    "eyebrow": "お問い合わせ",
+    "title": "お問い合わせ",
+    "text": "ご質問、協業、パートナーシップに関するご相談は、メールでご連絡ください。",
+    "emailLabel": "メール"
+  },
+  "footer": {
+    "tagline": "ベトナムで開発する、AIネイティブな製品とソフトウェアソリューション。",
+    "infoTitle": "会社情報",
+    "companyCol": "会社",
+    "productsCol": "製品",
+    "labels": {
+      "company": "会社名",
+      "legalName": "正式名称",
+      "registrationNumber": "事業登録番号",
+      "address": "所在地",
+      "phone": "電話",
+      "email": "メール",
+      "established": "設立"
+    },
+    "rights": "All rights reserved.",
+    "bisNote": "BISはBrisasoftの製品です。"
+  }
+}

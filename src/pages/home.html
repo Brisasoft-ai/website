@@ -1,0 +1,79 @@
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">{{home.hero.eyebrow}}</span>
+    <h1>{{home.hero.titleA}} <span>{{home.hero.titleB}}</span></h1>
+    <p>{{home.hero.text}}</p>
+    <div class="hero-actions">
+      <a href="{{@url.bis}}" class="btn btn-primary">{{cta.exploreBis}}</a>
+      <a href="{{@url.contact}}" class="btn btn-outline">{{cta.contactUs}}</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="alt">
+  <div class="wrap two-col">
+    <div>
+      <span class="eyebrow">{{home.about.eyebrow}}</span>
+      <h2>{{home.about.title}}</h2>
+      <p class="muted">{{home.about.text}}</p>
+    </div>
+    <dl class="facts card">
+      <div><dt>{{facts.companyLabel}}</dt><dd>{{facts.companyValue}}</dd></div>
+      <div><dt>{{facts.focusLabel}}</dt><dd>{{facts.focusValue}}</dd></div>
+      <div><dt>{{facts.establishedLabel}}</dt><dd>{{facts.establishedValue}}</dd></div>
+      <div><dt>{{facts.locationLabel}}</dt><dd>{{facts.locationValue}}</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="products">
+  <div class="wrap">
+    <span class="eyebrow">{{home.product.eyebrow}}</span>
+    <div class="product-card card">
+      <div class="product-mark" aria-hidden="true">BIS</div>
+      <div class="product-body">
+        <span class="badge">{{home.product.status}}</span>
+        <h2>{{home.product.title}}</h2>
+        <p class="muted">{{home.product.text}}</p>
+        <p class="muted small">{{home.product.statusText}}</p>
+        <a href="{{@url.bis}}" class="btn btn-outline">{{cta.learnMore}}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="build" class="alt">
+  <div class="wrap">
+    <span class="eyebrow center">{{home.build.eyebrow}}</span>
+    <h2 class="section-title">{{home.build.title}}</h2>
+    <p class="section-sub">{{home.build.sub}}</p>
+    <div class="grid-4">
+      <article class="feature"><span class="num">01</span><h3>{{home.build.i1.title}}</h3><p>{{home.build.i1.text}}</p></article>
+      <article class="feature"><span class="num">02</span><h3>{{home.build.i2.title}}</h3><p>{{home.build.i2.text}}</p></article>
+      <article class="feature"><span class="num">03</span><h3>{{home.build.i3.title}}</h3><p>{{home.build.i3.text}}</p></article>
+      <article class="feature"><span class="num">04</span><h3>{{home.build.i4.title}}</h3><p>{{home.build.i4.text}}</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="vision">
+  <div class="wrap">
+    <span class="eyebrow center">{{vision.eyebrow}}</span>
+    <h2 class="section-title">{{vision.title}}</h2>
+    <p class="section-sub">{{vision.text}}</p>
+    <div class="pillars">
+      <span>{{vision.p1}}</span><i aria-hidden="true">+</i><span>{{vision.p2}}</span><i aria-hidden="true">+</i><span>{{vision.p3}}</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="alt">
+  <div class="wrap">
+    <div class="cta-box">
+      <span class="eyebrow">{{contact.eyebrow}}</span>
+      <h2 class="section-title">{{contact.title}}</h2>
+      <p class="section-sub">{{contact.text}}</p>
+      <a href="mailto:{{@email}}" class="btn btn-primary">{{@email}}</a>
+    </div>
+  </div>
+</section>

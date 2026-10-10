@@ -1,0 +1,42 @@
+<section class="hero small">
+  <div class="wrap">
+    <span class="eyebrow">{{about.eyebrow}}</span>
+    <h1>{{about.title}}</h1>
+    <p>{{about.text}}</p>
+  </div>
+</section>
+
+<section id="company" class="alt">
+  <div class="wrap">
+    <span class="eyebrow center">{{footer.labels.company}}</span>
+    <h2 class="section-title">{{about.companyTitle}}</h2>
+    <p class="section-sub">{{about.companyText}}</p>
+    <table class="details-table">
+      <tbody>
+{{@detailsRows}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="vision">
+  <div class="wrap">
+    <span class="eyebrow center">{{vision.eyebrow}}</span>
+    <h2 class="section-title">{{vision.title}}</h2>
+    <p class="section-sub">{{vision.text}}</p>
+    <div class="pillars">
+      <span>{{vision.p1}}</span><i aria-hidden="true">+</i><span>{{vision.p2}}</span><i aria-hidden="true">+</i><span>{{vision.p3}}</span>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="cta-box">
+      <span class="eyebrow">{{contact.eyebrow}}</span>
+      <h2 class="section-title">{{contact.title}}</h2>
+      <p class="section-sub">{{contact.text}}</p>
+      <a href="{{@url.contact}}" class="btn btn-primary">{{cta.contactUs}}</a>
+    </div>
+  </div>
+</section>
