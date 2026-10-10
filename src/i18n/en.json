@@ -90,7 +90,7 @@
   "vision": {
     "eyebrow": "Vision",
     "title": "Software engineering, domain knowledge and AI",
-    "text": "We believe the most useful AI products come from combining three things: strong software engineering, deep knowledge of a domain, and AI. Brisasoft builds products at that intersection.",
+    "text": "We believe good AI products come from combining three things: solid software engineering, real knowledge of a domain, and AI. Brisasoft builds products at that intersection.",
     "p1": "Software engineering",
     "p2": "Domain knowledge",
     "p3": "AI"
@@ -110,12 +110,17 @@
     "statusText": "BIS is currently an experimental version.",
     "ownerTitle": "Built by Brisasoft",
     "ownerText": "BIS is one of the products of Brisasoft, a software and AI company based in Vietnam.",
-    "ctaTitle": "Interested in BIS?",
-    "ctaText": "Get in touch and we will be happy to talk.",
+    "ctaTitle": "Questions or feedback?",
+    "ctaText": "BIS is still an experimental version. If you would like to ask about it or share feedback, email us.",
     "designTitle": "Design goals",
     "designText": "BIS is designed to combine structured Biology knowledge, AI tutoring, exam analysis and personalized learning paths, to help students understand concepts, identify misconceptions and improve their learning outcomes.",
     "focusTitle": "Initial focus",
     "focusText": "We are initially focusing on advanced high-school Biology education and competition preparation."
+  },
+  "founder": {
+    "title": "Founder",
+    "role": "Founder, Brisasoft",
+    "linkedin": "LinkedIn profile"
   },
   "contact": {
     "eyebrow": "Contact",

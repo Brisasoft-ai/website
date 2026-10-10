@@ -14,5 +14,22 @@
   },
   "assets": {
     "directory": "dist"
+  },
+  "env": {
+    "staging": {
+      "name": "brisasoft-web-stg",
+      "build": {
+        "command": "node build.mjs"
+      },
+      "routes": [
+        { "pattern": "stg.brisasoft.net", "custom_domain": true }
+      ],
+      "observability": {
+        "enabled": true
+      },
+      "assets": {
+        "directory": "dist"
+      }
+    }
   }
 }

@@ -21,3 +21,16 @@ Static, multilingual (EN / JA / VI) company site. No dependencies, only Node 18+
 
 ## Content rules
 Only facts confirmed by the founder. No customers, funding, revenue, employees, partners, certifications or testimonials unless provided.
+
+## Environments and CI/CD
+| Env | URL | Trigger |
+|---|---|---|
+| local | http://localhost:8788 | `npm run dev` |
+| staging | https://stg.brisasoft.net (noindex) | push to `main` (automatic) |
+| production | https://brisasoft.net | push tag `v*` or manual run, needs approval in the GitHub `production` environment |
+
+- PR: `ci.yml` builds the site. Merge to `main` deploys staging, then smoke tests it.
+- Release: `git tag v1.0.1 && git push origin v1.0.1`, then approve the `production` job.
+- Secrets (repo or environment): `CLOUDFLARE_API_TOKEN` (scope: Workers Scripts Edit, Workers Routes/Custom Domains, Zone DNS Edit for brisasoft.net) and `CLOUDFLARE_ACCOUNT_ID`.
+- Manual deploy: `npm run deploy:stg` / `npm run deploy:prod` (the deploy:stg script uses `SITE_ENV=staging` syntax for bash).
+- Cost: Cloudflare Workers free plan, GitHub Actions free minutes. No paid service.

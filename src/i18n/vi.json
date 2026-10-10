@@ -90,7 +90,7 @@
   "vision": {
     "eyebrow": "Tầm nhìn",
     "title": "Kỹ thuật phần mềm, kiến thức chuyên ngành và AI",
-    "text": "Chúng tôi tin những sản phẩm AI hữu ích nhất đến từ sự kết hợp của ba yếu tố: kỹ thuật phần mềm vững chắc, hiểu biết sâu về một lĩnh vực, và AI. Brisasoft xây dựng sản phẩm tại điểm giao đó.",
+    "text": "Chúng tôi tin những sản phẩm AI tốt đến từ sự kết hợp của ba yếu tố: kỹ thuật phần mềm vững chắc, hiểu biết thực sự về một lĩnh vực, và AI. Brisasoft xây dựng sản phẩm tại điểm giao đó.",
     "p1": "Kỹ thuật phần mềm",
     "p2": "Kiến thức chuyên ngành",
     "p3": "AI"
@@ -110,12 +110,17 @@
     "statusText": "BIS hiện là phiên bản thử nghiệm.",
     "ownerTitle": "Do Brisasoft xây dựng",
     "ownerText": "BIS là một sản phẩm của Brisasoft, công ty phần mềm và AI có trụ sở tại Việt Nam.",
-    "ctaTitle": "Bạn quan tâm đến BIS?",
-    "ctaText": "Hãy liên hệ, chúng tôi sẵn sàng trao đổi.",
+    "ctaTitle": "Câu hỏi hoặc góp ý?",
+    "ctaText": "BIS vẫn là phiên bản thử nghiệm. Nếu bạn muốn hỏi thêm hoặc góp ý, hãy gửi email cho chúng tôi.",
     "designTitle": "Mục tiêu thiết kế",
     "designText": "BIS được thiết kế để kết hợp tri thức Sinh học có cấu trúc, gia sư AI, phân tích đề thi và lộ trình học cá nhân hóa, giúp học sinh hiểu khái niệm, nhận ra quan niệm sai và cải thiện kết quả học tập.",
     "focusTitle": "Trọng tâm ban đầu",
     "focusText": "Ban đầu, chúng tôi tập trung vào giáo dục Sinh học THPT nâng cao và chuẩn bị cho các cuộc thi."
+  },
+  "founder": {
+    "title": "Người sáng lập",
+    "role": "Người sáng lập, Brisasoft",
+    "linkedin": "Hồ sơ LinkedIn"
   },
   "contact": {
     "eyebrow": "Liên hệ",

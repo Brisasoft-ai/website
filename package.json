@@ -6,8 +6,11 @@
   "description": "Static multilingual website for Brisasoft (EN / JA / VI). No dependencies.",
   "scripts": {
     "build": "node build.mjs",
+    "build:stg": "SITE_ENV=staging node build.mjs",
     "dev": "node build.mjs && node serve.mjs",
-    "deploy": "wrangler deploy",    "preview": "wrangler dev"
+    "deploy:stg": "SITE_ENV=staging wrangler deploy --env staging",
+    "deploy:prod": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "devDependencies": {
     "wrangler": "^4.149.0"

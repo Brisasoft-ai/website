@@ -6,7 +6,9 @@ import { fileURLToPath } from 'node:url';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, 'dist');
-const SITE = 'https://brisasoft.net';
+// SITE_ENV=staging builds for stg.brisasoft.net and blocks search engines.
+const STAGING = process.env.SITE_ENV === 'staging';
+const SITE = STAGING ? 'https://stg.brisasoft.net' : 'https://brisasoft.net';
 const EMAIL = 'hello@brisasoft.net';
 
 const LANGS = [
@@ -149,6 +151,23 @@ function detailsRows(lang, d) {
   return rows.map(([k, v]) => `        <tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('\n');
 }
 
+// Founder block, shown only when a name is filled in src/company.json
+const founderBlock = (d) => {
+  const f = company.founder || {};
+  if (!String(f.name || '').trim()) return '';
+  const link = String(f.linkedin || '').trim();
+  return `<section>
+  <div class="wrap">
+    <span class="eyebrow center">${esc(d.founder.title)}</span>
+    <div class="grid-2">
+      <article class="feature left"><h3>${esc(f.name)}</h3><p>${esc(d.founder.role)}</p>${
+        link ? `<p><a href="${esc(link)}" rel="noopener noreferrer" target="_blank">${esc(d.founder.linkedin)}</a></p>` : ''
+      }</article>
+    </div>
+  </div>
+</section>`;
+};
+
 const layout = read('src/layout.html');
 const pageTpl = Object.fromEntries(PAGES.map((p) => [p.key, read(`src/pages/${p.key}.html`)]));
 
@@ -177,7 +196,7 @@ for (const l of LANGS) {
             ...(pick(company.legalName, l.code) ? { legalName: pick(company.legalName, l.code) } : {}),
           })}</script>`
         : '';
-    const ctx = { url: urls, email: EMAIL, detailsRows: detailsRows(l.code, d) };
+    const ctx = { url: urls, email: EMAIL, detailsRows: detailsRows(l.code, d), founderBlock: founderBlock(d) };
     const content = render(pageTpl[p.key], ctx, d);
     const html = render(
       layout,
@@ -248,7 +267,10 @@ cpSync(join(root, 'assets'), join(dist, 'assets'), { recursive: true });
 if (existsSync(join(root, 'public'))) cpSync(join(root, 'public'), dist, { recursive: true });
 
 // robots.txt, sitemap.xml, Cloudflare Pages headers
-writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+writeFileSync(
+  join(dist, 'robots.txt'),
+  STAGING ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`
+);
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${LANGS.flatMap((l) =>
@@ -268,7 +290,7 @@ writeFileSync(
   `/*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
-  Referrer-Policy: strict-origin-when-cross-origin
+${STAGING ? '  X-Robots-Tag: noindex, nofollow\n' : ''}  Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
 /assets/*

@@ -3,5 +3,9 @@
   "legalName": "",
   "registrationNumber": "",
   "address": "",
-  "phone": ""
+  "phone": "",
+  "founder": {
+    "name": "Nguyễn Thanh Bình",
+    "linkedin": "https://www.linkedin.com/in/nguy%E1%BB%85n-thanh-b%C3%ACnh-a198b862"
+  }
 }
