@@ -2,6 +2,7 @@
 // Usage: node build.mjs   -> writes ./dist (deploy this folder to Cloudflare Pages)
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const root = dirname(fileURLToPath(import.meta.url));
@@ -19,7 +20,11 @@ const LANGS = [
 const PAGES = [
   { key: 'home', path: '' },
   { key: 'about', path: 'about/' },
+  { key: 'services', path: 'services/' },
+  { key: 'products', path: 'products/' },
   { key: 'bis', path: 'products/bis/' },
+  { key: 'aab', path: 'products/aab/' },
+  { key: 'insights', path: 'insights/' },
   { key: 'contact', path: 'contact/' },
 ];
 
@@ -72,12 +77,13 @@ function header(lang, pageKey, d) {
   const cur = LANGS.find((l) => l.code === lang);
   const items = [
     ['about', url(lang, 'about'), 'about'],
-    ['products', url(lang, 'bis'), 'bis'],
-    ['build', `${url(lang, 'home')}#build`, null],
+    ['services', url(lang, 'services'), 'services'],
+    ['products', url(lang, 'products'), ['products', 'bis', 'aab']],
+    ['insights', url(lang, 'insights'), 'insights'],
     ['contact', url(lang, 'contact'), 'contact'],
   ];
   const links = items
-    .map(([k, href, active]) => `<a href="${href}"${active === pageKey ? ' class="active" aria-current="page"' : ''}>${esc(d.nav[k])}</a>`)
+    .map(([k, href, active]) => `<a href="${href}"${[].concat(active).includes(pageKey) ? ' class="active" aria-current="page"' : ''}>${esc(d.nav[k])}</a>`)
     .join('\n      ');
   const langItems = LANGS.map(
     (l) =>
@@ -85,7 +91,7 @@ function header(lang, pageKey, d) {
   ).join('\n          ');
   return `<header>
   <div class="wrap nav">
-    <a href="${url(lang, 'home')}" class="logo" aria-label="Brisasoft"><span class="logo-mark">Bs</span>Brisasoft</a>
+    <a href="${url(lang, 'home')}" class="logo" aria-label="Brisasoft"><img class="logo-img" src="/assets/logo-mark.svg" alt="" width="58" height="31">Brisasoft</a>
     <nav class="menu" id="menu" aria-label="Main">
       ${links}
     </nav>
@@ -110,18 +116,20 @@ function footer(lang, d) {
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="${url(lang, 'home')}" class="logo"><span class="logo-mark">Bs</span>Brisasoft</a>
+        <a href="${url(lang, 'home')}" class="logo"><img class="logo-img" src="/assets/logo-mark.svg" alt="" width="58" height="31">Brisasoft</a>
         <p>${esc(d.footer.tagline)}</p>
       </div>
       <div class="footer-col">
         <h5>${esc(d.footer.companyCol)}</h5>
         <a href="${url(lang, 'about')}">${esc(d.nav.about)}</a>
-        <a href="${url(lang, 'home')}#build">${esc(d.nav.build)}</a>
+        <a href="${url(lang, 'services')}">${esc(d.nav.services)}</a>
+        <a href="${url(lang, 'insights')}">${esc(d.nav.insights)}</a>
         <a href="${url(lang, 'contact')}">${esc(d.nav.contact)}</a>
       </div>
       <div class="footer-col">
         <h5>${esc(d.footer.productsCol)}</h5>
-        <a href="${url(lang, 'bis')}">${esc(d.bis.name)}: ${esc(d.bis.full)}</a>
+        <a href="${url(lang, 'bis')}">${esc(d.products.bis.name)}: ${esc(d.products.bis.full)}</a>
+        <a href="${url(lang, 'aab')}">${esc(d.products.aab.name)}: ${esc(d.products.aab.full)}</a>
       </div>
       <div class="footer-col footer-info">
         <h5>${esc(d.footer.infoTitle)}</h5>
@@ -168,7 +176,16 @@ const founderBlock = (d) => {
 </section>`;
 };
 
+// Link to the running BIS app, shown only when bisUrl is filled in src/company.json (must be https)
+const bisAction = (d) => {
+  const u = String(company.bisUrl || '').trim();
+  if (!u.startsWith('https://')) return '';
+  return `<p><a href="${esc(u)}" class="btn btn-primary" rel="noopener" target="_blank">${esc(d.bispage.openApp)}</a></p>`;
+};
+
 const layout = read('src/layout.html');
+// Cache-busting version for CSS/JS, derived from their content
+const VER = createHash('sha1').update(read('assets/style.css') + read('assets/main.js')).digest('hex').slice(0, 8);
 const pageTpl = Object.fromEntries(PAGES.map((p) => [p.key, read(`src/pages/${p.key}.html`)]));
 
 rmSync(dist, { recursive: true, force: true });
@@ -196,7 +213,7 @@ for (const l of LANGS) {
             ...(pick(company.legalName, l.code) ? { legalName: pick(company.legalName, l.code) } : {}),
           })}</script>`
         : '';
-    const ctx = { url: urls, email: EMAIL, detailsRows: detailsRows(l.code, d), founderBlock: founderBlock(d) };
+    const ctx = { url: urls, email: EMAIL, detailsRows: detailsRows(l.code, d), founderBlock: founderBlock(d), bisAction: bisAction(d) };
     const content = render(pageTpl[p.key], ctx, d);
     const html = render(
       layout,
@@ -208,6 +225,7 @@ for (const l of LANGS) {
         alternates,
         ogLocale: l.og,
         site: SITE,
+        ver: VER,
         jsonld,
         skip: esc(l.skip),
         header: header(l.code, p.key, d),

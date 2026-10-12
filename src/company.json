@@ -1,11 +1,16 @@
 {
   "_note": "Fill ONLY with verified facts. Empty values are hidden on the site. A value can be a string or { \"en\": \"\", \"ja\": \"\", \"vi\": \"\" }.",
-  "legalName": "",
-  "registrationNumber": "",
-  "address": "",
-  "phone": "",
+  "legalName": {
+    "en": "Brisasoft Joint Stock Company",
+    "ja": "ブリサソフト株式会社(Brisasoft Joint Stock Company)",
+    "vi": "Công ty Cổ phần Brisasoft"
+  },
+  "registrationNumber": "0110870824",
+  "address": "Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam",
+  "phone": "0927997699",
   "founder": {
     "name": "Nguyễn Thanh Bình",
     "linkedin": "https://www.linkedin.com/in/nguy%E1%BB%85n-thanh-b%C3%ACnh-a198b862"
-  }
+  },
+  "bisUrl": ""
 }

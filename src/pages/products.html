@@ -1,0 +1,39 @@
+<section class="hero small">
+  <div class="wrap">
+    <span class="eyebrow">{{products.eyebrow}}</span>
+    <h1>{{products.title}}</h1>
+    <p>{{products.text}}</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="prod-grid">
+      <article class="card prod-card">
+        <div class="product-mark" aria-hidden="true">BIS</div>
+        <span class="badge">{{products.bis.status}}</span>
+        <h3>{{products.bis.name}} <span class="muted">· {{products.bis.full}}</span></h3>
+        <p class="muted">{{products.bis.text}}</p>
+        <a href="{{@url.bis}}" class="btn btn-outline">{{products.learn}}</a>
+      </article>
+      <article class="card prod-card">
+        <div class="product-mark" aria-hidden="true">AAB</div>
+        <span class="badge">{{products.aab.status}}</span>
+        <h3>{{products.aab.name}} <span class="muted">· {{products.aab.full}}</span></h3>
+        <p class="muted">{{products.aab.text}}</p>
+        <a href="{{@url.aab}}" class="btn btn-outline">{{products.learn}}</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-box">
+      <span class="eyebrow">{{contact.eyebrow}}</span>
+      <h2 class="section-title">{{contact.title}}</h2>
+      <p class="section-sub">{{contact.text}}</p>
+      <a href="mailto:{{@email}}" class="btn btn-primary">{{@email}}</a>
+    </div>
+  </div>
+</section>

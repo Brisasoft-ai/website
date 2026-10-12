@@ -1,28 +1,77 @@
-<section class="hero small">
+<section class="hero home bis-hero">
   <div class="wrap">
-    <span class="eyebrow">{{bispage.eyebrow}}</span>
-    <h1>{{bis.name}}: <span>{{bis.full}}</span></h1>
-    <p>{{bis.tagline}}</p>
-    <span class="badge">{{home.product.status}}</span>
+    <div>
+      <span class="eyebrow">{{bis2.eyebrow}}</span>
+      <h1>{{bis2.heroTitle}}</h1>
+      <p>{{bis2.heroText}}</p>
+      <span class="badge badge-dark">{{bis2.status}}</span>
+      <div class="hero-actions">{{@bisAction}}<a href="mailto:{{@email}}" class="btn btn-outline">{{cta.talkProject}}</a></div>
+    </div>
+    <div class="bis-card" aria-hidden="true"><b>BIS</b><span>{{bis.full}}</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col top">
+    <div>
+      <span class="eyebrow">{{bis2.problemEyebrow}}</span>
+      <h2>{{bis2.problemTitle}}</h2>
+      <p class="muted">{{bis2.problemText}}</p>
+    </div>
+    <div>
+      <span class="eyebrow">{{bis2.solutionEyebrow}}</span>
+      <h2>{{bis2.solutionTitle}}</h2>
+      <p class="muted">{{bis2.solutionText}}</p>
+    </div>
   </div>
 </section>
 
 <section class="alt">
   <div class="wrap">
     <div class="grid-3">
-      <article class="feature left"><h3>{{bispage.whatTitle}}</h3><p>{{bispage.whatText}}</p></article>
-      <article class="feature left"><h3>{{bispage.statusTitle}}</h3><p>{{bispage.statusText}}</p></article>
-      <article class="feature left"><h3>{{bispage.ownerTitle}}</h3><p>{{bispage.ownerText}}</p></article>
+      <article class="feature left"><h3>{{bis2.f1.title}}</h3><p>{{bis2.f1.text}}</p></article>
+      <article class="feature left"><h3>{{bis2.f2.title}}</h3><p>{{bis2.f2.text}}</p></article>
+      <article class="feature left"><h3>{{bis2.f3.title}}</h3><p>{{bis2.f3.text}}</p></article>
+      <article class="feature left"><h3>{{bis2.f4.title}}</h3><p>{{bis2.f4.text}}</p></article>
+      <article class="feature left"><h3>{{bis2.f5.title}}</h3><p>{{bis2.f5.text}}</p></article>
+      <article class="feature left"><h3>{{bis2.f6.title}}</h3><p>{{bis2.f6.text}}</p></article>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="wrap">
-    <div class="grid-2">
-      <article class="feature left"><h3>{{bispage.designTitle}}</h3><p>{{bispage.designText}}</p></article>
-      <article class="feature left"><h3>{{bispage.focusTitle}}</h3><p>{{bispage.focusText}}</p></article>
+  <div class="wrap two-col top">
+    <div>
+      <h2>{{bis2.todayTitle}}</h2>
+      <p class="muted">{{bis2.todayText}}</p>
+      <h3 class="mt">{{bispage.focusTitle}}</h3>
+      <p class="muted">{{bispage.focusText}}</p>
     </div>
+    <div>
+      <h2>{{bis2.roadTitle}}</h2>
+      <ol class="timeline compact">
+        <li><time>{{bis2.road1.title}}</time><p>{{bis2.road1.text}}</p></li>
+        <li><time>{{bis2.road2.title}}</time><p>{{bis2.road2.text}}</p></li>
+        <li><time>{{bis2.road3.title}}</time><p>{{bis2.road3.text}}</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2 class="section-title">{{bis2.principlesTitle}}</h2>
+    <div class="pillars"><span>{{bis2.p.p1}}</span><span>{{bis2.p.p2}}</span><span>{{bis2.p.p3}}</span><span>{{bis2.p.p4}}</span><span>{{bis2.p.p5}}</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap narrow">
+    <h2 class="section-title">{{bis2.faqTitle}}</h2>
+    <details class="faq" open><summary>{{bis2.q1.title}}</summary><p>{{bis2.q1.text}}</p></details>
+    <details class="faq"><summary>{{bis2.q2.title}}</summary><p>{{bis2.q2.text}}</p></details>
+    <details class="faq"><summary>{{bis2.q3.title}}</summary><p>{{bis2.q3.text}}</p></details>
+    <details class="faq"><summary>{{bis2.q4.title}}</summary><p>{{bis2.q4.text}}</p></details>
   </div>
 </section>
 
@@ -30,8 +79,8 @@
   <div class="wrap">
     <div class="cta-box">
       <span class="eyebrow">{{contact.eyebrow}}</span>
-      <h2 class="section-title">{{bispage.ctaTitle}}</h2>
-      <p class="section-sub">{{bispage.ctaText}}</p>
+      <h2 class="section-title">{{bis2.ctaTitle}}</h2>
+      <p class="section-sub">{{bis2.ctaText}}</p>
       <a href="mailto:{{@email}}" class="btn btn-primary">{{@email}}</a>
     </div>
   </div>

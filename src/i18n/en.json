@@ -5,18 +5,24 @@
     "build": "What we build",
     "contact": "Contact",
     "menu": "Menu",
-    "language": "Language"
+    "language": "Language",
+    "services": "Services",
+    "insights": "Insights"
   },
   "cta": {
     "learnMore": "Learn more",
     "contactUs": "Contact us",
     "exploreBis": "Explore BIS",
-    "sendEmail": "Send an email"
+    "sendEmail": "Send an email",
+    "viewServices": "View our services",
+    "talkProject": "Talk about your project",
+    "readBis": "Read the BIS story",
+    "viewProducts": "See our products"
   },
   "meta": {
     "home": {
       "title": "Brisasoft | AI-native products and software solutions",
-      "description": "Brisasoft is a Vietnam-based software and AI company building AI-native products and software solutions. Flagship product: BIS, Biology Intellectual System."
+      "description": "Brisasoft is a Vietnam-based software and AI company building AI-native products and software solutions. Products: BIS (Biology Intellectual System) and AAB (AI Automation BPMN)."
     },
     "about": {
       "title": "About | Brisasoft",
@@ -29,6 +35,22 @@
     "contact": {
       "title": "Contact | Brisasoft",
       "description": "Contact Brisasoft for questions, collaboration or partnership enquiries."
+    },
+    "services": {
+      "title": "Services | Brisasoft",
+      "description": "AI development, data and intelligence, software engineering and platform services from Brisasoft, a Vietnam-based software and AI company."
+    },
+    "insights": {
+      "title": "Know-how and milestones | Brisasoft",
+      "description": "Brisasoft know-how in SAP/ERP, embedded systems, BPMN workflow, healthcare and AI, and the milestones from outsourcing to our own products."
+    },
+    "products": {
+      "title": "Products | Brisasoft",
+      "description": "Brisasoft products: BIS, an AI-native Biology education system, and AAB, AI Automation BPMN, combining Dify, Camunda, Microsoft 365 and AI agents."
+    },
+    "aab": {
+      "title": "AAB, AI Automation BPMN | Brisasoft",
+      "description": "AAB (AI Automation BPMN) automates business processes by combining BPMN workflows on Camunda, AI agents with Dify, and Microsoft 365. In development."
     }
   },
   "facts": {
@@ -58,13 +80,6 @@
       "title": "A software and AI company, built in Vietnam",
       "text": "Brisasoft is a software and AI company based in Vietnam, established in October 2024. We design and build AI-native products, digital solutions and software platforms. We are an early-stage, founder-led company."
     },
-    "product": {
-      "eyebrow": "Featured product",
-      "title": "BIS: Biology Intellectual System",
-      "text": "AI-native education for Biology. BIS is a product built and owned by Brisasoft.",
-      "status": "Experimental version",
-      "statusText": "BIS is currently an experimental version."
-    },
     "build": {
       "eyebrow": "What we build",
       "title": "Four areas of work",
@@ -85,6 +100,27 @@
         "title": "Domain-specific AI Systems",
         "text": "AI systems shaped by the knowledge of a specific field, such as education."
       }
+    },
+    "why": {
+      "eyebrow": "Why Brisasoft",
+      "title": "Four principles behind everything we build",
+      "sub": "How we approach every product and solution.",
+      "i1": {
+        "title": "AI-native by design",
+        "text": "We design the product around AI from day one, instead of adding it afterwards."
+      },
+      "i2": {
+        "title": "Engineering discipline",
+        "text": "Clean architecture, testing and maintainable code, so products can grow and last."
+      },
+      "i3": {
+        "title": "Domain knowledge first",
+        "text": "We start from the real problem of a field, such as education, before choosing the technology."
+      },
+      "i4": {
+        "title": "Long-term mindset",
+        "text": "We build to keep improving over the years, with a focused, founder-led approach."
+      }
     }
   },
   "vision": {
@@ -98,9 +134,9 @@
   "about": {
     "eyebrow": "About",
     "title": "About Brisasoft",
-    "text": "Brisasoft is a software and AI company based in Vietnam. Our brand name is Brisa. We build AI-native products and software solutions, starting with our flagship product BIS.",
+    "text": "Brisasoft is a software and AI company based in Vietnam. Our brand name is Brisa. We build AI-native products and software solutions, with two products of our own: BIS and AAB.",
     "companyTitle": "Company information",
-    "companyText": "Brisasoft is the company. BIS is a product owned and built by Brisasoft. We may build additional AI and software products in the future."
+    "companyText": "Brisasoft is the company. BIS and AAB are products owned and built by Brisasoft. We may build additional AI and software products in the future."
   },
   "bispage": {
     "eyebrow": "Product",
@@ -115,7 +151,8 @@
     "designTitle": "Design goals",
     "designText": "BIS is designed to combine structured Biology knowledge, AI tutoring, exam analysis and personalized learning paths, to help students understand concepts, identify misconceptions and improve their learning outcomes.",
     "focusTitle": "Initial focus",
-    "focusText": "We are initially focusing on advanced high-school Biology education and competition preparation."
+    "focusText": "We are initially focusing on advanced high-school Biology education and competition preparation.",
+    "openApp": "Open the experimental version"
   },
   "founder": {
     "title": "Founder",
@@ -143,6 +180,358 @@
       "established": "Established"
     },
     "rights": "All rights reserved.",
-    "bisNote": "BIS is a product of Brisasoft."
+    "bisNote": "BIS and AAB are products of Brisasoft."
+  },
+  "banner": {
+    "text": "Two AI products in development: BIS for Biology education and AAB for business process automation.",
+    "link": "See our products"
+  },
+  "numbers": {
+    "n1": {
+      "title": "2011",
+      "text": "Working with the Japanese market since"
+    },
+    "n2": {
+      "title": "30+",
+      "text": "Projects of hands-on delivery experience"
+    },
+    "n3": {
+      "title": "5",
+      "text": "Domains of expertise"
+    },
+    "n4": {
+      "title": "2",
+      "text": "Flagship AI products: BIS and AAB"
+    }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From idea to a product that keeps improving",
+    "sub": "A simple four-step approach we use for our own products and for client projects.",
+    "s1": {
+      "title": "Discover",
+      "text": "We study the problem, the users and the data before choosing any technology."
+    },
+    "s2": {
+      "title": "Design",
+      "text": "We shape the architecture, the AI approach and the user experience, and agree on a clear scope."
+    },
+    "s3": {
+      "title": "Build",
+      "text": "We ship in small, testable steps with clean code, automated checks and regular demos."
+    },
+    "s4": {
+      "title": "Operate and improve",
+      "text": "We monitor, measure and refine the product after launch, so it keeps getting better."
+    }
+  },
+  "japan": {
+    "eyebrow": "Experience",
+    "title": "Over a decade of software delivery for the Japanese market",
+    "text": "Since 2011, before graduating, our founder has worked with the Japanese market, delivering more than 30 projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI. Brisasoft carries that discipline in quality, communication and delivery into every engagement."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "AI and software services, from idea to operation",
+    "text": "We combine software engineering, domain knowledge and AI to build products and solutions that last.",
+    "ai": {
+      "title": "AI Development",
+      "text": "We design and build AI-native features and products: assistants, tutoring and recommendation, document understanding and automation.",
+      "b1": "AI agents and assistants (for example with Dify), grounded in your own content, with source citations",
+      "b2": "Adaptive learning and recommendation logic",
+      "b3": "Evaluation and safety checks, so AI answers can be trusted and reviewed",
+      "b4": "Integration of open-source models and commercial APIs, with cost control"
+    },
+    "data": {
+      "title": "Data and Intelligence",
+      "text": "We structure knowledge and data so that software and AI can reason over it.",
+      "b1": "Knowledge modelling and ontology design",
+      "b2": "Data pipelines, dashboards and analytics",
+      "b3": "Versioned, traceable data with clear ownership",
+      "b4": "Business process automation with BPMN workflows (Camunda) and AI agents"
+    },
+    "eng": {
+      "title": "Software Engineering",
+      "text": "Business systems, web applications and mobile apps, built to be maintainable.",
+      "b1": "Web applications and APIs",
+      "b2": "Business and internal systems, including Microsoft 365 integration",
+      "b3": "Mobile applications",
+      "b4": "Quality assurance and software testing"
+    },
+    "cloud": {
+      "title": "Platform and Cloud",
+      "text": "Reliable foundations so products can grow without being rebuilt.",
+      "b1": "Cloud architecture and deployment pipelines (CI/CD)",
+      "b2": "Staging and production environments",
+      "b3": "Monitoring, security basics and cost awareness",
+      "b4": "On-premise and hybrid server infrastructure integration"
+    },
+    "modelsTitle": "Ways to work with us",
+    "model1": {
+      "title": "Project-based delivery",
+      "text": "A defined scope, timeline and outcome for a specific product or system."
+    },
+    "model2": {
+      "title": "Long-term product partnership",
+      "text": "We stay with the product after launch and keep improving it with you."
+    },
+    "ctaTitle": "Have a project in mind?",
+    "ctaText": "Tell us about your idea or your current system. We will reply by email.",
+    "domainsTitle": "Domains we know well",
+    "domains": {
+      "d1": "SAP / ERP",
+      "d2": "Embedded systems",
+      "d3": "BPMN workflow",
+      "d4": "Healthcare",
+      "d5": "AI"
+    }
+  },
+  "bis2": {
+    "eyebrow": "Flagship product",
+    "heroTitle": "BIS: turning Biology knowledge into intelligence that scales",
+    "heroText": "BIS is an AI-native system that structures Biology knowledge so that AI can teach it, check understanding, and improve with every learner and every teacher review.",
+    "status": "Working prototype in active development",
+    "problemEyebrow": "The problem",
+    "problemTitle": "Knowledge exists. Intelligence does not scale.",
+    "problemText": "Most Biology learning still arrives as videos, slides, PDFs and one-way lectures. A student who misunderstands a concept is rarely detected, and a teacher cannot personalise explanations for every learner.",
+    "solutionEyebrow": "Our approach",
+    "solutionTitle": "A knowledge system, not just more content",
+    "solutionText": "BIS models Biology as concepts, relations, evidence and common misconceptions. On top of this structure, AI can explain with citations, practise with the right questions, and track what each learner has mastered.",
+    "f1": {
+      "title": "Structured knowledge",
+      "text": "Concepts, relations, evidence and misconceptions are modelled explicitly, versioned and traceable."
+    },
+    "f2": {
+      "title": "AI tutor with citations",
+      "text": "Answers are grounded in approved source passages and show where they come from."
+    },
+    "f3": {
+      "title": "Adaptive practice",
+      "text": "Questions are linked to concepts and misconceptions, so wrong answers reveal why a learner is stuck."
+    },
+    "f4": {
+      "title": "Mastery tracking",
+      "text": "The system keeps a mastery state per concept to guide what to practise next."
+    },
+    "f5": {
+      "title": "Teacher in the loop",
+      "text": "AI drafts questions and content as drafts. A Biology teacher reviews and approves before anything is served."
+    },
+    "f6": {
+      "title": "Trustworthy by design",
+      "text": "Every change is traceable, content comes only from self-written or openly licensed sources."
+    },
+    "todayTitle": "What works today",
+    "todayText": "The current prototype includes a student portal with practice questions, a source-cited AI tutor, mastery tracking and an admin review workflow. Content is still draft and is being prepared for review by Biology teachers.",
+    "roadTitle": "Roadmap",
+    "road1": {
+      "title": "Now",
+      "text": "Working prototype, first Biology scope: cell biology, molecular biology and genetics."
+    },
+    "road2": {
+      "title": "Next",
+      "text": "Teacher-reviewed content, real user accounts, and a pilot with advanced high-school Biology and competition preparation."
+    },
+    "road3": {
+      "title": "Later",
+      "text": "More subjects and levels, such as university and vocational education. This is a direction, not a delivered scope."
+    },
+    "principlesTitle": "Core principles",
+    "p": {
+      "p1": "Meta-schema first",
+      "p2": "Relation first",
+      "p3": "Version everything",
+      "p4": "Knowledge is infrastructure",
+      "p5": "Every change is traceable"
+    },
+    "faqTitle": "Frequently asked questions",
+    "q1": {
+      "title": "Who is BIS for?",
+      "text": "Our first focus is advanced high-school Biology in Vietnam, including competition preparation. Teachers, schools and learning programmes are our target audience."
+    },
+    "q2": {
+      "title": "Is BIS available now?",
+      "text": "BIS is an experimental prototype. If you are a teacher or school interested in a pilot or in giving feedback, please email us."
+    },
+    "q3": {
+      "title": "How do you keep AI answers accurate?",
+      "text": "The tutor answers from approved source passages and shows citations. AI-written questions stay as drafts until a Biology teacher approves them."
+    },
+    "q4": {
+      "title": "Where does the content come from?",
+      "text": "We use content we write ourselves or sources with open licences. Copyrighted textbooks are not used without permission."
+    },
+    "ctaTitle": "Interested in BIS?",
+    "ctaText": "Teachers, schools and partners are welcome to ask about a pilot or share feedback."
+  },
+  "about2": {
+    "timelineEyebrow": "Milestones",
+    "timelineTitle": "Our journey: a new step every six months",
+    "t1": {
+      "date": "October 2024",
+      "tag": "Company",
+      "title": "Foundation: software outsourcing",
+      "text": "Brisasoft is established in Hanoi. We start with software outsourcing, focused on solid software engineering delivery, including for Japanese clients."
+    },
+    "t2": {
+      "date": "April 2025",
+      "tag": "Capability",
+      "title": "Full-stack integration",
+      "text": "We expand from software into end-to-end delivery: infrastructure, cloud and on-premise servers, integrated with the applications we build."
+    },
+    "t3": {
+      "date": "October 2025",
+      "tag": "Capability",
+      "title": "Complete-solution and workflow know-how",
+      "text": "We accumulate know-how in delivering complete solutions and earn BPMN workflow certification."
+    },
+    "t4": {
+      "date": "April 2026",
+      "tag": "Product",
+      "title": "Our own products: BIS and AAB",
+      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines Dify, Camunda, Microsoft 365 and AI agents."
+    },
+    "t5": {
+      "date": "October 2026",
+      "tag": "Product",
+      "title": "BIS working prototype",
+      "text": "The prototype includes practice, an AI tutor with source citations, mastery tracking and a teacher review workflow."
+    },
+    "t0": {
+      "date": "Since 2011",
+      "tag": "Founder background",
+      "title": "Before Brisasoft: the Japanese market",
+      "text": "Our founder starts working with the Japanese market before graduating, and goes on to deliver more than 30 projects in SAP/ERP, embedded systems, BPMN workflow, healthcare and AI."
+    }
+  },
+  "insights": {
+    "eyebrow": "Insights",
+    "title": "Know-how and milestones",
+    "text": "What we have learned from more than a decade of delivery, and how Brisasoft has grown from outsourcing to products of its own.",
+    "moreTitle": "Want to follow our progress?",
+    "moreText": "Email us and we will keep you updated on BIS, AAB and new releases.",
+    "khTitle": "Know-how we bring to every project",
+    "khSub": "Five domains where our founder has delivered for Japanese clients, and how we approach each one.",
+    "msTitle": "Milestones",
+    "k1": {
+      "title": "SAP / ERP",
+      "text": "Integrating and extending ERP systems so that master data, interfaces and business processes connect reliably to the systems around them, with careful change control and documentation."
+    },
+    "k2": {
+      "title": "Embedded systems",
+      "text": "Device software where reliability, limited resources and testability matter, and where devices must connect cleanly to backend and cloud services."
+    },
+    "k3": {
+      "title": "BPMN workflow",
+      "text": "Modelling business processes in BPMN and running them on a workflow engine such as Camunda, with AI agents and Microsoft 365 connected in, so approvals, tasks and integrations are explicit, automated and measurable."
+    },
+    "k4": {
+      "title": "Healthcare",
+      "text": "Software for settings where data accuracy, privacy and traceability are critical, built with validation and audit trails from the start."
+    },
+    "k5": {
+      "title": "AI",
+      "text": "AI that is grounded in data and open to review: agents and assistants that cite sources, evaluation before release, and humans in the loop. This is the approach behind BIS and AAB."
+    },
+    "i1": {
+      "date": "October 2026",
+      "tag": "Product",
+      "title": "BIS working prototype",
+      "text": "The prototype includes practice, an AI tutor with source citations, mastery tracking and a teacher review workflow."
+    },
+    "i2": {
+      "date": "April 2026",
+      "tag": "Product",
+      "title": "Our own products: BIS and AAB",
+      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines Dify, Camunda, Microsoft 365 and AI agents."
+    },
+    "i3": {
+      "date": "October 2025",
+      "tag": "Capability",
+      "title": "Complete-solution and workflow know-how",
+      "text": "We accumulate know-how in delivering complete solutions and earn BPMN workflow certification."
+    },
+    "i4": {
+      "date": "April 2025",
+      "tag": "Capability",
+      "title": "Full-stack integration",
+      "text": "We expand from software into end-to-end delivery: infrastructure, cloud and on-premise servers, integrated with the applications we build."
+    },
+    "i5": {
+      "date": "October 2024",
+      "tag": "Company",
+      "title": "Foundation: software outsourcing",
+      "text": "Brisasoft is established in Hanoi. We start with software outsourcing, focused on solid software engineering delivery, including for Japanese clients."
+    }
+  },
+  "products": {
+    "eyebrow": "Our products",
+    "title": "Two AI products, built on our own know-how",
+    "text": "One for education, one for business operations. Both put AI to work inside a clear, traceable structure.",
+    "learn": "Learn more",
+    "bis": {
+      "name": "BIS",
+      "full": "Biology Intellectual System",
+      "text": "AI-native Biology education: structured knowledge, an AI tutor with citations, adaptive practice and teacher review.",
+      "status": "Working prototype"
+    },
+    "aab": {
+      "name": "AAB",
+      "full": "AI Automation BPMN",
+      "text": "Business process automation that combines BPMN workflows on Camunda, AI agents built with Dify, and Microsoft 365.",
+      "status": "In development"
+    }
+  },
+  "aab": {
+    "eyebrow": "Flagship product",
+    "heroTitle": "AAB: automate business processes with BPMN and AI agents",
+    "heroText": "AAB models a business process in BPMN, runs it on Camunda, lets AI agents handle the steps that need reading and judgement, and brings people in through Microsoft 365.",
+    "status": "In development",
+    "problemEyebrow": "The problem",
+    "problemTitle": "Processes live in inboxes and spreadsheets",
+    "problemText": "Many business processes still run through email, files and memory. Approvals stall, documents are retyped, and nobody can see where a case is stuck or why.",
+    "solutionEyebrow": "Our approach",
+    "solutionTitle": "Make the process explicit, then automate it",
+    "solutionText": "AAB turns a process into a BPMN model and executes it. AI agents take on steps that used to need a person to read, classify or draft, while people stay in control of decisions.",
+    "c1": {
+      "title": "BPMN workflow on Camunda",
+      "text": "Each process runs step by step on a workflow engine, with state, timers, approvals and a full history."
+    },
+    "c2": {
+      "title": "AI agents with Dify",
+      "text": "Agents classify requests, extract data from documents and draft replies, using your knowledge and tools."
+    },
+    "c3": {
+      "title": "Microsoft 365",
+      "text": "Requests, approvals and notifications reach people where they already work, through Microsoft 365."
+    },
+    "c4": {
+      "title": "Human in control",
+      "text": "AI proposes, people decide. Sensitive steps stay under human approval, and every action is traceable."
+    },
+    "whereTitle": "Where we are",
+    "whereText": "AAB is in development. We are building the BPMN workflow core on Camunda, drawing on our experience delivering BPMN and workflow projects for Japanese clients.",
+    "principlesTitle": "Design principles",
+    "p": {
+      "p1": "Explicit processes",
+      "p2": "Human in control",
+      "p3": "Traceable by default",
+      "p4": "Fits existing tools"
+    },
+    "faqTitle": "Frequently asked questions",
+    "q1": {
+      "title": "What does AAB do?",
+      "text": "It automates business processes: modelled in BPMN, executed on a workflow engine, with AI agents for the steps that need reading, classifying or drafting."
+    },
+    "q2": {
+      "title": "Is AAB available now?",
+      "text": "AAB is in development. If you have a process you would like to automate, email us to talk about it."
+    },
+    "q3": {
+      "title": "Does AI replace people?",
+      "text": "No. AI handles preparation work, people approve and decide, and the system records what happened."
+    },
+    "ctaTitle": "Have a process worth automating?",
+    "ctaText": "Tell us how it works today. We will reply by email."
   }
 }
