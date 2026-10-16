@@ -73,9 +73,14 @@ Resolved 2026-10-16: 30+ = founder + core team (all pages aligned); universities
 
 Resolved 2026-10-16 (second round): 70/30 by number of projects; company size 10–50 incl. partners, 12 full-time (figure and About table); 70% AI engineers (BE and FE); intra-mart, Shopify, Pega confirmed and shown; BPMN certification left out; founder message paragraph 1 rewritten around the HEDSPI programme (HUST, JICA-supported), "before graduating" wording removed everywhere.
 
+Third round (2026-10-16, corporate content standards, see `docs/knowledge/content-standards.md`): "10–50" range withdrawn, replaced by 正社員12名（2026年10月現在）; About rebuilt as 会社概要 (basic information table in Japanese order with 代表者 and 事業内容, 沿革 table from 2024年10月 only, 開発体制, 代表者 link); stats band and generic vision removed from About; founder page titled 代表メッセージ・代表者紹介; JA About copy rewritten in corporate register; phone in international format.
+
 Still open:
 1. Final read of the founder message in EN/JA/VI after the HEDSPI rewrite.
-2. Japanese copy review by a native speaker familiar with SIer communication.
+2. Native Japanese review of the remaining pages (Home, Services, Products, BIS, AAB, Insights) against the content standards; only About was re-edited in this round.
+3. 所在地 is shown in Vietnamese only; decide whether to add a Japanese rendering of the address.
+4. Dify: confirm the project where it was used, or hide it.
+5. Confirm the contact@brisasoft.net mailbox receives mail.
 
 ## 11. Production deployment checklist
 1. Founder approves section 10 (edit `src/i18n/*` or `src/company.json` as needed; `node build.mjs`).

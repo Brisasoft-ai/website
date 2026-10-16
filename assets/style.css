@@ -527,3 +527,5 @@ html[lang="ja"] .hf-side{transform:none;}
 .svc-art b{position:absolute;z-index:2;left:14px;top:12px;font-size:1rem;padding:4px 10px;border-radius:8px;background:rgba(6,18,43,.45);letter-spacing:0;}
 @media (max-width:720px){.svc-art{min-height:0;}}
 .details-table td,.footer-info dd{overflow-wrap:anywhere;}
+.details-table.history th{width:150px;white-space:nowrap;}
+.details-table.history time{font-weight:700;color:var(--link);}

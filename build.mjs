@@ -150,16 +150,23 @@ function footer(lang, d) {
 </footer>`;
 }
 
+// Company profile table in the Japanese 会社概要 order (see docs/knowledge/content-standards.md). Empty values are hidden.
 function detailsRows(lang, d) {
   const L = d.footer.labels;
+  const name = String(company.founder?.name || '').trim();
+  const rep = name ? (lang === 'ja' ? `${d.founder.title}　${name}` : `${name}, ${d.founder.title}`) : '';
   const rows = [
-    ...companyRows(lang, d),
-    [d.facts.focusLabel, d.facts.focusValue],
+    [d.facts.companyLabel, d.facts.companyValue],
+    [L.legalName, pick(company.legalName, lang)],
     [d.facts.establishedLabel, d.facts.establishedValue],
+    [d.facts.repLabel, rep],
+    [L.address, pick(company.address, lang)],
     [d.facts.sizeLabel, d.facts.sizeValue],
-    [d.facts.locationLabel, d.facts.locationValue],
+    [d.facts.businessLabel, d.facts.businessValue],
+    [L.registrationNumber, pick(company.registrationNumber, lang)],
+    [L.phone, pick(company.phone, lang)],
     [L.email, EMAIL],
-  ];
+  ].filter(([, v]) => String(v).trim() !== '');
   return rows.map(([k, v]) => `        <tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('\n');
 }
 

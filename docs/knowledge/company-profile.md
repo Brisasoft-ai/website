@@ -1,6 +1,6 @@
 # Brisasoft knowledge base: company and founder facts
 
-Source of truth for facts used on the website. Each fact has a source and a publication status.
+Source of truth for facts used on the website. Presentation rules: `content-standards.md`. Each fact has a source and a publication status.
 Update this file first, then the site (`src/company.json`, `src/i18n/*.json`).
 
 Status legend:
@@ -26,11 +26,13 @@ Status legend:
 |---|---|---|---|
 | Project experience | 30+ successful projects (site label: "successful projects") | Projects in the delivery experience of the founder and core engineers **since 2011, including before Brisasoft was founded**. Not presented as projects delivered by Brisasoft the legal entity. | Published, **confirmed by founder 2026-10-16** (founder + core team) |
 | Market split | ~70% Japan / ~30% Vietnam | Share **by number of projects** of the same 30+ projects; Vietnam work mainly digital transformation. | Published, confirmed 2026-10-16 |
-| Company size | 10–50 people incl. partner (outsourcing) engineers; **12 full-time employees**, as of Oct 2026. JA: 10名〜50名（正社員：12名） | Founder, 2026-10-16 | Published (figure + About table), confirmed |
+| Company size | **12 full-time employees (正社員12名), as of October 2026.** Larger projects staffed with partner companies (no number published). The earlier "10–50 people" range is **withdrawn** (2026-10-16, content standards: ranges are not published). | Founder, 2026-10-16 | Published |
 | AI engineers | 70% of engineers are AI engineers who also work back end and front end | Founder, 2026-10-16 | Published, confirmed |
 | Education | Engineers from Vietnamese universities incl. Hanoi University of Science and Technology (HUST) and "University of Industry" | Founder confirmed: leading Vietnamese IT universities such as HUST (Bách khoa) and Hanoi University of Industry (Công nghiệp). | Published, confirmed 2026-10-16 |
 
 ## 3. Founder (personal profile, separate from the company)
+
+Shown only in 代表者紹介 / 代表メッセージ (founder page), never in 会社概要. 2011 is the founder's milestone, not the company's.
 
 | Fact | Value | Source | Status |
 |---|---|---|---|

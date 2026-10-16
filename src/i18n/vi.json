@@ -29,8 +29,8 @@
       "description": "Brisasoft là công ty kỹ thuật AI-native tại Hà Nội, thành lập năm 2024. Chúng tôi xây dựng ứng dụng AI, tự động hóa quy trình nghiệp vụ và hệ thống doanh nghiệp cho khách hàng tại Nhật Bản và Việt Nam."
     },
     "about": {
-      "title": "Giới thiệu | Brisasoft",
-      "description": "Hồ sơ công ty Brisasoft, công ty kỹ thuật AI-native thành lập tại Hà Nội tháng 10/2024: thông tin công ty, đội ngũ và các cột mốc."
+      "title": "Hồ sơ công ty | Brisasoft",
+      "description": "Hồ sơ công ty Brisasoft: thành lập tại Hà Nội tháng 10/2024. Tên công ty, người đại diện, địa chỉ, nhân sự, lĩnh vực hoạt động và lịch sử phát triển."
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
@@ -74,8 +74,11 @@
     "establishedValue": "Tháng 10/2024",
     "locationLabel": "Địa điểm",
     "locationValue": "Việt Nam",
-    "sizeLabel": "Quy mô",
-    "sizeValue": "10–50 người (nhân viên chính thức: 12 người), có liên kết với đối tác thuê ngoài; tính đến tháng 10/2026"
+    "sizeLabel": "Nhân sự",
+    "sizeValue": "12 nhân viên chính thức (tính đến tháng 10/2026)",
+    "repLabel": "Người đại diện",
+    "businessLabel": "Lĩnh vực hoạt động",
+    "businessValue": "Phát triển ứng dụng AI; tự động hóa quy trình nghiệp vụ (BPMN); phát triển và tích hợp hệ thống nghiệp vụ; hỗ trợ chuyển đổi số tại Việt Nam; phát triển sản phẩm AI riêng (BIS, AAB)"
   },
   "bis": {
     "name": "BIS",
@@ -123,21 +126,13 @@
       "owner": "Kỹ sư chịu trách nhiệm về kết quả"
     }
   },
-  "vision": {
-    "eyebrow": "Tầm nhìn",
-    "title": "Kỹ thuật phần mềm, kiến thức chuyên ngành và AI",
-    "text": "Chúng tôi tin những sản phẩm AI tốt đến từ sự kết hợp của ba yếu tố: kỹ thuật phần mềm vững chắc, hiểu biết thực sự về một lĩnh vực, và AI. Brisasoft xây dựng sản phẩm tại điểm giao đó.",
-    "p1": "Kỹ thuật phần mềm",
-    "p2": "Kiến thức chuyên ngành",
-    "p3": "AI"
-  },
   "about": {
     "eyebrow": "Giới thiệu",
-    "title": "Về Brisasoft",
-    "text": "Brisasoft (thương hiệu: Brisa) là công ty kỹ thuật phần mềm tại Hà Nội, thành lập tháng 10/2024. Chúng tôi xây dựng phần mềm và giải pháp AI cho khách hàng tại Nhật Bản và Việt Nam, cùng hai sản phẩm AI của riêng mình: BIS và AAB.",
-    "companyTitle": "Thông tin công ty",
-    "companyText": "Brisasoft là công ty. BIS và AAB là các sản phẩm do Brisasoft xây dựng và sở hữu. Trong tương lai, Brisasoft có thể xây dựng thêm các sản phẩm AI và phần mềm khác.",
-    "founderLink": "Đọc thông điệp từ Nhà sáng lập & CEO"
+    "title": "Hồ sơ công ty",
+    "text": "Brisasoft là công ty phát triển phần mềm thành lập tại Hà Nội tháng 10/2024, chuyên phát triển ứng dụng AI và hệ thống nghiệp vụ cho khách hàng tại Nhật Bản và Việt Nam.",
+    "companyTitle": "Thông tin doanh nghiệp",
+    "founderLink": "Thông điệp và tiểu sử người đại diện",
+    "repTitle": "Người đại diện"
   },
   "bispage": {
     "eyebrow": "Sản phẩm",
@@ -372,37 +367,27 @@
     "ctaText": "Giáo viên, nhà trường và đối tác có thể hỏi về thử nghiệm hoặc gửi góp ý cho chúng tôi."
   },
   "about2": {
-    "timelineEyebrow": "Cột mốc",
-    "timelineTitle": "Hành trình: mỗi sáu tháng một bước mới",
+    "timelineEyebrow": "Lịch sử",
+    "timelineTitle": "Lịch sử phát triển",
     "t1": {
       "date": "Tháng 10/2024",
-      "tag": "Công ty",
-      "title": "Khởi đầu: outsourcing phần mềm",
-      "text": "Brisasoft được thành lập tại Hà Nội. Chúng tôi bắt đầu với outsourcing phần mềm, tập trung vào chất lượng kỹ thuật phần mềm, bao gồm cả khách hàng Nhật Bản."
+      "title": "Thành lập Brisasoft tại Hà Nội. Bắt đầu cung cấp dịch vụ phát triển phần mềm, chủ yếu cho khách hàng Nhật Bản."
     },
     "t2": {
       "date": "Tháng 4/2025",
-      "tag": "Năng lực",
-      "title": "Tích hợp toàn diện",
-      "text": "Mở rộng từ phần mềm sang triển khai trọn gói: hạ tầng, cloud và máy chủ on-premise, tích hợp cùng các ứng dụng chúng tôi xây dựng."
+      "title": "Mở rộng sang hạ tầng: triển khai trọn gói cùng môi trường cloud, on-premise và hybrid."
     },
     "t3": {
       "date": "Tháng 10/2025",
-      "tag": "Năng lực",
-      "title": "Tích lũy know-how giải pháp toàn diện và workflow",
-      "text": "Tích lũy know-how triển khai giải pháp toàn diện, bao gồm workflow nghiệp vụ với BPMN."
+      "title": "Đẩy mạnh phát triển workflow nghiệp vụ với BPMN."
     },
     "t4": {
       "date": "Tháng 4/2026",
-      "tag": "Sản phẩm",
-      "title": "Sản phẩm riêng: BIS và AAB",
-      "text": "Bắt đầu xây dựng sản phẩm riêng: BIS cho giáo dục Sinh học, và AAB (AI Automation BPMN), ứng dụng kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365."
+      "title": "Bắt đầu phát triển sản phẩm AI riêng: BIS và AAB."
     },
     "t5": {
       "date": "Tháng 10/2026",
-      "tag": "Sản phẩm",
-      "title": "Nguyên mẫu BIS chạy được",
-      "text": "Bản nguyên mẫu có luyện tập, gia sư AI có trích dẫn nguồn, theo dõi mức nắm vững và quy trình giáo viên duyệt nội dung."
+      "title": "Bản prototype của BIS đi vào hoạt động."
     }
   },
   "insights": {
@@ -577,7 +562,7 @@
       "label": "kỹ sư là kỹ sư AI, làm được cả back end và front end"
     },
     "team": {
-      "label": "người, gồm cả kỹ sư đối tác (12 nhân viên chính thức, tháng 10/2026)"
+      "label": "nhân viên chính thức (tính đến tháng 10/2026)"
     }
   },
   "deliver": {
@@ -686,8 +671,8 @@
   },
   "founderPage": {
     "eyebrow": "Nhà sáng lập & CEO",
-    "title": "Thông điệp từ Nhà sáng lập & CEO",
-    "profileTitle": "Tiểu sử",
+    "title": "Thông điệp và tiểu sử người đại diện",
+    "profileTitle": "Tiểu sử người đại diện",
     "bio1": "Bắt đầu làm phần mềm cho thị trường Nhật Bản.",
     "bio2": "Từ đó tham gia và dẫn dắt các dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI.",
     "bio3": "Đi từ kỹ sư phần mềm đến quản lý dự án và triển khai: làm rõ yêu cầu, quản lý chất lượng, điều phối đội ngũ và khách hàng.",
@@ -736,6 +721,6 @@
   },
   "team": {
     "title": "Đội ngũ",
-    "text": "Kỹ sư của chúng tôi đến từ các trường đại học hàng đầu về CNTT tại Việt Nam như Đại học Bách khoa Hà Nội và Đại học Công nghiệp Hà Nội. 70% là kỹ sư AI, làm được cả back end và front end, và mọi kỹ sư đều dùng công cụ AI trong công việc phát triển hằng ngày. Bên cạnh 12 nhân viên chính thức, chúng tôi liên kết với các công ty đối tác để mở rộng đội ngũ cho các dự án lớn."
+    "text": "Kỹ sư của Brisasoft tốt nghiệp từ các trường đại học hàng đầu về CNTT tại Việt Nam như Đại học Bách khoa Hà Nội và Đại học Công nghiệp Hà Nội. 70% kỹ sư là kỹ sư AI, đồng thời phát triển được cả back end và front end; mọi kỹ sư đều dùng công cụ AI trong công việc hằng ngày. Với dự án lớn, chúng tôi phối hợp cùng các công ty đối tác để xây dựng đội ngũ phù hợp."
   }
 }

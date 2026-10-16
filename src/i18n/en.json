@@ -29,8 +29,8 @@
       "description": "Brisasoft is an AI-native engineering company in Hanoi, Vietnam, founded in 2024. We build AI applications, business process automation and enterprise systems for clients in Japan and Vietnam."
     },
     "about": {
-      "title": "About | Brisasoft",
-      "description": "Company profile of Brisasoft, an AI-native engineering company founded in Hanoi in October 2024: company information, team and milestones."
+      "title": "Company profile | Brisasoft",
+      "description": "Brisasoft company profile: founded in Hanoi, Vietnam, in October 2024. Company name, representative, address, employees, business and history."
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
@@ -74,8 +74,11 @@
     "establishedValue": "October 2024",
     "locationLabel": "Location",
     "locationValue": "Vietnam",
-    "sizeLabel": "Company size",
-    "sizeValue": "10–50 people (12 full-time employees), working with partner companies; as of October 2026"
+    "sizeLabel": "Employees",
+    "sizeValue": "12 full-time employees (as of October 2026)",
+    "repLabel": "Representative",
+    "businessLabel": "Business",
+    "businessValue": "AI application development; business process automation (BPMN); business systems and system integration; digital transformation support in Vietnam; development of our own AI products (BIS, AAB)"
   },
   "bis": {
     "name": "BIS",
@@ -123,21 +126,13 @@
       "owner": "Engineers own the outcome"
     }
   },
-  "vision": {
-    "eyebrow": "Vision",
-    "title": "Software engineering, domain knowledge and AI",
-    "text": "We believe good AI products come from combining three things: solid software engineering, real knowledge of a domain, and AI. Brisasoft builds products at that intersection.",
-    "p1": "Software engineering",
-    "p2": "Domain knowledge",
-    "p3": "AI"
-  },
   "about": {
     "eyebrow": "About",
-    "title": "About Brisasoft",
-    "text": "Brisasoft (brand: Brisa) is an engineering company in Hanoi, Vietnam, founded in October 2024. We build software and AI solutions for clients in Japan and Vietnam, and two AI products of our own: BIS and AAB.",
-    "companyTitle": "Company information",
-    "companyText": "Brisasoft is the company. BIS and AAB are products owned and built by Brisasoft. We may build additional AI and software products in the future.",
-    "founderLink": "Read the message from our Founder & CEO"
+    "title": "Company profile",
+    "text": "Brisasoft is a software development company founded in Hanoi, Vietnam, in October 2024. We develop AI applications and business systems for clients in Japan and Vietnam.",
+    "companyTitle": "Corporate information",
+    "founderLink": "Message and profile of our representative",
+    "repTitle": "Representative"
   },
   "bispage": {
     "eyebrow": "Product",
@@ -372,37 +367,27 @@
     "ctaText": "Teachers, schools and partners are welcome to ask about a pilot or share feedback."
   },
   "about2": {
-    "timelineEyebrow": "Milestones",
-    "timelineTitle": "Our journey: a new step every six months",
+    "timelineEyebrow": "History",
+    "timelineTitle": "Company history",
     "t1": {
       "date": "October 2024",
-      "tag": "Company",
-      "title": "Foundation: software outsourcing",
-      "text": "Brisasoft is established in Hanoi. We start with software outsourcing, focused on solid software engineering delivery, including for Japanese clients."
+      "title": "Brisasoft founded in Hanoi, Vietnam. Started software development services, mainly for Japanese clients."
     },
     "t2": {
       "date": "April 2025",
-      "tag": "Capability",
-      "title": "Full-stack integration",
-      "text": "We expand from software into end-to-end delivery: infrastructure, cloud and on-premise servers, integrated with the applications we build."
+      "title": "Extended delivery to infrastructure: cloud, on-premise and hybrid environments, together with the applications we build."
     },
     "t3": {
       "date": "October 2025",
-      "tag": "Capability",
-      "title": "Complete-solution and workflow know-how",
-      "text": "We accumulate know-how in delivering complete solutions, including business workflow with BPMN."
+      "title": "Strengthened business workflow development with BPMN."
     },
     "t4": {
       "date": "April 2026",
-      "tag": "Product",
-      "title": "Our own products: BIS and AAB",
-      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines BPMN workflows on Camunda, AI agents and Microsoft 365."
+      "title": "Started developing our own AI products, BIS and AAB."
     },
     "t5": {
       "date": "October 2026",
-      "tag": "Product",
-      "title": "BIS working prototype",
-      "text": "The prototype includes practice, an AI tutor with source citations, mastery tracking and a teacher review workflow."
+      "title": "BIS working prototype in operation."
     }
   },
   "insights": {
@@ -577,7 +562,7 @@
       "label": "of our engineers are AI engineers who also work across back end and front end"
     },
     "team": {
-      "label": "people including partner engineers (12 full-time employees, October 2026)"
+      "label": "full-time employees (as of October 2026)"
     }
   },
   "deliver": {
@@ -687,7 +672,7 @@
   "founderPage": {
     "eyebrow": "Founder & CEO",
     "title": "Message from our Founder & CEO",
-    "profileTitle": "Profile",
+    "profileTitle": "Profile of our representative",
     "bio1": "Began working on software for the Japanese market.",
     "bio2": "Has since worked on and led projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI.",
     "bio3": "Moved from software engineering into project and delivery management: clarifying requirements, managing quality, and coordinating teams and customers.",
@@ -736,6 +721,6 @@
   },
   "team": {
     "title": "Our team",
-    "text": "Our engineers come from leading Vietnamese universities for IT, such as Hanoi University of Science and Technology and Hanoi University of Industry. 70% of them are AI engineers who also work across back end and front end, and every engineer uses AI tools in daily development. Alongside our 12 full-time employees, we work with partner companies to scale teams for larger projects."
+    "text": "Our engineers graduated from leading Vietnamese universities for IT, including Hanoi University of Science and Technology and Hanoi University of Industry. 70% of our engineers are AI engineers who also develop back end and front end, and every engineer uses AI tools in daily work. For larger projects, we build teams together with partner companies."
   }
 }
