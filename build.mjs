@@ -20,12 +20,14 @@ const LANGS = [
 const PAGES = [
   { key: 'home', path: '' },
   { key: 'about', path: 'about/' },
+  { key: 'founder', path: 'about/founder/' },
   { key: 'services', path: 'services/' },
   { key: 'products', path: 'products/' },
   { key: 'bis', path: 'products/bis/' },
   { key: 'aab', path: 'products/aab/' },
   { key: 'insights', path: 'insights/' },
   { key: 'contact', path: 'contact/' },
+  { key: 'privacy', path: 'privacy/' },
 ];
 
 const read = (p) => readFileSync(join(root, p), 'utf8');
@@ -76,7 +78,7 @@ const companyRows = (lang, d) => {
 function header(lang, pageKey, d) {
   const cur = LANGS.find((l) => l.code === lang);
   const items = [
-    ['about', url(lang, 'about'), 'about'],
+    ['about', url(lang, 'about'), ['about', 'founder']],
     ['services', url(lang, 'services'), 'services'],
     ['products', url(lang, 'products'), ['products', 'bis', 'aab']],
     ['insights', url(lang, 'insights'), 'insights'],
@@ -97,7 +99,7 @@ function header(lang, pageKey, d) {
     </nav>
     <div class="nav-actions">
       <details class="lang">
-        <summary aria-label="${esc(d.nav.language)}"><img src="/assets/flags/${cur.flag}.svg" alt="" width="22" height="15"><span>${cur.short}</span></summary>
+        <summary aria-label="${cur.short} ${esc(d.nav.language)}"><img src="/assets/flags/${cur.flag}.svg" alt="" width="22" height="15"><span>${cur.short}</span></summary>
         <ul>
           ${langItems}
         </ul>
@@ -120,19 +122,20 @@ function footer(lang, d) {
         <p>${esc(d.footer.tagline)}</p>
       </div>
       <div class="footer-col">
-        <h5>${esc(d.footer.companyCol)}</h5>
+        <h2 class="footer-h">${esc(d.footer.companyCol)}</h2>
         <a href="${url(lang, 'about')}">${esc(d.nav.about)}</a>
+        <a href="${url(lang, 'founder')}">${esc(d.nav.founder)}</a>
         <a href="${url(lang, 'services')}">${esc(d.nav.services)}</a>
         <a href="${url(lang, 'insights')}">${esc(d.nav.insights)}</a>
         <a href="${url(lang, 'contact')}">${esc(d.nav.contact)}</a>
       </div>
       <div class="footer-col">
-        <h5>${esc(d.footer.productsCol)}</h5>
+        <h2 class="footer-h">${esc(d.footer.productsCol)}</h2>
         <a href="${url(lang, 'bis')}">${esc(d.products.bis.name)}: ${esc(d.products.bis.full)}</a>
         <a href="${url(lang, 'aab')}">${esc(d.products.aab.name)}: ${esc(d.products.aab.full)}</a>
       </div>
       <div class="footer-col footer-info">
-        <h5>${esc(d.footer.infoTitle)}</h5>
+        <h2 class="footer-h">${esc(d.footer.infoTitle)}</h2>
         <dl>
           ${rows}
           <div><dt>${esc(d.footer.labels.email)}</dt><dd><a href="mailto:${EMAIL}">${EMAIL}</a></dd></div>
@@ -141,7 +144,7 @@ function footer(lang, d) {
     </div>
     <div class="footer-bottom">
       <span>© <span id="year">2026</span> Brisasoft. ${esc(d.footer.rights)}</span>
-      <span>${esc(d.footer.bisNote)}</span>
+      <span><a href="${url(lang, 'privacy')}">${esc(d.footer.privacy)}</a> · ${esc(d.footer.bisNote)}</span>
     </div>
   </div>
 </footer>`;
@@ -159,22 +162,52 @@ function detailsRows(lang, d) {
   return rows.map(([k, v]) => `        <tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('\n');
 }
 
-// Founder block, shown only when a name is filled in src/company.json
-const founderBlock = (d) => {
+// Founder card (name, role, optional photo and LinkedIn), shown only when a name is filled in src/company.json
+const founderCard = (d) => {
   const f = company.founder || {};
-  if (!String(f.name || '').trim()) return '';
+  const name = String(f.name || '').trim();
+  if (!name) return '';
   const link = String(f.linkedin || '').trim();
-  return `<section>
-  <div class="wrap">
-    <span class="eyebrow center">${esc(d.founder.title)}</span>
-    <div class="grid-2">
-      <article class="feature left"><h3>${esc(f.name)}</h3><p>${esc(d.founder.role)}</p>${
-        link ? `<p><a href="${esc(link)}" rel="noopener noreferrer" target="_blank">${esc(d.founder.linkedin)}</a></p>` : ''
-      }</article>
-    </div>
-  </div>
-</section>`;
+  const photo = String(f.photo || '').trim();
+  const initials = name.split(/\s+/).map((w) => w[0]).join('').slice(-3).toUpperCase();
+  const pic = photo
+    ? `<img class="founder-photo" src="${esc(photo)}" alt="${esc(name)}" width="96" height="96" loading="lazy">`
+    : `<span class="founder-photo" aria-hidden="true">${esc(initials)}</span>`;
+  return `<div class="founder-card">${pic}<div><b>${esc(name)}</b><span>${esc(d.founder.role)}</span>${
+    link ? `<a href="${esc(link)}" rel="noopener noreferrer" target="_blank">${esc(d.founder.linkedin)}</a>` : ''
+  }</div></div>`;
 };
+
+// Large founder portrait for the founder page (only when set)
+const founderPortrait = () => {
+  const f = company.founder || {};
+  const src = String(f.portrait || '').trim();
+  return src ? `<img class="founder-portrait" src="${esc(src)}" alt="${esc(f.name || '')}" width="560" height="510">` : '';
+};
+
+// Credibility figures from src/company.json (only show:true with a value). Labels: stats.<id>.label
+const statsBlock = (d) =>
+  (company.stats || [])
+    .filter((s) => s.show && String(s.value || '').trim())
+    .map((s) => {
+      const label = get(d, `stats.${s.id}.label`);
+      if (typeof label !== 'string') throw new Error(`missing text key: stats.${s.id}.label`);
+      return `<div><b>${esc(s.value)}</b><span>${esc(label)}</span></div>`;
+    })
+    .join('\n      ');
+
+// Technologies with where they were used. Text: tech.items.<id>.{area,text}
+const techBlock = (d) =>
+  (company.technologies || [])
+    .filter((t) => t.show)
+    .map((t) => {
+      const item = get(d, `tech.items.${t.id}`);
+      if (!item || typeof item.area !== 'string' || typeof item.text !== 'string') throw new Error(`missing text key: tech.items.${t.id}`);
+      const u = String(t.url || '').trim();
+      const name = u.startsWith('https://') ? `<a href="${esc(u)}" rel="noopener noreferrer" target="_blank">${esc(t.name)}</a>` : esc(t.name);
+      return `<article class="tech-item"><span class="tech-mark" aria-hidden="true">${esc(t.name.slice(0, 2))}</span><div><h3>${name}</h3><p class="tech-area">${esc(item.area)}</p><p>${esc(item.text)}</p></div></article>`;
+    })
+    .join('\n      ');
 
 // Link to the running BIS app, shown only when bisUrl is filled in src/company.json (must be https)
 const bisAction = (d) => {
@@ -209,11 +242,22 @@ for (const l of LANGS) {
             url: SITE,
             email: EMAIL,
             foundingDate: '2024-10-23',
-            address: { '@type': 'PostalAddress', addressCountry: 'VN' },
+            address: { '@type': 'PostalAddress', addressLocality: 'Hanoi', addressCountry: 'VN' },
+            ...(String(company.founder?.name || '').trim() ? { founder: { '@type': 'Person', name: company.founder.name, jobTitle: 'Founder & CEO', ...(company.founder.portrait ? { image: `${SITE}${company.founder.portrait}` } : {}) } } : {}),
             ...(pick(company.legalName, l.code) ? { legalName: pick(company.legalName, l.code) } : {}),
           })}</script>`
         : '';
-    const ctx = { url: urls, email: EMAIL, detailsRows: detailsRows(l.code, d), founderBlock: founderBlock(d), bisAction: bisAction(d) };
+    const ctx = {
+      url: urls,
+      email: EMAIL,
+      mailto: `mailto:${EMAIL}?subject=${encodeURIComponent(`${d.contact.subject} (Brisasoft website)`)}`,
+      detailsRows: detailsRows(l.code, d),
+      founderCard: founderCard(d),
+      founderPortrait: founderPortrait(),
+      statsBlock: statsBlock(d),
+      techBlock: techBlock(d),
+      bisAction: bisAction(d),
+    };
     const content = render(pageTpl[p.key], ctx, d);
     const html = render(
       layout,
@@ -241,21 +285,8 @@ for (const l of LANGS) {
 }
 
 // Root page: choose a language (saved choice, then browser language, then English).
-writeFileSync(
-  join(dist, 'index.html'),
-  `<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brisasoft</title>
-<meta name="robots" content="noindex, follow">
-<link rel="canonical" href="${SITE}/en/">
-${LANGS.map((a) => `<link rel="alternate" hreflang="${a.htmlLang}" href="${abs(a.code, 'home')}">`).join('\n')}
-<link rel="alternate" hreflang="x-default" href="${abs('en', 'home')}">
-<meta http-equiv="refresh" content="1;url=/en/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script>
+// The inline script is allowed by its hash in the Content-Security-Policy below.
+const ROOT_SCRIPT = `
 (function () {
   var langs = ['en', 'ja', 'vi'], pick = 'en';
   try {
@@ -271,7 +302,23 @@ ${LANGS.map((a) => `<link rel="alternate" hreflang="${a.htmlLang}" href="${abs(a
   } catch (e) {}
   location.replace('/' + pick + '/');
 })();
-</script>
+`;
+const ROOT_SCRIPT_HASH = `'sha256-${createHash('sha256').update(ROOT_SCRIPT).digest('base64')}'`;
+writeFileSync(
+  join(dist, 'index.html'),
+  `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brisasoft</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="${SITE}/en/">
+${LANGS.map((a) => `<link rel="alternate" hreflang="${a.htmlLang}" href="${abs(a.code, 'home')}">`).join('\n')}
+<link rel="alternate" hreflang="x-default" href="${abs('en', 'home')}">
+<meta http-equiv="refresh" content="1;url=/en/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script>${ROOT_SCRIPT}</script>
 </head>
 <body>
 <p><a href="/en/">English</a> · <a href="/ja/">日本語</a> · <a href="/vi/">Tiếng Việt</a></p>
@@ -283,6 +330,31 @@ ${LANGS.map((a) => `<link rel="alternate" hreflang="${a.htmlLang}" href="${abs(a
 // Static assets
 cpSync(join(root, 'assets'), join(dist, 'assets'), { recursive: true });
 if (existsSync(join(root, 'public'))) cpSync(join(root, 'public'), dist, { recursive: true });
+
+
+// 404 page (served by Workers static assets with not_found_handling: "404-page")
+{
+  const N = {"en":["Page not found","The page you are looking for does not exist or has moved.","Go to the homepage"],"ja":["ページが見つかりません","お探しのページは存在しないか、移動した可能性があります。","トップページへ"],"vi":["Không tìm thấy trang","Trang bạn tìm không tồn tại hoặc đã được chuyển.","Về trang chủ"]};
+  const html = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${N.en[0]} | Brisasoft</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css?v=${VER}">
+</head>
+<body>
+<main class="wrap not-found">
+  <a href="/en/" class="logo" aria-label="Brisasoft"><img class="logo-img" src="/assets/logo-mark.svg" alt="" width="58" height="31">Brisasoft</a>
+  ${['en', 'ja', 'vi'].map((l) => `<section lang="${l}"><h1>${N[l][0]}</h1><p class="muted">${N[l][1]}</p><p><a class="btn btn-primary" href="/${l}/">${N[l][2]}</a></p></section>`).join('\n  ')}
+</main>
+</body>
+</html>
+`;
+  writeFileSync(join(dist, '404.html'), html);
+}
 
 // robots.txt, sitemap.xml, Cloudflare Pages headers
 writeFileSync(
@@ -309,7 +381,9 @@ writeFileSync(
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
 ${STAGING ? '  X-Robots-Tag: noindex, nofollow\n' : ''}  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=15552000
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' ${ROOT_SCRIPT_HASH}; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
 
 /assets/*
   Cache-Control: public, max-age=86400

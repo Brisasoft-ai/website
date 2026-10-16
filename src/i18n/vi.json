@@ -7,7 +7,8 @@
     "menu": "Menu",
     "language": "Ngôn ngữ",
     "services": "Dịch vụ",
-    "insights": "Tin tức"
+    "insights": "Tin tức",
+    "founder": "Thông điệp CEO"
   },
   "cta": {
     "learnMore": "Tìm hiểu thêm",
@@ -17,16 +18,19 @@
     "viewServices": "Xem dịch vụ",
     "talkProject": "Trao đổi về dự án",
     "readBis": "Đọc câu chuyện BIS",
-    "viewProducts": "Xem sản phẩm"
+    "viewProducts": "Xem sản phẩm",
+    "discuss": "Trao đổi về dự án",
+    "seeWork": "Xem dự án tiêu biểu",
+    "readMessage": "Đọc toàn bộ thông điệp"
   },
   "meta": {
     "home": {
-      "title": "Brisasoft | Sản phẩm AI-native và giải pháp phần mềm",
-      "description": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam, xây dựng sản phẩm AI-native và giải pháp phần mềm. Sản phẩm: BIS (Biology Intellectual System) và AAB (AI Automation BPMN)."
+      "title": "Brisasoft | Kỹ thuật AI-native tạo giá trị kinh doanh thực",
+      "description": "Brisasoft là công ty kỹ thuật AI-native tại Hà Nội, thành lập năm 2024. Chúng tôi xây dựng ứng dụng AI, tự động hóa quy trình nghiệp vụ và hệ thống doanh nghiệp cho khách hàng tại Nhật Bản và Việt Nam."
     },
     "about": {
       "title": "Giới thiệu | Brisasoft",
-      "description": "Giới thiệu về Brisasoft, công ty phần mềm và AI tại Việt Nam, thành lập tháng 10/2024."
+      "description": "Hồ sơ công ty Brisasoft, công ty kỹ thuật AI-native thành lập tại Hà Nội tháng 10/2024: thông tin công ty, đội ngũ và các cột mốc."
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
@@ -51,6 +55,14 @@
     "aab": {
       "title": "AAB, AI Automation BPMN | Brisasoft",
       "description": "AAB (AI Automation BPMN) tự động hóa quy trình nghiệp vụ bằng cách kết hợp BPMN workflow trên Camunda, AI agent với Dify và Microsoft 365. Đang phát triển."
+    },
+    "privacy": {
+      "title": "Thông báo quyền riêng tư | Brisasoft",
+      "description": "Cách website Brisasoft xử lý thông tin, cookie và email."
+    },
+    "founder": {
+      "title": "Thông điệp từ Nhà sáng lập & CEO | Brisasoft",
+      "description": "Lý do thành lập Brisasoft, triết lý kỹ thuật AI-native và tư duy Forward Deployed Engineer, cùng tiểu sử nhà sáng lập."
     }
   },
   "facts": {
@@ -70,57 +82,43 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Brisasoft · Việt Nam",
-      "titleA": "Xây dựng sản phẩm AI-native và",
-      "titleB": "giải pháp phần mềm.",
-      "text": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam. Chúng tôi kết hợp kỹ thuật phần mềm, kiến thức chuyên ngành và AI để xây dựng sản phẩm và giải pháp số."
-    },
-    "about": {
-      "eyebrow": "Giới thiệu",
-      "title": "Công ty phần mềm và AI, xây dựng tại Việt Nam",
-      "text": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam, thành lập tháng 10/2024. Chúng tôi thiết kế và xây dựng sản phẩm AI-native, giải pháp số và nền tảng phần mềm. Chúng tôi là công ty ở giai đoạn đầu, do người sáng lập trực tiếp điều hành."
-    },
-    "build": {
-      "eyebrow": "Chúng tôi xây dựng",
-      "title": "Bốn mảng công việc",
-      "sub": "Sản phẩm và hệ thống nơi kỹ thuật phần mềm, kiến thức chuyên ngành và AI kết hợp với nhau.",
-      "i1": {
-        "title": "Sản phẩm AI",
-        "text": "Sản phẩm mà AI là một phần của thiết kế cốt lõi, không phải tính năng gắn thêm."
-      },
-      "i2": {
-        "title": "Giải pháp số",
-        "text": "Giải pháp phần mềm giúp số hóa và cải thiện cách công việc được thực hiện."
-      },
-      "i3": {
-        "title": "Nền tảng phần mềm",
-        "text": "Nền tảng dễ mở rộng, dễ bảo trì để sản phẩm và đội ngũ phát triển trên đó."
-      },
-      "i4": {
-        "title": "Hệ thống AI chuyên ngành",
-        "text": "Hệ thống AI được định hình bởi kiến thức của một lĩnh vực cụ thể, ví dụ giáo dục."
-      }
+      "eyebrow": "Kỹ thuật AI-native · Nhật Bản & Việt Nam",
+      "titleA": "Kỹ thuật AI-native",
+      "titleB": "tạo giá trị kinh doanh thực.",
+      "text": "Brisasoft là công ty kỹ thuật phần mềm tại Hà Nội. Kỹ sư của chúng tôi bắt đầu từ bài toán kinh doanh của bạn, dùng AI xuyên suốt phân tích, phát triển và kiểm thử, và chịu trách nhiệm đến kết quả cuối cùng, cho khách hàng tại Nhật Bản và Việt Nam."
     },
     "why": {
-      "eyebrow": "Vì sao chọn Brisasoft",
-      "title": "Bốn nguyên tắc đứng sau mọi sản phẩm",
-      "sub": "Cách chúng tôi tiếp cận mỗi sản phẩm và giải pháp.",
+      "eyebrow": "Cách chúng tôi nghĩ",
+      "title": "Bốn nguyên tắc trong cách chúng tôi làm việc",
+      "sub": "Điều bạn có thể kỳ vọng ở một kỹ sư Brisasoft.",
       "i1": {
-        "title": "AI-native ngay từ thiết kế",
-        "text": "Thiết kế sản phẩm xoay quanh AI từ đầu, thay vì gắn thêm AI về sau."
+        "title": "Kỹ thuật AI-native",
+        "text": "AI là một phần trong cách chúng tôi phân tích yêu cầu, viết và review code, kiểm thử và viết tài liệu, không phải một dịch vụ gắn thêm. Kỹ sư vẫn chịu trách nhiệm cho mọi kết quả."
       },
       "i2": {
-        "title": "Kỷ luật kỹ thuật",
-        "text": "Kiến trúc sạch, kiểm thử và mã dễ bảo trì để sản phẩm phát triển và bền vững."
+        "title": "Tư duy Forward Deployed Engineer (FDE)",
+        "text": "Kỹ sư làm việc sát với đội ngũ của bạn, hiểu bối cảnh kinh doanh, tìm ra vấn đề thật và đề xuất phương án tốt hơn, thay vì chỉ làm theo ticket. Đây là chuẩn mực chúng tôi đào tạo cho mọi kỹ sư."
       },
       "i3": {
-        "title": "Hiểu lĩnh vực trước",
-        "text": "Bắt đầu từ vấn đề thật của một lĩnh vực, như giáo dục, rồi mới chọn công nghệ."
+        "title": "Chuyên nghiệp và tinh thần làm chủ",
+        "text": "Giao tiếp rõ ràng, báo cáo trung thực, thực thi kỷ luật và học hỏi liên tục. Khi có vấn đề, chúng tôi báo sớm và xử lý."
       },
       "i4": {
-        "title": "Tư duy dài hạn",
-        "text": "Xây dựng để cải thiện liên tục qua nhiều năm, với cách làm tập trung do nhà sáng lập dẫn dắt."
+        "title": "Giá trị khách hàng là trên hết",
+        "text": "Chúng tôi đề xuất điều phù hợp với hoàn cảnh của bạn, kể cả giải pháp đơn giản hơn hoặc không dùng AI khi điều đó tốt hơn cho bạn."
       }
+    },
+    "flow": {
+      "aria": "Cách chúng tôi làm: từ bài toán kinh doanh của bạn qua khám phá, thiết kế, xây dựng, kiểm chứng, vận hành, đến giá trị kinh doanh. AI hỗ trợ mọi bước; kỹ sư chịu trách nhiệm về kết quả.",
+      "problem": "Bài toán kinh doanh của bạn",
+      "discover": "Khám phá",
+      "design": "Thiết kế",
+      "build": "Xây dựng",
+      "validate": "Kiểm chứng",
+      "operate": "Vận hành và cải tiến",
+      "impact": "Giá trị kinh doanh",
+      "ai": "AI hỗ trợ ở mọi bước",
+      "owner": "Kỹ sư chịu trách nhiệm về kết quả"
     }
   },
   "vision": {
@@ -134,9 +132,10 @@
   "about": {
     "eyebrow": "Giới thiệu",
     "title": "Về Brisasoft",
-    "text": "Brisasoft là công ty phần mềm và AI có trụ sở tại Việt Nam, thương hiệu là Brisa. Chúng tôi xây dựng sản phẩm AI-native và giải pháp phần mềm, với hai sản phẩm riêng: BIS và AAB.",
+    "text": "Brisasoft (thương hiệu: Brisa) là công ty kỹ thuật phần mềm tại Hà Nội, thành lập tháng 10/2024. Chúng tôi xây dựng phần mềm và giải pháp AI cho khách hàng tại Nhật Bản và Việt Nam, cùng hai sản phẩm AI của riêng mình: BIS và AAB.",
     "companyTitle": "Thông tin công ty",
-    "companyText": "Brisasoft là công ty. BIS và AAB là các sản phẩm do Brisasoft xây dựng và sở hữu. Trong tương lai, Brisasoft có thể xây dựng thêm các sản phẩm AI và phần mềm khác."
+    "companyText": "Brisasoft là công ty. BIS và AAB là các sản phẩm do Brisasoft xây dựng và sở hữu. Trong tương lai, Brisasoft có thể xây dựng thêm các sản phẩm AI và phần mềm khác.",
+    "founderLink": "Đọc thông điệp từ Nhà sáng lập & CEO"
   },
   "bispage": {
     "eyebrow": "Sản phẩm",
@@ -155,18 +154,26 @@
     "openApp": "Mở phiên bản thử nghiệm"
   },
   "founder": {
-    "title": "Người sáng lập",
-    "role": "Người sáng lập, Brisasoft",
+    "title": "Nhà sáng lập & CEO",
+    "role": "Nhà sáng lập kiêm CEO, Brisasoft",
     "linkedin": "Hồ sơ LinkedIn"
   },
   "contact": {
     "eyebrow": "Liên hệ",
     "title": "Liên hệ với chúng tôi",
-    "text": "Với câu hỏi, đề xuất hợp tác hoặc đối tác, vui lòng gửi email cho chúng tôi.",
-    "emailLabel": "Email"
+    "text": "Hãy chia sẻ bài toán kinh doanh hoặc hệ thống hiện tại của bạn. Chúng tôi sẽ phản hồi qua email.",
+    "emailLabel": "Email",
+    "subject": "Trao đổi dự án",
+    "include": {
+      "title": "Nên có trong email",
+      "i1": "Tên công ty và vai trò của bạn",
+      "i2": "Bài toán hoặc mục tiêu kinh doanh",
+      "i3": "Hệ thống hiện có và các ràng buộc",
+      "i4": "Thời gian mong muốn và ngôn ngữ trao đổi (tiếng Nhật, tiếng Anh hoặc tiếng Việt)"
+    }
   },
   "footer": {
-    "tagline": "Sản phẩm AI-native và giải pháp phần mềm, xây dựng tại Việt Nam.",
+    "tagline": "Kỹ thuật AI-native tạo giá trị kinh doanh thực. Hà Nội, Việt Nam.",
     "infoTitle": "Thông tin công ty",
     "companyCol": "Công ty",
     "productsCol": "Sản phẩm",
@@ -180,55 +187,53 @@
       "established": "Thành lập"
     },
     "rights": "Bảo lưu mọi quyền.",
-    "bisNote": "BIS và AAB là sản phẩm của Brisasoft."
+    "bisNote": "BIS và AAB là sản phẩm của Brisasoft.",
+    "privacy": "Quyền riêng tư"
   },
   "banner": {
     "text": "Hai sản phẩm AI đang phát triển: BIS cho giáo dục Sinh học và AAB cho tự động hóa quy trình nghiệp vụ.",
     "link": "Xem sản phẩm"
   },
-  "numbers": {
-    "n1": {
-      "title": "2011",
-      "text": "Làm việc với thị trường Nhật từ"
-    },
-    "n2": {
-      "title": "30+",
-      "text": "Dự án kinh nghiệm triển khai thực tế"
-    },
-    "n3": {
-      "title": "5",
-      "text": "Lĩnh vực chuyên môn"
-    },
-    "n4": {
-      "title": "2",
-      "text": "Sản phẩm AI chủ lực: BIS và AAB"
-    }
-  },
   "process": {
-    "eyebrow": "Cách chúng tôi làm việc",
-    "title": "Từ ý tưởng đến sản phẩm không ngừng cải thiện",
-    "sub": "Quy trình bốn bước đơn giản, áp dụng cho sản phẩm của chúng tôi và dự án của khách hàng.",
+    "eyebrow": "Phương pháp kỹ thuật",
+    "title": "Từ bài toán kinh doanh đến hệ thống liên tục cải tiến",
+    "sub": "Sáu bước chúng tôi dùng cho dự án khách hàng và sản phẩm của mình. Ở mỗi bước, AI giúp tăng tốc, kỹ sư ra quyết định.",
     "s1": {
       "title": "Khám phá",
-      "text": "Tìm hiểu vấn đề, người dùng và dữ liệu trước khi chọn công nghệ."
+      "text": "Hiểu mục tiêu kinh doanh, người dùng và cách công việc đang diễn ra.",
+      "ai": "Tóm tắt tài liệu sẵn có, soạn danh sách câu hỏi để bạn xác nhận."
     },
     "s2": {
-      "title": "Thiết kế",
-      "text": "Định hình kiến trúc, hướng tiếp cận AI và trải nghiệm người dùng, thống nhất phạm vi rõ ràng."
+      "title": "Hiểu hệ thống hiện có",
+      "text": "Nắm rõ hệ thống, dữ liệu, ràng buộc và các điểm tích hợp.",
+      "ai": "Đọc code và đặc tả hiện có để phân tích nhanh hơn."
     },
     "s3": {
-      "title": "Xây dựng",
-      "text": "Giao theo từng bước nhỏ, kiểm thử được, với mã sạch, kiểm tra tự động và demo định kỳ."
+      "title": "Thiết kế",
+      "text": "Thống nhất kiến trúc, phạm vi và mức độ dùng AI phù hợp, có khi là không dùng.",
+      "ai": "Khảo sát các phương án thiết kế, soạn đặc tả để rà soát."
     },
     "s4": {
+      "title": "Xây dựng",
+      "text": "Phát triển theo từng phần nhỏ, dễ review, demo định kỳ.",
+      "ai": "Hỗ trợ sinh code và review, luôn được kỹ sư kiểm tra."
+    },
+    "aiLabel": "AI hỗ trợ",
+    "s5": {
+      "title": "Kiểm chứng",
+      "text": "Kiểm thử chức năng, bảo mật cơ bản và, với tính năng AI, chất lượng câu trả lời.",
+      "ai": "Sinh test case và dữ liệu test; đánh giá đầu ra AI bằng bộ câu hỏi kiểm thử."
+    },
+    "s6": {
       "title": "Vận hành và cải tiến",
-      "text": "Theo dõi, đo lường và tinh chỉnh sản phẩm sau khi ra mắt để nó ngày càng tốt hơn."
+      "text": "Phát hành, giám sát và tiếp tục cải tiến cùng bạn sau khi ra mắt.",
+      "ai": "Soạn tài liệu và tài liệu bàn giao."
     }
   },
   "japan": {
     "eyebrow": "Kinh nghiệm",
     "title": "Hơn một thập kỷ triển khai phần mềm cho thị trường Nhật Bản",
-    "text": "Từ năm 2011, khi còn chưa tốt nghiệp, nhà sáng lập đã làm việc với thị trường Nhật Bản và triển khai hơn 30 dự án trong các lĩnh vực SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI. Brisasoft mang kỷ luật về chất lượng, giao tiếp và tiến độ đó vào mọi dự án."
+    "text": "Nhà sáng lập làm việc với thị trường Nhật Bản từ năm 2011, khi còn chưa tốt nghiệp. Nhà sáng lập và đội ngũ nòng cốt đã triển khai hơn 30 dự án trong các lĩnh vực SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI. Brisasoft mang kỷ luật về chất lượng, giao tiếp và tiến độ đó vào mọi dự án."
   },
   "services": {
     "eyebrow": "Dịch vụ",
@@ -237,9 +242,9 @@
     "ai": {
       "title": "Phát triển AI",
       "text": "Thiết kế và xây dựng tính năng, sản phẩm AI-native: trợ lý, gia sư, gợi ý, hiểu tài liệu và tự động hóa.",
-      "b1": "AI agent và trợ lý (ví dụ với Dify) dựa trên nội dung của bạn, có trích dẫn nguồn",
+      "b1": "Trợ lý tri thức trả lời dựa trên tài liệu của bạn (RAG) và hiển thị nguồn đã dùng, cách tiếp cận chúng tôi dùng trong BIS",
       "b2": "Học tập thích ứng và logic gợi ý",
-      "b3": "Đánh giá và kiểm tra an toàn để câu trả lời AI đáng tin và có thể rà soát",
+      "b3": "Đánh giá bằng bộ câu hỏi kiểm thử trước khi phát hành, và người rà soát với các đầu ra quan trọng",
       "b4": "Tích hợp mô hình mã nguồn mở và API thương mại, có kiểm soát chi phí"
     },
     "data": {
@@ -383,7 +388,7 @@
       "date": "Tháng 10/2025",
       "tag": "Năng lực",
       "title": "Tích lũy know-how giải pháp toàn diện và workflow",
-      "text": "Tích lũy know-how triển khai giải pháp toàn diện và đạt chứng chỉ BPMN workflow."
+      "text": "Tích lũy know-how triển khai giải pháp toàn diện, bao gồm workflow nghiệp vụ với BPMN."
     },
     "t4": {
       "date": "Tháng 4/2026",
@@ -396,12 +401,6 @@
       "tag": "Sản phẩm",
       "title": "Nguyên mẫu BIS chạy được",
       "text": "Bản nguyên mẫu có luyện tập, gia sư AI có trích dẫn nguồn, theo dõi mức nắm vững và quy trình giáo viên duyệt nội dung."
-    },
-    "t0": {
-      "date": "Từ năm 2011",
-      "tag": "Nền tảng nhà sáng lập",
-      "title": "Trước Brisasoft: thị trường Nhật Bản",
-      "text": "Nhà sáng lập bắt đầu làm việc với thị trường Nhật từ trước khi tốt nghiệp và triển khai hơn 30 dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI."
     }
   },
   "insights": {
@@ -411,7 +410,7 @@
     "moreTitle": "Muốn theo dõi tiến độ của chúng tôi?",
     "moreText": "Hãy gửi email, chúng tôi sẽ cập nhật cho bạn về BIS, AAB và các bản phát hành mới.",
     "khTitle": "Know-how chúng tôi mang vào mọi dự án",
-    "khSub": "Năm lĩnh vực nhà sáng lập đã triển khai cho khách hàng Nhật, và cách chúng tôi tiếp cận từng lĩnh vực.",
+    "khSub": "Năm lĩnh vực nhà sáng lập và đội ngũ nòng cốt đã triển khai cho khách hàng Nhật, và cách chúng tôi tiếp cận từng lĩnh vực.",
     "msTitle": "Cột mốc",
     "k1": {
       "title": "SAP / ERP",
@@ -449,7 +448,7 @@
       "date": "Tháng 10/2025",
       "tag": "Năng lực",
       "title": "Tích lũy know-how giải pháp toàn diện và workflow",
-      "text": "Tích lũy know-how triển khai giải pháp toàn diện và đạt chứng chỉ BPMN workflow."
+      "text": "Tích lũy know-how triển khai giải pháp toàn diện, bao gồm workflow nghiệp vụ với BPMN."
     },
     "i4": {
       "date": "Tháng 4/2025",
@@ -533,5 +532,205 @@
     },
     "ctaTitle": "Bạn có quy trình đáng được tự động hóa?",
     "ctaText": "Hãy cho chúng tôi biết hiện nó vận hành thế nào. Chúng tôi sẽ phản hồi qua email."
+  },
+  "privacy": {
+    "eyebrow": "Pháp lý",
+    "title": "Thông báo quyền riêng tư",
+    "text": "Cách website này xử lý thông tin.",
+    "updated": "Cập nhật lần cuối: 12/10/2026.",
+    "s1": {
+      "title": "Chúng tôi là ai",
+      "text": "Website này do Công ty Cổ phần Brisasoft (Brisasoft Joint Stock Company) tại Hà Nội, Việt Nam vận hành. Liên hệ: hello@brisasoft.net."
+    },
+    "s2": {
+      "title": "Chúng tôi thu thập gì",
+      "text": "Website không có tài khoản, biểu mẫu hay quảng cáo, và chúng tôi không đặt cookie theo dõi. Nhà cung cấp hosting là Cloudflare có thể đo lượt truy cập ở dạng tổng hợp (trang đã xem, quốc gia, loại thiết bị) để duy trì site và hiểu cách site được sử dụng. Nếu trình duyệt cho phép, site ghi nhớ lựa chọn ngôn ngữ của bạn trong bộ nhớ cục bộ trên thiết bị."
+    },
+    "s3": {
+      "title": "Email bạn gửi cho chúng tôi",
+      "text": "Nếu bạn gửi email, chúng tôi chỉ dùng nội dung và địa chỉ đó để trả lời và theo dõi yêu cầu của bạn, và lưu trong thời gian cần thiết cho mục đích đó. Chúng tôi không bán hay chia sẻ chúng cho mục đích tiếp thị."
+    },
+    "s4": {
+      "title": "Lựa chọn của bạn",
+      "text": "Bạn có thể yêu cầu chúng tôi chỉnh sửa hoặc xóa các email chúng tôi lưu về bạn bằng cách viết tới hello@brisasoft.net. Bạn có thể xóa lựa chọn ngôn ngữ đã lưu bằng cách xóa dữ liệu của trang này trong trình duyệt."
+    }
+  },
+  "stats": {
+    "eyebrow": "Tổng quan",
+    "title": "Công ty trẻ, kinh nghiệm triển khai sâu",
+    "note": "Brisasoft thành lập tháng 10/2024. Số dự án là kinh nghiệm triển khai của nhà sáng lập và đội ngũ kỹ sư nòng cốt từ năm 2011, bao gồm cả các dự án trước khi Brisasoft ra đời. Tỷ lệ phần trăm tính theo số lượng các dự án đó.",
+    "founded": {
+      "label": "Thành lập Brisasoft tại Hà Nội"
+    },
+    "projects": {
+      "label": "dự án trong kinh nghiệm của nhà sáng lập và đội ngũ nòng cốt từ năm 2011"
+    },
+    "markets": {
+      "label": "tỷ lệ dự án thị trường Nhật Bản / Việt Nam (ước tính, theo số dự án); mảng Việt Nam chủ yếu là chuyển đổi số"
+    },
+    "products": {
+      "label": "sản phẩm AI của riêng chúng tôi đang phát triển: BIS và AAB"
+    },
+    "aiEngineers": {
+      "label": "kỹ sư chủ yếu làm các dự án AI"
+    },
+    "team": {
+      "label": "người trong đội ngũ kỹ thuật"
+    }
+  },
+  "deliver": {
+    "eyebrow": "Chúng tôi làm gì",
+    "title": "Bắt đầu từ bài toán bạn cần giải",
+    "sub": "Sáu loại công việc chúng tôi nhận. Chúng tôi đề xuất cách đơn giản nhất giải được bài toán, kể cả giải pháp không dùng AI khi phù hợp hơn.",
+    "c1": {
+      "title": "Ứng dụng AI và trợ lý tri thức",
+      "text": "Trợ lý trả lời dựa trên tài liệu của chính bạn (RAG), đọc và trích xuất dữ liệu từ tài liệu, tích hợp tính năng AI vào hệ thống sẵn có, có đánh giá và người rà soát ở những chỗ cần độ chính xác."
+    },
+    "c2": {
+      "title": "Tự động hóa quy trình nghiệp vụ",
+      "text": "Quy trình được mô hình hóa bằng BPMN và chạy trên workflow engine như Camunda, AI agent đảm nhận việc đọc, phân loại, soạn thảo, con người phê duyệt qua Microsoft 365."
+    },
+    "c3": {
+      "title": "Hệ thống doanh nghiệp và tích hợp",
+      "text": "Hệ thống nghiệp vụ, hệ thống nội bộ và các giao tiếp kết nối với ERP cùng các nền tảng doanh nghiệp khác, kèm tài liệu và quản lý thay đổi theo chuẩn dự án Nhật Bản."
+    },
+    "c4": {
+      "title": "Chuyển đổi số tại Việt Nam",
+      "text": "Đưa các quy trình đang chạy bằng giấy, Excel và email lên phần mềm mà đội ngũ thực sự dùng, từng bước, bắt đầu từ quy trình gây khó khăn nhất."
+    },
+    "c5": {
+      "title": "Nền tảng web, mobile và cloud",
+      "text": "Ứng dụng web, API và ứng dụng di động trên hạ tầng cloud, on-premise hoặc hybrid, có CI/CD, môi trường staging và giám sát."
+    },
+    "c6": {
+      "title": "Đồng hành kỹ thuật dài hạn",
+      "text": "Đội ngũ kỹ sư ở lại cùng sản phẩm sau khi ra mắt, tiếp tục cải tiến, và giữ tri thức luôn được tài liệu hóa, dễ bàn giao."
+    }
+  },
+  "work": {
+    "eyebrow": "Dự án tiêu biểu",
+    "title": "Sản phẩm của chính chúng tôi, làm theo cách chúng tôi làm cho khách hàng",
+    "sub": "Dự án khách hàng thường được bảo mật, nên chúng tôi giới thiệu trước các sản phẩm của mình. Cả hai đang phát triển, và chúng tôi chỉ mô tả những gì đã có.",
+    "challenge": "Bài toán",
+    "approach": "Cách tiếp cận",
+    "stack": "Công nghệ",
+    "status": "Trạng thái",
+    "bis": {
+      "title": "BIS · Giáo dục Sinh học AI-native",
+      "challenge": "Học sinh hiểu sai khái niệm hiếm khi được phát hiện, và giáo viên không thể cá nhân hóa lời giải thích cho từng em.",
+      "approach": "Mô hình hóa Sinh học thành khái niệm, quan hệ và quan niệm sai; gia sư AI trả lời từ nguồn đã duyệt kèm trích dẫn; theo dõi mức độ thành thạo; giáo viên duyệt trước khi nội dung được sử dụng.",
+      "stack": "Mô hình tri thức có cấu trúc, gia sư AI dựa trên truy xuất (RAG), ứng dụng web"
+    },
+    "aab": {
+      "title": "AAB · AI Automation BPMN",
+      "challenge": "Quy trình chạy qua email và bảng tính; phê duyệt bị tắc và không ai biết hồ sơ đang kẹt ở đâu.",
+      "approach": "Quy trình được mô hình hóa bằng BPMN và chạy trên Camunda; AI agent xây bằng Dify đọc, phân loại và soạn thảo; con người phê duyệt trong Microsoft 365; mọi bước đều được ghi lại.",
+      "stack": "Camunda (BPMN), Dify, Microsoft 365"
+    },
+    "diagram": {
+      "title": "Một hồ sơ đi qua AAB như thế nào",
+      "request": "Yêu cầu đến (Microsoft 365)",
+      "process": "Quy trình BPMN điều phối (Camunda)",
+      "agent": "AI agent phân loại, trích xuất, soạn thảo (Dify)",
+      "review": "Con người rà soát và phê duyệt",
+      "done": "Hoàn tất, lưu đủ lịch sử"
+    }
+  },
+  "tech": {
+    "eyebrow": "Công nghệ trong bối cảnh",
+    "title": "Nền tảng chúng tôi đã thực sự làm việc",
+    "sub": "Mỗi công nghệ được ghi kèm nơi chúng tôi đã dùng. Việc liệt kê không có nghĩa là chúng tôi là đối tác hay được nhà cung cấp chứng nhận.",
+    "items": {
+      "dify": {
+        "area": "Ứng dụng LLM và AI agent",
+        "text": "Phần AI agent trong AAB: phân loại yêu cầu, trích xuất dữ liệu, soạn phản hồi."
+      },
+      "camunda": {
+        "area": "Workflow engine BPMN",
+        "text": "Lõi thực thi quy trình của AAB, dựa trên kinh nghiệm các dự án BPMN workflow."
+      },
+      "m365": {
+        "area": "Cộng tác và phê duyệt",
+        "text": "Yêu cầu, phê duyệt và thông báo trong AAB; tích hợp trong hệ thống nghiệp vụ và nội bộ."
+      },
+      "sap": {
+        "area": "ERP",
+        "text": "Tích hợp và mở rộng ERP trong các dự án thị trường Nhật Bản của nhà sáng lập và đội ngũ nòng cốt, trước khi có Brisasoft."
+      },
+      "intramart": {
+        "area": "Nền tảng ứng dụng nghiệp vụ và workflow (Nhật Bản)",
+        "text": "Phát triển ứng dụng workflow nghiệp vụ cho doanh nghiệp Nhật Bản."
+      },
+      "shopify": {
+        "area": "Nền tảng thương mại điện tử",
+        "text": "Xây dựng và tích hợp cửa hàng thương mại điện tử."
+      },
+      "pega": {
+        "area": "Workflow và quản lý hồ sơ",
+        "text": "Phát triển ứng dụng quản lý hồ sơ (case management) và tự động hóa quy trình."
+      }
+    }
+  },
+  "founderMsg": {
+    "eyebrow": "Thông điệp từ Nhà sáng lập & CEO",
+    "title": "Xây dựng một công ty kỹ thuật AI-native",
+    "quote": "Công nghệ tạo ra giá trị lớn nhất khi người kỹ sư xây dựng nó hiểu bài toán kinh doanh phía sau.",
+    "p1": "Tôi bắt đầu làm phần mềm cho khách hàng Nhật Bản từ năm 2011, khi còn chưa tốt nghiệp. Những năm sau đó, tôi đi từ viết code đến dẫn dắt dự án và quản lý triển khai, qua nhiều lĩnh vực: ERP, hệ thống nhúng, workflow nghiệp vụ, y tế và AI. Có một bài học lặp lại nhiều lần: công nghệ tạo ra giá trị lớn nhất khi người kỹ sư xây dựng nó hiểu bài toán kinh doanh phía sau.",
+    "p2": "Thế nhưng mô hình outsourcing thường biến kỹ sư thành người “nhận ticket”. Đặc tả được gửi đến, code được bàn giao, và không ai hỏi liệu nó có giải quyết được vấn đề thật hay không. Cách làm đó không còn hiệu quả khi bài toán của khách hàng chưa rõ ràng, trải rộng trên nhiều hệ thống, hoặc thay đổi trong quá trình làm.",
+    "p3": "Tôi thành lập Brisasoft năm 2024 vì AI đang thay đổi cách phần mềm được thiết kế, xây dựng và vận hành, và đội ngũ kỹ thuật cũng phải thay đổi theo. Chúng tôi dùng AI xuyên suốt công việc để kỹ sư dành nhiều thời gian hơn cho điều quan trọng: hiểu bối cảnh, đặt câu hỏi cho các giả định và tìm giải pháp tốt hơn.",
+    "p4": "Mục tiêu của chúng tôi là mỗi kỹ sư Brisasoft đều có tư duy Forward Deployed Engineer: chiều sâu kỹ thuật, hiểu biết kinh doanh, khả năng giải quyết vấn đề thực tế và cộng tác chặt chẽ với khách hàng. Chúng tôi đang xây dựng năng lực đó từng bước, và đó là chuẩn mực chúng tôi đặt ra cho chính mình.",
+    "p5": "AI giúp chúng tôi làm việc hiệu quả hơn, nhưng không thay thế được phán đoán kỹ thuật, trách nhiệm, hay niềm tin được xây dựng giữa con người với nhau. Chúng tôi coi trọng sự chuyên nghiệp, tận tâm, minh bạch và cải tiến liên tục, và sẽ nói thẳng khi một giải pháp đơn giản hơn hoặc không dùng AI là lựa chọn tốt hơn.",
+    "p6": "Chúng tôi muốn là nhiều hơn một nhà cung cấp phần mềm: một đối tác công nghệ đáng tin cậy, giúp bạn biến thách thức kinh doanh thành giải pháp thực tế và bền vững. Cảm ơn bạn đã quan tâm đến Brisasoft."
+  },
+  "founderPage": {
+    "eyebrow": "Nhà sáng lập & CEO",
+    "title": "Thông điệp từ Nhà sáng lập & CEO",
+    "profileTitle": "Tiểu sử",
+    "bio1": "Bắt đầu làm phần mềm cho thị trường Nhật Bản từ năm 2011, khi còn là sinh viên.",
+    "bio2": "Từ đó tham gia và dẫn dắt các dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI, nằm trong hơn 30 dự án của nhà sáng lập và đội ngũ nòng cốt.",
+    "bio3": "Đi từ kỹ sư phần mềm đến quản lý dự án và triển khai: làm rõ yêu cầu, quản lý chất lượng, điều phối đội ngũ và khách hàng.",
+    "bio4": "Năm 2024 thành lập Brisasoft để xây dựng một công ty kỹ thuật AI-native tại Việt Nam.",
+    "note": "Các dự án trước tháng 10/2024 được thực hiện tại các tổ chức khác. Đó là kinh nghiệm của nhà sáng lập và đội ngũ nòng cốt, không phải thành tích của Brisasoft với tư cách công ty."
+  },
+  "quality": {
+    "eyebrow": "Triển khai và chất lượng",
+    "title": "Cách chúng tôi giữ cho việc triển khai dễ dự đoán",
+    "sub": "Những thực hành chúng tôi áp dụng ở mọi dự án, điều chỉnh theo quy mô.",
+    "q1": {
+      "title": "Làm rõ yêu cầu",
+      "text": "Các câu hỏi còn mở được theo dõi trong bảng Q&A chung cho đến khi được trả lời."
+    },
+    "q2": {
+      "title": "Thiết kế kỹ thuật",
+      "text": "Kiến trúc và tài liệu đặc tả được rà soát trước khi bắt đầu phát triển."
+    },
+    "q3": {
+      "title": "Review code",
+      "text": "Mọi thay đổi đều được một kỹ sư khác review. Review bằng AI là lớp kiểm tra thêm, không thay thế."
+    },
+    "q4": {
+      "title": "Kiểm thử",
+      "text": "Kiểm thử đơn vị, tích hợp và nghiệm thu, test case truy vết được về yêu cầu."
+    },
+    "q5": {
+      "title": "Kiểm tra bảo mật",
+      "text": "Kiểm tra thư viện phụ thuộc, không để thông tin bí mật trong mã nguồn, giới hạn quyền truy cập theo từng môi trường."
+    },
+    "q6": {
+      "title": "Tài liệu",
+      "text": "Đặc tả, ghi chú vận hành và các quyết định được cập nhật theo thay đổi của hệ thống."
+    },
+    "q7": {
+      "title": "Báo cáo tiến độ",
+      "text": "Báo cáo định kỳ về tiến độ, rủi ro và vấn đề tồn đọng theo định dạng đã thống nhất với bạn."
+    },
+    "q8": {
+      "title": "Chuyển giao tri thức",
+      "text": "Tài liệu và buổi bàn giao để đội ngũ của bạn có thể vận hành và mở rộng hệ thống."
+    }
+  },
+  "team": {
+    "title": "Đội ngũ",
+    "text": "Kỹ sư của chúng tôi đến từ các trường đại học hàng đầu về CNTT tại Việt Nam như Đại học Bách khoa Hà Nội và Đại học Công nghiệp Hà Nội. Phần lớn làm chủ yếu các dự án liên quan đến AI, và mọi kỹ sư đều dùng công cụ AI trong công việc phát triển hằng ngày."
   }
 }

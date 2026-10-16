@@ -12,7 +12,16 @@
       <span class="eyebrow">{{contact.emailLabel}}</span>
       <h2 class="section-title"><a class="mail-link" href="mailto:{{@email}}">{{@email}}</a></h2>
       <p class="section-sub">{{facts.companyValue}} · {{facts.locationValue}}</p>
-      <a href="mailto:{{@email}}" class="btn btn-primary">{{cta.sendEmail}}</a>
+      <a href="{{@mailto}}" class="btn btn-primary">{{cta.sendEmail}}</a>
+      <div class="include">
+        <h3>{{contact.include.title}}</h3>
+        <ul class="bullets">
+          <li>{{contact.include.i1}}</li>
+          <li>{{contact.include.i2}}</li>
+          <li>{{contact.include.i3}}</li>
+          <li>{{contact.include.i4}}</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>

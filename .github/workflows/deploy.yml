@@ -33,7 +33,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       - name: Smoke test staging
         run: |
-          for p in / /en/ /ja/ /vi/ /en/products/bis/; do
+          for p in / /en/ /ja/ /vi/ /en/products/bis/ /en/about/founder/ /ja/about/founder/ /en/privacy/; do
             code=$(curl -s -o /dev/null -w '%{http_code}' "https://stg.brisasoft.net$p")
             echo "$p -> $code"
             [ "$code" = "200" ] || exit 1
@@ -56,7 +56,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       - name: Smoke test production
         run: |
-          for p in / /en/ /ja/ /vi/ /en/products/bis/; do
+          for p in / /en/ /ja/ /vi/ /en/products/bis/ /en/about/founder/ /ja/about/founder/ /en/privacy/; do
             code=$(curl -s -o /dev/null -w '%{http_code}' "https://brisasoft.net$p")
             echo "$p -> $code"
             [ "$code" = "200" ] || exit 1

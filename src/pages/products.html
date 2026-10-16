@@ -12,16 +12,16 @@
       <article class="card prod-card">
         <div class="product-mark" aria-hidden="true">BIS</div>
         <span class="badge">{{products.bis.status}}</span>
-        <h3>{{products.bis.name}} <span class="muted">· {{products.bis.full}}</span></h3>
+        <h2 class="item-title">{{products.bis.name}} <span class="muted">· {{products.bis.full}}</span></h2>
         <p class="muted">{{products.bis.text}}</p>
-        <a href="{{@url.bis}}" class="btn btn-outline">{{products.learn}}</a>
+        <a href="{{@url.bis}}" class="btn btn-outline">{{products.learn}}<span class="sr"> {{products.bis.name}}</span></a>
       </article>
       <article class="card prod-card">
         <div class="product-mark" aria-hidden="true">AAB</div>
         <span class="badge">{{products.aab.status}}</span>
-        <h3>{{products.aab.name}} <span class="muted">· {{products.aab.full}}</span></h3>
+        <h2 class="item-title">{{products.aab.name}} <span class="muted">· {{products.aab.full}}</span></h2>
         <p class="muted">{{products.aab.text}}</p>
-        <a href="{{@url.aab}}" class="btn btn-outline">{{products.learn}}</a>
+        <a href="{{@url.aab}}" class="btn btn-outline">{{products.learn}}<span class="sr"> {{products.aab.name}}</span></a>
       </article>
     </div>
   </div>

@@ -4,9 +4,10 @@ Static, multilingual (EN / JA / VI) company site. No dependencies, only Node 18+
 
 ## Structure
 - `src/i18n/{en,ja,vi}.json`: all text. Every language must have the same keys (the build fails otherwise).
-- `src/pages/*.html`: page templates (home, about, bis, contact). `src/layout.html`: shared head and body.
-- `src/company.json`: legal name, business registration number, address, phone. **Empty values are hidden**. Fill only verified facts.
-- `build.mjs`: generates `dist/` (12 pages, root language redirect, sitemap, robots, headers).
+- `src/pages/*.html`: page templates (home, about, founder, services, products, bis, aab, insights, contact, privacy). `src/layout.html`: shared head and body.
+- `src/company.json`: legal name, business registration number, address, phone. **Empty values are hidden**. Fill only verified facts. `stats[]` (home/about figures) and `technologies[]` (technology section) have a `show` flag: switch on only after the fact is confirmed in `docs/knowledge/company-profile.md`.
+- `build.mjs`: generates `dist/` (30 pages, root language redirect, 404, sitemap, robots, headers incl. CSP).
+- `docs/knowledge/`: verified company and founder facts. `docs/website-audit/`: audit, claim register, IA and release report.
 - `assets/`: CSS, JS, flag SVGs, `og.png`. `public/`: copied to the site root (favicon).
 - `_archive/`: the previous template pages (not deployed, contains invented content, do not republish).
 
@@ -20,7 +21,7 @@ Static, multilingual (EN / JA / VI) company site. No dependencies, only Node 18+
 - Custom domain: `brisasoft.net` (add it in the Pages project, do not create the CNAME by hand first)
 
 ## Content rules
-Only facts confirmed by the founder. No customers, funding, revenue, employees, partners, certifications or testimonials unless provided.
+Company facts (since October 2024) and the founder's personal history (since 2011, other organisations) stay separate. Only facts confirmed by the founder. No customers, funding, revenue, employees, partners, certifications or testimonials unless provided.
 
 ## Environments and CI/CD
 | Env | URL | Trigger |

@@ -7,7 +7,8 @@
     "menu": "Menu",
     "language": "Language",
     "services": "Services",
-    "insights": "Insights"
+    "insights": "Insights",
+    "founder": "CEO message"
   },
   "cta": {
     "learnMore": "Learn more",
@@ -17,16 +18,19 @@
     "viewServices": "View our services",
     "talkProject": "Talk about your project",
     "readBis": "Read the BIS story",
-    "viewProducts": "See our products"
+    "viewProducts": "See our products",
+    "discuss": "Discuss your project",
+    "seeWork": "See our work",
+    "readMessage": "Read the full message"
   },
   "meta": {
     "home": {
-      "title": "Brisasoft | AI-native products and software solutions",
-      "description": "Brisasoft is a Vietnam-based software and AI company building AI-native products and software solutions. Products: BIS (Biology Intellectual System) and AAB (AI Automation BPMN)."
+      "title": "Brisasoft | AI-native engineering for real business impact",
+      "description": "Brisasoft is an AI-native engineering company in Hanoi, Vietnam, founded in 2024. We build AI applications, business process automation and enterprise systems for clients in Japan and Vietnam."
     },
     "about": {
       "title": "About | Brisasoft",
-      "description": "About Brisasoft, a Vietnam-based software and AI company established in October 2024."
+      "description": "Company profile of Brisasoft, an AI-native engineering company founded in Hanoi in October 2024: company information, team and milestones."
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
@@ -51,6 +55,14 @@
     "aab": {
       "title": "AAB, AI Automation BPMN | Brisasoft",
       "description": "AAB (AI Automation BPMN) automates business processes by combining BPMN workflows on Camunda, AI agents with Dify, and Microsoft 365. In development."
+    },
+    "privacy": {
+      "title": "Privacy notice | Brisasoft",
+      "description": "How the Brisasoft website handles information, cookies and emails."
+    },
+    "founder": {
+      "title": "Message from our Founder & CEO | Brisasoft",
+      "description": "Why Brisasoft was founded, our AI-native engineering philosophy and Forward Deployed Engineer mindset, and our founder's background."
     }
   },
   "facts": {
@@ -70,57 +82,43 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Brisasoft · Vietnam",
-      "titleA": "Building AI-native products and",
-      "titleB": "software solutions.",
-      "text": "Brisasoft is a software and AI company based in Vietnam. We combine software engineering, domain knowledge and AI to build products and digital solutions."
-    },
-    "about": {
-      "eyebrow": "About",
-      "title": "A software and AI company, built in Vietnam",
-      "text": "Brisasoft is a software and AI company based in Vietnam, established in October 2024. We design and build AI-native products, digital solutions and software platforms. We are an early-stage, founder-led company."
-    },
-    "build": {
-      "eyebrow": "What we build",
-      "title": "Four areas of work",
-      "sub": "Products and systems where software engineering, domain knowledge and AI work together.",
-      "i1": {
-        "title": "AI Products",
-        "text": "Products where AI is part of the core design, not an add-on."
-      },
-      "i2": {
-        "title": "Digital Solutions",
-        "text": "Software solutions that digitize and improve how work gets done."
-      },
-      "i3": {
-        "title": "Software Platforms",
-        "text": "Scalable, maintainable platforms that products and teams can build on."
-      },
-      "i4": {
-        "title": "Domain-specific AI Systems",
-        "text": "AI systems shaped by the knowledge of a specific field, such as education."
-      }
+      "eyebrow": "AI-native engineering · Japan & Vietnam",
+      "titleA": "AI-native engineering",
+      "titleB": "for real business impact.",
+      "text": "Brisasoft is an engineering company in Hanoi. Our engineers start from your business problem, use AI throughout analysis, development and testing, and take ownership of the result, for clients in Japan and Vietnam."
     },
     "why": {
-      "eyebrow": "Why Brisasoft",
-      "title": "Four principles behind everything we build",
-      "sub": "How we approach every product and solution.",
+      "eyebrow": "How we think",
+      "title": "Four principles behind how we work",
+      "sub": "What you can expect from a Brisasoft engineer.",
       "i1": {
-        "title": "AI-native by design",
-        "text": "We design the product around AI from day one, instead of adding it afterwards."
+        "title": "AI-native engineering",
+        "text": "AI is part of how we analyse requirements, write and review code, test and document, not an add-on service. Engineers remain responsible for every result."
       },
       "i2": {
-        "title": "Engineering discipline",
-        "text": "Clean architecture, testing and maintainable code, so products can grow and last."
+        "title": "Forward Deployed Engineer mindset",
+        "text": "Our engineers work close to your team, learn the business context, investigate the real problem and propose better options, instead of only implementing tickets. It is the standard we train every engineer towards."
       },
       "i3": {
-        "title": "Domain knowledge first",
-        "text": "We start from the real problem of a field, such as education, before choosing the technology."
+        "title": "Professionalism and ownership",
+        "text": "Clear communication, honest status reporting, disciplined execution and continuous learning. When something goes wrong, we say so early and fix it."
       },
       "i4": {
-        "title": "Long-term mindset",
-        "text": "We build to keep improving over the years, with a focused, founder-led approach."
+        "title": "Customer value first",
+        "text": "We recommend what fits your situation, including a simpler or non-AI solution when that serves you better."
       }
+    },
+    "flow": {
+      "aria": "How we work: from your business challenge through discover, design, build, validate and operate, to business impact. AI assists every step; engineers own the outcome.",
+      "problem": "Your business challenge",
+      "discover": "Discover",
+      "design": "Design",
+      "build": "Build",
+      "validate": "Validate",
+      "operate": "Operate and improve",
+      "impact": "Business impact",
+      "ai": "AI assists every step",
+      "owner": "Engineers own the outcome"
     }
   },
   "vision": {
@@ -134,9 +132,10 @@
   "about": {
     "eyebrow": "About",
     "title": "About Brisasoft",
-    "text": "Brisasoft is a software and AI company based in Vietnam. Our brand name is Brisa. We build AI-native products and software solutions, with two products of our own: BIS and AAB.",
+    "text": "Brisasoft (brand: Brisa) is an engineering company in Hanoi, Vietnam, founded in October 2024. We build software and AI solutions for clients in Japan and Vietnam, and two AI products of our own: BIS and AAB.",
     "companyTitle": "Company information",
-    "companyText": "Brisasoft is the company. BIS and AAB are products owned and built by Brisasoft. We may build additional AI and software products in the future."
+    "companyText": "Brisasoft is the company. BIS and AAB are products owned and built by Brisasoft. We may build additional AI and software products in the future.",
+    "founderLink": "Read the message from our Founder & CEO"
   },
   "bispage": {
     "eyebrow": "Product",
@@ -155,18 +154,26 @@
     "openApp": "Open the experimental version"
   },
   "founder": {
-    "title": "Founder",
-    "role": "Founder, Brisasoft",
+    "title": "Founder & CEO",
+    "role": "Founder & CEO, Brisasoft",
     "linkedin": "LinkedIn profile"
   },
   "contact": {
     "eyebrow": "Contact",
     "title": "Get in touch",
-    "text": "For questions, collaboration or partnership enquiries, please email us.",
-    "emailLabel": "Email"
+    "text": "Tell us about your business challenge or your current system. We will reply by email.",
+    "emailLabel": "Email",
+    "subject": "Project enquiry",
+    "include": {
+      "title": "Helpful to include",
+      "i1": "Your company and role",
+      "i2": "The business problem or goal",
+      "i3": "Current systems and constraints",
+      "i4": "Timeline and preferred language (Japanese, English or Vietnamese)"
+    }
   },
   "footer": {
-    "tagline": "AI-native products and software solutions, built in Vietnam.",
+    "tagline": "AI-native engineering for real business impact. Hanoi, Vietnam.",
     "infoTitle": "Company information",
     "companyCol": "Company",
     "productsCol": "Products",
@@ -180,55 +187,53 @@
       "established": "Established"
     },
     "rights": "All rights reserved.",
-    "bisNote": "BIS and AAB are products of Brisasoft."
+    "bisNote": "BIS and AAB are products of Brisasoft.",
+    "privacy": "Privacy"
   },
   "banner": {
     "text": "Two AI products in development: BIS for Biology education and AAB for business process automation.",
     "link": "See our products"
   },
-  "numbers": {
-    "n1": {
-      "title": "2011",
-      "text": "Working with the Japanese market since"
-    },
-    "n2": {
-      "title": "30+",
-      "text": "Projects of hands-on delivery experience"
-    },
-    "n3": {
-      "title": "5",
-      "text": "Domains of expertise"
-    },
-    "n4": {
-      "title": "2",
-      "text": "Flagship AI products: BIS and AAB"
-    }
-  },
   "process": {
-    "eyebrow": "How we work",
-    "title": "From idea to a product that keeps improving",
-    "sub": "A simple four-step approach we use for our own products and for client projects.",
+    "eyebrow": "Engineering approach",
+    "title": "From business problem to a system that keeps improving",
+    "sub": "Six steps we use on client projects and on our own products. In each one, AI speeds up the work and engineers make the decisions.",
     "s1": {
       "title": "Discover",
-      "text": "We study the problem, the users and the data before choosing any technology."
+      "text": "Understand the business goal, the users and how the work is done today.",
+      "ai": "Summarising existing documents and drafting question lists for you to confirm."
     },
     "s2": {
-      "title": "Design",
-      "text": "We shape the architecture, the AI approach and the user experience, and agree on a clear scope."
+      "title": "Understand the systems",
+      "text": "Map existing systems, data, constraints and integration points.",
+      "ai": "Reading existing code and specifications to speed up analysis."
     },
     "s3": {
-      "title": "Build",
-      "text": "We ship in small, testable steps with clean code, automated checks and regular demos."
+      "title": "Design",
+      "text": "Agree on architecture, scope and the right level of AI, which is sometimes none.",
+      "ai": "Exploring design alternatives and drafting specifications for review."
     },
     "s4": {
+      "title": "Build",
+      "text": "Deliver in small, reviewable increments with regular demos.",
+      "ai": "Code generation and review assistance, always checked by an engineer."
+    },
+    "aiLabel": "Where AI helps",
+    "s5": {
+      "title": "Validate",
+      "text": "Test functionality, security basics and, for AI features, answer quality.",
+      "ai": "Generating test cases and test data; evaluating AI outputs against test questions."
+    },
+    "s6": {
       "title": "Operate and improve",
-      "text": "We monitor, measure and refine the product after launch, so it keeps getting better."
+      "text": "Release, monitor and keep improving with you after launch.",
+      "ai": "Drafting documentation and handover material."
     }
   },
   "japan": {
     "eyebrow": "Experience",
     "title": "Over a decade of software delivery for the Japanese market",
-    "text": "Since 2011, before graduating, our founder has worked with the Japanese market, delivering more than 30 projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI. Brisasoft carries that discipline in quality, communication and delivery into every engagement."
+    "text": "Our founder has worked with the Japanese market since 2011, starting before graduating. Together, our founder and core team have delivered more than 30 projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI. Brisasoft carries that discipline in quality, communication and delivery into every engagement."
   },
   "services": {
     "eyebrow": "Services",
@@ -237,9 +242,9 @@
     "ai": {
       "title": "AI Development",
       "text": "We design and build AI-native features and products: assistants, tutoring and recommendation, document understanding and automation.",
-      "b1": "AI agents and assistants (for example with Dify), grounded in your own content, with source citations",
+      "b1": "Knowledge assistants that answer from your own documents (RAG) and show the sources used, the approach we use in BIS",
       "b2": "Adaptive learning and recommendation logic",
-      "b3": "Evaluation and safety checks, so AI answers can be trusted and reviewed",
+      "b3": "Evaluation against test questions before release, and human review for sensitive outputs",
       "b4": "Integration of open-source models and commercial APIs, with cost control"
     },
     "data": {
@@ -383,7 +388,7 @@
       "date": "October 2025",
       "tag": "Capability",
       "title": "Complete-solution and workflow know-how",
-      "text": "We accumulate know-how in delivering complete solutions and earn BPMN workflow certification."
+      "text": "We accumulate know-how in delivering complete solutions, including business workflow with BPMN."
     },
     "t4": {
       "date": "April 2026",
@@ -396,12 +401,6 @@
       "tag": "Product",
       "title": "BIS working prototype",
       "text": "The prototype includes practice, an AI tutor with source citations, mastery tracking and a teacher review workflow."
-    },
-    "t0": {
-      "date": "Since 2011",
-      "tag": "Founder background",
-      "title": "Before Brisasoft: the Japanese market",
-      "text": "Our founder starts working with the Japanese market before graduating, and goes on to deliver more than 30 projects in SAP/ERP, embedded systems, BPMN workflow, healthcare and AI."
     }
   },
   "insights": {
@@ -411,7 +410,7 @@
     "moreTitle": "Want to follow our progress?",
     "moreText": "Email us and we will keep you updated on BIS, AAB and new releases.",
     "khTitle": "Know-how we bring to every project",
-    "khSub": "Five domains where our founder has delivered for Japanese clients, and how we approach each one.",
+    "khSub": "Five domains where our founder and core team have delivered for Japanese clients, and how we approach each one.",
     "msTitle": "Milestones",
     "k1": {
       "title": "SAP / ERP",
@@ -449,7 +448,7 @@
       "date": "October 2025",
       "tag": "Capability",
       "title": "Complete-solution and workflow know-how",
-      "text": "We accumulate know-how in delivering complete solutions and earn BPMN workflow certification."
+      "text": "We accumulate know-how in delivering complete solutions, including business workflow with BPMN."
     },
     "i4": {
       "date": "April 2025",
@@ -533,5 +532,205 @@
     },
     "ctaTitle": "Have a process worth automating?",
     "ctaText": "Tell us how it works today. We will reply by email."
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy notice",
+    "text": "How this website handles information.",
+    "updated": "Last updated: 12 October 2026.",
+    "s1": {
+      "title": "Who we are",
+      "text": "This website is operated by Brisasoft Joint Stock Company (Công ty Cổ phần Brisasoft), Hanoi, Vietnam. Contact: hello@brisasoft.net."
+    },
+    "s2": {
+      "title": "What we collect",
+      "text": "This website has no accounts, forms or advertising, and we do not set tracking cookies. Our hosting provider, Cloudflare, may measure visits in aggregate (pages viewed, country, device type) to keep the site running and to understand how it is used. If your browser allows it, the site remembers your language choice in local storage on your device."
+    },
+    "s3": {
+      "title": "Emails you send us",
+      "text": "If you email us, we use your message and address only to reply and to follow up on your enquiry, and keep them as long as needed for that purpose. We do not sell them or share them for marketing."
+    },
+    "s4": {
+      "title": "Your choices",
+      "text": "You can ask us to correct or delete the emails we hold about you by writing to hello@brisasoft.net. You can clear the stored language choice by clearing this site data in your browser."
+    }
+  },
+  "stats": {
+    "eyebrow": "At a glance",
+    "title": "A young company with deep delivery experience",
+    "note": "Brisasoft was founded in October 2024. Project figures cover the delivery experience of our founder and core engineers since 2011, including work done before Brisasoft existed. Percentages are shares of those projects by number.",
+    "founded": {
+      "label": "Brisasoft founded in Hanoi"
+    },
+    "projects": {
+      "label": "projects in the delivery experience of our founder and core team since 2011"
+    },
+    "markets": {
+      "label": "Japan / Vietnam share of those projects (approx., by number); Vietnam work is mainly digital transformation"
+    },
+    "products": {
+      "label": "AI products of our own in development: BIS and AAB"
+    },
+    "aiEngineers": {
+      "label": "of our engineers work mainly on AI projects"
+    },
+    "team": {
+      "label": "people in our engineering team"
+    }
+  },
+  "deliver": {
+    "eyebrow": "What we deliver",
+    "title": "Built around the problem you need to solve",
+    "sub": "Six kinds of work we take on. We recommend the simplest approach that solves the problem, including non-AI solutions when they fit better.",
+    "c1": {
+      "title": "AI applications and knowledge assistants",
+      "text": "Assistants that answer from your own documents (RAG), document reading and data extraction, and AI features inside existing systems, with evaluation and human review where accuracy matters."
+    },
+    "c2": {
+      "title": "Business process automation",
+      "text": "Processes modelled in BPMN and run on a workflow engine such as Camunda, with AI agents for reading, classifying and drafting, and people approving through Microsoft 365."
+    },
+    "c3": {
+      "title": "Enterprise systems and integration",
+      "text": "Business and internal systems, and the interfaces that connect them to ERP and other enterprise platforms, delivered with the documentation and change control Japanese projects expect."
+    },
+    "c4": {
+      "title": "Digital transformation in Vietnam",
+      "text": "Moving paper, spreadsheet and email processes into software that teams actually use, step by step, starting with the process that hurts most."
+    },
+    "c5": {
+      "title": "Web, mobile and cloud platforms",
+      "text": "Web applications, APIs and mobile apps on cloud, on-premise or hybrid infrastructure, with CI/CD, staging environments and monitoring."
+    },
+    "c6": {
+      "title": "Long-term engineering partnership",
+      "text": "An engineering team that stays with your product after launch, keeps improving it, and keeps the knowledge documented and easy to hand over."
+    }
+  },
+  "work": {
+    "eyebrow": "Selected work",
+    "title": "Our own products, built the way we build for clients",
+    "sub": "Client projects are usually confidential, so we show our own products first. Both are in development, and we describe only what exists today.",
+    "challenge": "Challenge",
+    "approach": "Approach",
+    "stack": "Technology",
+    "status": "Status",
+    "bis": {
+      "title": "BIS · AI-native Biology education",
+      "challenge": "Students who misunderstand a concept are rarely detected, and teachers cannot personalise explanations for every learner.",
+      "approach": "Biology modelled as concepts, relations and misconceptions; an AI tutor that answers from approved sources with citations; mastery tracking; teacher review before content is served.",
+      "stack": "Structured knowledge model, retrieval-augmented AI tutor, web application"
+    },
+    "aab": {
+      "title": "AAB · AI Automation BPMN",
+      "challenge": "Business processes run through email and spreadsheets; approvals stall and nobody can see where a case is stuck.",
+      "approach": "The process is modelled in BPMN and executed on Camunda; AI agents built with Dify read, classify and draft; people approve in Microsoft 365; every step is recorded.",
+      "stack": "Camunda (BPMN), Dify, Microsoft 365"
+    },
+    "diagram": {
+      "title": "How a case moves through AAB",
+      "request": "Request arrives (Microsoft 365)",
+      "process": "BPMN process routes it (Camunda)",
+      "agent": "AI agent classifies, extracts, drafts (Dify)",
+      "review": "A person reviews and approves",
+      "done": "Case closed, full history kept"
+    }
+  },
+  "tech": {
+    "eyebrow": "Technology in context",
+    "title": "Platforms we have actually worked with",
+    "sub": "Each technology is listed with where we used it. Listing a product does not mean a partnership with, or certification by, its vendor.",
+    "items": {
+      "dify": {
+        "area": "LLM apps and AI agents",
+        "text": "AI agent steps in AAB: classifying requests, extracting data and drafting replies."
+      },
+      "camunda": {
+        "area": "BPMN workflow engine",
+        "text": "Process execution core of AAB, building on our BPMN workflow project experience."
+      },
+      "m365": {
+        "area": "Collaboration and approvals",
+        "text": "Requests, approvals and notifications in AAB; integration in business and internal systems."
+      },
+      "sap": {
+        "area": "ERP",
+        "text": "ERP integration and extension in Japanese-market projects of our founder and core team, before Brisasoft."
+      },
+      "intramart": {
+        "area": "Business applications and workflow (Japan)",
+        "text": "Business workflow application development for Japanese enterprise clients."
+      },
+      "shopify": {
+        "area": "E-commerce platform",
+        "text": "E-commerce store development and system integration."
+      },
+      "pega": {
+        "area": "Workflow and case management",
+        "text": "Case management and process automation applications."
+      }
+    }
+  },
+  "founderMsg": {
+    "eyebrow": "Message from our Founder & CEO",
+    "title": "Building an AI-native engineering company",
+    "quote": "Technology creates its greatest value when the engineers building it understand the business problem behind it.",
+    "p1": "I started working on software for Japanese clients in 2011, before I had graduated. Over the following years I moved from writing code to leading projects and delivery, across ERP, embedded systems, business workflow, healthcare and AI. One lesson kept repeating: technology creates its greatest value when the engineers building it understand the business problem behind it.",
+    "p2": "Too often, outsourcing turns engineers into ticket-takers. The specification arrives, the code is delivered, and nobody asks whether it solves the real problem. That model breaks down when a customer's challenge is unclear, spans several systems, or changes as the work progresses.",
+    "p3": "I founded Brisasoft in 2024 because AI is changing how software is designed, built and operated, and engineering teams must change with it. We use AI throughout our work so that engineers can spend more of their time on what matters: understanding the context, challenging assumptions and exploring better solutions.",
+    "p4": "Our ambition is for every Brisasoft engineer to develop a Forward Deployed Engineer mindset: technical depth, business understanding, practical problem-solving and close collaboration with customers. We are building that capability step by step, and it is the standard we hold ourselves to.",
+    "p5": "AI helps us work more effectively, but it does not replace engineering judgement, responsibility, or the trust built between people. We value professionalism, dedication, transparency and continuous improvement, and we will tell you plainly when a simpler or non-AI solution is the better choice.",
+    "p6": "We want to be more than a software vendor: a dependable technology partner that helps you turn business challenges into practical, sustainable solutions. Thank you for considering Brisasoft."
+  },
+  "founderPage": {
+    "eyebrow": "Founder & CEO",
+    "title": "Message from our Founder & CEO",
+    "profileTitle": "Profile",
+    "bio1": "Started working on software for the Japanese market in 2011, while still a student.",
+    "bio2": "Has since worked on and led projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI, part of the more than 30 projects delivered by our founder and core team.",
+    "bio3": "Moved from software engineering into project and delivery management: clarifying requirements, managing quality, and coordinating teams and customers.",
+    "bio4": "Founded Brisasoft in 2024 to build an AI-native engineering company in Vietnam.",
+    "note": "Projects before October 2024 were delivered in other organisations. They are the experience of our founder and core team, not Brisasoft's company track record."
+  },
+  "quality": {
+    "eyebrow": "Delivery and quality",
+    "title": "How we keep delivery predictable",
+    "sub": "Practices we apply on every engagement, scaled to the size of the project.",
+    "q1": {
+      "title": "Requirements clarification",
+      "text": "Open questions are tracked in a shared Q&A list until each one is answered."
+    },
+    "q2": {
+      "title": "Technical design",
+      "text": "Architecture and specification documents are reviewed before development starts."
+    },
+    "q3": {
+      "title": "Code review",
+      "text": "Every change is reviewed by another engineer. AI-assisted review is an extra check, not a replacement."
+    },
+    "q4": {
+      "title": "Testing",
+      "text": "Unit, integration and acceptance testing, with test cases traceable to requirements."
+    },
+    "q5": {
+      "title": "Security checks",
+      "text": "Dependency checks, no secrets in source code, and access limited to what each environment needs."
+    },
+    "q6": {
+      "title": "Documentation",
+      "text": "Specifications, operating notes and decisions kept up to date as the system changes."
+    },
+    "q7": {
+      "title": "Progress reporting",
+      "text": "Regular reports on progress, risks and open issues, in a format agreed with you."
+    },
+    "q8": {
+      "title": "Knowledge transfer",
+      "text": "Handover material and sessions so your team can operate and extend the system."
+    }
+  },
+  "team": {
+    "title": "Our team",
+    "text": "Our engineers come from leading Vietnamese universities for IT, such as Hanoi University of Science and Technology and Hanoi University of Industry. Most of them work mainly on AI-related projects, and every engineer uses AI tools in daily development."
   }
 }

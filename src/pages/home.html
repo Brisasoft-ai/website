@@ -7,135 +7,52 @@
       <h1>{{home.hero.titleA}} <span>{{home.hero.titleB}}</span></h1>
       <p>{{home.hero.text}}</p>
       <div class="hero-actions">
-        <a href="{{@url.products}}" class="btn btn-primary">{{cta.viewProducts}}</a>
-        <a href="{{@url.contact}}" class="btn btn-outline">{{cta.contactUs}}</a>
+        <a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a>
+        <a href="#work" class="btn btn-outline">{{cta.seeWork}}</a>
       </div>
     </div>
-    <svg class="hero-art" viewBox="0 0 520 480" role="img" aria-label="" aria-hidden="true">
-      <defs>
-        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fb0ff"/><stop offset="1" stop-color="#38c5f0"/></linearGradient>
-        <radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#4f8bff" stop-opacity=".45"/><stop offset="1" stop-color="#4f8bff" stop-opacity="0"/></radialGradient>
-      </defs>
-      <circle cx="260" cy="240" r="220" fill="url(#g2)"/>
-      <g fill="none" stroke="url(#g1)" stroke-width="2" opacity=".35">
-        <circle cx="260" cy="240" r="200"/><circle cx="260" cy="240" r="150" stroke-dasharray="3 9"/>
-      </g>
-      <!-- DNA helix strands -->
-      <g fill="none" stroke="url(#g1)" stroke-width="4" stroke-linecap="round">
-        <path d="M200 60 C 340 120, 340 180, 200 240 S 60 360, 200 420"/>
-        <path d="M320 60 C 180 120, 180 180, 320 240 S 460 360, 320 420" opacity=".75"/>
-      </g>
-      <g stroke="#9cc0ff" stroke-width="2" opacity=".55">
-        <line x1="236" y1="88" x2="284" y2="88"/><line x1="258" y1="120" x2="262" y2="120"/>
-        <line x1="238" y1="152" x2="282" y2="152"/><line x1="212" y1="190" x2="308" y2="190"/>
-        <line x1="212" y1="290" x2="308" y2="290"/><line x1="238" y1="328" x2="282" y2="328"/>
-        <line x1="236" y1="392" x2="284" y2="392"/>
-      </g>
-      <!-- neural nodes -->
-      <g stroke="#7fb0ff" stroke-width="1.4" opacity=".5">
-        <line x1="70" y1="110" x2="150" y2="200"/><line x1="70" y1="110" x2="130" y2="300"/>
-        <line x1="150" y1="200" x2="90" y2="370"/><line x1="130" y1="300" x2="90" y2="370"/>
-        <line x1="450" y1="130" x2="380" y2="220"/><line x1="450" y1="130" x2="410" y2="330"/>
-        <line x1="380" y1="220" x2="440" y2="390"/><line x1="410" y1="330" x2="440" y2="390"/>
-        <line x1="150" y1="200" x2="200" y2="240"/><line x1="380" y1="220" x2="320" y2="240"/>
-      </g>
-      <g fill="#0b1226" stroke="url(#g1)" stroke-width="2.5">
-        <circle class="pulse" cx="70" cy="110" r="9"/><circle class="pulse d2" cx="150" cy="200" r="8"/>
-        <circle class="pulse d3" cx="130" cy="300" r="8"/><circle class="pulse d4" cx="90" cy="370" r="9"/>
-        <circle class="pulse d2" cx="450" cy="130" r="9"/><circle class="pulse" cx="380" cy="220" r="8"/>
-        <circle class="pulse d4" cx="410" cy="330" r="8"/><circle class="pulse d3" cx="440" cy="390" r="9"/>
-      </g>
-      <g fill="#38c5f0">
-        <circle cx="236" cy="88" r="5"/><circle cx="284" cy="88" r="5" fill="#7fb0ff"/>
-        <circle cx="212" cy="190" r="5"/><circle cx="308" cy="190" r="5" fill="#7fb0ff"/>
-        <circle cx="212" cy="290" r="5"/><circle cx="308" cy="290" r="5" fill="#7fb0ff"/>
-        <circle cx="236" cy="392" r="5"/><circle cx="284" cy="392" r="5" fill="#7fb0ff"/>
-      </g>
-    </svg>
+    <div class="hero-flow">
+      <p class="hf-end">{{home.flow.problem}}</p>
+      <div class="hf-body">
+        <span class="hf-side hf-ai">{{home.flow.ai}}</span>
+        <ol aria-label="{{home.flow.aria}}">
+          <li><b>1</b>{{home.flow.discover}}</li>
+          <li><b>2</b>{{home.flow.design}}</li>
+          <li><b>3</b>{{home.flow.build}}</li>
+          <li><b>4</b>{{home.flow.validate}}</li>
+          <li><b>5</b>{{home.flow.operate}}</li>
+        </ol>
+        <span class="hf-side hf-owner">{{home.flow.owner}}</span>
+      </div>
+      <p class="hf-end hf-impact">{{home.flow.impact}}</p>
+    </div>
   </div>
 </section>
 
-
-
-<section class="numbers-sec">
+<section class="numbers-sec" aria-labelledby="stats-title">
   <div class="wrap">
+    <h2 id="stats-title" class="sr">{{stats.title}}</h2>
     <div class="numbers">
-      <div><b>{{numbers.n1.title}}</b><span>{{numbers.n1.text}}</span></div>
-      <div><b>{{numbers.n2.title}}</b><span>{{numbers.n2.text}}</span></div>
-      <div><b>{{numbers.n3.title}}</b><span>{{numbers.n3.text}}</span></div>
-      <div><b>{{numbers.n4.title}}</b><span>{{numbers.n4.text}}</span></div>
+      {{@statsBlock}}
     </div>
+    <p class="numbers-note">{{stats.note}}</p>
   </div>
 </section>
 
-<section id="build">
+<section id="deliver">
   <div class="wrap">
-    <span class="eyebrow center">{{home.build.eyebrow}}</span>
-    <h2 class="section-title">{{home.build.title}}</h2>
-    <p class="section-sub">{{home.build.sub}}</p>
-    <div class="grid-4">
-      <article class="feature"><span class="num">01</span><h3>{{home.build.i1.title}}</h3><p>{{home.build.i1.text}}</p></article>
-      <article class="feature"><span class="num">02</span><h3>{{home.build.i2.title}}</h3><p>{{home.build.i2.text}}</p></article>
-      <article class="feature"><span class="num">03</span><h3>{{home.build.i3.title}}</h3><p>{{home.build.i3.text}}</p></article>
-      <article class="feature"><span class="num">04</span><h3>{{home.build.i4.title}}</h3><p>{{home.build.i4.text}}</p></article>
+    <span class="eyebrow center">{{deliver.eyebrow}}</span>
+    <h2 class="section-title">{{deliver.title}}</h2>
+    <p class="section-sub">{{deliver.sub}}</p>
+    <div class="grid-3 deliver">
+      <article class="feature left"><span class="num">01</span><h3>{{deliver.c1.title}}</h3><p>{{deliver.c1.text}}</p></article>
+      <article class="feature left"><span class="num">02</span><h3>{{deliver.c2.title}}</h3><p>{{deliver.c2.text}}</p></article>
+      <article class="feature left"><span class="num">03</span><h3>{{deliver.c3.title}}</h3><p>{{deliver.c3.text}}</p></article>
+      <article class="feature left"><span class="num">04</span><h3>{{deliver.c4.title}}</h3><p>{{deliver.c4.text}}</p></article>
+      <article class="feature left"><span class="num">05</span><h3>{{deliver.c5.title}}</h3><p>{{deliver.c5.text}}</p></article>
+      <article class="feature left"><span class="num">06</span><h3>{{deliver.c6.title}}</h3><p>{{deliver.c6.text}}</p></article>
     </div>
-  </div>
-</section>
-
-
-<section id="about" class="alt">
-  <div class="wrap two-col">
-    <div>
-      <span class="eyebrow">{{home.about.eyebrow}}</span>
-      <h2>{{home.about.title}}</h2>
-      <p class="muted">{{home.about.text}}</p>
-    </div>
-    <dl class="facts card">
-      <div><dt>{{facts.companyLabel}}</dt><dd>{{facts.companyValue}}</dd></div>
-      <div><dt>{{facts.focusLabel}}</dt><dd>{{facts.focusValue}}</dd></div>
-      <div><dt>{{facts.establishedLabel}}</dt><dd>{{facts.establishedValue}}</dd></div>
-      <div><dt>{{facts.locationLabel}}</dt><dd>{{facts.locationValue}}</dd></div>
-    </dl>
-  </div>
-</section>
-
-
-<section id="products" class="alt">
-  <div class="wrap">
-    <span class="eyebrow center">{{products.eyebrow}}</span>
-    <h2 class="section-title">{{products.title}}</h2>
-    <p class="section-sub">{{products.text}}</p>
-    <div class="prod-grid">
-      <article class="card prod-card">
-        <div class="product-mark" aria-hidden="true">BIS</div>
-        <span class="badge">{{products.bis.status}}</span>
-        <h3>{{products.bis.name}} <span class="muted">· {{products.bis.full}}</span></h3>
-        <p class="muted">{{products.bis.text}}</p>
-        <a href="{{@url.bis}}" class="btn btn-outline">{{products.learn}}</a>
-      </article>
-      <article class="card prod-card">
-        <div class="product-mark" aria-hidden="true">AAB</div>
-        <span class="badge">{{products.aab.status}}</span>
-        <h3>{{products.aab.name}} <span class="muted">· {{products.aab.full}}</span></h3>
-        <p class="muted">{{products.aab.text}}</p>
-        <a href="{{@url.aab}}" class="btn btn-outline">{{products.learn}}</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-<section id="why">
-  <div class="wrap">
-    <span class="eyebrow center">{{home.why.eyebrow}}</span>
-    <h2 class="section-title">{{home.why.title}}</h2>
-    <p class="section-sub">{{home.why.sub}}</p>
-    <div class="why-list">
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>01</b></div><div class="why-text"><h3>{{home.why.i1.title}}</h3><p>{{home.why.i1.text}}</p></div></article>
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>02</b></div><div class="why-text"><h3>{{home.why.i2.title}}</h3><p>{{home.why.i2.text}}</p></div></article>
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>03</b></div><div class="why-text"><h3>{{home.why.i3.title}}</h3><p>{{home.why.i3.text}}</p></div></article>
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>04</b></div><div class="why-text"><h3>{{home.why.i4.title}}</h3><p>{{home.why.i4.text}}</p></div></article>
-    </div>
+    <p class="center mt"><a href="{{@url.services}}" class="btn btn-outline">{{cta.viewServices}}</a></p>
   </div>
 </section>
 
@@ -144,45 +61,119 @@
     <span class="eyebrow center">{{process.eyebrow}}</span>
     <h2 class="section-title">{{process.title}}</h2>
     <p class="section-sub">{{process.sub}}</p>
-    <ol class="steps">
-      <li><b>01</b><h3>{{process.s1.title}}</h3><p>{{process.s1.text}}</p></li>
-      <li><b>02</b><h3>{{process.s2.title}}</h3><p>{{process.s2.text}}</p></li>
-      <li><b>03</b><h3>{{process.s3.title}}</h3><p>{{process.s3.text}}</p></li>
-      <li><b>04</b><h3>{{process.s4.title}}</h3><p>{{process.s4.text}}</p></li>
+    <ol class="steps steps-6">
+      <li><b>01</b><h3>{{process.s1.title}}</h3><p>{{process.s1.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s1.ai}}</p></li>
+      <li><b>02</b><h3>{{process.s2.title}}</h3><p>{{process.s2.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s2.ai}}</p></li>
+      <li><b>03</b><h3>{{process.s3.title}}</h3><p>{{process.s3.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s3.ai}}</p></li>
+      <li><b>04</b><h3>{{process.s4.title}}</h3><p>{{process.s4.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s4.ai}}</p></li>
+      <li><b>05</b><h3>{{process.s5.title}}</h3><p>{{process.s5.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s5.ai}}</p></li>
+      <li><b>06</b><h3>{{process.s6.title}}</h3><p>{{process.s6.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s6.ai}}</p></li>
     </ol>
   </div>
 </section>
 
-<section id="japan">
+<section id="why">
   <div class="wrap">
-    <span class="eyebrow center">{{japan.eyebrow}}</span>
-    <h2 class="section-title">{{japan.title}}</h2>
-    <p class="section-sub">{{japan.text}}</p>
-    <div class="pillars domains"><span>{{services.domains.d1}}</span><span>{{services.domains.d2}}</span><span>{{services.domains.d3}}</span><span>{{services.domains.d4}}</span><span>{{services.domains.d5}}</span></div>
-    <p class="center mt"><a href="{{@url.services}}" class="btn btn-outline">{{cta.viewServices}}</a></p>
-  </div>
-</section>
-
-<section id="vision" class="alt">
-  <div class="wrap">
-    <span class="eyebrow center">{{vision.eyebrow}}</span>
-    <h2 class="section-title">{{vision.title}}</h2>
-    <p class="section-sub">{{vision.text}}</p>
-    <div class="pillars">
-      <span>{{vision.p1}}</span><i aria-hidden="true">+</i><span>{{vision.p2}}</span><i aria-hidden="true">+</i><span>{{vision.p3}}</span>
+    <span class="eyebrow center">{{home.why.eyebrow}}</span>
+    <h2 class="section-title">{{home.why.title}}</h2>
+    <p class="section-sub">{{home.why.sub}}</p>
+    <div class="grid-2 principles">
+      <article class="feature left"><span class="num">01</span><h3>{{home.why.i1.title}}</h3><p>{{home.why.i1.text}}</p></article>
+      <article class="feature left"><span class="num">02</span><h3>{{home.why.i2.title}}</h3><p>{{home.why.i2.text}}</p></article>
+      <article class="feature left"><span class="num">03</span><h3>{{home.why.i3.title}}</h3><p>{{home.why.i3.text}}</p></article>
+      <article class="feature left"><span class="num">04</span><h3>{{home.why.i4.title}}</h3><p>{{home.why.i4.text}}</p></article>
     </div>
   </div>
 </section>
 
+<section id="work" class="alt">
+  <div class="wrap">
+    <span class="eyebrow center">{{work.eyebrow}}</span>
+    <h2 class="section-title">{{work.title}}</h2>
+    <p class="section-sub">{{work.sub}}</p>
+    <div class="cases">
+      <article class="case">
+        <div class="case-head"><h3>{{work.bis.title}}</h3><span class="badge">{{products.bis.status}}</span></div>
+        <dl class="case-dl">
+          <div><dt>{{work.challenge}}</dt><dd>{{work.bis.challenge}}</dd></div>
+          <div><dt>{{work.approach}}</dt><dd>{{work.bis.approach}}</dd></div>
+          <div><dt>{{work.stack}}</dt><dd>{{work.bis.stack}}</dd></div>
+        </dl>
+        <a href="{{@url.bis}}" class="btn btn-outline">{{products.learn}}<span class="sr"> {{products.bis.name}}</span></a>
+      </article>
+      <article class="case">
+        <div class="case-head"><h3>{{work.aab.title}}</h3><span class="badge">{{products.aab.status}}</span></div>
+        <dl class="case-dl">
+          <div><dt>{{work.challenge}}</dt><dd>{{work.aab.challenge}}</dd></div>
+          <div><dt>{{work.approach}}</dt><dd>{{work.aab.approach}}</dd></div>
+          <div><dt>{{work.stack}}</dt><dd>{{work.aab.stack}}</dd></div>
+        </dl>
+        <figure class="pipeline">
+          <figcaption>{{work.diagram.title}}</figcaption>
+          <ol>
+            <li>{{work.diagram.request}}</li>
+            <li>{{work.diagram.process}}</li>
+            <li class="pl-ai">{{work.diagram.agent}}</li>
+            <li class="pl-human">{{work.diagram.review}}</li>
+            <li>{{work.diagram.done}}</li>
+          </ol>
+        </figure>
+        <a href="{{@url.aab}}" class="btn btn-outline">{{products.learn}}<span class="sr"> {{products.aab.name}}</span></a>
+      </article>
+    </div>
+  </div>
+</section>
 
-<section id="contact">
+<section id="tech">
+  <div class="wrap">
+    <span class="eyebrow center">{{tech.eyebrow}}</span>
+    <h2 class="section-title">{{tech.title}}</h2>
+    <p class="section-sub">{{tech.sub}}</p>
+    <div class="tech-grid">
+      {{@techBlock}}
+    </div>
+  </div>
+</section>
+
+<section id="founder" class="alt">
+  <div class="wrap founder-teaser">
+    <div>
+      <span class="eyebrow">{{founderMsg.eyebrow}}</span>
+      <h2>{{founderMsg.title}}</h2>
+      <blockquote class="pull-quote"><p>{{founderMsg.quote}}</p></blockquote>
+      <p class="muted">{{founderMsg.p4}}</p>
+      <p><a href="{{@url.founder}}" class="btn btn-outline">{{cta.readMessage}}</a></p>
+    </div>
+    {{@founderCard}}
+  </div>
+</section>
+
+<section id="quality">
+  <div class="wrap">
+    <span class="eyebrow center">{{quality.eyebrow}}</span>
+    <h2 class="section-title">{{quality.title}}</h2>
+    <p class="section-sub">{{quality.sub}}</p>
+    <ul class="checklist">
+      <li><h3>{{quality.q1.title}}</h3><p>{{quality.q1.text}}</p></li>
+      <li><h3>{{quality.q2.title}}</h3><p>{{quality.q2.text}}</p></li>
+      <li><h3>{{quality.q3.title}}</h3><p>{{quality.q3.text}}</p></li>
+      <li><h3>{{quality.q4.title}}</h3><p>{{quality.q4.text}}</p></li>
+      <li><h3>{{quality.q5.title}}</h3><p>{{quality.q5.text}}</p></li>
+      <li><h3>{{quality.q6.title}}</h3><p>{{quality.q6.text}}</p></li>
+      <li><h3>{{quality.q7.title}}</h3><p>{{quality.q7.text}}</p></li>
+      <li><h3>{{quality.q8.title}}</h3><p>{{quality.q8.text}}</p></li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="alt">
   <div class="wrap">
     <div class="cta-box">
       <span class="eyebrow">{{contact.eyebrow}}</span>
-      <h2 class="section-title">{{contact.title}}</h2>
+      <h2 class="section-title">{{services.ctaTitle}}</h2>
       <p class="section-sub">{{contact.text}}</p>
-      <a href="mailto:{{@email}}" class="btn btn-primary">{{@email}}</a>
+      <a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a>
+      <p class="cta-mail"><a href="mailto:{{@email}}">{{@email}}</a></p>
     </div>
   </div>
 </section>
-

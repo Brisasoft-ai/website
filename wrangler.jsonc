@@ -13,7 +13,8 @@
     "enabled": true
   },
   "assets": {
-    "directory": "dist"
+    "directory": "dist",
+    "not_found_handling": "404-page"
   },
   "env": {
     "staging": {
@@ -28,7 +29,8 @@
         "enabled": true
       },
       "assets": {
-        "directory": "dist"
+        "directory": "dist",
+    "not_found_handling": "404-page"
       }
     }
   }

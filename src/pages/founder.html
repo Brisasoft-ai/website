@@ -1,0 +1,57 @@
+<section class="hero small">
+  <div class="wrap">
+    <span class="eyebrow">{{founderPage.eyebrow}}</span>
+    <h1>{{founderPage.title}}</h1>
+    <p>{{founderMsg.quote}}</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap letter-layout">
+    <article class="letter prose">
+      <h2>{{founderMsg.title}}</h2>
+      <p>{{founderMsg.p1}}</p>
+      <p>{{founderMsg.p2}}</p>
+      <p>{{founderMsg.p3}}</p>
+      <p>{{founderMsg.p4}}</p>
+      <p>{{founderMsg.p5}}</p>
+      <p>{{founderMsg.p6}}</p>
+      {{@founderCard}}
+    </article>
+    <aside class="profile card" aria-labelledby="profile-title">
+      {{@founderPortrait}}
+      <h2 id="profile-title">{{founderPage.profileTitle}}</h2>
+      <ol class="timeline compact">
+        <li><time>2011</time><p>{{founderPage.bio1}}</p></li>
+        <li><time>2011–2024</time><p>{{founderPage.bio2}}</p></li>
+        <li><time>2011–2024</time><p>{{founderPage.bio3}}</p></li>
+        <li><time>2024</time><p>{{founderPage.bio4}}</p></li>
+      </ol>
+      <p class="muted small">{{founderPage.note}}</p>
+    </aside>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <span class="eyebrow center">{{home.why.eyebrow}}</span>
+    <h2 class="section-title">{{home.why.title}}</h2>
+    <div class="grid-4">
+      <article class="feature"><span class="num">01</span><h3>{{home.why.i1.title}}</h3><p>{{home.why.i1.text}}</p></article>
+      <article class="feature"><span class="num">02</span><h3>{{home.why.i2.title}}</h3><p>{{home.why.i2.text}}</p></article>
+      <article class="feature"><span class="num">03</span><h3>{{home.why.i3.title}}</h3><p>{{home.why.i3.text}}</p></article>
+      <article class="feature"><span class="num">04</span><h3>{{home.why.i4.title}}</h3><p>{{home.why.i4.text}}</p></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-box">
+      <span class="eyebrow">{{contact.eyebrow}}</span>
+      <h2 class="section-title">{{services.ctaTitle}}</h2>
+      <p class="section-sub">{{contact.text}}</p>
+      <a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a>
+    </div>
+  </div>
+</section>

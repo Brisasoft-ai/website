@@ -10,7 +10,28 @@
   "phone": "0927997699",
   "founder": {
     "name": "Nguyễn Thanh Bình",
-    "linkedin": "https://www.linkedin.com/in/nguy%E1%BB%85n-thanh-b%C3%ACnh-a198b862"
+    "linkedin": "https://www.linkedin.com/in/nguy%E1%BB%85n-thanh-b%C3%ACnh-a198b862",
+    "photo": "/assets/founder/avatar.jpg",
+    "portrait": "/assets/founder/portrait.jpg"
   },
-  "bisUrl": ""
+  "bisUrl": "",
+  "_statsNote": "Homepage/About figures. Labels live in src/i18n (stats.<id>.label). Set show:true only after the definition in docs/knowledge/company-profile.md is confirmed.",
+  "stats": [
+    { "id": "founded", "value": "2024", "show": true },
+    { "id": "projects", "value": "30+", "show": true },
+    { "id": "markets", "value": "70 / 30", "show": true },
+    { "id": "products", "value": "2", "show": true },
+    { "id": "aiEngineers", "value": "70%+", "show": false },
+    { "id": "team", "value": "", "show": false }
+  ],
+  "_technologiesNote": "Show a technology only with a project where it was actually used. Text lives in src/i18n (tech.items.<id>). Listing never implies vendor partnership.",
+  "technologies": [
+    { "id": "dify", "name": "Dify", "url": "https://dify.ai/", "show": true },
+    { "id": "camunda", "name": "Camunda", "url": "https://camunda.com/", "show": true },
+    { "id": "m365", "name": "Microsoft 365", "url": "https://www.microsoft.com/microsoft-365", "show": true },
+    { "id": "sap", "name": "SAP / ERP", "url": "https://www.sap.com/", "show": true },
+    { "id": "intramart", "name": "intra-mart", "url": "https://www.intra-mart.jp/", "show": false },
+    { "id": "shopify", "name": "Shopify", "url": "https://www.shopify.com/", "show": false },
+    { "id": "pega", "name": "Pega", "url": "https://www.pega.com/", "show": false }
+  ]
 }

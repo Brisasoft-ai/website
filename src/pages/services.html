@@ -9,13 +9,13 @@
 <section>
   <div class="wrap">
     <div class="why-list">
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>01</b></div><div class="why-text"><h3>{{services.ai.title}}</h3><p>{{services.ai.text}}</p>
+      <article class="why-row"><div class="why-art" aria-hidden="true"><b>01</b></div><div class="why-text"><h2 class="item-title">{{services.ai.title}}</h2><p>{{services.ai.text}}</p>
         <ul class="bullets"><li>{{services.ai.b1}}</li><li>{{services.ai.b2}}</li><li>{{services.ai.b3}}</li><li>{{services.ai.b4}}</li></ul></div></article>
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>02</b></div><div class="why-text"><h3>{{services.data.title}}</h3><p>{{services.data.text}}</p>
+      <article class="why-row"><div class="why-art" aria-hidden="true"><b>02</b></div><div class="why-text"><h2 class="item-title">{{services.data.title}}</h2><p>{{services.data.text}}</p>
         <ul class="bullets"><li>{{services.data.b1}}</li><li>{{services.data.b2}}</li><li>{{services.data.b3}}</li><li>{{services.data.b4}}</li></ul></div></article>
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>03</b></div><div class="why-text"><h3>{{services.eng.title}}</h3><p>{{services.eng.text}}</p>
+      <article class="why-row"><div class="why-art" aria-hidden="true"><b>03</b></div><div class="why-text"><h2 class="item-title">{{services.eng.title}}</h2><p>{{services.eng.text}}</p>
         <ul class="bullets"><li>{{services.eng.b1}}</li><li>{{services.eng.b2}}</li><li>{{services.eng.b3}}</li><li>{{services.eng.b4}}</li></ul></div></article>
-      <article class="why-row"><div class="why-art" aria-hidden="true"><b>04</b></div><div class="why-text"><h3>{{services.cloud.title}}</h3><p>{{services.cloud.text}}</p>
+      <article class="why-row"><div class="why-art" aria-hidden="true"><b>04</b></div><div class="why-text"><h2 class="item-title">{{services.cloud.title}}</h2><p>{{services.cloud.text}}</p>
         <ul class="bullets"><li>{{services.cloud.b1}}</li><li>{{services.cloud.b2}}</li><li>{{services.cloud.b3}}</li><li>{{services.cloud.b4}}</li></ul></div></article>
     </div>
   </div>
@@ -26,11 +26,13 @@
     <span class="eyebrow center">{{process.eyebrow}}</span>
     <h2 class="section-title">{{process.title}}</h2>
     <p class="section-sub">{{process.sub}}</p>
-    <ol class="steps">
-      <li><b>01</b><h3>{{process.s1.title}}</h3><p>{{process.s1.text}}</p></li>
-      <li><b>02</b><h3>{{process.s2.title}}</h3><p>{{process.s2.text}}</p></li>
-      <li><b>03</b><h3>{{process.s3.title}}</h3><p>{{process.s3.text}}</p></li>
-      <li><b>04</b><h3>{{process.s4.title}}</h3><p>{{process.s4.text}}</p></li>
+    <ol class="steps steps-6">
+      <li><b>01</b><h3>{{process.s1.title}}</h3><p>{{process.s1.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s1.ai}}</p></li>
+      <li><b>02</b><h3>{{process.s2.title}}</h3><p>{{process.s2.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s2.ai}}</p></li>
+      <li><b>03</b><h3>{{process.s3.title}}</h3><p>{{process.s3.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s3.ai}}</p></li>
+      <li><b>04</b><h3>{{process.s4.title}}</h3><p>{{process.s4.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s4.ai}}</p></li>
+      <li><b>05</b><h3>{{process.s5.title}}</h3><p>{{process.s5.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s5.ai}}</p></li>
+      <li><b>06</b><h3>{{process.s6.title}}</h3><p>{{process.s6.text}}</p><p class="step-ai"><span>{{process.aiLabel}}</span>{{process.s6.ai}}</p></li>
     </ol>
   </div>
 </section>
@@ -56,7 +58,8 @@
       <span class="eyebrow">{{contact.eyebrow}}</span>
       <h2 class="section-title">{{services.ctaTitle}}</h2>
       <p class="section-sub">{{services.ctaText}}</p>
-      <a href="mailto:{{@email}}" class="btn btn-primary">{{@email}}</a>
+      <a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a>
+      <p class="cta-mail"><a href="mailto:{{@email}}">{{@email}}</a></p>
     </div>
   </div>
 </section>

@@ -6,6 +6,16 @@
   </div>
 </section>
 
+<section class="numbers-sec" aria-labelledby="stats-title">
+  <div class="wrap">
+    <h2 id="stats-title" class="sr">{{stats.title}}</h2>
+    <div class="numbers">
+      {{@statsBlock}}
+    </div>
+    <p class="numbers-note">{{stats.note}}</p>
+  </div>
+</section>
+
 <section id="company" class="alt">
   <div class="wrap">
     <span class="eyebrow center">{{footer.labels.company}}</span>
@@ -24,7 +34,6 @@
     <span class="eyebrow center">{{about2.timelineEyebrow}}</span>
     <h2 class="section-title">{{about2.timelineTitle}}</h2>
     <ol class="timeline rich">
-      <li><time>{{about2.t0.date}}</time><span class="tl-tag">{{about2.t0.tag}}</span><h3>{{about2.t0.title}}</h3><p>{{about2.t0.text}}</p></li>
       <li><time>{{about2.t1.date}}</time><span class="tl-tag">{{about2.t1.tag}}</span><h3>{{about2.t1.title}}</h3><p>{{about2.t1.text}}</p></li>
       <li><time>{{about2.t2.date}}</time><span class="tl-tag">{{about2.t2.tag}}</span><h3>{{about2.t2.title}}</h3><p>{{about2.t2.text}}</p></li>
       <li><time>{{about2.t3.date}}</time><span class="tl-tag">{{about2.t3.tag}}</span><h3>{{about2.t3.title}}</h3><p>{{about2.t3.text}}</p></li>
@@ -34,7 +43,20 @@
   </div>
 </section>
 
-{{@founderBlock}}
+<section class="alt">
+  <div class="wrap two-col top">
+    <div>
+      <h2>{{team.title}}</h2>
+      <p class="muted">{{team.text}}</p>
+    </div>
+    <div>
+      <h2>{{founderMsg.eyebrow}}</h2>
+      <blockquote class="pull-quote"><p>{{founderMsg.quote}}</p></blockquote>
+      {{@founderCard}}
+      <p class="mt"><a href="{{@url.founder}}" class="btn btn-outline">{{about.founderLink}}</a></p>
+    </div>
+  </div>
+</section>
 
 <section id="vision">
   <div class="wrap">
