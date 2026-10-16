@@ -47,7 +47,7 @@
     },
     "aab": {
       "title": "AAB, AI Automation BPMN | Brisasoft",
-      "description": "AAB (AI Automation BPMN) tự động hóa quy trình nghiệp vụ bằng cách kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365. Đang phát triển."
+      "description": "AAB (AI Automation BPMN) tự động hóa quy trình nghiệp vụ bằng cách kết hợp quy trình BPMN 2.0 trên Camunda, AI agent và Microsoft 365. Đang phát triển."
     },
     "privacy": {
       "title": "Thông báo quyền riêng tư | Brisasoft",
@@ -380,43 +380,43 @@
     "aab": {
       "name": "AAB",
       "full": "AI Automation BPMN",
-      "text": "Tự động hóa quy trình nghiệp vụ, kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365.",
+      "text": "Tự động hóa quy trình nghiệp vụ: quy trình BPMN 2.0 trên Camunda, AI agent cho các tác vụ đã định nghĩa, phê duyệt qua Microsoft 365.",
       "status": "Đang phát triển"
     }
   },
   "aab": {
     "eyebrow": "Sản phẩm",
     "heroTitle": "AAB: tự động hóa quy trình nghiệp vụ bằng BPMN và AI agent",
-    "heroText": "AAB mô hình hóa quy trình nghiệp vụ bằng BPMN và vận hành trên Camunda. AI agent đảm nhận các bước như đọc và phân loại tài liệu, còn con người ra quyết định qua Microsoft 365.",
+    "heroText": "AAB vận hành các quy trình nghiệp vụ được mô hình hóa bằng BPMN 2.0 trên workflow engine Camunda. AI agent thực hiện các tác vụ được định nghĩa trong quy trình, như phân loại yêu cầu và trích xuất dữ liệu từ tài liệu. Việc phê duyệt do con người thực hiện qua Microsoft 365.",
     "status": "Đang phát triển",
     "problemEyebrow": "Vấn đề",
     "problemTitle": "Quy trình bị chôn trong email và bảng tính",
     "problemText": "Nhiều quy trình nghiệp vụ vẫn chạy qua email, tệp và trí nhớ. Phê duyệt bị kẹt, tài liệu bị nhập lại, và không ai thấy hồ sơ đang kẹt ở đâu hay vì sao.",
     "solutionEyebrow": "Cách tiếp cận của chúng tôi",
-    "solutionTitle": "Làm rõ quy trình trước, rồi mới tự động hóa",
-    "solutionText": "AAB biến quy trình thành mô hình BPMN và thực thi nó. AI agent đảm nhận các bước trước đây cần người đọc, phân loại hoặc soạn nháp, còn con người vẫn nắm quyền quyết định.",
+    "solutionTitle": "Quy trình rõ ràng, AI được kiểm soát",
+    "solutionText": "Quy trình là một mô hình BPMN: mọi bước, quyết định và bàn giao đều minh bạch và có quản lý phiên bản. AI agent chỉ được gọi ở các bước đã định nghĩa; ở nơi cần trách nhiệm, kết quả của AI được chuyển cho người xem xét trước khi quy trình tiếp tục.",
     "c1": {
-      "title": "BPMN workflow trên Camunda",
-      "text": "Mỗi quy trình chạy từng bước trên workflow engine, có trạng thái, bộ đếm thời gian, phê duyệt và lịch sử đầy đủ."
+      "title": "Quy trình BPMN 2.0 trên Camunda",
+      "text": "Camunda thực thi mô hình: lưu trạng thái từng hồ sơ, xử lý timer và hạn xử lý, đồng thời ghi lại từng bước thực thi."
     },
     "c2": {
-      "title": "AI agent",
-      "text": "Agent phân loại yêu cầu, trích xuất dữ liệu từ tài liệu và soạn nháp phản hồi, dựa trên tri thức và công cụ của bạn."
+      "title": "AI agent là tác vụ trong quy trình",
+      "text": "Agent chạy dưới dạng service task: phân loại yêu cầu, trích xuất dữ liệu từ tài liệu và soạn phản hồi, dựa trên tri thức và công cụ của bạn."
     },
     "c3": {
       "title": "Microsoft 365",
-      "text": "Yêu cầu, phê duyệt và thông báo đến với mọi người ngay nơi họ đang làm việc, qua Microsoft 365."
+      "text": "Yêu cầu, phê duyệt và thông báo đi qua Microsoft 365, để mọi người tiếp tục làm việc trong công cụ quen thuộc."
     },
     "c4": {
-      "title": "Con người nắm quyền",
-      "text": "AI đề xuất, con người quyết định. Các bước nhạy cảm luôn cần người duyệt, và mọi hành động đều truy vết được."
+      "title": "Con người phê duyệt",
+      "text": "AI đề xuất, con người quyết định. Các bước cần trách nhiệm là user task có người phê duyệt rõ ràng, và mọi thao tác đều được ghi lại."
     },
     "whereTitle": "Hiện chúng tôi đang ở đâu",
     "whereText": "AAB đang được phát triển. Dựa trên kinh nghiệm các dự án BPMN và workflow, chúng tôi đang xây dựng lõi workflow trên Camunda.",
     "faqTitle": "Câu hỏi thường gặp",
     "q1": {
       "title": "AAB làm gì?",
-      "text": "Tự động hóa quy trình nghiệp vụ: mô hình hóa bằng BPMN, thực thi trên workflow engine, dùng AI agent cho các bước cần đọc hiểu, phân loại hay soạn nháp."
+      "text": "Tự động hóa quy trình nghiệp vụ. Quy trình được mô hình hóa bằng BPMN 2.0 và chạy trên workflow engine; AI agent thực hiện các bước đã định nghĩa như phân loại, trích xuất và soạn thảo."
     },
     "q2": {
       "title": "AAB đã dùng được chưa?",
@@ -427,7 +427,36 @@
       "text": "Không. AI lo phần chuẩn bị, con người phê duyệt và quyết định, hệ thống ghi lại những gì đã xảy ra."
     },
     "ctaTitle": "Bạn có quy trình đáng được tự động hóa?",
-    "ctaText": "Hãy cho chúng tôi biết hiện nó vận hành thế nào. Chúng tôi sẽ phản hồi qua email."
+    "ctaText": "Hãy cho chúng tôi biết hiện nó vận hành thế nào. Chúng tôi sẽ phản hồi qua email.",
+    "q4": {
+      "title": "AI được dùng ở đâu và không dùng ở đâu?",
+      "text": "AI chỉ được dùng cho các tác vụ đã định nghĩa như phân loại, trích xuất, soạn thảo. Điều hướng, hạn xử lý và phê duyệt được định nghĩa trong mô hình BPMN và do workflow engine thực thi, không do AI quyết định."
+    },
+    "exampleEyebrow": "Ví dụ",
+    "exampleTitle": "Một yêu cầu đi qua quy trình AAB như thế nào",
+    "exampleSub": "Quy trình đơn giản hóa theo ký hiệu BPMN. Quy trình thực tế được mô hình hóa cùng khách hàng.",
+    "diagram": {
+      "alt": "Sơ đồ BPMN. Yêu cầu đến sẽ khởi động quy trình. AI agent phân loại yêu cầu, trích xuất dữ liệu rồi soạn phản hồi. Người xem xét kiểm tra bản nháp. Nếu được duyệt, phản hồi được gửi và hồ sơ đóng; nếu bị từ chối, bản nháp được chỉnh sửa.",
+      "lane1": "AI agent / hệ thống",
+      "lane2": "Người xem xét",
+      "start": "Nhận|yêu cầu",
+      "t1": "Phân loại,|trích xuất",
+      "t2": "Soạn|phản hồi",
+      "t3": "Xem xét|bản nháp",
+      "gw": "Duyệt?",
+      "t4": "Gửi|phản hồi",
+      "end": "Đóng|hồ sơ",
+      "yes": "Được duyệt",
+      "no": "Từ chối: chỉnh sửa",
+      "legend": "Message start event · Service task (AI agent, hệ thống) · User task (con người) · Exclusive gateway · End event",
+      "steps": "Các bước của quy trình",
+      "s1": "Yêu cầu đến (message start event) và khởi động quy trình.",
+      "s2": "AI agent phân loại yêu cầu và trích xuất dữ liệu (service task).",
+      "s3": "AI agent soạn phản hồi (service task).",
+      "s4": "Người xem xét kiểm tra bản nháp (user task).",
+      "s5": "Exclusive gateway: nếu được duyệt, phản hồi được gửi (service task); nếu bị từ chối, bản nháp được chỉnh sửa.",
+      "s6": "Hồ sơ được đóng và lịch sử được lưu (end event)."
+    }
   },
   "privacy": {
     "eyebrow": "Pháp lý",
@@ -511,16 +540,16 @@
     "aab": {
       "title": "AAB · AI Automation BPMN",
       "challenge": "Quy trình chạy qua email và bảng tính; phê duyệt bị tắc và không ai biết hồ sơ đang kẹt ở đâu.",
-      "approach": "Quy trình được mô hình hóa bằng BPMN và chạy trên Camunda; AI agent đọc, phân loại và soạn thảo; con người phê duyệt trong Microsoft 365; mọi bước đều được ghi lại.",
-      "stack": "Camunda (BPMN), AI agent, Microsoft 365"
+      "approach": "Quy trình được mô hình hóa bằng BPMN 2.0 và chạy trên Camunda; AI agent chạy dưới dạng service task (phân loại, trích xuất, soạn thảo); con người phê duyệt trong Microsoft 365 dưới dạng user task; mọi bước đều được ghi lại.",
+      "stack": "Camunda (BPMN 2.0), AI agent, Microsoft 365"
     },
     "diagram": {
       "title": "Một hồ sơ đi qua AAB như thế nào",
-      "request": "Yêu cầu đến (Microsoft 365)",
-      "process": "Quy trình BPMN điều phối (Camunda)",
-      "agent": "AI agent phân loại, trích xuất, soạn thảo",
-      "review": "Con người rà soát và phê duyệt",
-      "done": "Hoàn tất, lưu đủ lịch sử"
+      "request": "Nhận yêu cầu (Microsoft 365)",
+      "process": "Khởi tạo process instance trên Camunda",
+      "agent": "AI agent phân loại, trích xuất, soạn thảo (service task)",
+      "review": "Con người xem xét và phê duyệt (user task)",
+      "done": "Đóng hồ sơ, ghi lại lịch sử"
     }
   },
   "tech": {

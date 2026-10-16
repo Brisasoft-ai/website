@@ -47,7 +47,7 @@
     },
     "aab": {
       "title": "AAB, AI Automation BPMN | Brisasoft",
-      "description": "AAB (AI Automation BPMN) automates business processes by combining BPMN workflows on Camunda, AI agents and Microsoft 365. In development."
+      "description": "AAB (AI Automation BPMN) automates business processes: BPMN 2.0 processes on Camunda, AI agents for defined tasks and approvals through Microsoft 365. In development."
     },
     "privacy": {
       "title": "Privacy notice | Brisasoft",
@@ -380,43 +380,43 @@
     "aab": {
       "name": "AAB",
       "full": "AI Automation BPMN",
-      "text": "Business process automation that combines BPMN workflows on Camunda, AI agents and Microsoft 365.",
+      "text": "Business process automation: BPMN 2.0 processes on Camunda, AI agents for defined tasks, and approvals through Microsoft 365.",
       "status": "In development"
     }
   },
   "aab": {
     "eyebrow": "Product",
     "heroTitle": "AAB: automate business processes with BPMN and AI agents",
-    "heroText": "AAB models a business process in BPMN and runs it on Camunda. AI agents handle steps such as reading and classifying documents, and people make decisions through Microsoft 365.",
+    "heroText": "AAB runs business processes modelled in BPMN 2.0 on the Camunda workflow engine. AI agents carry out defined tasks in the process, such as classifying requests and extracting data from documents. Approvals go to people through Microsoft 365.",
     "status": "In development",
     "problemEyebrow": "The problem",
     "problemTitle": "Processes buried in email and spreadsheets",
     "problemText": "Many processes still depend on email, files and people's memory. Approvals stall, documents are re-entered, and no one can see where a case is stuck.",
     "solutionEyebrow": "Our approach",
-    "solutionTitle": "Make the process explicit, then automate it",
-    "solutionText": "AAB turns a process into a BPMN model and executes it. AI agents take on steps that used to need a person to read, classify or draft, while people stay in control of decisions.",
+    "solutionTitle": "Explicit process, controlled AI",
+    "solutionText": "The process is a BPMN model: every step, decision and handover is visible and versioned. AI agents are called only at defined steps, and where accountability matters their output goes to a person for review before the process continues.",
     "c1": {
-      "title": "BPMN workflow on Camunda",
-      "text": "Each process runs step by step on a workflow engine, with state, timers, approvals and a full history."
+      "title": "BPMN 2.0 process on Camunda",
+      "text": "Camunda executes the model: it keeps the state of every case, handles timers and deadlines, and records each execution step."
     },
     "c2": {
-      "title": "AI agents",
-      "text": "Agents classify requests, extract data from documents and draft replies, using your knowledge and tools."
+      "title": "AI agents as process tasks",
+      "text": "Agents run as service tasks: classifying requests, extracting data from documents and drafting replies, using your knowledge and tools."
     },
     "c3": {
       "title": "Microsoft 365",
-      "text": "Requests, approvals and notifications reach people where they already work, through Microsoft 365."
+      "text": "Requests come in, and approvals and notifications go out, through Microsoft 365, so people keep working in the tools they use today."
     },
     "c4": {
-      "title": "Human in control",
-      "text": "AI proposes, people decide. Sensitive steps stay under human approval, and every action is traceable."
+      "title": "Human approval",
+      "text": "AI proposes, people decide. Steps that need accountability are user tasks with a named approver, and every action is recorded."
     },
     "whereTitle": "Where we are",
     "whereText": "AAB is in development. Drawing on our BPMN and workflow project experience, we are building its workflow core on Camunda.",
     "faqTitle": "Frequently asked questions",
     "q1": {
       "title": "What does AAB do?",
-      "text": "It automates business processes: modelled in BPMN, executed on a workflow engine, with AI agents for the steps that need reading, classifying or drafting."
+      "text": "It automates business processes. Processes are modelled in BPMN 2.0 and executed on a workflow engine; AI agents carry out defined steps such as classifying, extracting and drafting."
     },
     "q2": {
       "title": "Is AAB available now?",
@@ -427,7 +427,36 @@
       "text": "No. AI handles preparation work, people approve and decide, and the system records what happened."
     },
     "ctaTitle": "Have a process worth automating?",
-    "ctaText": "Tell us how it works today. We will reply by email."
+    "ctaText": "Tell us how it works today. We will reply by email.",
+    "q4": {
+      "title": "Where is AI used, and where not?",
+      "text": "AI is used only in defined tasks such as classification, extraction and drafting. Routing, deadlines and approvals are defined in the BPMN model and executed by the workflow engine, not decided by AI."
+    },
+    "exampleEyebrow": "Example",
+    "exampleTitle": "How a request moves through an AAB process",
+    "exampleSub": "A simplified process in BPMN notation. Real processes are modelled together with the customer.",
+    "diagram": {
+      "alt": "BPMN diagram. A request arrives and starts the process. An AI agent classifies the request and extracts data, then drafts a reply. A reviewer checks the draft. If it is approved, the reply is sent and the case closes; if it is rejected, the draft is revised.",
+      "lane1": "AI agent / system",
+      "lane2": "Reviewer",
+      "start": "Request|received",
+      "t1": "Classify and|extract data",
+      "t2": "Draft|reply",
+      "t3": "Review|draft",
+      "gw": "Approved?",
+      "t4": "Send|reply",
+      "end": "Case|closed",
+      "yes": "Approved",
+      "no": "Rejected: revise",
+      "legend": "Message start event · Service task (AI agent, system) · User task (person) · Exclusive gateway · End event",
+      "steps": "Process steps",
+      "s1": "A request arrives (message start event) and starts the process.",
+      "s2": "An AI agent classifies the request and extracts data (service task).",
+      "s3": "An AI agent drafts a reply (service task).",
+      "s4": "A reviewer checks the draft (user task).",
+      "s5": "Exclusive gateway: if approved, the reply is sent (service task); if rejected, the draft is revised.",
+      "s6": "The case closes and its history is kept (end event)."
+    }
   },
   "privacy": {
     "eyebrow": "Legal",
@@ -511,16 +540,16 @@
     "aab": {
       "title": "AAB · AI Automation BPMN",
       "challenge": "Business processes run through email and spreadsheets; approvals stall and nobody can see where a case is stuck.",
-      "approach": "The process is modelled in BPMN and executed on Camunda; AI agents read, classify and draft; people approve in Microsoft 365; every step is recorded.",
-      "stack": "Camunda (BPMN), AI agents, Microsoft 365"
+      "approach": "The process is modelled in BPMN 2.0 and executed on Camunda; AI agents run as service tasks (classify, extract, draft); a person approves in Microsoft 365 as a user task; every step is recorded.",
+      "stack": "Camunda (BPMN 2.0), AI agents, Microsoft 365"
     },
     "diagram": {
       "title": "How a case moves through AAB",
-      "request": "Request arrives (Microsoft 365)",
-      "process": "BPMN process routes it (Camunda)",
-      "agent": "AI agent classifies, extracts, drafts",
-      "review": "A person reviews and approves",
-      "done": "Case closed, full history kept"
+      "request": "Request received (Microsoft 365)",
+      "process": "Process instance starts on Camunda",
+      "agent": "AI agent classifies, extracts, drafts (service task)",
+      "review": "A person reviews and approves (user task)",
+      "done": "Case closed, history recorded"
     }
   },
   "tech": {

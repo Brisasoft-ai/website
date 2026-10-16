@@ -55,7 +55,7 @@ AI use in each of the 6 process steps, "every engineer uses AI tools in daily de
 | Technology | Evidence | Status |
 |---|---|---|
 | Dify | AAB does not use Dify; no confirmed project. **Hidden** (`show: false`, founder decision 2026-10-16) | Hidden |
-| Camunda / BPMN 2.0 | AAB core; founder's BPMN workflow projects | Published |
+| Camunda / BPMN 2.0 | AAB core; founder's BPMN workflow projects | Published | **Open: confirm Camunda version (7 or 8); not stated on the site.**
 | Microsoft 365 | AAB (requests, approvals) and internal system integration | Published |
 | SAP / ERP | Founder's Japanese-market projects (pre-Brisasoft) | Published, labelled as founder experience |
 | intra-mart | Confirmed by founder 2026-10-16 as used in real projects | Published |

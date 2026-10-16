@@ -674,3 +674,26 @@ section.dark .feature:hover,section.dark .case:hover,section.dark .tech-item:hov
   *,*::before,*::after{animation:none!important;transition:none!important;}
   .reveal{opacity:1;transform:none;}
 }
+
+/* ===== BPMN example diagram (AAB page) ===== */
+@keyframes bpmnflow{to{stroke-dashoffset:-26}}
+.bpmn-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:16px;background:rgba(6,18,43,.55);}
+.bpmn-wrap:focus-visible{outline:3px solid var(--cyan);outline-offset:2px;}
+.bpmn{display:block;width:100%;min-width:860px;height:auto;color:#8fdcff;}
+.bpmn text{fill:#f1f5ff;font-size:13.5px;font-family:inherit;}
+.bpmn .cap{font-size:12.5px;fill:#b7c3d8;}.bpmn .cap.left{text-anchor:start;}
+.bpmn .lane{fill:rgba(14,29,64,.55);stroke:rgba(127,176,255,.35);}
+.bpmn .lane-h{fill:rgba(10,42,94,.8);stroke:rgba(127,176,255,.35);}
+.bpmn .lane-t{font-size:12.5px;font-weight:700;fill:#cfe3ff;letter-spacing:.02em;}
+.bpmn .task{fill:rgba(14,29,64,.95);stroke:#7fb0ff;stroke-width:1.8;}
+.bpmn .task.ai{fill:rgba(56,197,240,.12);stroke:#38c5f0;}
+.bpmn .task.user{fill:rgba(251,191,36,.1);stroke:#fbbf24;}
+.bpmn .evt{fill:#06122b;stroke:#8fdcff;stroke-width:2;}
+.bpmn .evt.end{stroke-width:4.5;}
+.bpmn .gw{fill:#06122b;stroke:#fbbf24;stroke-width:2;}
+.bpmn .ico{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+.bpmn .seq{fill:none;stroke:#8fdcff;stroke-width:2;}
+.bpmn .seq-glow{fill:none;stroke:#ffffff;stroke-width:2;stroke-opacity:.9;stroke-dasharray:4 22;animation:bpmnflow 1.4s linear infinite;}
+.bpmn-legend{margin:12px 0 0;text-align:center;font-size:.82rem;color:var(--text-muted);}
+.bpmn-list{display:none;list-style:decimal;margin:16px 0 0;padding-left:1.4em;gap:8px;color:var(--text-muted);font-size:.95rem;}
+@media (max-width:720px){.bpmn-wrap,.bpmn-legend{display:none;}.bpmn-list{display:grid;}}

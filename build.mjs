@@ -225,6 +225,46 @@ const bisAction = (d) => {
   return `<p><a href="${esc(u)}" class="btn btn-primary" rel="noopener" target="_blank">${esc(d.bispage.openApp)}</a></p>`;
 };
 
+
+// BPMN 2.0 example diagram (inline SVG, labels from i18n). Element notation: message start event, service task,
+// user task, exclusive gateway, end event; two lanes. Includes a text alternative list for phones and screen readers.
+const bpmnDiagram = (d) => {
+  const t = d.aab.diagram;
+  const text = (s, cx, cy, cls = '') => {
+    const ls = String(s).split('|');
+    const y0 = cy - ((ls.length - 1) * 8);
+    return `<text class="${cls}" x="${cx}" y="${y0}" text-anchor="middle" dominant-baseline="middle">${ls.map((l, i) => `<tspan x="${cx}" dy="${i ? 16 : 0}">${esc(l)}</tspan>`).join('')}</text>`;
+  };
+  const gear = (x, y) => `<g class="ico" transform="translate(${x} ${y})"><circle r="4"/><circle r="7" stroke-dasharray="3 3.7"/></g>`;
+  const person = (x, y) => `<g class="ico" transform="translate(${x} ${y})"><circle cy="-3" r="3"/><path d="M-6 7c0-5 3-6 6-6s6 1 6 6z"/></g>`;
+  const flows = [
+    ['M108 85H140', ''], ['M260 85H300', ''], ['M360 117V240H380', ''], ['M500 240H532', ''],
+    ['M560 212V85H720', 'yes'], ['M840 85H882', ''], ['M560 268V302H320V117', 'no'],
+  ];
+  const seq = flows.map(([p]) => `<path class="seq" d="${p}" marker-end="url(#bpmn-ah)"/>`).join('')
+    + flows.map(([p]) => `<path class="seq-glow" d="${p}"/>`).join('');
+  const steps = [t.s1, t.s2, t.s3, t.s4, t.s5, t.s6].map((s) => `<li>${esc(s)}</li>`).join('');
+  return `<div class="bpmn-wrap" tabindex="0" role="group" aria-label="${esc(d.aab.exampleTitle)}">
+<svg class="bpmn" viewBox="0 0 980 330" role="img" aria-label="${esc(t.alt)}">
+<defs><marker id="bpmn-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<rect class="lane" x="0" y="10" width="980" height="150"/><rect class="lane" x="0" y="160" width="980" height="160"/>
+<rect class="lane-h" x="0" y="10" width="34" height="150"/><rect class="lane-h" x="0" y="160" width="34" height="160"/>
+<text class="lane-t" transform="rotate(-90 17 85)" x="17" y="85" text-anchor="middle" dominant-baseline="middle">${esc(t.lane1)}</text>
+<text class="lane-t" transform="rotate(-90 17 240)" x="17" y="240" text-anchor="middle" dominant-baseline="middle">${esc(t.lane2)}</text>
+${seq}
+<circle class="evt" cx="90" cy="85" r="18"/><g class="ico"><rect x="82" y="79" width="16" height="12" rx="1.5"/><path d="M82 80l8 6 8-6"/></g>${text(t.start, 90, 130, 'cap')}
+<rect class="task ai" x="140" y="53" width="120" height="64" rx="10"/>${gear(156, 69)}${text(t.t1, 205, 91)}
+<rect class="task ai" x="300" y="53" width="120" height="64" rx="10"/>${gear(316, 69)}${text(t.t2, 365, 91)}
+<rect class="task user" x="380" y="208" width="120" height="64" rx="10"/>${person(396, 226)}${text(t.t3, 445, 246)}
+<path class="gw" d="M560 212L588 240L560 268L532 240Z"/><path class="ico" d="M552 232l16 16M568 232l-16 16"/>${text(t.gw, 626, 240, 'cap left')}
+<rect class="task ai" x="720" y="53" width="120" height="64" rx="10"/>${gear(736, 69)}${text(t.t4, 785, 91)}
+<circle class="evt end" cx="900" cy="85" r="18"/>${text(t.end, 900, 130, 'cap')}
+${text(t.yes, 640, 72, 'cap')}${text(t.no, 440, 292, 'cap')}
+</svg></div>
+<p class="bpmn-legend">${esc(t.legend)}</p>
+<h3 class="sr">${esc(t.steps)}</h3><ol class="bpmn-list">${steps}</ol>`;
+};
+
 const layout = read('src/layout.html');
 // Cache-busting version for CSS/JS, derived from their content
 const VER = createHash('sha1').update(read('assets/style.css') + read('assets/main.js')).digest('hex').slice(0, 8);
@@ -266,6 +306,7 @@ for (const l of LANGS) {
       statsBlock: statsBlock(d),
       techBlock: techBlock(d),
       bisAction: bisAction(d),
+      bpmnDiagram: p.key === 'aab' ? bpmnDiagram(d) : '',
     };
     const content = render(pageTpl[p.key], ctx, d);
     const html = render(
