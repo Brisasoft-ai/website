@@ -14,6 +14,7 @@
 | Staging HTTP→HTTPS | `http://stg.brisasoft.net/ja/` → 301 |
 | Visual review of screenshots | Home JA 1366, Services JA 1366, Founder JA 1366, About JA 1366 and 390 (before/after table fix) |
 | `npm audit` (earlier in session) | 0 vulnerabilities |
+Blue redesign pass: 150/150 clean again after the colour changes; Home and About screenshots reviewed at 1366 and 390 px, and Home in OS dark mode (12 combinations clean). Capital updated to VND 1 billion; address intentionally unchanged.
 Not run: Lighthouse, axe or other automated accessibility tooling, real iOS/Android devices, screen-reader testing, production checks of the new build.
 
 ## Acceptance criteria
@@ -43,8 +44,8 @@ Not run: Lighthouse, axe or other automated accessibility tooling, real iOS/Andr
 - [ ] Accessibility and performance: only structural checks; no formal audit or measured scores.
 
 ## Remaining issues and owner confirmations
-1. **Capital**: exact registered charter capital in VND (site says 約700万円相当).
-2. **Address**: confirm it matches the current business registration after Vietnam's 2025 administrative reform (district level abolished); native check of the JA rendering.
+1. **Capital**: resolved (VND 1 billion, owner 2026-10-16).
+2. **Address**: kept unchanged by owner decision until the post-reform address is settled; native check of the JA rendering still advised.
 3. **Japanese review** of the whole site by a native speaker familiar with SIer communication.
 4. **Founder message**: final read in all three languages.
 5. **Production**: new build not yet deployed; after release re-run the HTTP→HTTPS and www→apex checks on `brisasoft.net` (the Worker redirect has only been verified on staging).

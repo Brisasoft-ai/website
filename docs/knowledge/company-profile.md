@@ -16,8 +16,8 @@ Status legend:
 | Legal name | Brisasoft Joint Stock Company / Công ty Cổ phần Brisasoft | `src/company.json` | Published |
 | Business registration no. | 0110870824 | `src/company.json` | Published |
 | Established | October 2024 (JSON-LD `foundingDate` 2024-10-23) | Founder brief (2024) + existing site | Published |
-| Capital (資本金) | Approx. JPY 7 million equivalent at founding, unchanged since (founder, 2026-10-16). Published as 約700万円相当（設立時から変更なし）. **Needs**: exact registered charter capital in VND to replace the approximation | Founder | Published, approximate |
-| Address | Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Việt Hưng, Long Biên, Hà Nội | `src/company.json` | Published. JA rendering added (ヴィエットフン坊 …, original in brackets); EN romanised. **Check**: Vietnam abolished district level on 2025-07-01, confirm the address on the current business registration |
+| Capital (資本金) | **VND 1 billion** (registered charter capital, unchanged since founding; founder 2026-10-16). Founder also said it was about JPY 7 million at founding; the site shows the VND figure only (the yen value moves with the exchange rate) | Founder | Published |
+| Address | Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Việt Hưng, Long Biên, Hà Nội | `src/company.json` | Published. JA rendering added (ヴィエットフン坊 …, original in brackets); EN romanised. Founder 2026-10-16: **keep unchanged** because the post-reform address is not yet settled; update when it is confirmed |
 | Contact | contact@brisasoft.net (mailbox confirmed receiving, 2026-10-16), +84 927 997 699 | `build.mjs`, `src/company.json` | Published |
 | Own products | BIS (Biology Intellectual System, working prototype), AAB (AI Automation BPMN: Camunda BPMN + AI agents + Microsoft 365, in development; no Dify) | Existing site, founder 2026-10-16 | Published |
 

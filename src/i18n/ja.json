@@ -70,7 +70,7 @@
     "businessLabel": "事業内容",
     "businessValue": "AIアプリケーション開発、業務プロセス自動化（BPMN）、業務システム開発・システム連携、ベトナム企業向けDX支援、自社AIプロダクト（BIS・AAB）の開発",
     "capitalLabel": "資本金",
-    "capitalValue": "約700万円相当（設立時から変更なし）"
+    "capitalValue": "10億ベトナムドン（設立時から変更なし）"
   },
   "bis": {
     "full": "Biology Intellectual System"
@@ -151,7 +151,7 @@
     "tagline": "AIネイティブなソフトウェア開発。ベトナム・ハノイ。",
     "infoTitle": "会社情報",
     "companyCol": "会社",
-    "productsCol": "製品",
+    "productsCol": "プロダクト",
     "labels": {
       "company": "社名",
       "legalName": "商号（正式名称）",

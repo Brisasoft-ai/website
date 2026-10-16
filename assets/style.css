@@ -1,10 +1,10 @@
 :root{
   --bg:#ffffff;
-  --bg-alt:#f6f8fb;
+  --bg-alt:#eef3fd;
   --surface:#ffffff;
-  --border:#e6e9f0;
+  --border:#d8e3f6;
   --text:#10151f;
-  --text-muted:#5b6472;
+  --text-muted:#4b5873;
   --brand:#155eef;
   --brand-dark:#0b3fb0;
   --brand-light:#eaf1ff;
@@ -532,3 +532,84 @@ html[lang="ja"] .hf-side{transform:none;}
 .narrow-grid{max-width:860px;margin-inline:auto;}
 /* Company facts: label above value on phones */
 @media (max-width:560px){.details-table tr{display:block;padding:14px 18px;}.details-table th,.details-table td{display:block;width:auto;padding:0;border:0;background:none;}.details-table th{font-size:.8rem;margin-bottom:4px;}.details-table.history th{width:auto;}}
+
+/* ===== Blue identity (2026-10): navy bands, circuit pattern, blue-tinted surfaces ===== */
+:root{--navy-1:#06122b;--navy-2:#0a2a5e;--navy-3:#0e1d40;--ice-2:#dfe9fb;--cyan:#38c5f0;--cyan-soft:#8fdcff;}
+
+/* Header: navy, like the presentation title slide */
+header{
+  --bg:var(--navy-1);--surface:var(--navy-3);--text:#f1f5ff;--text-muted:#b7c3d8;--border:rgba(127,176,255,.25);
+  --link:#8fdcff;--brand-light:rgba(79,139,255,.2);--header-bg:rgba(6,18,43,.94);
+  color:#f1f5ff;border-bottom:1px solid rgba(127,176,255,.22);
+}
+header .logo{color:#fff;}
+header .lang summary{color:#f1f5ff;}
+
+/* Page banners (all sub pages) and home hero: navy with circuit pattern */
+.hero.small{
+  color:#eef2f8;
+  background:
+    url(/assets/circuit.svg) right center/auto 150% no-repeat,
+    radial-gradient(900px 360px at 85% 0%,rgba(47,107,255,.38),transparent 60%),
+    radial-gradient(700px 360px at 0% 100%,rgba(20,168,222,.22),transparent 60%),
+    linear-gradient(160deg,var(--navy-1),var(--navy-2));
+}
+.hero.small h1{color:#fff;}
+.hero.small p{color:#b7c3d8;}
+.hero.small .eyebrow{background:rgba(20,168,222,.14);color:#a5e3ff;border:1px solid rgba(20,168,222,.35);}
+.hero.home{
+  background:
+    url(/assets/circuit.svg) center/cover no-repeat,
+    radial-gradient(900px 420px at 85% 10%,rgba(47,107,255,.38),transparent 60%),
+    radial-gradient(760px 420px at 0% 100%,rgba(20,168,222,.28),transparent 60%),
+    linear-gradient(160deg,var(--navy-1),var(--navy-2));
+}
+
+/* Dark bands between light ones */
+section.dark{
+  position:relative;overflow:hidden;color:#f1f5ff;
+  --text:#f1f5ff;--text-muted:#b7c3d8;--surface:rgba(14,29,64,.78);--border:rgba(127,176,255,.28);
+  --link:#8fdcff;--accent:#8fdcff;--brand-light:rgba(79,139,255,.2);--bg-alt:rgba(255,255,255,.05);--shadow:none;
+  background:
+    url(/assets/circuit.svg) center/cover no-repeat,
+    radial-gradient(900px 400px at 100% 0%,rgba(47,107,255,.3),transparent 60%),
+    linear-gradient(160deg,var(--navy-1),var(--navy-2));
+}
+section.dark>*{position:relative;}
+section.dark .btn-outline{color:#fff;border-color:rgba(255,255,255,.35);}
+section.dark .btn-outline:hover{background:rgba(255,255,255,.1);color:#fff;border-color:#fff;}
+section.dark h2,section.dark h3{color:#fff;}
+section.dark .section-sub,section.dark .muted{color:#b7c3d8;}
+
+/* Light bands: blue tint instead of grey/white */
+section.alt{background:linear-gradient(180deg,var(--bg-alt),var(--ice-2) 160%);}
+.feature,.case,.tech-item,.checklist li,.steps li,.why-row,.profile{border-color:var(--border);box-shadow:0 1px 2px rgba(10,42,94,.05),0 10px 28px rgba(10,42,94,.07);}
+.feature::before{opacity:1;height:4px;background:linear-gradient(90deg,var(--navy-2),var(--brand),var(--cyan));}
+.feature .num{background:linear-gradient(135deg,var(--navy-2),var(--brand));color:#fff;}
+section.dark .feature,section.dark .case,section.dark .tech-item,section.dark .steps li,section.dark .checklist li{box-shadow:none;background:rgba(14,29,64,.78);}
+.case{border-top:4px solid var(--brand);}
+section.dark .case{border-top-color:var(--cyan);}
+.tech-mark{background:linear-gradient(135deg,var(--navy-2),var(--brand));color:#fff;}
+.pipeline li.pl-ai{background:rgba(56,197,240,.1);}
+.eyebrow{border:1px solid rgba(21,94,239,.18);}
+section.dark .eyebrow{border-color:rgba(127,176,255,.3);}
+
+/* Figures band: navy tiles */
+.numbers{background:rgba(143,220,255,.22);border:1px solid rgba(127,176,255,.35);box-shadow:0 18px 40px rgba(6,18,43,.35);}
+.numbers div,.numbers div:last-child{background:linear-gradient(160deg,var(--navy-2),var(--navy-1));}
+.numbers b{background:linear-gradient(90deg,#8fdcff,#ffffff);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.numbers span{color:#b7c3d8;}
+
+/* Tables: blue label column */
+.details-table th{color:var(--navy-2);background:var(--bg-alt);}
+.details-table.history time{color:var(--brand);}
+
+/* CTA panel and footer already navy: add the pattern */
+.cta-box{background:url(/assets/circuit.svg) center/cover no-repeat,linear-gradient(160deg,var(--hero-1),var(--hero-2));}
+
+@media (prefers-color-scheme:dark){
+  :root{--ice-2:#16203a;}
+  section.alt{background:var(--bg-alt);}
+  .feature,.case,.tech-item,.checklist li,.steps li,.why-row,.profile{box-shadow:none;}
+  .details-table th{color:var(--text);}
+}

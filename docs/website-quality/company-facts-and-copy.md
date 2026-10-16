@@ -9,7 +9,7 @@ Facts: `docs/knowledge/company-profile.md` (source of truth). Rules: `docs/knowl
 | Company | Brisasoft（ブランド名：Brisa） | Brisasoft (brand: Brisa) | Brisasoft (thương hiệu: Brisa) |
 | Legal name | ブリサソフト株式会社（Brisasoft Joint Stock Company） | Brisasoft Joint Stock Company | Công ty Cổ phần Brisasoft |
 | Established | 2024年10月 | October 2024 | Tháng 10/2024 |
-| Capital | 約700万円相当（設立時から変更なし） | Approx. JPY 7 million equivalent (unchanged since founding) | Tương đương khoảng 7 triệu yên Nhật (không thay đổi từ khi thành lập) |
+| Capital | 10億ベトナムドン（設立時から変更なし） | VND 1 billion (unchanged since founding) | 1 tỷ đồng (không thay đổi từ khi thành lập) |
 | Representative | 創業者 兼 CEO　Nguyễn Thanh Bình | Nguyễn Thanh Bình, Founder & CEO | Nguyễn Thanh Bình, Nhà sáng lập & CEO |
 | Address | ベトナム ハノイ市ロンビエン区ヴィエットフン坊 キムクアントゥオン通り114番小路3号 3階（original in brackets） | romanised | original |
 | Employees | 正社員12名（2026年10月現在） | 12 full-time employees (as of October 2026) | 12 nhân viên chính thức (tính đến tháng 10/2026) |
@@ -41,6 +41,6 @@ Not shown as big numbers (kept in the table): founding year, headcount, product 
 | Products | Products, BIS, AAB (summary cards on Home) |
 
 ## Awaiting owner confirmation
-- Exact charter capital in VND (replaces "約700万円相当").
-- Registered address after Vietnam's 2025 administrative reform.
+- (resolved) Charter capital VND 1 billion.
+- Registered address: kept unchanged by owner decision until the post-reform address is settled.
 - Native Japanese review of the JA address rendering.

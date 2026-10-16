@@ -11,6 +11,13 @@
 | `--bg` / `--bg-alt` / `--surface` / `--border` | #fff / #f6f8fb / #fff / #e6e9f0 | Surfaces |
 | `--text` / `--text-muted` | #10151f / #5b6472 | Text |
 
+## Blue identity (2026-10-16, from `brisa-ai-architecture.pptx`)
+Palette taken from the Brisa AI architecture deck: navy `#06122b` / `#0a2a5e` / `#0e1d40`, blue `#155eef`, cyan `#38c5f0` / `#8fdcff`, ice `#eef3fd`, muted text `#4b5873`.
+- Page rhythm: navy band (hero, banners, `section.dark`) → ice band (`section.alt`) → white → navy. `section.dark` re-scopes the colour tokens, so any component placed in it renders correctly.
+- Header and every page banner are navy with the circuit pattern `assets/circuit.svg` (5 KB, low opacity); the CTA panel and the figures band use the same navy.
+- Cards: 4 px blue-to-cyan top bar, blue-tinted border; numbered badges are navy-to-blue gradients.
+- OS dark mode keeps working (verified on Home and About): ice bands fall back to the dark surface token.
+
 ## Components (where they are produced)
 | Component | Markup / class | Source |
 |---|---|---|
