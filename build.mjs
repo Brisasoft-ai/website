@@ -10,7 +10,7 @@ const dist = join(root, 'dist');
 // SITE_ENV=staging builds for stg.brisasoft.net and blocks search engines.
 const STAGING = process.env.SITE_ENV === 'staging';
 const SITE = STAGING ? 'https://stg.brisasoft.net' : 'https://brisasoft.net';
-const EMAIL = 'hello@brisasoft.net';
+const EMAIL = 'contact@brisasoft.net';
 
 const LANGS = [
   { code: 'en', label: 'English', short: 'EN', flag: 'gb', htmlLang: 'en', og: 'en_US', skip: 'Skip to content' },

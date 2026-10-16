@@ -50,11 +50,11 @@
     },
     "products": {
       "title": "Sản phẩm | Brisasoft",
-      "description": "Sản phẩm của Brisasoft: BIS, hệ thống giáo dục Sinh học AI-native, và AAB, AI Automation BPMN, kết hợp Dify, Camunda, Microsoft 365 và AI agent."
+      "description": "Sản phẩm của Brisasoft: BIS, hệ thống giáo dục Sinh học AI-native, và AAB, AI Automation BPMN, kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365."
     },
     "aab": {
       "title": "AAB, AI Automation BPMN | Brisasoft",
-      "description": "AAB (AI Automation BPMN) tự động hóa quy trình nghiệp vụ bằng cách kết hợp BPMN workflow trên Camunda, AI agent với Dify và Microsoft 365. Đang phát triển."
+      "description": "AAB (AI Automation BPMN) tự động hóa quy trình nghiệp vụ bằng cách kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365. Đang phát triển."
     },
     "privacy": {
       "title": "Thông báo quyền riêng tư | Brisasoft",
@@ -396,7 +396,7 @@
       "date": "Tháng 4/2026",
       "tag": "Sản phẩm",
       "title": "Sản phẩm riêng: BIS và AAB",
-      "text": "Bắt đầu xây dựng sản phẩm riêng: BIS cho giáo dục Sinh học, và AAB (AI Automation BPMN), ứng dụng kết hợp Dify, Camunda, Microsoft 365 và AI agent."
+      "text": "Bắt đầu xây dựng sản phẩm riêng: BIS cho giáo dục Sinh học, và AAB (AI Automation BPMN), ứng dụng kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365."
     },
     "t5": {
       "date": "Tháng 10/2026",
@@ -444,7 +444,7 @@
       "date": "Tháng 4/2026",
       "tag": "Sản phẩm",
       "title": "Sản phẩm riêng: BIS và AAB",
-      "text": "Bắt đầu xây dựng sản phẩm riêng: BIS cho giáo dục Sinh học, và AAB (AI Automation BPMN), ứng dụng kết hợp Dify, Camunda, Microsoft 365 và AI agent."
+      "text": "Bắt đầu xây dựng sản phẩm riêng: BIS cho giáo dục Sinh học, và AAB (AI Automation BPMN), ứng dụng kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365."
     },
     "i3": {
       "date": "Tháng 10/2025",
@@ -479,7 +479,7 @@
     "aab": {
       "name": "AAB",
       "full": "AI Automation BPMN",
-      "text": "Tự động hóa quy trình nghiệp vụ, kết hợp BPMN workflow trên Camunda, AI agent xây dựng với Dify và Microsoft 365.",
+      "text": "Tự động hóa quy trình nghiệp vụ, kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365.",
       "status": "Đang phát triển"
     }
   },
@@ -499,7 +499,7 @@
       "text": "Mỗi quy trình chạy từng bước trên workflow engine, có trạng thái, bộ đếm thời gian, phê duyệt và lịch sử đầy đủ."
     },
     "c2": {
-      "title": "AI agent với Dify",
+      "title": "AI agent",
       "text": "Agent phân loại yêu cầu, trích xuất dữ liệu từ tài liệu và soạn nháp phản hồi, dựa trên tri thức và công cụ của bạn."
     },
     "c3": {
@@ -542,7 +542,7 @@
     "updated": "Cập nhật lần cuối: 12/10/2026.",
     "s1": {
       "title": "Chúng tôi là ai",
-      "text": "Website này do Công ty Cổ phần Brisasoft (Brisasoft Joint Stock Company) tại Hà Nội, Việt Nam vận hành. Liên hệ: hello@brisasoft.net."
+      "text": "Website này do Công ty Cổ phần Brisasoft (Brisasoft Joint Stock Company) tại Hà Nội, Việt Nam vận hành. Liên hệ: contact@brisasoft.net."
     },
     "s2": {
       "title": "Chúng tôi thu thập gì",
@@ -554,7 +554,7 @@
     },
     "s4": {
       "title": "Lựa chọn của bạn",
-      "text": "Bạn có thể yêu cầu chúng tôi chỉnh sửa hoặc xóa các email chúng tôi lưu về bạn bằng cách viết tới hello@brisasoft.net. Bạn có thể xóa lựa chọn ngôn ngữ đã lưu bằng cách xóa dữ liệu của trang này trong trình duyệt."
+      "text": "Bạn có thể yêu cầu chúng tôi chỉnh sửa hoặc xóa các email chúng tôi lưu về bạn bằng cách viết tới contact@brisasoft.net. Bạn có thể xóa lựa chọn ngôn ngữ đã lưu bằng cách xóa dữ liệu của trang này trong trình duyệt."
     }
   },
   "stats": {
@@ -565,7 +565,7 @@
       "label": "Thành lập Brisasoft tại Hà Nội"
     },
     "projects": {
-      "label": "dự án trong kinh nghiệm của nhà sáng lập và đội ngũ nòng cốt từ năm 2011"
+      "label": "dự án thành công"
     },
     "markets": {
       "label": "tỷ lệ dự án thị trường Nhật Bản / Việt Nam (ước tính, theo số dự án); mảng Việt Nam chủ yếu là chuyển đổi số"
@@ -626,14 +626,14 @@
     "aab": {
       "title": "AAB · AI Automation BPMN",
       "challenge": "Quy trình chạy qua email và bảng tính; phê duyệt bị tắc và không ai biết hồ sơ đang kẹt ở đâu.",
-      "approach": "Quy trình được mô hình hóa bằng BPMN và chạy trên Camunda; AI agent xây bằng Dify đọc, phân loại và soạn thảo; con người phê duyệt trong Microsoft 365; mọi bước đều được ghi lại.",
-      "stack": "Camunda (BPMN), Dify, Microsoft 365"
+      "approach": "Quy trình được mô hình hóa bằng BPMN và chạy trên Camunda; AI agent đọc, phân loại và soạn thảo; con người phê duyệt trong Microsoft 365; mọi bước đều được ghi lại.",
+      "stack": "Camunda (BPMN), AI agent, Microsoft 365"
     },
     "diagram": {
       "title": "Một hồ sơ đi qua AAB như thế nào",
       "request": "Yêu cầu đến (Microsoft 365)",
       "process": "Quy trình BPMN điều phối (Camunda)",
-      "agent": "AI agent phân loại, trích xuất, soạn thảo (Dify)",
+      "agent": "AI agent phân loại, trích xuất, soạn thảo",
       "review": "Con người rà soát và phê duyệt",
       "done": "Hoàn tất, lưu đủ lịch sử"
     }
@@ -645,7 +645,7 @@
     "items": {
       "dify": {
         "area": "Ứng dụng LLM và AI agent",
-        "text": "Phần AI agent trong AAB: phân loại yêu cầu, trích xuất dữ liệu, soạn phản hồi."
+        "text": "Xây dựng ứng dụng LLM, trợ lý tri thức (RAG) và workflow AI agent."
       },
       "camunda": {
         "area": "Workflow engine BPMN",
@@ -689,11 +689,13 @@
     "title": "Thông điệp từ Nhà sáng lập & CEO",
     "profileTitle": "Tiểu sử",
     "bio1": "Bắt đầu làm phần mềm cho thị trường Nhật Bản.",
-    "bio2": "Từ đó tham gia và dẫn dắt các dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI, nằm trong hơn 30 dự án của nhà sáng lập và đội ngũ nòng cốt.",
+    "bio2": "Từ đó tham gia và dẫn dắt các dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI.",
     "bio3": "Đi từ kỹ sư phần mềm đến quản lý dự án và triển khai: làm rõ yêu cầu, quản lý chất lượng, điều phối đội ngũ và khách hàng.",
     "bio4": "Năm 2024 thành lập Brisasoft để xây dựng một công ty kỹ thuật AI-native tại Việt Nam.",
     "note": "Các dự án trước tháng 10/2024 được thực hiện tại các tổ chức khác. Đó là kinh nghiệm của nhà sáng lập và đội ngũ nòng cốt, không phải thành tích của Brisasoft với tư cách công ty.",
-    "bio0": "Tốt nghiệp chương trình HEDSPI tại Đại học Bách khoa Hà Nội, chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ, với nội dung học sâu về tiếng Nhật và văn hóa làm việc Nhật Bản."
+    "bio0": "Tốt nghiệp chương trình HEDSPI tại Đại học Bách khoa Hà Nội, chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ, với nội dung học sâu về tiếng Nhật và văn hóa làm việc Nhật Bản.",
+    "sinceLabel": "2011 – nay",
+    "careerLabel": "Sự nghiệp"
   },
   "quality": {
     "eyebrow": "Triển khai và chất lượng",

@@ -50,11 +50,11 @@
     },
     "products": {
       "title": "製品 | Brisasoft",
-      "description": "Brisasoftの製品：AIネイティブな生物学教育システムBISと、Dify、Camunda、Microsoft 365、AIエージェントを組み合わせたAAB（AI Automation BPMN）。"
+      "description": "Brisasoftの製品：AIネイティブな生物学教育システムBISと、Camunda上のBPMNワークフロー、AIエージェント、Microsoft 365を組み合わせたAAB（AI Automation BPMN）。"
     },
     "aab": {
       "title": "AAB（AI Automation BPMN） | Brisasoft",
-      "description": "AAB（AI Automation BPMN）は、Camunda上のBPMNワークフロー、DifyによるAIエージェント、Microsoft 365を組み合わせて業務プロセスを自動化します。開発中。"
+      "description": "AAB（AI Automation BPMN）は、Camunda上のBPMNワークフロー、AIエージェント、Microsoft 365を組み合わせて業務プロセスを自動化します。開発中。"
     },
     "privacy": {
       "title": "プライバシーについて | Brisasoft",
@@ -396,7 +396,7 @@
       "date": "2026年4月",
       "tag": "プロダクト",
       "title": "自社プロダクト：BISとAAB",
-      "text": "自社プロダクトの開発を開始。生物学教育のBISと、Dify、Camunda、Microsoft 365、AIエージェントを組み合わせたアプリケーションAAB（AI Automation BPMN）です。"
+      "text": "自社プロダクトの開発を開始。生物学教育のBISと、Camunda上のBPMNワークフロー、AIエージェント、Microsoft 365を組み合わせたアプリケーションAAB（AI Automation BPMN）です。"
     },
     "t5": {
       "date": "2026年10月",
@@ -444,7 +444,7 @@
       "date": "2026年4月",
       "tag": "プロダクト",
       "title": "自社プロダクト：BISとAAB",
-      "text": "自社プロダクトの開発を開始。生物学教育のBISと、Dify、Camunda、Microsoft 365、AIエージェントを組み合わせたアプリケーションAAB（AI Automation BPMN）です。"
+      "text": "自社プロダクトの開発を開始。生物学教育のBISと、Camunda上のBPMNワークフロー、AIエージェント、Microsoft 365を組み合わせたアプリケーションAAB（AI Automation BPMN）です。"
     },
     "i3": {
       "date": "2025年10月",
@@ -479,7 +479,7 @@
     "aab": {
       "name": "AAB",
       "full": "AI Automation BPMN",
-      "text": "Camunda上のBPMNワークフロー、Difyで構築するAIエージェント、Microsoft 365を組み合わせた業務プロセス自動化。",
+      "text": "Camunda上のBPMNワークフロー、AIエージェント、Microsoft 365を組み合わせた業務プロセス自動化。",
       "status": "開発中"
     }
   },
@@ -499,7 +499,7 @@
       "text": "各プロセスはワークフローエンジン上で一歩ずつ実行され、状態、タイマー、承認、完全な履歴を持ちます。"
     },
     "c2": {
-      "title": "DifyによるAIエージェント",
+      "title": "AIエージェント",
       "text": "エージェントが依頼の分類、文書からのデータ抽出、返信の下書きを、貴社の知識とツールを使って行います。"
     },
     "c3": {
@@ -542,7 +542,7 @@
     "updated": "最終更新日：2026年10月12日",
     "s1": {
       "title": "運営者",
-      "text": "当サイトは、ベトナム・ハノイのBrisasoft Joint Stock Company（Công ty Cổ phần Brisasoft）が運営しています。連絡先：hello@brisasoft.net"
+      "text": "当サイトは、ベトナム・ハノイのBrisasoft Joint Stock Company（Công ty Cổ phần Brisasoft）が運営しています。連絡先：contact@brisasoft.net"
     },
     "s2": {
       "title": "収集する情報",
@@ -554,7 +554,7 @@
     },
     "s4": {
       "title": "お客様の選択",
-      "text": "お客様に関して保管しているメールの訂正や削除は、hello@brisasoft.net までご連絡ください。保存された言語の選択は、ブラウザでこのサイトのデータを削除することで消去できます。"
+      "text": "お客様に関して保管しているメールの訂正や削除は、contact@brisasoft.net までご連絡ください。保存された言語の選択は、ブラウザでこのサイトのデータを削除することで消去できます。"
     }
   },
   "stats": {
@@ -565,7 +565,7 @@
       "label": "ハノイでBrisasoftを設立"
     },
     "projects": {
-      "label": "創業者と中核チームが2011年以降に携わったプロジェクト"
+      "label": "成功したプロジェクト"
     },
     "markets": {
       "label": "上記プロジェクトの日本向け／ベトナム向けの比率（件数ベース、概算）。ベトナムは主にDX案件"
@@ -626,14 +626,14 @@
     "aab": {
       "title": "AAB · AI Automation BPMN",
       "challenge": "業務がメールとExcelで回り、承認が滞り、案件がどこで止まっているのか誰にも見えません。",
-      "approach": "業務をBPMNでモデル化してCamundaで実行し、Difyで構築したAIエージェントが読み取り・分類・下書きを担当、人はMicrosoft 365で承認し、すべてのステップを記録します。",
-      "stack": "Camunda（BPMN）、Dify、Microsoft 365"
+      "approach": "業務をBPMNでモデル化してCamundaで実行し、AIエージェントが読み取り・分類・下書きを担当、人はMicrosoft 365で承認し、すべてのステップを記録します。",
+      "stack": "Camunda（BPMN）、AIエージェント、Microsoft 365"
     },
     "diagram": {
       "title": "AABでの案件の流れ",
       "request": "依頼を受付（Microsoft 365）",
       "process": "BPMNプロセスが振り分け（Camunda）",
-      "agent": "AIエージェントが分類・抽出・下書き（Dify）",
+      "agent": "AIエージェントが分類・抽出・下書き",
       "review": "担当者が確認・承認",
       "done": "完了、全履歴を保存"
     }
@@ -645,7 +645,7 @@
     "items": {
       "dify": {
         "area": "LLMアプリ・AIエージェント",
-        "text": "AABのAIエージェント部分：依頼の分類、データ抽出、返信の下書き。"
+        "text": "LLMアプリケーション、ナレッジアシスタント（RAG）、AIエージェントのワークフロー構築。"
       },
       "camunda": {
         "area": "BPMNワークフローエンジン",
@@ -689,11 +689,13 @@
     "title": "代表メッセージ",
     "profileTitle": "プロフィール",
     "bio1": "日本市場向けのソフトウェア開発に従事。",
-    "bio2": "以来、SAP/ERP、組み込みシステム、BPMNワークフロー、医療、AIの分野でプロジェクトに携わり、リードしてきた（創業者と中核チームで30件以上）。",
+    "bio2": "以来、SAP/ERP、組み込みシステム、BPMNワークフロー、医療、AIの分野でプロジェクトに携わり、リードしてきた。",
     "bio3": "ソフトウェアエンジニアからプロジェクト・デリバリー管理へと役割を広げ、要件の明確化、品質管理、チームとお客様との調整を担う。",
     "bio4": "2024年、ベトナムでAIネイティブなエンジニアリング企業をつくるためBrisasoftを設立。",
     "note": "2024年10月以前のプロジェクトは他の組織で行われたもので、創業者と中核チームの経験です。Brisasoftの会社としての実績ではありません。",
-    "bio0": "ハノイ工科大学HEDSPIプログラム（JICAの支援を受けたベトナム・日本のIT技術者育成プログラム）を卒業。専門分野に加え、日本語と日本のビジネス文化を深く学ぶ。"
+    "bio0": "ハノイ工科大学HEDSPIプログラム（JICAの支援を受けたベトナム・日本のIT技術者育成プログラム）を卒業。専門分野に加え、日本語と日本のビジネス文化を深く学ぶ。",
+    "sinceLabel": "2011年〜現在",
+    "careerLabel": "キャリア"
   },
   "quality": {
     "eyebrow": "品質とデリバリー",

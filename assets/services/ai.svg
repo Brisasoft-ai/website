@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <!-- AI development: an assistant that answers from your documents and shows its sources -->
+  <g stroke="#fff" stroke-opacity=".55" stroke-width="2">
+    <rect x="52" y="58" width="86" height="112" rx="8" fill="#fff" fill-opacity=".06"/>
+    <rect x="44" y="68" width="86" height="112" rx="8" fill="#fff" fill-opacity=".1"/>
+    <rect x="36" y="78" width="86" height="112" rx="8" fill="#0a2a5e" fill-opacity=".55"/>
+  </g>
+  <g fill="#fff" fill-opacity=".75">
+    <rect x="48" y="94" width="54" height="6" rx="3"/><rect x="48" y="108" width="62" height="5" rx="2.5" fill-opacity=".45"/>
+    <rect x="48" y="120" width="58" height="5" rx="2.5" fill-opacity=".45"/><rect x="48" y="132" width="44" height="5" rx="2.5" fill-opacity=".45"/>
+    <rect x="48" y="150" width="60" height="5" rx="2.5" fill="#fbbf24" fill-opacity=".9"/><rect x="48" y="162" width="40" height="5" rx="2.5" fill-opacity=".45"/>
+  </g>
+  <path d="M122 158 C 152 158, 156 200, 186 200" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5 5"/>
+  <rect x="170" y="36" width="196" height="196" rx="16" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".45" stroke-width="2"/>
+  <rect x="254" y="56" width="96" height="28" rx="14" fill="#8fdcff"/>
+  <rect x="266" y="67" width="60" height="6" rx="3" fill="#0a2a5e" fill-opacity=".55"/>
+  <rect x="186" y="98" width="160" height="80" rx="12" fill="#fff" fill-opacity=".95"/>
+  <g fill="#155eef"><rect x="200" y="112" width="112" height="7" rx="3.5" fill-opacity=".55"/><rect x="200" y="126" width="130" height="7" rx="3.5" fill-opacity=".35"/><rect x="200" y="140" width="96" height="7" rx="3.5" fill-opacity=".35"/><rect x="200" y="154" width="70" height="7" rx="3.5" fill-opacity=".35"/></g>
+  <rect x="186" y="190" width="46" height="20" rx="10" fill="#fbbf24"/><rect x="238" y="190" width="46" height="20" rx="10" fill="#fbbf24" fill-opacity=".65"/>
+  <g fill="#0a2a5e" fill-opacity=".7"><rect x="196" y="197" width="26" height="6" rx="3"/><rect x="248" y="197" width="26" height="6" rx="3"/></g>
+  <path d="M190 50 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z" fill="#8fdcff"/>
+  <path d="M220 72 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 l5 -2 z" fill="#fff" fill-opacity=".8"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <!-- Data and intelligence: knowledge graph -> versioned data store -> dashboard -->
+  <g stroke="#fff" stroke-opacity=".55" stroke-width="2">
+    <path d="M58 72 L112 46 L170 78 L124 120 L58 72 M124 120 L64 168 L150 188 L124 120 M170 78 L150 188"/>
+  </g>
+  <g stroke="#fff" stroke-width="2.5">
+    <circle cx="58" cy="72" r="11" fill="#8fdcff"/><circle cx="112" cy="46" r="8" fill="#fff"/>
+    <circle cx="170" cy="78" r="9" fill="#fff"/><circle cx="124" cy="120" r="14" fill="#fbbf24"/>
+    <circle cx="64" cy="168" r="8" fill="#fff"/><circle cx="150" cy="188" r="11" fill="#8fdcff"/>
+  </g>
+  <path d="M184 130 H210" stroke="#fbbf24" stroke-width="2.5" stroke-dasharray="5 4"/><path d="M206 124 l8 6 l-8 6" stroke="#fbbf24" stroke-width="2.5"/>
+  <g stroke="#fff" stroke-width="2" stroke-opacity=".8">
+    <path d="M222 92 v76 c0 8 16 14 36 14 s36 -6 36 -14 v-76" fill="#fff" fill-opacity=".12"/>
+    <ellipse cx="258" cy="92" rx="36" ry="12" fill="#fff" fill-opacity=".3"/>
+    <path d="M222 118 c0 8 16 14 36 14 s36 -6 36 -14 M222 144 c0 8 16 14 36 14 s36 -6 36 -14" fill="none"/>
+  </g>
+  <path d="M300 130 H318" stroke="#fbbf24" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <rect x="320" y="58" width="66" height="144" rx="10" fill="#fff" fill-opacity=".95"/>
+  <g fill="#155eef"><rect x="332" y="150" width="10" height="38" rx="2" fill-opacity=".5"/><rect x="348" y="132" width="10" height="56" rx="2" fill-opacity=".75"/><rect x="364" y="116" width="10" height="72" rx="2"/></g>
+  <path d="M332 104 L346 92 L358 98 L374 76" stroke="#14a8de" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="332" y="68" width="30" height="6" rx="3" fill="#0a2a5e" fill-opacity=".45"/>
+</svg>

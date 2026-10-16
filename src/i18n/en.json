@@ -50,11 +50,11 @@
     },
     "products": {
       "title": "Products | Brisasoft",
-      "description": "Brisasoft products: BIS, an AI-native Biology education system, and AAB, AI Automation BPMN, combining Dify, Camunda, Microsoft 365 and AI agents."
+      "description": "Brisasoft products: BIS, an AI-native Biology education system, and AAB, AI Automation BPMN, combining BPMN workflows on Camunda, AI agents and Microsoft 365."
     },
     "aab": {
       "title": "AAB, AI Automation BPMN | Brisasoft",
-      "description": "AAB (AI Automation BPMN) automates business processes by combining BPMN workflows on Camunda, AI agents with Dify, and Microsoft 365. In development."
+      "description": "AAB (AI Automation BPMN) automates business processes by combining BPMN workflows on Camunda, AI agents and Microsoft 365. In development."
     },
     "privacy": {
       "title": "Privacy notice | Brisasoft",
@@ -396,7 +396,7 @@
       "date": "April 2026",
       "tag": "Product",
       "title": "Our own products: BIS and AAB",
-      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines Dify, Camunda, Microsoft 365 and AI agents."
+      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines BPMN workflows on Camunda, AI agents and Microsoft 365."
     },
     "t5": {
       "date": "October 2026",
@@ -444,7 +444,7 @@
       "date": "April 2026",
       "tag": "Product",
       "title": "Our own products: BIS and AAB",
-      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines Dify, Camunda, Microsoft 365 and AI agents."
+      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines BPMN workflows on Camunda, AI agents and Microsoft 365."
     },
     "i3": {
       "date": "October 2025",
@@ -479,7 +479,7 @@
     "aab": {
       "name": "AAB",
       "full": "AI Automation BPMN",
-      "text": "Business process automation that combines BPMN workflows on Camunda, AI agents built with Dify, and Microsoft 365.",
+      "text": "Business process automation that combines BPMN workflows on Camunda, AI agents and Microsoft 365.",
       "status": "In development"
     }
   },
@@ -499,7 +499,7 @@
       "text": "Each process runs step by step on a workflow engine, with state, timers, approvals and a full history."
     },
     "c2": {
-      "title": "AI agents with Dify",
+      "title": "AI agents",
       "text": "Agents classify requests, extract data from documents and draft replies, using your knowledge and tools."
     },
     "c3": {
@@ -542,7 +542,7 @@
     "updated": "Last updated: 12 October 2026.",
     "s1": {
       "title": "Who we are",
-      "text": "This website is operated by Brisasoft Joint Stock Company (Công ty Cổ phần Brisasoft), Hanoi, Vietnam. Contact: hello@brisasoft.net."
+      "text": "This website is operated by Brisasoft Joint Stock Company (Công ty Cổ phần Brisasoft), Hanoi, Vietnam. Contact: contact@brisasoft.net."
     },
     "s2": {
       "title": "What we collect",
@@ -554,7 +554,7 @@
     },
     "s4": {
       "title": "Your choices",
-      "text": "You can ask us to correct or delete the emails we hold about you by writing to hello@brisasoft.net. You can clear the stored language choice by clearing this site data in your browser."
+      "text": "You can ask us to correct or delete the emails we hold about you by writing to contact@brisasoft.net. You can clear the stored language choice by clearing this site data in your browser."
     }
   },
   "stats": {
@@ -565,7 +565,7 @@
       "label": "Brisasoft founded in Hanoi"
     },
     "projects": {
-      "label": "projects in the delivery experience of our founder and core team since 2011"
+      "label": "successful projects"
     },
     "markets": {
       "label": "Japan / Vietnam share of those projects (approx., by number); Vietnam work is mainly digital transformation"
@@ -626,14 +626,14 @@
     "aab": {
       "title": "AAB · AI Automation BPMN",
       "challenge": "Business processes run through email and spreadsheets; approvals stall and nobody can see where a case is stuck.",
-      "approach": "The process is modelled in BPMN and executed on Camunda; AI agents built with Dify read, classify and draft; people approve in Microsoft 365; every step is recorded.",
-      "stack": "Camunda (BPMN), Dify, Microsoft 365"
+      "approach": "The process is modelled in BPMN and executed on Camunda; AI agents read, classify and draft; people approve in Microsoft 365; every step is recorded.",
+      "stack": "Camunda (BPMN), AI agents, Microsoft 365"
     },
     "diagram": {
       "title": "How a case moves through AAB",
       "request": "Request arrives (Microsoft 365)",
       "process": "BPMN process routes it (Camunda)",
-      "agent": "AI agent classifies, extracts, drafts (Dify)",
+      "agent": "AI agent classifies, extracts, drafts",
       "review": "A person reviews and approves",
       "done": "Case closed, full history kept"
     }
@@ -645,7 +645,7 @@
     "items": {
       "dify": {
         "area": "LLM apps and AI agents",
-        "text": "AI agent steps in AAB: classifying requests, extracting data and drafting replies."
+        "text": "LLM applications, knowledge assistants (RAG) and AI agent workflows."
       },
       "camunda": {
         "area": "BPMN workflow engine",
@@ -689,11 +689,13 @@
     "title": "Message from our Founder & CEO",
     "profileTitle": "Profile",
     "bio1": "Began working on software for the Japanese market.",
-    "bio2": "Has since worked on and led projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI, part of the more than 30 projects delivered by our founder and core team.",
+    "bio2": "Has since worked on and led projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI.",
     "bio3": "Moved from software engineering into project and delivery management: clarifying requirements, managing quality, and coordinating teams and customers.",
     "bio4": "Founded Brisasoft in 2024 to build an AI-native engineering company in Vietnam.",
     "note": "Projects before October 2024 were delivered in other organisations. They are the experience of our founder and core team, not Brisasoft's company track record.",
-    "bio0": "Graduated from the HEDSPI programme at Hanoi University of Science and Technology, a Vietnam–Japan IT engineering programme supported by JICA, with in-depth study of the Japanese language and working culture."
+    "bio0": "Graduated from the HEDSPI programme at Hanoi University of Science and Technology, a Vietnam–Japan IT engineering programme supported by JICA, with in-depth study of the Japanese language and working culture.",
+    "sinceLabel": "2011–present",
+    "careerLabel": "Career"
   },
   "quality": {
     "eyebrow": "Delivery and quality",

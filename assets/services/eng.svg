@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <!-- Software engineering: web application code, mobile app, tested quality -->
+  <rect x="34" y="40" width="240" height="178" rx="14" fill="#0a2a5e" fill-opacity=".55" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M34 70 H274" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="54" cy="55" r="5" fill="#ff8a80"/><circle cx="70" cy="55" r="5" fill="#fbbf24"/><circle cx="86" cy="55" r="5" fill="#69f0ae"/>
+  <g stroke-linecap="round" stroke-width="7">
+    <path d="M56 92 H96" stroke="#8fdcff"/><path d="M104 92 H150" stroke="#fff" stroke-opacity=".7"/>
+    <path d="M74 112 H120" stroke="#fbbf24"/><path d="M128 112 H196" stroke="#fff" stroke-opacity=".45"/>
+    <path d="M92 132 H160" stroke="#fff" stroke-opacity=".7"/><path d="M168 132 H214" stroke="#8fdcff"/>
+    <path d="M92 152 H130" stroke="#8fdcff"/><path d="M138 152 H182" stroke="#fff" stroke-opacity=".45"/>
+    <path d="M74 172 H140" stroke="#fff" stroke-opacity=".7"/>
+    <path d="M56 192 H90" stroke="#8fdcff"/>
+  </g>
+  <rect x="292" y="66" width="76" height="150" rx="14" fill="#fff" fill-opacity=".95"/>
+  <rect x="302" y="84" width="56" height="34" rx="6" fill="#155eef" fill-opacity=".85"/>
+  <g fill="#155eef" fill-opacity=".3"><rect x="302" y="126" width="56" height="8" rx="4"/><rect x="302" y="140" width="40" height="8" rx="4"/><rect x="302" y="160" width="26" height="26" rx="6"/><rect x="332" y="160" width="26" height="26" rx="6"/></g>
+  <rect x="318" y="200" width="24" height="5" rx="2.5" fill="#0a2a5e" fill-opacity=".35"/>
+  <circle cx="290" cy="58" r="22" fill="#fbbf24" stroke="#fff" stroke-width="3"/>
+  <path d="M279 58 l7 7 l14 -14" stroke="#0a2a5e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

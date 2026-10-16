@@ -519,3 +519,11 @@ html[lang="ja"] .hf-side{transform:none;}
 @media (max-width:860px){.numbers{grid-template-columns:repeat(2,1fr);}}
 @media (max-width:420px){.numbers{grid-template-columns:1fr;}}
 .numbers div:nth-child(n){border:0;}
+.timeline .tl-when{display:block;font-weight:800;font-size:.9rem;letter-spacing:.02em;color:var(--link);}
+
+/* Services: illustration per service, number as a small badge */
+.svc-art{min-height:0;aspect-ratio:400/260;}
+.svc-art img{position:relative;z-index:1;width:92%;height:auto;}
+.svc-art b{position:absolute;z-index:2;left:14px;top:12px;font-size:1rem;padding:4px 10px;border-radius:8px;background:rgba(6,18,43,.45);letter-spacing:0;}
+@media (max-width:720px){.svc-art{min-height:0;}}
+.details-table td,.footer-info dd{overflow-wrap:anywhere;}
