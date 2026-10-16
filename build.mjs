@@ -156,6 +156,7 @@ function detailsRows(lang, d) {
     ...companyRows(lang, d),
     [d.facts.focusLabel, d.facts.focusValue],
     [d.facts.establishedLabel, d.facts.establishedValue],
+    [d.facts.sizeLabel, d.facts.sizeValue],
     [d.facts.locationLabel, d.facts.locationValue],
     [L.email, EMAIL],
   ];

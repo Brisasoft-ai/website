@@ -71,13 +71,11 @@ Not run: Lighthouse, axe, visual regression, real iOS/Android devices, staging d
 ## 10. Founder approval list
 Resolved 2026-10-16: 30+ = founder + core team (all pages aligned); universities; AI-per-step and the 8 practices are current; title Founder & CEO with portrait; Always Use HTTPS enabled by the owner (re-verify, see S-01).
 
+Resolved 2026-10-16 (second round): 70/30 by number of projects; company size 10–50 incl. partners, 12 full-time (figure and About table); 70% AI engineers (BE and FE); intra-mart, Shopify, Pega confirmed and shown; BPMN certification left out; founder message paragraph 1 rewritten around the HEDSPI programme (HUST, JICA-supported), "before graduating" wording removed everywhere.
+
 Still open:
-1. Founder message text in EN/JA/VI (voice, the "ticket-takers" framing).
-2. 70/30 is by number of projects.
-3. Team: dated headcount (to enable `team`), and whether to publish "70%+ of engineers" (to enable `aiEngineers`).
-4. BPMN certification: provide details or confirm removal.
-5. intra-mart / Shopify / Pega: one approved project each, or keep hidden.
-6. Japanese copy review by a native speaker familiar with SIer communication.
+1. Final read of the founder message in EN/JA/VI after the HEDSPI rewrite.
+2. Japanese copy review by a native speaker familiar with SIer communication.
 
 ## 11. Production deployment checklist
 1. Founder approves section 10 (edit `src/i18n/*` or `src/company.json` as needed; `node build.mjs`).

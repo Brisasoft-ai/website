@@ -25,9 +25,9 @@ Status legend:
 | Fact | Supplied value | Definition used on site | Status |
 |---|---|---|---|
 | Project experience | 30+ projects | Projects in the delivery experience of the founder and core engineers **since 2011, including before Brisasoft was founded**. Not presented as projects delivered by Brisasoft the legal entity. | Published, **confirmed by founder 2026-10-16** (founder + core team) |
-| Market split | ~70% Japan / ~30% Vietnam | Share **by number of projects** of the same 30+ projects. Vietnam work is mainly digital transformation. | Published, confirm metric is project count |
-| Team size | 10-50 people | Not published: a range is not a headcount. Publish only as a dated figure ("N engineers as of <month year>"). | Held |
-| AI engineers | 70%+ AI-focused | Denominator must be "engineers" (not employees). Site says "most of our engineers work mainly on AI-related projects" without the number. | Number held; qualitative wording published, confirm |
+| Market split | ~70% Japan / ~30% Vietnam | Share **by number of projects** of the same 30+ projects; Vietnam work mainly digital transformation. | Published, confirmed 2026-10-16 |
+| Company size | 10–50 people incl. partner (outsourcing) engineers; **12 full-time employees**, as of Oct 2026. JA: 10名〜50名（正社員：12名） | Founder, 2026-10-16 | Published (figure + About table), confirmed |
+| AI engineers | 70% of engineers are AI engineers who also work back end and front end | Founder, 2026-10-16 | Published, confirmed |
 | Education | Engineers from Vietnamese universities incl. Hanoi University of Science and Technology (HUST) and "University of Industry" | Founder confirmed: leading Vietnamese IT universities such as HUST (Bách khoa) and Hanoi University of Industry (Công nghiệp). | Published, confirmed 2026-10-16 |
 
 ## 3. Founder (personal profile, separate from the company)
@@ -36,7 +36,8 @@ Status legend:
 |---|---|---|---|
 | Name | Nguyễn Thanh Bình | `src/company.json` | Published |
 | Title | Founder & CEO (JA: 創業者 兼 CEO, 代表メッセージ; VI: Nhà sáng lập kiêm CEO) | Founder, 2026-10-16 | Published, confirmed |
-| Japan market | Since 2011, before graduating | Existing site | Published |
+| Education | HEDSPI programme, Hanoi University of Science and Technology (Vietnam–Japan IT engineering programme supported by JICA, started 2006; Japanese language and working culture in depth) | Founder, 2026-10-16; programme facts: HUST SoICT and JICA pages | Published |
+| Japan market | Since 2011, after graduating from HEDSPI (replaces the earlier "before graduating" wording) | Founder, 2026-10-16 | Published, confirmed |
 | Projects | Worked on and led projects in SAP/ERP, embedded, BPMN workflow, healthcare, AI; part of the 30+ projects of founder + core team, before Brisasoft, in other organisations | Founder, 2026-10-16 | Published, confirmed |
 | Career path | Engineering, then project and delivery management (requirements, quality, team and customer coordination) | Founder brief | Published, confirm |
 | Philosophy | AI-native engineering; Forward Deployed Engineer (FDE) mindset; professionalism and ownership; customer value, including non-AI solutions when better | Founder brief | Published (founder message, needs founder sign-off on voice) |
@@ -54,9 +55,9 @@ AI use in each of the 6 process steps, "every engineer uses AI tools in daily de
 | Camunda / BPMN 2.0 | AAB core; founder's BPMN workflow projects | Published |
 | Microsoft 365 | AAB (requests, approvals) and internal system integration | Published |
 | SAP / ERP | Founder's Japanese-market projects (pre-Brisasoft) | Published, labelled as founder experience |
-| intra-mart | Named in founder brief as a candidate, no project evidence yet | Held (`show: false`) |
-| Shopify | Named in founder brief as a candidate, no project evidence yet | Held (`show: false`) |
-| Pega | Named in founder brief as a candidate, no project evidence yet | Held (`show: false`) |
+| intra-mart | Confirmed by founder 2026-10-16 as used in real projects | Published |
+| Shopify | Confirmed by founder 2026-10-16 as used in real projects | Published |
+| Pega | Confirmed by founder 2026-10-16 as used in real projects | Published |
 
 To publish a held technology: provide one approved project description (domain, role, what was delivered, whether the client can be named), then set `show: true` in `src/company.json`.
 
@@ -68,7 +69,7 @@ To publish a held technology: provide one approved project description (domain, 
 
 ## 6. Removed or corrected claims
 
-- "BPMN workflow certification" (Oct 2025 milestone): no certificate name, issuer or holder on record. Removed. Re-add with exact certificate name and holder if it exists.
+- "BPMN workflow certification" (Oct 2025 milestone): no certificate name, issuer or holder on record. Removed. Founder decision 2026-10-16: leave it out for now.
 - "AI agents ... with source citations" as a general service promise: narrowed to the BIS approach. Citations are a design feature of BIS, not a guarantee for every project.
 - "Evaluation and safety checks, so AI answers can be trusted": rewritten as concrete practices (test-question evaluation, human review).
 - Home stat "2011: working with the Japanese market since": was the founder's date shown as a company stat. Replaced with company-founding date plus an attributed experience figure.

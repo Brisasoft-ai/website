@@ -73,7 +73,9 @@
     "establishedLabel": "Thành lập",
     "establishedValue": "Tháng 10/2024",
     "locationLabel": "Địa điểm",
-    "locationValue": "Việt Nam"
+    "locationValue": "Việt Nam",
+    "sizeLabel": "Quy mô",
+    "sizeValue": "10–50 người (nhân viên chính thức: 12 người), có liên kết với đối tác thuê ngoài; tính đến tháng 10/2026"
   },
   "bis": {
     "name": "BIS",
@@ -233,7 +235,7 @@
   "japan": {
     "eyebrow": "Kinh nghiệm",
     "title": "Hơn một thập kỷ triển khai phần mềm cho thị trường Nhật Bản",
-    "text": "Nhà sáng lập làm việc với thị trường Nhật Bản từ năm 2011, khi còn chưa tốt nghiệp. Nhà sáng lập và đội ngũ nòng cốt đã triển khai hơn 30 dự án trong các lĩnh vực SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI. Brisasoft mang kỷ luật về chất lượng, giao tiếp và tiến độ đó vào mọi dự án."
+    "text": "Nhà sáng lập được đào tạo trong chương trình HEDSPI Việt – Nhật tại Đại học Bách khoa Hà Nội và làm việc với thị trường Nhật Bản từ năm 2011. Nhà sáng lập và đội ngũ nòng cốt đã triển khai hơn 30 dự án trong các lĩnh vực SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI. Brisasoft mang kỷ luật về chất lượng, giao tiếp và tiến độ đó vào mọi dự án."
   },
   "services": {
     "eyebrow": "Dịch vụ",
@@ -572,10 +574,10 @@
       "label": "sản phẩm AI của riêng chúng tôi đang phát triển: BIS và AAB"
     },
     "aiEngineers": {
-      "label": "kỹ sư chủ yếu làm các dự án AI"
+      "label": "kỹ sư là kỹ sư AI, làm được cả back end và front end"
     },
     "team": {
-      "label": "người trong đội ngũ kỹ thuật"
+      "label": "người, gồm cả kỹ sư đối tác (12 nhân viên chính thức, tháng 10/2026)"
     }
   },
   "deliver": {
@@ -675,7 +677,7 @@
     "eyebrow": "Thông điệp từ Nhà sáng lập & CEO",
     "title": "Xây dựng một công ty kỹ thuật AI-native",
     "quote": "Công nghệ tạo ra giá trị lớn nhất khi người kỹ sư xây dựng nó hiểu bài toán kinh doanh phía sau.",
-    "p1": "Tôi bắt đầu làm phần mềm cho khách hàng Nhật Bản từ năm 2011, khi còn chưa tốt nghiệp. Những năm sau đó, tôi đi từ viết code đến dẫn dắt dự án và quản lý triển khai, qua nhiều lĩnh vực: ERP, hệ thống nhúng, workflow nghiệp vụ, y tế và AI. Có một bài học lặp lại nhiều lần: công nghệ tạo ra giá trị lớn nhất khi người kỹ sư xây dựng nó hiểu bài toán kinh doanh phía sau.",
+    "p1": "Tôi được đào tạo trong chương trình HEDSPI tại Đại học Bách khoa Hà Nội, chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ. Bên cạnh chuyên môn, chúng tôi được học sâu về tiếng Nhật và văn hóa làm việc của Nhật Bản. Sau khi tốt nghiệp, từ năm 2011 tôi làm phần mềm cho khách hàng Nhật Bản; những năm sau đó, tôi đi từ viết code đến dẫn dắt dự án và quản lý triển khai, qua nhiều lĩnh vực: ERP, hệ thống nhúng, workflow nghiệp vụ, y tế và AI. Có một bài học lặp lại nhiều lần: công nghệ tạo ra giá trị lớn nhất khi người kỹ sư xây dựng nó hiểu bài toán kinh doanh phía sau.",
     "p2": "Thế nhưng mô hình outsourcing thường biến kỹ sư thành người “nhận ticket”. Đặc tả được gửi đến, code được bàn giao, và không ai hỏi liệu nó có giải quyết được vấn đề thật hay không. Cách làm đó không còn hiệu quả khi bài toán của khách hàng chưa rõ ràng, trải rộng trên nhiều hệ thống, hoặc thay đổi trong quá trình làm.",
     "p3": "Tôi thành lập Brisasoft năm 2024 vì AI đang thay đổi cách phần mềm được thiết kế, xây dựng và vận hành, và đội ngũ kỹ thuật cũng phải thay đổi theo. Chúng tôi dùng AI xuyên suốt công việc để kỹ sư dành nhiều thời gian hơn cho điều quan trọng: hiểu bối cảnh, đặt câu hỏi cho các giả định và tìm giải pháp tốt hơn.",
     "p4": "Mục tiêu của chúng tôi là mỗi kỹ sư Brisasoft đều có tư duy Forward Deployed Engineer: chiều sâu kỹ thuật, hiểu biết kinh doanh, khả năng giải quyết vấn đề thực tế và cộng tác chặt chẽ với khách hàng. Chúng tôi đang xây dựng năng lực đó từng bước, và đó là chuẩn mực chúng tôi đặt ra cho chính mình.",
@@ -686,11 +688,12 @@
     "eyebrow": "Nhà sáng lập & CEO",
     "title": "Thông điệp từ Nhà sáng lập & CEO",
     "profileTitle": "Tiểu sử",
-    "bio1": "Bắt đầu làm phần mềm cho thị trường Nhật Bản từ năm 2011, khi còn là sinh viên.",
+    "bio1": "Bắt đầu làm phần mềm cho thị trường Nhật Bản.",
     "bio2": "Từ đó tham gia và dẫn dắt các dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI, nằm trong hơn 30 dự án của nhà sáng lập và đội ngũ nòng cốt.",
     "bio3": "Đi từ kỹ sư phần mềm đến quản lý dự án và triển khai: làm rõ yêu cầu, quản lý chất lượng, điều phối đội ngũ và khách hàng.",
     "bio4": "Năm 2024 thành lập Brisasoft để xây dựng một công ty kỹ thuật AI-native tại Việt Nam.",
-    "note": "Các dự án trước tháng 10/2024 được thực hiện tại các tổ chức khác. Đó là kinh nghiệm của nhà sáng lập và đội ngũ nòng cốt, không phải thành tích của Brisasoft với tư cách công ty."
+    "note": "Các dự án trước tháng 10/2024 được thực hiện tại các tổ chức khác. Đó là kinh nghiệm của nhà sáng lập và đội ngũ nòng cốt, không phải thành tích của Brisasoft với tư cách công ty.",
+    "bio0": "Tốt nghiệp chương trình HEDSPI tại Đại học Bách khoa Hà Nội, chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ, với nội dung học sâu về tiếng Nhật và văn hóa làm việc Nhật Bản."
   },
   "quality": {
     "eyebrow": "Triển khai và chất lượng",
@@ -731,6 +734,6 @@
   },
   "team": {
     "title": "Đội ngũ",
-    "text": "Kỹ sư của chúng tôi đến từ các trường đại học hàng đầu về CNTT tại Việt Nam như Đại học Bách khoa Hà Nội và Đại học Công nghiệp Hà Nội. Phần lớn làm chủ yếu các dự án liên quan đến AI, và mọi kỹ sư đều dùng công cụ AI trong công việc phát triển hằng ngày."
+    "text": "Kỹ sư của chúng tôi đến từ các trường đại học hàng đầu về CNTT tại Việt Nam như Đại học Bách khoa Hà Nội và Đại học Công nghiệp Hà Nội. 70% là kỹ sư AI, làm được cả back end và front end, và mọi kỹ sư đều dùng công cụ AI trong công việc phát triển hằng ngày. Bên cạnh 12 nhân viên chính thức, chúng tôi liên kết với các công ty đối tác để mở rộng đội ngũ cho các dự án lớn."
   }
 }

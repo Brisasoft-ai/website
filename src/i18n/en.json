@@ -73,7 +73,9 @@
     "establishedLabel": "Established",
     "establishedValue": "October 2024",
     "locationLabel": "Location",
-    "locationValue": "Vietnam"
+    "locationValue": "Vietnam",
+    "sizeLabel": "Company size",
+    "sizeValue": "10–50 people (12 full-time employees), working with partner companies; as of October 2026"
   },
   "bis": {
     "name": "BIS",
@@ -233,7 +235,7 @@
   "japan": {
     "eyebrow": "Experience",
     "title": "Over a decade of software delivery for the Japanese market",
-    "text": "Our founder has worked with the Japanese market since 2011, starting before graduating. Together, our founder and core team have delivered more than 30 projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI. Brisasoft carries that discipline in quality, communication and delivery into every engagement."
+    "text": "Our founder trained in the HEDSPI Vietnam–Japan IT programme at Hanoi University of Science and Technology and has worked with the Japanese market since 2011. Together, our founder and core team have delivered more than 30 projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI. Brisasoft carries that discipline in quality, communication and delivery into every engagement."
   },
   "services": {
     "eyebrow": "Services",
@@ -572,10 +574,10 @@
       "label": "AI products of our own in development: BIS and AAB"
     },
     "aiEngineers": {
-      "label": "of our engineers work mainly on AI projects"
+      "label": "of our engineers are AI engineers who also work across back end and front end"
     },
     "team": {
-      "label": "people in our engineering team"
+      "label": "people including partner engineers (12 full-time employees, October 2026)"
     }
   },
   "deliver": {
@@ -675,7 +677,7 @@
     "eyebrow": "Message from our Founder & CEO",
     "title": "Building an AI-native engineering company",
     "quote": "Technology creates its greatest value when the engineers building it understand the business problem behind it.",
-    "p1": "I started working on software for Japanese clients in 2011, before I had graduated. Over the following years I moved from writing code to leading projects and delivery, across ERP, embedded systems, business workflow, healthcare and AI. One lesson kept repeating: technology creates its greatest value when the engineers building it understand the business problem behind it.",
+    "p1": "I trained in the HEDSPI programme at Hanoi University of Science and Technology, a Vietnam–Japan IT engineering programme supported by JICA. Alongside the technical curriculum, we studied the Japanese language and Japanese working culture in depth. After graduating, I began working on software for Japanese clients in 2011, and over the following years moved from writing code to leading projects and delivery, across ERP, embedded systems, business workflow, healthcare and AI. One lesson kept repeating: technology creates its greatest value when the engineers building it understand the business problem behind it.",
     "p2": "Too often, outsourcing turns engineers into ticket-takers. The specification arrives, the code is delivered, and nobody asks whether it solves the real problem. That model breaks down when a customer's challenge is unclear, spans several systems, or changes as the work progresses.",
     "p3": "I founded Brisasoft in 2024 because AI is changing how software is designed, built and operated, and engineering teams must change with it. We use AI throughout our work so that engineers can spend more of their time on what matters: understanding the context, challenging assumptions and exploring better solutions.",
     "p4": "Our ambition is for every Brisasoft engineer to develop a Forward Deployed Engineer mindset: technical depth, business understanding, practical problem-solving and close collaboration with customers. We are building that capability step by step, and it is the standard we hold ourselves to.",
@@ -686,11 +688,12 @@
     "eyebrow": "Founder & CEO",
     "title": "Message from our Founder & CEO",
     "profileTitle": "Profile",
-    "bio1": "Started working on software for the Japanese market in 2011, while still a student.",
+    "bio1": "Began working on software for the Japanese market.",
     "bio2": "Has since worked on and led projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI, part of the more than 30 projects delivered by our founder and core team.",
     "bio3": "Moved from software engineering into project and delivery management: clarifying requirements, managing quality, and coordinating teams and customers.",
     "bio4": "Founded Brisasoft in 2024 to build an AI-native engineering company in Vietnam.",
-    "note": "Projects before October 2024 were delivered in other organisations. They are the experience of our founder and core team, not Brisasoft's company track record."
+    "note": "Projects before October 2024 were delivered in other organisations. They are the experience of our founder and core team, not Brisasoft's company track record.",
+    "bio0": "Graduated from the HEDSPI programme at Hanoi University of Science and Technology, a Vietnam–Japan IT engineering programme supported by JICA, with in-depth study of the Japanese language and working culture."
   },
   "quality": {
     "eyebrow": "Delivery and quality",
@@ -731,6 +734,6 @@
   },
   "team": {
     "title": "Our team",
-    "text": "Our engineers come from leading Vietnamese universities for IT, such as Hanoi University of Science and Technology and Hanoi University of Industry. Most of them work mainly on AI-related projects, and every engineer uses AI tools in daily development."
+    "text": "Our engineers come from leading Vietnamese universities for IT, such as Hanoi University of Science and Technology and Hanoi University of Industry. 70% of them are AI engineers who also work across back end and front end, and every engineer uses AI tools in daily development. Alongside our 12 full-time employees, we work with partner companies to scale teams for larger projects."
   }
 }
