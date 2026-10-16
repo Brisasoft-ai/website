@@ -5,7 +5,7 @@
       <h1>{{aab.heroTitle}}</h1>
       <p>{{aab.heroText}}</p>
       <span class="badge badge-dark">{{aab.status}}</span>
-      <div class="hero-actions"><a href="mailto:{{@email}}" class="btn btn-primary">{{cta.talkProject}}</a></div>
+      <div class="hero-actions"><a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a></div>
     </div>
     <div class="bis-card" aria-hidden="true"><b>AAB</b><span>{{products.aab.full}}</span></div>
   </div>
@@ -38,15 +38,9 @@
 </section>
 
 <section>
-  <div class="wrap two-col top">
-    <div>
-      <h2>{{aab.whereTitle}}</h2>
-      <p class="muted">{{aab.whereText}}</p>
-    </div>
-    <div>
-      <h2>{{aab.principlesTitle}}</h2>
-      <div class="pillars left"><span>{{aab.p.p1}}</span><span>{{aab.p.p2}}</span><span>{{aab.p.p3}}</span><span>{{aab.p.p4}}</span></div>
-    </div>
+  <div class="wrap narrow">
+    <h2>{{aab.whereTitle}}</h2>
+    <p class="muted">{{aab.whereText}}</p>
   </div>
 </section>
 
@@ -65,7 +59,7 @@
       <span class="eyebrow">{{contact.eyebrow}}</span>
       <h2 class="section-title">{{aab.ctaTitle}}</h2>
       <p class="section-sub">{{aab.ctaText}}</p>
-      <a href="mailto:{{@email}}" class="btn btn-primary">{{@email}}</a>
+      <a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a>
     </div>
   </div>
 </section>

@@ -144,7 +144,7 @@ function footer(lang, d) {
     </div>
     <div class="footer-bottom">
       <span>© <span id="year">2026</span> Brisasoft. ${esc(d.footer.rights)}</span>
-      <span><a href="${url(lang, 'privacy')}">${esc(d.footer.privacy)}</a> · ${esc(d.footer.bisNote)}</span>
+      <span><a href="${url(lang, 'privacy')}">${esc(d.footer.privacy)}</a></span>
     </div>
   </div>
 </footer>`;
@@ -159,6 +159,7 @@ function detailsRows(lang, d) {
     [d.facts.companyLabel, d.facts.companyValue],
     [L.legalName, pick(company.legalName, lang)],
     [d.facts.establishedLabel, d.facts.establishedValue],
+    [d.facts.capitalLabel, d.facts.capitalValue],
     [d.facts.repLabel, rep],
     [L.address, pick(company.address, lang)],
     [d.facts.sizeLabel, d.facts.sizeValue],

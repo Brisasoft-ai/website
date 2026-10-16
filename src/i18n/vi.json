@@ -2,25 +2,18 @@
   "nav": {
     "about": "Giới thiệu",
     "products": "Sản phẩm",
-    "build": "Chúng tôi xây dựng",
     "contact": "Liên hệ",
     "menu": "Menu",
     "language": "Ngôn ngữ",
     "services": "Dịch vụ",
-    "insights": "Tin tức",
+    "insights": "Chuyên môn",
     "founder": "Thông điệp CEO"
   },
   "cta": {
-    "learnMore": "Tìm hiểu thêm",
-    "contactUs": "Liên hệ",
-    "exploreBis": "Khám phá BIS",
     "sendEmail": "Gửi email",
     "viewServices": "Xem dịch vụ",
-    "talkProject": "Trao đổi về dự án",
-    "readBis": "Đọc câu chuyện BIS",
-    "viewProducts": "Xem sản phẩm",
     "discuss": "Trao đổi về dự án",
-    "seeWork": "Xem dự án tiêu biểu",
+    "seeWork": "Xem sản phẩm",
     "readMessage": "Đọc toàn bộ thông điệp"
   },
   "meta": {
@@ -34,19 +27,19 @@
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
-      "description": "BIS (Biology Intellectual System) là sản phẩm giáo dục AI-native cho môn Sinh học, do Brisasoft xây dựng và sở hữu. Hiện là phiên bản thử nghiệm."
+      "description": "BIS (Biology Intellectual System) là hệ thống học Sinh học có AI do Brisasoft phát triển, hiện ở giai đoạn prototype."
     },
     "contact": {
       "title": "Liên hệ | Brisasoft",
-      "description": "Liên hệ Brisasoft về câu hỏi, hợp tác hoặc đề xuất đối tác."
+      "description": "Liên hệ Brisasoft về dự án phần mềm, AI hoặc hợp tác."
     },
     "services": {
       "title": "Dịch vụ | Brisasoft",
-      "description": "Dịch vụ phát triển AI, dữ liệu, kỹ thuật phần mềm và nền tảng của Brisasoft, công ty phần mềm và AI tại Việt Nam."
+      "description": "Dịch vụ của Brisasoft: phát triển ứng dụng AI, tự động hóa quy trình và dữ liệu, hệ thống nghiệp vụ và tích hợp, hạ tầng và vận hành."
     },
     "insights": {
-      "title": "Know-how và cột mốc | Brisasoft",
-      "description": "Know-how của Brisasoft về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI, cùng các cột mốc từ outsourcing đến sản phẩm riêng."
+      "title": "Lĩnh vực chuyên môn | Brisasoft",
+      "description": "Các lĩnh vực nhà sáng lập và đội ngũ nòng cốt của Brisasoft đã phát triển hệ thống, chủ yếu cho khách hàng Nhật Bản: SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI."
     },
     "products": {
       "title": "Sản phẩm | Brisasoft",
@@ -68,34 +61,30 @@
   "facts": {
     "companyLabel": "Công ty",
     "companyValue": "Brisasoft (thương hiệu: Brisa)",
-    "focusLabel": "Lĩnh vực",
-    "focusValue": "Phần mềm, AI, sản phẩm và giải pháp số",
     "establishedLabel": "Thành lập",
     "establishedValue": "Tháng 10/2024",
-    "locationLabel": "Địa điểm",
     "locationValue": "Việt Nam",
     "sizeLabel": "Nhân sự",
     "sizeValue": "12 nhân viên chính thức (tính đến tháng 10/2026)",
     "repLabel": "Người đại diện",
     "businessLabel": "Lĩnh vực hoạt động",
-    "businessValue": "Phát triển ứng dụng AI; tự động hóa quy trình nghiệp vụ (BPMN); phát triển và tích hợp hệ thống nghiệp vụ; hỗ trợ chuyển đổi số tại Việt Nam; phát triển sản phẩm AI riêng (BIS, AAB)"
+    "businessValue": "Phát triển ứng dụng AI; tự động hóa quy trình nghiệp vụ (BPMN); phát triển và tích hợp hệ thống nghiệp vụ; hỗ trợ chuyển đổi số tại Việt Nam; phát triển sản phẩm AI riêng (BIS, AAB)",
+    "capitalLabel": "Vốn điều lệ",
+    "capitalValue": "Tương đương khoảng 7 triệu yên Nhật (không thay đổi từ khi thành lập)"
   },
   "bis": {
-    "name": "BIS",
-    "full": "Biology Intellectual System",
-    "tagline": "Giáo dục AI-native cho môn Sinh học."
+    "full": "Biology Intellectual System"
   },
   "home": {
     "hero": {
       "eyebrow": "Kỹ thuật AI-native · Nhật Bản & Việt Nam",
       "titleA": "Kỹ thuật AI-native",
       "titleB": "tạo giá trị kinh doanh thực.",
-      "text": "Brisasoft là công ty kỹ thuật phần mềm tại Hà Nội. Kỹ sư của chúng tôi bắt đầu từ bài toán kinh doanh của bạn, dùng AI xuyên suốt phân tích, phát triển và kiểm thử, và chịu trách nhiệm đến kết quả cuối cùng, cho khách hàng tại Nhật Bản và Việt Nam."
+      "text": "Brisasoft là công ty kỹ thuật phần mềm tại Hà Nội. Chúng tôi bắt đầu từ bài toán kinh doanh của bạn, dùng AI trong phân tích, phát triển và kiểm thử, và chịu trách nhiệm đến kết quả cuối cùng. Khách hàng của chúng tôi ở Nhật Bản và Việt Nam."
     },
     "why": {
       "eyebrow": "Cách chúng tôi nghĩ",
       "title": "Bốn nguyên tắc trong cách chúng tôi làm việc",
-      "sub": "Điều bạn có thể kỳ vọng ở một kỹ sư Brisasoft.",
       "i1": {
         "title": "Kỹ thuật AI-native",
         "text": "AI là một phần trong cách chúng tôi phân tích yêu cầu, viết và review code, kiểm thử và viết tài liệu, không phải một dịch vụ gắn thêm. Kỹ sư vẫn chịu trách nhiệm cho mọi kết quả."
@@ -135,17 +124,6 @@
     "repTitle": "Người đại diện"
   },
   "bispage": {
-    "eyebrow": "Sản phẩm",
-    "whatTitle": "BIS là gì?",
-    "whatText": "BIS (Biology Intellectual System) là sản phẩm giáo dục AI-native tập trung vào môn Sinh học. BIS do Brisasoft xây dựng và sở hữu.",
-    "statusTitle": "Tình trạng hiện tại",
-    "statusText": "BIS hiện là phiên bản thử nghiệm.",
-    "ownerTitle": "Do Brisasoft xây dựng",
-    "ownerText": "BIS là một sản phẩm của Brisasoft, công ty phần mềm và AI có trụ sở tại Việt Nam.",
-    "ctaTitle": "Câu hỏi hoặc góp ý?",
-    "ctaText": "BIS vẫn là phiên bản thử nghiệm. Nếu bạn muốn hỏi thêm hoặc góp ý, hãy gửi email cho chúng tôi.",
-    "designTitle": "Mục tiêu thiết kế",
-    "designText": "BIS được thiết kế để kết hợp tri thức Sinh học có cấu trúc, gia sư AI, phân tích đề thi và lộ trình học cá nhân hóa, giúp học sinh hiểu khái niệm, nhận ra quan niệm sai và cải thiện kết quả học tập.",
     "focusTitle": "Trọng tâm ban đầu",
     "focusText": "Ban đầu, chúng tôi tập trung vào giáo dục Sinh học THPT nâng cao và chuẩn bị cho các cuộc thi.",
     "openApp": "Mở phiên bản thử nghiệm"
@@ -157,7 +135,7 @@
   },
   "contact": {
     "eyebrow": "Liên hệ",
-    "title": "Liên hệ với chúng tôi",
+    "title": "Liên hệ",
     "text": "Hãy chia sẻ bài toán kinh doanh hoặc hệ thống hiện tại của bạn. Chúng tôi sẽ phản hồi qua email.",
     "emailLabel": "Email",
     "subject": "Trao đổi dự án",
@@ -170,7 +148,7 @@
     }
   },
   "footer": {
-    "tagline": "Kỹ thuật AI-native tạo giá trị kinh doanh thực. Hà Nội, Việt Nam.",
+    "tagline": "Phát triển phần mềm AI-native. Hà Nội, Việt Nam.",
     "infoTitle": "Thông tin công ty",
     "companyCol": "Công ty",
     "productsCol": "Sản phẩm",
@@ -180,16 +158,10 @@
       "registrationNumber": "Mã số doanh nghiệp",
       "address": "Địa chỉ",
       "phone": "Điện thoại",
-      "email": "Email",
-      "established": "Thành lập"
+      "email": "Email"
     },
     "rights": "Bảo lưu mọi quyền.",
-    "bisNote": "BIS và AAB là sản phẩm của Brisasoft.",
     "privacy": "Quyền riêng tư"
-  },
-  "banner": {
-    "text": "Hai sản phẩm AI đang phát triển: BIS cho giáo dục Sinh học và AAB cho tự động hóa quy trình nghiệp vụ.",
-    "link": "Xem sản phẩm"
   },
   "process": {
     "eyebrow": "Phương pháp kỹ thuật",
@@ -227,101 +199,88 @@
       "ai": "Soạn tài liệu và tài liệu bàn giao."
     }
   },
-  "japan": {
-    "eyebrow": "Kinh nghiệm",
-    "title": "Hơn một thập kỷ triển khai phần mềm cho thị trường Nhật Bản",
-    "text": "Nhà sáng lập được đào tạo trong chương trình HEDSPI Việt – Nhật tại Đại học Bách khoa Hà Nội và làm việc với thị trường Nhật Bản từ năm 2011. Nhà sáng lập và đội ngũ nòng cốt đã triển khai hơn 30 dự án trong các lĩnh vực SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI. Brisasoft mang kỷ luật về chất lượng, giao tiếp và tiến độ đó vào mọi dự án."
-  },
   "services": {
     "eyebrow": "Dịch vụ",
-    "title": "Dịch vụ AI và phần mềm, từ ý tưởng đến vận hành",
-    "text": "Chúng tôi kết hợp kỹ thuật phần mềm, hiểu biết lĩnh vực và AI để xây dựng sản phẩm và giải pháp bền vững.",
+    "title": "Từ phân tích yêu cầu đến vận hành",
+    "text": "Bốn mảng dịch vụ, triển khai bởi đội ngũ kỹ thuật AI-native cho khách hàng tại Nhật Bản và Việt Nam. Với doanh nghiệp Việt Nam, chúng tôi kết hợp các dịch vụ này để hỗ trợ chuyển đổi số.",
     "ai": {
-      "title": "Phát triển AI",
-      "text": "Thiết kế và xây dựng tính năng, sản phẩm AI-native: trợ lý, gia sư, gợi ý, hiểu tài liệu và tự động hóa.",
-      "b1": "Trợ lý tri thức trả lời dựa trên tài liệu của bạn (RAG) và hiển thị nguồn đã dùng, cách tiếp cận chúng tôi dùng trong BIS",
-      "b2": "Học tập thích ứng và logic gợi ý",
-      "b3": "Đánh giá bằng bộ câu hỏi kiểm thử trước khi phát hành, và người rà soát với các đầu ra quan trọng",
-      "b4": "Tích hợp mô hình mã nguồn mở và API thương mại, có kiểm soát chi phí"
+      "title": "Phát triển ứng dụng AI",
+      "text": "Trợ lý, AI agent và tính năng AI dựa trên dữ liệu của bạn, được đánh giá trước khi phát hành.",
+      "b1": "Trợ lý tri thức trả lời từ tài liệu của bạn (RAG) và hiển thị nguồn tham chiếu",
+      "b2": "AI agent phân loại yêu cầu, trích xuất dữ liệu từ tài liệu và soạn phản hồi",
+      "b3": "Đánh giá bằng bộ câu hỏi kiểm thử trước khi phát hành, có người rà soát đầu ra quan trọng",
+      "b4": "Kết hợp mô hình mã nguồn mở và API thương mại, kiểm soát chi phí sử dụng"
     },
     "data": {
-      "title": "Dữ liệu và Trí tuệ",
-      "text": "Cấu trúc hóa tri thức và dữ liệu để phần mềm và AI có thể suy luận trên đó.",
-      "b1": "Mô hình hóa tri thức và thiết kế ontology",
-      "b2": "Đường ống dữ liệu, dashboard và phân tích",
-      "b3": "Dữ liệu có phiên bản, truy vết được và rõ trách nhiệm",
-      "b4": "Tự động hóa quy trình nghiệp vụ bằng BPMN workflow (Camunda) và AI agent"
+      "title": "Tự động hóa quy trình và dữ liệu",
+      "text": "Làm rõ và tự động hóa quy trình, tổ chức dữ liệu để con người và AI cùng sử dụng.",
+      "b1": "Mô hình hóa quy trình bằng BPMN và vận hành trên Camunda",
+      "b2": "Phê duyệt và thông báo qua Microsoft 365",
+      "b3": "Pipeline dữ liệu, dashboard và phân tích",
+      "b4": "Mô hình tri thức có quản lý phiên bản, truy vết được"
     },
     "eng": {
-      "title": "Kỹ thuật phần mềm",
-      "text": "Hệ thống nghiệp vụ, ứng dụng web và ứng dụng di động, xây dựng để dễ bảo trì.",
+      "title": "Hệ thống nghiệp vụ và tích hợp",
+      "text": "Phát triển hệ thống web, mobile và nội bộ, dễ bảo trì và mở rộng.",
       "b1": "Ứng dụng web và API",
-      "b2": "Hệ thống nghiệp vụ và nội bộ, gồm tích hợp Microsoft 365",
-      "b3": "Ứng dụng di động",
-      "b4": "Đảm bảo chất lượng và kiểm thử phần mềm"
+      "b2": "Hệ thống nội bộ và tích hợp Microsoft 365",
+      "b3": "Tích hợp ERP (SAP và các hệ thống khác)",
+      "b4": "Ứng dụng di động, kiểm thử và đảm bảo chất lượng"
     },
     "cloud": {
-      "title": "Nền tảng và Cloud",
-      "text": "Nền móng ổn định để sản phẩm lớn lên mà không phải làm lại.",
-      "b1": "Kiến trúc cloud và quy trình triển khai (CI/CD)",
-      "b2": "Môi trường staging và production",
-      "b3": "Giám sát, an toàn cơ bản và ý thức về chi phí",
-      "b4": "Tích hợp hạ tầng máy chủ on-premise và hybrid"
+      "title": "Hạ tầng và vận hành",
+      "text": "Xây dựng hạ tầng để hệ thống phát triển mà không phải làm lại.",
+      "b1": "Hạ tầng cloud, on-premise và hybrid",
+      "b2": "CI/CD, tách biệt môi trường staging và production",
+      "b3": "Giám sát và các biện pháp bảo mật cơ bản",
+      "b4": "Cải tiến và bảo trì sau phát hành"
     },
     "modelsTitle": "Hình thức hợp tác",
     "model1": {
-      "title": "Theo dự án",
-      "text": "Phạm vi, thời gian và kết quả rõ ràng cho một sản phẩm hay hệ thống cụ thể."
+      "title": "Phát triển theo dự án",
+      "text": "Thống nhất phạm vi, tiến độ và sản phẩm bàn giao từ đầu."
     },
     "model2": {
-      "title": "Đồng hành dài hạn",
-      "text": "Chúng tôi ở lại cùng sản phẩm sau khi ra mắt và cùng bạn tiếp tục cải tiến."
+      "title": "Phát triển và bảo trì dài hạn",
+      "text": "Tiếp tục cải tiến và bảo trì hệ thống sau khi phát hành."
     },
     "ctaTitle": "Bạn đang có một dự án?",
-    "ctaText": "Hãy chia sẻ ý tưởng hoặc hệ thống hiện tại của bạn. Chúng tôi sẽ phản hồi qua email.",
-    "domainsTitle": "Các lĩnh vực chúng tôi am hiểu",
-    "domains": {
-      "d1": "SAP / ERP",
-      "d2": "Hệ thống nhúng",
-      "d3": "BPMN workflow",
-      "d4": "Y tế",
-      "d5": "AI"
-    }
+    "ctaText": "Hãy chia sẻ ý tưởng hoặc hệ thống hiện tại của bạn. Chúng tôi sẽ phản hồi qua email."
   },
   "bis2": {
-    "eyebrow": "Sản phẩm chủ lực",
-    "heroTitle": "BIS: biến tri thức Sinh học thành trí tuệ có thể mở rộng quy mô",
-    "heroText": "BIS là hệ thống AI-native cấu trúc hóa tri thức Sinh học để AI có thể giảng dạy, kiểm tra mức hiểu và ngày càng tốt hơn qua từng người học và từng lần giáo viên rà soát.",
-    "status": "Bản nguyên mẫu chạy được, đang phát triển tích cực",
+    "eyebrow": "Sản phẩm",
+    "heroTitle": "BIS: hệ thống học tập AI dựa trên tri thức Sinh học có cấu trúc",
+    "heroText": "BIS mô hình hóa Sinh học thành khái niệm và quan hệ, để gia sư AI giải thích kèm nguồn, kiểm tra mức độ hiểu và theo dõi tiến độ từng học sinh. Nội dung được giáo viên duyệt trước khi sử dụng.",
+    "status": "Bản prototype",
     "problemEyebrow": "Vấn đề",
-    "problemTitle": "Tri thức đã có. Trí tuệ thì chưa thể mở rộng quy mô.",
-    "problemText": "Phần lớn việc học Sinh học vẫn đến qua video, slide, PDF và bài giảng một chiều. Học sinh hiểu sai một khái niệm hiếm khi được phát hiện, và giáo viên khó cá nhân hóa lời giải thích cho từng người.",
+    "problemTitle": "Hiểu sai khái niệm thường không được phát hiện",
+    "problemText": "Việc học Sinh học phần lớn vẫn qua video, slide và giảng dạy một chiều. Khi học sinh hiểu sai khái niệm, điều đó hiếm khi được phát hiện, và giáo viên không thể giải thích riêng cho từng em.",
     "solutionEyebrow": "Cách tiếp cận của chúng tôi",
-    "solutionTitle": "Một hệ thống tri thức, không chỉ thêm nội dung",
-    "solutionText": "BIS mô hình hóa Sinh học thành khái niệm, quan hệ, bằng chứng và các quan niệm sai thường gặp. Trên cấu trúc đó, AI có thể giải thích có trích dẫn, luyện tập bằng câu hỏi phù hợp và theo dõi mức nắm vững của từng người học.",
+    "solutionTitle": "Cấu trúc hóa tri thức, không chỉ thêm nội dung",
+    "solutionText": "BIS biểu diễn Sinh học thành khái niệm, quan hệ, bằng chứng và các quan niệm sai thường gặp. Dựa trên cấu trúc này, gia sư AI giải thích kèm nguồn, đưa ra câu hỏi luyện tập phù hợp và theo dõi mức độ thành thạo của từng học sinh.",
     "f1": {
       "title": "Tri thức có cấu trúc",
-      "text": "Khái niệm, quan hệ, bằng chứng và quan niệm sai được mô hình hóa rõ ràng, có phiên bản và truy vết được."
+      "text": "Khái niệm, quan hệ, bằng chứng và quan niệm sai được biểu diễn rõ ràng, có lịch sử thay đổi."
     },
     "f2": {
-      "title": "Gia sư AI có trích dẫn",
-      "text": "Câu trả lời dựa trên đoạn tài liệu nguồn đã duyệt và cho thấy nguồn gốc."
+      "title": "Gia sư AI có dẫn nguồn",
+      "text": "Câu trả lời dựa trên tài liệu đã duyệt và hiển thị nguồn tham chiếu."
     },
     "f3": {
-      "title": "Luyện tập thích ứng",
-      "text": "Câu hỏi gắn với khái niệm và quan niệm sai, nên câu trả lời sai cho biết vì sao người học bị vướng."
+      "title": "Luyện tập theo mức độ hiểu",
+      "text": "Câu hỏi gắn với khái niệm và quan niệm sai, nên câu trả lời sai cho thấy học sinh vướng ở đâu."
     },
     "f4": {
-      "title": "Theo dõi mức nắm vững",
-      "text": "Hệ thống lưu trạng thái nắm vững theo từng khái niệm để gợi ý nên luyện gì tiếp."
+      "title": "Theo dõi mức độ thành thạo",
+      "text": "Ghi nhận mức độ thành thạo theo từng khái niệm để gợi ý nội dung luyện tập tiếp theo."
     },
     "f5": {
-      "title": "Giáo viên trong vòng lặp",
-      "text": "AI chỉ soạn bản nháp. Giáo viên Sinh học rà soát và duyệt trước khi nội dung được đưa tới người học."
+      "title": "Giáo viên duyệt nội dung",
+      "text": "AI chỉ soạn bản nháp. Giáo viên Sinh học kiểm tra và phê duyệt trước khi sử dụng."
     },
     "f6": {
-      "title": "Đáng tin ngay từ thiết kế",
-      "text": "Mọi thay đổi đều truy vết được; nội dung chỉ lấy từ nguồn tự soạn hoặc có giấy phép mở."
+      "title": "Tài liệu đáng tin cậy",
+      "text": "Chỉ dùng tài liệu tự biên soạn hoặc có giấy phép mở, mọi thay đổi đều được ghi lại."
     },
     "todayTitle": "Hiện đã chạy được",
     "todayText": "Bản nguyên mẫu hiện có cổng học sinh với câu hỏi luyện tập, gia sư AI có trích dẫn nguồn, theo dõi mức nắm vững và quy trình duyệt dành cho quản trị. Nội dung vẫn là bản nháp và đang được chuẩn bị để giáo viên Sinh học rà soát.",
@@ -337,14 +296,6 @@
     "road3": {
       "title": "Sau này",
       "text": "Mở rộng sang các môn và cấp học khác, như đại học và đào tạo nghề. Đây là định hướng, chưa phải phạm vi đã triển khai."
-    },
-    "principlesTitle": "Nguyên tắc cốt lõi",
-    "p": {
-      "p1": "Meta-schema trước tiên",
-      "p2": "Quan hệ trước tiên",
-      "p3": "Mọi thứ đều có phiên bản",
-      "p4": "Tri thức là hạ tầng",
-      "p5": "Mọi thay đổi đều truy vết được"
     },
     "faqTitle": "Câu hỏi thường gặp",
     "q1": {
@@ -367,7 +318,6 @@
     "ctaText": "Giáo viên, nhà trường và đối tác có thể hỏi về thử nghiệm hoặc gửi góp ý cho chúng tôi."
   },
   "about2": {
-    "timelineEyebrow": "Lịch sử",
     "timelineTitle": "Lịch sử phát triển",
     "t1": {
       "date": "Tháng 10/2024",
@@ -391,14 +341,10 @@
     }
   },
   "insights": {
-    "eyebrow": "Tin tức",
-    "title": "Know-how và cột mốc",
-    "text": "Những gì chúng tôi tích lũy sau hơn một thập kỷ triển khai, và cách Brisasoft đi từ outsourcing đến sản phẩm của riêng mình.",
-    "moreTitle": "Muốn theo dõi tiến độ của chúng tôi?",
-    "moreText": "Hãy gửi email, chúng tôi sẽ cập nhật cho bạn về BIS, AAB và các bản phát hành mới.",
-    "khTitle": "Know-how chúng tôi mang vào mọi dự án",
-    "khSub": "Năm lĩnh vực nhà sáng lập và đội ngũ nòng cốt đã triển khai cho khách hàng Nhật, và cách chúng tôi tiếp cận từng lĩnh vực.",
-    "msTitle": "Cột mốc",
+    "eyebrow": "Chuyên môn",
+    "title": "Lĩnh vực chuyên môn",
+    "text": "Năm lĩnh vực nhà sáng lập và đội ngũ nòng cốt đã phát triển hệ thống, chủ yếu cho khách hàng Nhật Bản, bao gồm cả kinh nghiệm trước khi thành lập Brisasoft.",
+    "khTitle": "Cách chúng tôi tiếp cận từng lĩnh vực",
     "k1": {
       "title": "SAP / ERP",
       "text": "Tích hợp và mở rộng hệ thống ERP để dữ liệu chủ, giao diện và quy trình nghiệp vụ kết nối ổn định với các hệ thống xung quanh, kiểm soát thay đổi và tài liệu cẩn thận."
@@ -417,48 +363,18 @@
     },
     "k5": {
       "title": "AI",
-      "text": "AI dựa trên dữ liệu và có thể rà soát: agent và trợ lý có trích dẫn nguồn, đánh giá trước khi phát hành và có con người trong vòng lặp. Đây là cách tiếp cận đứng sau BIS và AAB."
-    },
-    "i1": {
-      "date": "Tháng 10/2026",
-      "tag": "Sản phẩm",
-      "title": "Nguyên mẫu BIS chạy được",
-      "text": "Bản nguyên mẫu có luyện tập, gia sư AI có trích dẫn nguồn, theo dõi mức nắm vững và quy trình giáo viên duyệt nội dung."
-    },
-    "i2": {
-      "date": "Tháng 4/2026",
-      "tag": "Sản phẩm",
-      "title": "Sản phẩm riêng: BIS và AAB",
-      "text": "Bắt đầu xây dựng sản phẩm riêng: BIS cho giáo dục Sinh học, và AAB (AI Automation BPMN), ứng dụng kết hợp BPMN workflow trên Camunda, AI agent và Microsoft 365."
-    },
-    "i3": {
-      "date": "Tháng 10/2025",
-      "tag": "Năng lực",
-      "title": "Tích lũy know-how giải pháp toàn diện và workflow",
-      "text": "Tích lũy know-how triển khai giải pháp toàn diện, bao gồm workflow nghiệp vụ với BPMN."
-    },
-    "i4": {
-      "date": "Tháng 4/2025",
-      "tag": "Năng lực",
-      "title": "Tích hợp toàn diện",
-      "text": "Mở rộng từ phần mềm sang triển khai trọn gói: hạ tầng, cloud và máy chủ on-premise, tích hợp cùng các ứng dụng chúng tôi xây dựng."
-    },
-    "i5": {
-      "date": "Tháng 10/2024",
-      "tag": "Công ty",
-      "title": "Khởi đầu: outsourcing phần mềm",
-      "text": "Brisasoft được thành lập tại Hà Nội. Chúng tôi bắt đầu với outsourcing phần mềm, tập trung vào chất lượng kỹ thuật phần mềm, bao gồm cả khách hàng Nhật Bản."
+      "text": "AI dựa trên dữ liệu và có thể kiểm chứng: hiển thị nguồn tham chiếu, đánh giá trước khi phát hành và có người rà soát. BIS và AAB cũng theo cách tiếp cận này."
     }
   },
   "products": {
     "eyebrow": "Sản phẩm",
-    "title": "Hai sản phẩm AI, xây dựng từ chính know-how của chúng tôi",
-    "text": "Một cho giáo dục, một cho vận hành doanh nghiệp. Cả hai đều đưa AI vào làm việc trong một cấu trúc rõ ràng, truy vết được.",
+    "title": "Hai sản phẩm AI đang phát triển",
+    "text": "BIS hỗ trợ học Sinh học, AAB tự động hóa quy trình nghiệp vụ. Ở cả hai, con người ra quyết định và mọi bước đều được ghi lại.",
     "learn": "Tìm hiểu thêm",
     "bis": {
       "name": "BIS",
       "full": "Biology Intellectual System",
-      "text": "Giáo dục Sinh học AI-native: tri thức có cấu trúc, gia sư AI có trích dẫn, luyện tập thích ứng và giáo viên duyệt nội dung.",
+      "text": "Hệ thống học Sinh học có AI: tri thức có cấu trúc, gia sư AI có dẫn nguồn, luyện tập theo mức độ hiểu và giáo viên duyệt nội dung.",
       "status": "Nguyên mẫu chạy được"
     },
     "aab": {
@@ -469,12 +385,12 @@
     }
   },
   "aab": {
-    "eyebrow": "Sản phẩm chủ lực",
+    "eyebrow": "Sản phẩm",
     "heroTitle": "AAB: tự động hóa quy trình nghiệp vụ bằng BPMN và AI agent",
-    "heroText": "AAB mô hình hóa quy trình nghiệp vụ bằng BPMN, chạy trên Camunda, để AI agent xử lý các bước cần đọc hiểu và phán đoán, và đưa con người vào qua Microsoft 365.",
+    "heroText": "AAB mô hình hóa quy trình nghiệp vụ bằng BPMN và vận hành trên Camunda. AI agent đảm nhận các bước như đọc và phân loại tài liệu, còn con người ra quyết định qua Microsoft 365.",
     "status": "Đang phát triển",
     "problemEyebrow": "Vấn đề",
-    "problemTitle": "Quy trình nằm trong hộp thư và bảng tính",
+    "problemTitle": "Quy trình bị chôn trong email và bảng tính",
     "problemText": "Nhiều quy trình nghiệp vụ vẫn chạy qua email, tệp và trí nhớ. Phê duyệt bị kẹt, tài liệu bị nhập lại, và không ai thấy hồ sơ đang kẹt ở đâu hay vì sao.",
     "solutionEyebrow": "Cách tiếp cận của chúng tôi",
     "solutionTitle": "Làm rõ quy trình trước, rồi mới tự động hóa",
@@ -496,14 +412,7 @@
       "text": "AI đề xuất, con người quyết định. Các bước nhạy cảm luôn cần người duyệt, và mọi hành động đều truy vết được."
     },
     "whereTitle": "Hiện chúng tôi đang ở đâu",
-    "whereText": "AAB đang trong quá trình phát triển. Chúng tôi đang xây dựng lõi BPMN workflow trên Camunda, dựa trên kinh nghiệm triển khai các dự án BPMN và workflow cho khách hàng Nhật.",
-    "principlesTitle": "Nguyên tắc thiết kế",
-    "p": {
-      "p1": "Quy trình rõ ràng",
-      "p2": "Con người nắm quyền",
-      "p3": "Truy vết mặc định",
-      "p4": "Khớp với công cụ sẵn có"
-    },
+    "whereText": "AAB đang được phát triển. Dựa trên kinh nghiệm các dự án BPMN và workflow, chúng tôi đang xây dựng lõi workflow trên Camunda.",
     "faqTitle": "Câu hỏi thường gặp",
     "q1": {
       "title": "AAB làm gì?",
@@ -566,42 +475,33 @@
     }
   },
   "deliver": {
-    "eyebrow": "Chúng tôi làm gì",
-    "title": "Bắt đầu từ bài toán bạn cần giải",
-    "sub": "Sáu loại công việc chúng tôi nhận. Chúng tôi đề xuất cách đơn giản nhất giải được bài toán, kể cả giải pháp không dùng AI khi phù hợp hơn.",
+    "eyebrow": "Dịch vụ",
+    "title": "Dịch vụ xuất phát từ bài toán kinh doanh",
+    "sub": "Chúng tôi đề xuất cách đơn giản nhất để giải quyết bài toán, kể cả giải pháp không dùng AI khi phù hợp hơn.",
     "c1": {
-      "title": "Ứng dụng AI và trợ lý tri thức",
-      "text": "Trợ lý trả lời dựa trên tài liệu của chính bạn (RAG), đọc và trích xuất dữ liệu từ tài liệu, tích hợp tính năng AI vào hệ thống sẵn có, có đánh giá và người rà soát ở những chỗ cần độ chính xác."
+      "title": "Phát triển ứng dụng AI",
+      "text": "Trợ lý tri thức trả lời dựa trên tài liệu của bạn (RAG), AI agent phân loại, trích xuất và soạn thảo, tích hợp tính năng AI vào hệ thống sẵn có."
     },
     "c2": {
-      "title": "Tự động hóa quy trình nghiệp vụ",
-      "text": "Quy trình được mô hình hóa bằng BPMN và chạy trên workflow engine như Camunda, AI agent đảm nhận việc đọc, phân loại, soạn thảo, con người phê duyệt qua Microsoft 365."
+      "title": "Tự động hóa quy trình và dữ liệu",
+      "text": "Mô hình hóa quy trình bằng BPMN và vận hành trên Camunda, AI agent đảm nhận các bước lặp lại; xây dựng pipeline dữ liệu và dashboard."
     },
     "c3": {
-      "title": "Hệ thống doanh nghiệp và tích hợp",
-      "text": "Hệ thống nghiệp vụ, hệ thống nội bộ và các giao tiếp kết nối với ERP cùng các nền tảng doanh nghiệp khác, kèm tài liệu và quản lý thay đổi theo chuẩn dự án Nhật Bản."
+      "title": "Hệ thống nghiệp vụ và tích hợp",
+      "text": "Phát triển hệ thống web, mobile, nội bộ; tích hợp với ERP và Microsoft 365, kèm tài liệu và quản lý thay đổi theo chuẩn dự án Nhật Bản."
     },
     "c4": {
-      "title": "Chuyển đổi số tại Việt Nam",
-      "text": "Đưa các quy trình đang chạy bằng giấy, Excel và email lên phần mềm mà đội ngũ thực sự dùng, từng bước, bắt đầu từ quy trình gây khó khăn nhất."
-    },
-    "c5": {
-      "title": "Nền tảng web, mobile và cloud",
-      "text": "Ứng dụng web, API và ứng dụng di động trên hạ tầng cloud, on-premise hoặc hybrid, có CI/CD, môi trường staging và giám sát."
-    },
-    "c6": {
-      "title": "Đồng hành kỹ thuật dài hạn",
-      "text": "Đội ngũ kỹ sư ở lại cùng sản phẩm sau khi ra mắt, tiếp tục cải tiến, và giữ tri thức luôn được tài liệu hóa, dễ bàn giao."
+      "title": "Hạ tầng và vận hành",
+      "text": "Môi trường cloud, on-premise và hybrid, CI/CD, staging và giám sát; tiếp tục cải tiến sau khi phát hành."
     }
   },
   "work": {
-    "eyebrow": "Dự án tiêu biểu",
+    "eyebrow": "Sản phẩm",
     "title": "Sản phẩm của chính chúng tôi, làm theo cách chúng tôi làm cho khách hàng",
     "sub": "Dự án khách hàng thường được bảo mật, nên chúng tôi giới thiệu trước các sản phẩm của mình. Cả hai đang phát triển, và chúng tôi chỉ mô tả những gì đã có.",
     "challenge": "Bài toán",
     "approach": "Cách tiếp cận",
     "stack": "Công nghệ",
-    "status": "Trạng thái",
     "bis": {
       "title": "BIS · Giáo dục Sinh học AI-native",
       "challenge": "Học sinh hiểu sai khái niệm hiếm khi được phát hiện, và giáo viên không thể cá nhân hóa lời giải thích cho từng em.",

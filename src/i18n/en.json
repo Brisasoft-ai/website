@@ -2,25 +2,18 @@
   "nav": {
     "about": "About",
     "products": "Products",
-    "build": "What we build",
     "contact": "Contact",
     "menu": "Menu",
     "language": "Language",
     "services": "Services",
-    "insights": "Insights",
+    "insights": "Expertise",
     "founder": "CEO message"
   },
   "cta": {
-    "learnMore": "Learn more",
-    "contactUs": "Contact us",
-    "exploreBis": "Explore BIS",
     "sendEmail": "Send an email",
     "viewServices": "View our services",
-    "talkProject": "Talk about your project",
-    "readBis": "Read the BIS story",
-    "viewProducts": "See our products",
     "discuss": "Discuss your project",
-    "seeWork": "See our work",
+    "seeWork": "See our products",
     "readMessage": "Read the full message"
   },
   "meta": {
@@ -34,19 +27,19 @@
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
-      "description": "BIS (Biology Intellectual System) is an AI-native education product for Biology, built and owned by Brisasoft. Currently an experimental version."
+      "description": "BIS (Biology Intellectual System) is Brisasoft's AI learning system for Biology. Working prototype in development."
     },
     "contact": {
       "title": "Contact | Brisasoft",
-      "description": "Contact Brisasoft for questions, collaboration or partnership enquiries."
+      "description": "Contact Brisasoft about a software or AI project, or about a partnership."
     },
     "services": {
       "title": "Services | Brisasoft",
-      "description": "AI development, data and intelligence, software engineering and platform services from Brisasoft, a Vietnam-based software and AI company."
+      "description": "Brisasoft services: AI application development, business process automation and data, business systems and integration, and infrastructure and operations."
     },
     "insights": {
-      "title": "Know-how and milestones | Brisasoft",
-      "description": "Brisasoft know-how in SAP/ERP, embedded systems, BPMN workflow, healthcare and AI, and the milestones from outsourcing to our own products."
+      "title": "Domain expertise | Brisasoft",
+      "description": "Domains in which Brisasoft's founder and core team have developed systems, mainly for Japanese clients: SAP/ERP, embedded systems, BPMN workflow, healthcare and AI."
     },
     "products": {
       "title": "Products | Brisasoft",
@@ -68,34 +61,30 @@
   "facts": {
     "companyLabel": "Company",
     "companyValue": "Brisasoft (brand: Brisa)",
-    "focusLabel": "Focus",
-    "focusValue": "Software, AI, digital products and solutions",
     "establishedLabel": "Established",
     "establishedValue": "October 2024",
-    "locationLabel": "Location",
     "locationValue": "Vietnam",
     "sizeLabel": "Employees",
     "sizeValue": "12 full-time employees (as of October 2026)",
     "repLabel": "Representative",
     "businessLabel": "Business",
-    "businessValue": "AI application development; business process automation (BPMN); business systems and system integration; digital transformation support in Vietnam; development of our own AI products (BIS, AAB)"
+    "businessValue": "AI application development; business process automation (BPMN); business systems and system integration; digital transformation support in Vietnam; development of our own AI products (BIS, AAB)",
+    "capitalLabel": "Capital",
+    "capitalValue": "Approx. JPY 7 million equivalent (unchanged since founding)"
   },
   "bis": {
-    "name": "BIS",
-    "full": "Biology Intellectual System",
-    "tagline": "AI-native education for Biology."
+    "full": "Biology Intellectual System"
   },
   "home": {
     "hero": {
       "eyebrow": "AI-native engineering · Japan & Vietnam",
       "titleA": "AI-native engineering",
       "titleB": "for real business impact.",
-      "text": "Brisasoft is an engineering company in Hanoi. Our engineers start from your business problem, use AI throughout analysis, development and testing, and take ownership of the result, for clients in Japan and Vietnam."
+      "text": "Brisasoft is a software engineering company in Hanoi, Vietnam. We start from your business problem, use AI in analysis, development and testing, and take responsibility for the result. Our clients are in Japan and Vietnam."
     },
     "why": {
       "eyebrow": "How we think",
       "title": "Four principles behind how we work",
-      "sub": "What you can expect from a Brisasoft engineer.",
       "i1": {
         "title": "AI-native engineering",
         "text": "AI is part of how we analyse requirements, write and review code, test and document, not an add-on service. Engineers remain responsible for every result."
@@ -135,17 +124,6 @@
     "repTitle": "Representative"
   },
   "bispage": {
-    "eyebrow": "Product",
-    "whatTitle": "What is BIS?",
-    "whatText": "BIS (Biology Intellectual System) is an AI-native education product focused on Biology. It is built and owned by Brisasoft.",
-    "statusTitle": "Current status",
-    "statusText": "BIS is currently an experimental version.",
-    "ownerTitle": "Built by Brisasoft",
-    "ownerText": "BIS is one of the products of Brisasoft, a software and AI company based in Vietnam.",
-    "ctaTitle": "Questions or feedback?",
-    "ctaText": "BIS is still an experimental version. If you would like to ask about it or share feedback, email us.",
-    "designTitle": "Design goals",
-    "designText": "BIS is designed to combine structured Biology knowledge, AI tutoring, exam analysis and personalized learning paths, to help students understand concepts, identify misconceptions and improve their learning outcomes.",
     "focusTitle": "Initial focus",
     "focusText": "We are initially focusing on advanced high-school Biology education and competition preparation.",
     "openApp": "Open the experimental version"
@@ -157,7 +135,7 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Get in touch",
+    "title": "Contact us",
     "text": "Tell us about your business challenge or your current system. We will reply by email.",
     "emailLabel": "Email",
     "subject": "Project enquiry",
@@ -170,7 +148,7 @@
     }
   },
   "footer": {
-    "tagline": "AI-native engineering for real business impact. Hanoi, Vietnam.",
+    "tagline": "AI-native software engineering. Hanoi, Vietnam.",
     "infoTitle": "Company information",
     "companyCol": "Company",
     "productsCol": "Products",
@@ -180,16 +158,10 @@
       "registrationNumber": "Business registration no.",
       "address": "Address",
       "phone": "Phone",
-      "email": "Email",
-      "established": "Established"
+      "email": "Email"
     },
     "rights": "All rights reserved.",
-    "bisNote": "BIS and AAB are products of Brisasoft.",
     "privacy": "Privacy"
-  },
-  "banner": {
-    "text": "Two AI products in development: BIS for Biology education and AAB for business process automation.",
-    "link": "See our products"
   },
   "process": {
     "eyebrow": "Engineering approach",
@@ -227,101 +199,88 @@
       "ai": "Drafting documentation and handover material."
     }
   },
-  "japan": {
-    "eyebrow": "Experience",
-    "title": "Over a decade of software delivery for the Japanese market",
-    "text": "Our founder trained in the HEDSPI Vietnam–Japan IT programme at Hanoi University of Science and Technology and has worked with the Japanese market since 2011. Together, our founder and core team have delivered more than 30 projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI. Brisasoft carries that discipline in quality, communication and delivery into every engagement."
-  },
   "services": {
     "eyebrow": "Services",
-    "title": "AI and software services, from idea to operation",
-    "text": "We combine software engineering, domain knowledge and AI to build products and solutions that last.",
+    "title": "From requirements to operation",
+    "text": "Four service lines, delivered by AI-native engineering teams for clients in Japan and Vietnam. For Vietnamese companies, we combine them to support digital transformation.",
     "ai": {
-      "title": "AI Development",
-      "text": "We design and build AI-native features and products: assistants, tutoring and recommendation, document understanding and automation.",
-      "b1": "Knowledge assistants that answer from your own documents (RAG) and show the sources used, the approach we use in BIS",
-      "b2": "Adaptive learning and recommendation logic",
-      "b3": "Evaluation against test questions before release, and human review for sensitive outputs",
-      "b4": "Integration of open-source models and commercial APIs, with cost control"
+      "title": "AI application development",
+      "text": "Assistants, agents and AI features built on your own data and evaluated before release.",
+      "b1": "Knowledge assistants that answer from your documents (RAG) and show their sources",
+      "b2": "AI agents that classify requests, extract data from documents and draft replies",
+      "b3": "Evaluation with test questions before release, and human review of sensitive outputs",
+      "b4": "Combining open-source models and commercial APIs, with usage cost control"
     },
     "data": {
-      "title": "Data and Intelligence",
-      "text": "We structure knowledge and data so that software and AI can reason over it.",
-      "b1": "Knowledge modelling and ontology design",
-      "b2": "Data pipelines, dashboards and analytics",
-      "b3": "Versioned, traceable data with clear ownership",
-      "b4": "Business process automation with BPMN workflows (Camunda) and AI agents"
+      "title": "Business process automation and data",
+      "text": "Processes made explicit and automated, and data organised so that people and AI can use it.",
+      "b1": "Business process modelling in BPMN and execution on Camunda",
+      "b2": "Approvals and notifications through Microsoft 365",
+      "b3": "Data pipelines, dashboards and analytics",
+      "b4": "Knowledge models with versioned, traceable data"
     },
     "eng": {
-      "title": "Software Engineering",
-      "text": "Business systems, web applications and mobile apps, built to be maintainable.",
+      "title": "Business systems and integration",
+      "text": "Web, mobile and internal systems, built to be maintained and extended.",
       "b1": "Web applications and APIs",
-      "b2": "Business and internal systems, including Microsoft 365 integration",
-      "b3": "Mobile applications",
-      "b4": "Quality assurance and software testing"
+      "b2": "Internal systems and Microsoft 365 integration",
+      "b3": "Integration with ERP (SAP and others)",
+      "b4": "Mobile applications, testing and quality assurance"
     },
     "cloud": {
-      "title": "Platform and Cloud",
-      "text": "Reliable foundations so products can grow without being rebuilt.",
-      "b1": "Cloud architecture and deployment pipelines (CI/CD)",
-      "b2": "Staging and production environments",
-      "b3": "Monitoring, security basics and cost awareness",
-      "b4": "On-premise and hybrid server infrastructure integration"
+      "title": "Infrastructure and operations",
+      "text": "Environments and pipelines that let systems grow without being rebuilt.",
+      "b1": "Cloud, on-premise and hybrid infrastructure",
+      "b2": "CI/CD with separate staging and production environments",
+      "b3": "Monitoring and basic security measures",
+      "b4": "Improvement and maintenance after release"
     },
     "modelsTitle": "Ways to work with us",
     "model1": {
-      "title": "Project-based delivery",
-      "text": "A defined scope, timeline and outcome for a specific product or system."
+      "title": "Project-based development",
+      "text": "Scope, schedule and deliverables are agreed up front."
     },
     "model2": {
-      "title": "Long-term product partnership",
-      "text": "We stay with the product after launch and keep improving it with you."
+      "title": "Ongoing development and maintenance",
+      "text": "We continue improving and maintaining the system after release."
     },
     "ctaTitle": "Have a project in mind?",
-    "ctaText": "Tell us about your idea or your current system. We will reply by email.",
-    "domainsTitle": "Domains we know well",
-    "domains": {
-      "d1": "SAP / ERP",
-      "d2": "Embedded systems",
-      "d3": "BPMN workflow",
-      "d4": "Healthcare",
-      "d5": "AI"
-    }
+    "ctaText": "Tell us about your idea or your current system. We will reply by email."
   },
   "bis2": {
-    "eyebrow": "Flagship product",
-    "heroTitle": "BIS: turning Biology knowledge into intelligence that scales",
-    "heroText": "BIS is an AI-native system that structures Biology knowledge so that AI can teach it, check understanding, and improve with every learner and every teacher review.",
-    "status": "Working prototype in active development",
+    "eyebrow": "Product",
+    "heroTitle": "BIS: an AI learning system built on structured Biology knowledge",
+    "heroText": "BIS represents Biology as concepts and relations, so that an AI tutor can explain with sources, check understanding and track each learner's progress. Teachers review content before it is used.",
+    "status": "Working prototype",
     "problemEyebrow": "The problem",
-    "problemTitle": "Knowledge exists. Intelligence does not scale.",
-    "problemText": "Most Biology learning still arrives as videos, slides, PDFs and one-way lectures. A student who misunderstands a concept is rarely detected, and a teacher cannot personalise explanations for every learner.",
+    "problemTitle": "Misunderstandings go unnoticed",
+    "problemText": "Most Biology learning still comes as videos, slides and one-way lectures. When a student misunderstands a concept, it is rarely noticed, and teachers cannot tailor explanations to every learner.",
     "solutionEyebrow": "Our approach",
-    "solutionTitle": "A knowledge system, not just more content",
-    "solutionText": "BIS models Biology as concepts, relations, evidence and common misconceptions. On top of this structure, AI can explain with citations, practise with the right questions, and track what each learner has mastered.",
+    "solutionTitle": "Structured knowledge, not more content",
+    "solutionText": "BIS represents Biology as concepts, relations, evidence and common misconceptions. On this structure, the AI tutor explains with sources, sets the right practice questions and tracks what each learner has mastered.",
     "f1": {
       "title": "Structured knowledge",
-      "text": "Concepts, relations, evidence and misconceptions are modelled explicitly, versioned and traceable."
+      "text": "Concepts, relations, evidence and misconceptions are represented explicitly, with a change history."
     },
     "f2": {
-      "title": "AI tutor with citations",
-      "text": "Answers are grounded in approved source passages and show where they come from."
+      "title": "AI tutor that shows sources",
+      "text": "Answers are based on approved material and show where they come from."
     },
     "f3": {
-      "title": "Adaptive practice",
-      "text": "Questions are linked to concepts and misconceptions, so wrong answers reveal why a learner is stuck."
+      "title": "Practice matched to understanding",
+      "text": "Questions are linked to concepts and misconceptions, so wrong answers show where a learner is stuck."
     },
     "f4": {
       "title": "Mastery tracking",
-      "text": "The system keeps a mastery state per concept to guide what to practise next."
+      "text": "Mastery is recorded per concept to suggest what to practise next."
     },
     "f5": {
-      "title": "Teacher in the loop",
-      "text": "AI drafts questions and content as drafts. A Biology teacher reviews and approves before anything is served."
+      "title": "Teacher review",
+      "text": "AI only writes drafts. A Biology teacher reviews and approves them before anything is used."
     },
     "f6": {
-      "title": "Trustworthy by design",
-      "text": "Every change is traceable, content comes only from self-written or openly licensed sources."
+      "title": "Trustworthy material",
+      "text": "Only self-written or openly licensed material is used, and every change is recorded."
     },
     "todayTitle": "What works today",
     "todayText": "The current prototype includes a student portal with practice questions, a source-cited AI tutor, mastery tracking and an admin review workflow. Content is still draft and is being prepared for review by Biology teachers.",
@@ -336,15 +295,7 @@
     },
     "road3": {
       "title": "Later",
-      "text": "More subjects and levels, such as university and vocational education. This is a direction, not a delivered scope."
-    },
-    "principlesTitle": "Core principles",
-    "p": {
-      "p1": "Meta-schema first",
-      "p2": "Relation first",
-      "p3": "Version everything",
-      "p4": "Knowledge is infrastructure",
-      "p5": "Every change is traceable"
+      "text": "More subjects and levels, such as university and vocational education. This is a plan, not a delivered scope."
     },
     "faqTitle": "Frequently asked questions",
     "q1": {
@@ -367,7 +318,6 @@
     "ctaText": "Teachers, schools and partners are welcome to ask about a pilot or share feedback."
   },
   "about2": {
-    "timelineEyebrow": "History",
     "timelineTitle": "Company history",
     "t1": {
       "date": "October 2024",
@@ -391,14 +341,10 @@
     }
   },
   "insights": {
-    "eyebrow": "Insights",
-    "title": "Know-how and milestones",
-    "text": "What we have learned from more than a decade of delivery, and how Brisasoft has grown from outsourcing to products of its own.",
-    "moreTitle": "Want to follow our progress?",
-    "moreText": "Email us and we will keep you updated on BIS, AAB and new releases.",
-    "khTitle": "Know-how we bring to every project",
-    "khSub": "Five domains where our founder and core team have delivered for Japanese clients, and how we approach each one.",
-    "msTitle": "Milestones",
+    "eyebrow": "Expertise",
+    "title": "Domain expertise",
+    "text": "Five domains in which our founder and core team have developed systems, mainly for Japanese clients, including work before Brisasoft was founded.",
+    "khTitle": "How we approach each domain",
     "k1": {
       "title": "SAP / ERP",
       "text": "Integrating and extending ERP systems so that master data, interfaces and business processes connect reliably to the systems around them, with careful change control and documentation."
@@ -417,48 +363,18 @@
     },
     "k5": {
       "title": "AI",
-      "text": "AI that is grounded in data and open to review: agents and assistants that cite sources, evaluation before release, and humans in the loop. This is the approach behind BIS and AAB."
-    },
-    "i1": {
-      "date": "October 2026",
-      "tag": "Product",
-      "title": "BIS working prototype",
-      "text": "The prototype includes practice, an AI tutor with source citations, mastery tracking and a teacher review workflow."
-    },
-    "i2": {
-      "date": "April 2026",
-      "tag": "Product",
-      "title": "Our own products: BIS and AAB",
-      "text": "We start building our own products: BIS for Biology education, and AAB (AI Automation BPMN), an application that combines BPMN workflows on Camunda, AI agents and Microsoft 365."
-    },
-    "i3": {
-      "date": "October 2025",
-      "tag": "Capability",
-      "title": "Complete-solution and workflow know-how",
-      "text": "We accumulate know-how in delivering complete solutions, including business workflow with BPMN."
-    },
-    "i4": {
-      "date": "April 2025",
-      "tag": "Capability",
-      "title": "Full-stack integration",
-      "text": "We expand from software into end-to-end delivery: infrastructure, cloud and on-premise servers, integrated with the applications we build."
-    },
-    "i5": {
-      "date": "October 2024",
-      "tag": "Company",
-      "title": "Foundation: software outsourcing",
-      "text": "Brisasoft is established in Hanoi. We start with software outsourcing, focused on solid software engineering delivery, including for Japanese clients."
+      "text": "AI grounded in data and open to review: showing sources, evaluation before release and human review. BIS and AAB follow the same approach."
     }
   },
   "products": {
-    "eyebrow": "Our products",
-    "title": "Two AI products, built on our own know-how",
-    "text": "One for education, one for business operations. Both put AI to work inside a clear, traceable structure.",
+    "eyebrow": "Products",
+    "title": "Two AI products in development",
+    "text": "BIS supports Biology learning; AAB automates business processes. In both, people make the decisions and every step is recorded.",
     "learn": "Learn more",
     "bis": {
       "name": "BIS",
       "full": "Biology Intellectual System",
-      "text": "AI-native Biology education: structured knowledge, an AI tutor with citations, adaptive practice and teacher review.",
+      "text": "AI learning system for Biology: structured knowledge, an AI tutor that shows its sources, practice matched to understanding, and teacher review.",
       "status": "Working prototype"
     },
     "aab": {
@@ -469,13 +385,13 @@
     }
   },
   "aab": {
-    "eyebrow": "Flagship product",
+    "eyebrow": "Product",
     "heroTitle": "AAB: automate business processes with BPMN and AI agents",
-    "heroText": "AAB models a business process in BPMN, runs it on Camunda, lets AI agents handle the steps that need reading and judgement, and brings people in through Microsoft 365.",
+    "heroText": "AAB models a business process in BPMN and runs it on Camunda. AI agents handle steps such as reading and classifying documents, and people make decisions through Microsoft 365.",
     "status": "In development",
     "problemEyebrow": "The problem",
-    "problemTitle": "Processes live in inboxes and spreadsheets",
-    "problemText": "Many business processes still run through email, files and memory. Approvals stall, documents are retyped, and nobody can see where a case is stuck or why.",
+    "problemTitle": "Processes buried in email and spreadsheets",
+    "problemText": "Many processes still depend on email, files and people's memory. Approvals stall, documents are re-entered, and no one can see where a case is stuck.",
     "solutionEyebrow": "Our approach",
     "solutionTitle": "Make the process explicit, then automate it",
     "solutionText": "AAB turns a process into a BPMN model and executes it. AI agents take on steps that used to need a person to read, classify or draft, while people stay in control of decisions.",
@@ -496,14 +412,7 @@
       "text": "AI proposes, people decide. Sensitive steps stay under human approval, and every action is traceable."
     },
     "whereTitle": "Where we are",
-    "whereText": "AAB is in development. We are building the BPMN workflow core on Camunda, drawing on our experience delivering BPMN and workflow projects for Japanese clients.",
-    "principlesTitle": "Design principles",
-    "p": {
-      "p1": "Explicit processes",
-      "p2": "Human in control",
-      "p3": "Traceable by default",
-      "p4": "Fits existing tools"
-    },
+    "whereText": "AAB is in development. Drawing on our BPMN and workflow project experience, we are building its workflow core on Camunda.",
     "faqTitle": "Frequently asked questions",
     "q1": {
       "title": "What does AAB do?",
@@ -566,42 +475,33 @@
     }
   },
   "deliver": {
-    "eyebrow": "What we deliver",
-    "title": "Built around the problem you need to solve",
-    "sub": "Six kinds of work we take on. We recommend the simplest approach that solves the problem, including non-AI solutions when they fit better.",
+    "eyebrow": "Services",
+    "title": "Services built around your business problem",
+    "sub": "We recommend the simplest approach that solves the problem, including solutions without AI where they fit better.",
     "c1": {
-      "title": "AI applications and knowledge assistants",
-      "text": "Assistants that answer from your own documents (RAG), document reading and data extraction, and AI features inside existing systems, with evaluation and human review where accuracy matters."
+      "title": "AI application development",
+      "text": "Knowledge assistants that answer from your documents (RAG), AI agents that classify, extract and draft, and AI features added to existing systems."
     },
     "c2": {
-      "title": "Business process automation",
-      "text": "Processes modelled in BPMN and run on a workflow engine such as Camunda, with AI agents for reading, classifying and drafting, and people approving through Microsoft 365."
+      "title": "Business process automation and data",
+      "text": "Processes modelled in BPMN and run on Camunda, with AI agents for routine steps; data pipelines and dashboards."
     },
     "c3": {
-      "title": "Enterprise systems and integration",
-      "text": "Business and internal systems, and the interfaces that connect them to ERP and other enterprise platforms, delivered with the documentation and change control Japanese projects expect."
+      "title": "Business systems and integration",
+      "text": "Web, mobile and internal systems, integrated with ERP and Microsoft 365, with the documentation and change control Japanese projects require."
     },
     "c4": {
-      "title": "Digital transformation in Vietnam",
-      "text": "Moving paper, spreadsheet and email processes into software that teams actually use, step by step, starting with the process that hurts most."
-    },
-    "c5": {
-      "title": "Web, mobile and cloud platforms",
-      "text": "Web applications, APIs and mobile apps on cloud, on-premise or hybrid infrastructure, with CI/CD, staging environments and monitoring."
-    },
-    "c6": {
-      "title": "Long-term engineering partnership",
-      "text": "An engineering team that stays with your product after launch, keeps improving it, and keeps the knowledge documented and easy to hand over."
+      "title": "Infrastructure and operations",
+      "text": "Cloud, on-premise and hybrid environments, CI/CD, staging and monitoring, and continued improvement after release."
     }
   },
   "work": {
-    "eyebrow": "Selected work",
+    "eyebrow": "Our products",
     "title": "Our own products, built the way we build for clients",
     "sub": "Client projects are usually confidential, so we show our own products first. Both are in development, and we describe only what exists today.",
     "challenge": "Challenge",
     "approach": "Approach",
     "stack": "Technology",
-    "status": "Status",
     "bis": {
       "title": "BIS · AI-native Biology education",
       "challenge": "Students who misunderstand a concept are rarely detected, and teachers cannot personalise explanations for every learner.",

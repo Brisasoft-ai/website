@@ -6,7 +6,11 @@
     "vi": "Công ty Cổ phần Brisasoft"
   },
   "registrationNumber": "0110870824",
-  "address": "Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam",
+  "address": {
+    "vi": "Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam",
+    "en": "3rd floor, No. 3, Lane 114 Kim Quan Thuong, Viet Hung Ward, Long Bien District, Hanoi, Vietnam",
+    "ja": "ベトナム ハノイ市ロンビエン区ヴィエットフン坊 キムクアントゥオン通り114番小路3号 3階（Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam）"
+  },
   "phone": {
     "en": "+84 927 997 699",
     "ja": "+84-927-997-699",
@@ -21,16 +25,16 @@
   "bisUrl": "",
   "_statsNote": "Homepage/About figures. Labels live in src/i18n (stats.<id>.label). Set show:true only after the definition in docs/knowledge/company-profile.md is confirmed.",
   "stats": [
-    { "id": "founded", "value": "2024", "show": true },
-    { "id": "team", "value": "12", "show": true },
-    { "id": "aiEngineers", "value": "70%", "show": true },
     { "id": "projects", "value": "30+", "show": true },
     { "id": "markets", "value": "70 / 30", "show": true },
-    { "id": "products", "value": "2", "show": true }
+    { "id": "aiEngineers", "value": "70%", "show": true },
+    { "id": "founded", "value": "2024", "show": false },
+    { "id": "team", "value": "12", "show": false },
+    { "id": "products", "value": "2", "show": false }
   ],
   "_technologiesNote": "Show a technology only with a project where it was actually used. Text lives in src/i18n (tech.items.<id>). Listing never implies vendor partnership.",
   "technologies": [
-    { "id": "dify", "name": "Dify", "url": "https://dify.ai/", "show": true },
+    { "id": "dify", "name": "Dify", "url": "https://dify.ai/", "show": false },
     { "id": "camunda", "name": "Camunda", "url": "https://camunda.com/", "show": true },
     { "id": "m365", "name": "Microsoft 365", "url": "https://www.microsoft.com/microsoft-365", "show": true },
     { "id": "sap", "name": "SAP / ERP", "url": "https://www.sap.com/", "show": true },

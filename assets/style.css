@@ -529,3 +529,6 @@ html[lang="ja"] .hf-side{transform:none;}
 .details-table td,.footer-info dd{overflow-wrap:anywhere;}
 .details-table.history th{width:150px;white-space:nowrap;}
 .details-table.history time{font-weight:700;color:var(--link);}
+.narrow-grid{max-width:860px;margin-inline:auto;}
+/* Company facts: label above value on phones */
+@media (max-width:560px){.details-table tr{display:block;padding:14px 18px;}.details-table th,.details-table td{display:block;width:auto;padding:0;border:0;background:none;}.details-table th{font-size:.8rem;margin-bottom:4px;}.details-table.history th{width:auto;}}

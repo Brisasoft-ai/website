@@ -16,8 +16,9 @@ Status legend:
 | Legal name | Brisasoft Joint Stock Company / Công ty Cổ phần Brisasoft | `src/company.json` | Published |
 | Business registration no. | 0110870824 | `src/company.json` | Published |
 | Established | October 2024 (JSON-LD `foundingDate` 2024-10-23) | Founder brief (2024) + existing site | Published |
-| Address | Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Việt Hưng, Long Biên, Hà Nội | `src/company.json` | Published |
-| Contact | contact@brisasoft.net, 0927997699 | `build.mjs`, `src/company.json` | Published |
+| Capital (資本金) | Approx. JPY 7 million equivalent at founding, unchanged since (founder, 2026-10-16). Published as 約700万円相当（設立時から変更なし）. **Needs**: exact registered charter capital in VND to replace the approximation | Founder | Published, approximate |
+| Address | Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Việt Hưng, Long Biên, Hà Nội | `src/company.json` | Published. JA rendering added (ヴィエットフン坊 …, original in brackets); EN romanised. **Check**: Vietnam abolished district level on 2025-07-01, confirm the address on the current business registration |
+| Contact | contact@brisasoft.net (mailbox confirmed receiving, 2026-10-16), +84 927 997 699 | `build.mjs`, `src/company.json` | Published |
 | Own products | BIS (Biology Intellectual System, working prototype), AAB (AI Automation BPMN: Camunda BPMN + AI agents + Microsoft 365, in development; no Dify) | Existing site, founder 2026-10-16 | Published |
 
 ## 2. Experience figures (founder brief, 2026-10-16)
@@ -53,7 +54,7 @@ AI use in each of the 6 process steps, "every engineer uses AI tools in daily de
 
 | Technology | Evidence | Status |
 |---|---|---|
-| Dify | Founder brief. **AAB does not use Dify** (founder, 2026-10-16); shown with generic text (LLM apps, RAG assistants, agent workflows) | Published, confirm the project where Dify was used |
+| Dify | AAB does not use Dify; no confirmed project. **Hidden** (`show: false`, founder decision 2026-10-16) | Hidden |
 | Camunda / BPMN 2.0 | AAB core; founder's BPMN workflow projects | Published |
 | Microsoft 365 | AAB (requests, approvals) and internal system integration | Published |
 | SAP / ERP | Founder's Japanese-market projects (pre-Brisasoft) | Published, labelled as founder experience |
