@@ -286,6 +286,7 @@ for (const l of LANGS) {
 
 // Root page: choose a language (saved choice, then browser language, then English).
 // The inline script is allowed by its hash in the Content-Security-Policy below.
+// The CSP also allows Cloudflare Web Analytics, which Cloudflare injects at the edge (not visible in this repo).
 const ROOT_SCRIPT = `
 (function () {
   var langs = ['en', 'ja', 'vi'], pick = 'en';
@@ -383,7 +384,7 @@ writeFileSync(
 ${STAGING ? '  X-Robots-Tag: noindex, nofollow\n' : ''}  Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=15552000
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' ${ROOT_SCRIPT_HASH}; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' ${ROOT_SCRIPT_HASH} https://static.cloudflareinsights.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
 
 /assets/*
   Cache-Control: public, max-age=86400
