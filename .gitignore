@@ -12,3 +12,6 @@ _archive/
 Thumbs.db
 .vscode/
 .idea/
+
+# local secrets
+.env.local
