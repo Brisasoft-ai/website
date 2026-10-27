@@ -753,3 +753,5 @@ li .hf-ico{color:#a5e3ff;}
 .btn-case{display:inline-block;align-self:flex-start;background:#2f6bff;color:#fff!important;border-radius:10px;padding:10px 22px;font-weight:700;font-size:.92rem;border:0;}
 .btn-case:hover{background:#1e56d8;}
 @media(max-width:760px){.cases-nav{grid-template-columns:1fr;}.cases-btn{display:none;}.cases-track{grid-auto-columns:minmax(270px,84%);}}
+.picon{width:44px;height:44px;border-radius:13px;display:block;box-shadow:0 8px 18px -8px rgba(2,8,30,.4);}
+.pmark:has(.picon){display:block;}

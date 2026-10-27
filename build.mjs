@@ -283,7 +283,7 @@ const pstatus = (d, s) => (d.portfolio.status && d.portfolio.status[s]) || s;
 const pdesc = (p, d, lang) => (lang === 'vi' ? p.tagline : (d.portfolio.categoryText && d.portfolio.categoryText[p.category]) || p.tagline);
 const portfolioCard = (p, d, lang, i) => `<article class="pcard" id="pf-${esc(p.id)}" data-cat="${p.category}">
   <div class="pcard-top"><span class="pcat">${esc(pcat(d, p.category))}</span><span class="pbadge ${p.status}">${esc(pstatus(d, p.status))}</span></div>
-  <div class="pmark" aria-hidden="true">${esc(p.name.replace(/[^A-Za-z0-9 ]/g, ' ').split(/\s+/).filter(Boolean).map((w) => w[0]).join('').slice(0, 3).toUpperCase())}</div>
+  <div class="pmark" aria-hidden="true"><img class="picon" src="/assets/portfolio/icons/${esc(p.id)}.svg" alt="" loading="lazy" width="44" height="44"></div>
   <h3>${esc(p.name)}</h3>
   <p>${esc(pdesc(p, d, lang))}</p>
   <span class="pid">#${String(i + 1).padStart(2, '0')}</span>
