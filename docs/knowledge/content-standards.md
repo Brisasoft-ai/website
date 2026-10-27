@@ -23,7 +23,7 @@ Facts come from `company-profile.md`; this file defines **how** they are present
 | Headcount | Publish an exact, dated number: 正社員12名（2026年10月現在） / 12 full-time employees (as of October 2026). **Do not publish ranges such as "10–50"**: they read like a job-board size bracket, not a company fact. Partner companies may be mentioned in prose without a number. |
 | Founding / milestones | 会社概要 and 沿革 start at 2024年10月 設立. "2011" belongs only to 代表者紹介. |
 | Project figures | Show simply as "30+ successful projects", no attribution note, no client names. |
-| Market split 70 / 30 | Publish only with its definition: share **by number of projects**, approximate; Vietnam work is mainly DX. |
+| Market split 70 / 30 | Publish only with its definition: share **by number of projects**; Vietnam work is mainly DX. |
 | AI engineer ratio | "70% of engineers": the denominator is engineers, not all staff. |
 | Representative | Name and title as one table row (代表者: 創業者 兼 CEO　Nguyễn Thanh Bình). Full profile on the founder page. |
 | Capital (資本金), banks, major clients | Only if confirmed and approved; otherwise omitted (not "TBD"). |
