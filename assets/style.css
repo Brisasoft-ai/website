@@ -721,8 +721,13 @@ section.dark .feature:hover,section.dark .case:hover,section.dark .tech-item:hov
 @media(max-width:760px){.pgrid,.pgrid-featured{grid-template-columns:repeat(2,minmax(0,1fr));}}
 @media(max-width:520px){.pgrid,.pgrid-featured{grid-template-columns:1fr;}}
 /* Visual icons: stats, hero flow (BPMN), feature cards */
-.stat-ico{display:inline-flex;width:40px;height:40px;border-radius:13px;align-items:center;justify-content:center;color:var(--brand);background:linear-gradient(135deg,rgba(47,107,255,.14),rgba(20,168,222,.12));margin-bottom:10px;}
-.stat-ico svg{width:22px;height:22px;}
+.stat-ico{display:flex;width:58px;height:58px;border-radius:18px;align-items:center;justify-content:center;color:#fff;margin:0 auto 14px;box-shadow:0 10px 24px -8px rgba(2,8,30,.55);}
+.stat-ico svg{width:28px;height:28px;}
+.stat-projects .stat-ico{background:linear-gradient(135deg,#fbbf24,#f97316);}
+.stat-markets .stat-ico{background:linear-gradient(135deg,#2f6bff,#14a8de);}
+.stat-aiEngineers .stat-ico{background:linear-gradient(135deg,#8b5cf6,#22d3ee);}
+.numbers .stat{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;}
+.numbers .stat b{font-size:2.5rem;}
 .numbers span.stat-ico{margin-top:0;font-size:inherit;}
 .hf-ico{flex:none;width:20px;height:20px;opacity:.92;}
 .hf-end .hf-ico{width:22px;height:22px;vertical-align:-4px;margin-left:8px;}
@@ -730,7 +735,7 @@ li .hf-ico{color:#a5e3ff;}
 .f-ico{display:inline-flex;width:42px;height:42px;border-radius:13px;align-items:center;justify-content:center;color:#fff;background:linear-gradient(135deg,#2f6bff,#14a8de);margin-bottom:12px;box-shadow:0 6px 16px -6px rgba(47,107,255,.55);}
 .f-ico svg{width:22px;height:22px;}
 .feature.left .f-ico{margin-bottom:12px;}
-@media(max-width:520px){.stat-ico{width:34px;height:34px;}.stat-ico svg{width:19px;height:19px;}}
+@media(max-width:520px){.stat-ico{width:48px;height:48px;}.stat-ico svg{width:24px;height:24px;}}
 /* Case-study carousel (Rikkei-style): dark band, snap track, white visual cards */
 .cases-nav{position:relative;display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;margin-top:34px;}
 .cases-track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(300px,380px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 18px;scrollbar-width:thin;}

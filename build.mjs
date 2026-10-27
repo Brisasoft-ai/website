@@ -209,7 +209,7 @@ const statsBlock = (d) =>
       const label = get(d, `stats.${s.id}.label`);
       if (typeof label !== 'string') throw new Error(`missing text key: stats.${s.id}.label`);
       const icon = statIcons[s.id] || '';
-      return `<div class="stat"><span class="stat-ico">${icon}</span><b>${esc(s.value)}</b><span>${esc(label)}</span></div>`;
+      return `<div class="stat stat-${esc(s.id)}"><span class="stat-ico">${icon}</span><b>${esc(s.value)}</b><span>${esc(label)}</span></div>`;
     })
     .join('\n      ');
 
