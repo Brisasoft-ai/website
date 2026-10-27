@@ -78,28 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Count-up for the headline figures (final text is unchanged, so no-JS and screen readers see real values)
-  var figs = document.querySelectorAll('.numbers b');
-  var co = new IntersectionObserver(function (entries) {
-    entries.forEach(function (e) {
-      if (!e.isIntersecting) return;
-      co.unobserve(e.target);
-      var el = e.target, finalText = el.textContent, parts = finalText.match(/\d+/g);
-      if (!parts) return;
-      var t0 = null, dur = 1100;
-      el.setAttribute('aria-label', finalText);
-      var step = function (t) {
-        if (t0 === null) t0 = t;
-        var p = Math.min((t - t0) / dur, 1), k = 1 - Math.pow(1 - p, 3), i = 0;
-        el.textContent = finalText.replace(/\d+/g, function (m) { return String(Math.round(parseInt(parts[i++], 10) * k)); });
-        if (p < 1) requestAnimationFrame(step); else el.textContent = finalText;
-      };
-      requestAnimationFrame(step);
-      // Safety net: if rAF is paused (background tab, print) the figure must never stay at 0.
-      setTimeout(function () { if (el.textContent !== finalText) el.textContent = finalText; }, dur + 1200);
-    });
-  }, { threshold: 0.6 });
-  figs.forEach(function (f) { co.observe(f); });
+  // Headline figures are static text: trust numbers must never animate through wrong values.
 
   // Portfolio category filter (progressive enhancement: all cards visible without JS)
   var pf = document.getElementById('portfolioFilter');

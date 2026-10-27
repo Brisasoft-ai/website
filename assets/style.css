@@ -616,6 +616,7 @@ section.dark .eyebrow{border-color:rgba(127,176,255,.3);}
 
 /* ===== Motion layer (Linear-style polish). All of it is disabled by prefers-reduced-motion ===== */
 @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes rise-soft{from{transform:translateY(14px)}to{transform:none}}
 @keyframes drift{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(-60px,50px,0) scale(1.18)}}
 @keyframes shimmer{to{background-position:200% 0}}
 @keyframes stepglow{0%,14%{background:rgba(47,107,255,.42);border-color:rgba(143,220,255,.8);box-shadow:0 0 22px rgba(56,197,240,.35)}26%,100%{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.08);box-shadow:none}}
@@ -623,7 +624,8 @@ section.dark .eyebrow{border-color:rgba(127,176,255,.3);}
 @keyframes flowy{to{background-position:0 -300%}}
 
 /* Entrance on load for banners */
-.hero .wrap>*{animation:rise .8s cubic-bezier(.2,.7,.2,1) both;}
+/* Hero copy is always visible: translate only, no opacity fade (screenshots, print, slow GPUs). */
+.hero .wrap>*{animation:rise-soft .8s cubic-bezier(.2,.7,.2,1);}
 .hero .wrap>*:nth-child(2){animation-delay:.12s;}
 .hero.small .wrap{position:relative;z-index:1;}
 .hero.small{position:relative;overflow:hidden;}
@@ -767,7 +769,14 @@ li .hf-ico{color:#a5e3ff;}
 section.band-paper{background:var(--band-paper);}
 section.band-mist{background:var(--band-mist);}
 section.band-tint{background:var(--band-tint);}
-section.band-blue{background:linear-gradient(160deg,var(--band-blue-1),var(--band-blue-2));color:#fff;}
+section.band-blue{
+  color:#fff;
+  background:
+    url(/assets/chip.svg) right -40px center/auto 135% no-repeat,
+    radial-gradient(900px 380px at 100% 0%,rgba(47,107,255,.22),transparent 62%),
+    linear-gradient(150deg,#040d20 0%,#071a3d 45%,#0a2a5e 100%);
+}
+section.band-blue .eyebrow{background:rgba(143,220,255,.14);color:#8fdcff;border:1px solid rgba(143,220,255,.28);}
 section.band-blue h2,section.band-blue h3,section.band-blue p,section.band-blue .section-sub{color:#fff;}
 section.band-blue .section-sub{color:rgba(255,255,255,.82);}
 section.band-hero{background:linear-gradient(165deg,#06122b 0%,#0a2a5e 55%,#123a86 100%);color:#f1f5ff;}

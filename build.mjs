@@ -290,16 +290,10 @@ const portfolioCard = (p, d, lang, i) => `<article class="pcard" id="pf-${esc(p.
   <span class="pid">#${String(i + 1).padStart(2, '0')}</span>
 </article>`;
 // Case-study cards (homepage carousel, Rikkei-style): visual header + tag/status + title + detail button.
-const caseVisual = {
-  'ai-agents': 'case-ai.svg',
-  workflow: 'case-flow.svg',
-  industry: 'case-data.svg',
-  platform: 'case-platform.svg',
-  data: 'case-data.svg',
-  growth: 'case-flow.svg',
-};
+// One visual per project (generated from the 50 icons by Solution/portfolio/tools/gen_case_visuals.py)
+const caseVisual = () => null;
 const caseCard = (p, d, lang) => `<article class="ccard" data-cat="${p.category}">
-  <div class="ccard-visual"><img src="/assets/cases/${caseVisual[p.category] || 'case-ai.svg'}" alt="" loading="lazy" width="400" height="250"></div>
+  <div class="ccard-visual"><img src="/assets/cases/${esc(p.id)}.svg" alt="" width="400" height="250" decoding="async"></div>
   <div class="ccard-body">
     <div class="pcard-top"><span class="pcat">${esc(pcat(d, p.category))}</span><span class="pbadge ${p.status}">${esc(pstatus(d, p.status))}</span></div>
     <h3>${esc(p.name)}</h3>
