@@ -662,9 +662,9 @@
     "title": "50 solutions for real business problems",
     "text": "A working catalogue of product concepts: each has a problem, a proposed solution, an ontology, an architecture and a static prototype. Some are existing projects; most are concepts ready for a pilot.",
     "note": "Status is explicit: existing project, prototype, or concept. We do not present concepts as delivered products.",
-    "homeTitle": "A portfolio of 50 solution concepts",
-    "homeSub": "Built from our projects and from patterns used by leading AI, workflow and data platforms — adapted to Vietnam and Japan.",
-    "viewAll": "View all 50",
+    "homeTitle": "One representative per category",
+    "homeSub": "50 solutions across 6 categories. Below is one representative each; the full catalogue is shared on request.",
+    "viewAll": "Browse by category",
     "detail": "View details",
     "prev": "Previous",
     "next": "Next",
@@ -691,7 +691,13 @@
       "existing": "Existing project",
       "prototype": "Prototype",
       "concept": "Concept"
-    }
+    },
+    "repLabel": "Category representative",
+    "moreInCat": "and {n} more solutions in this category",
+    "unlockTitle": "The full catalogue of 50 solutions",
+    "unlockText": "The full version covers the problem, architecture, screen list and roadmap for each solution. We send it on request, with the categories that fit your case.",
+    "unlockCta": "Request the full catalogue",
+    "unlockNote": "We keep the full list private to protect our approach and our clients."
   },
   "contactForm": {
     "eyebrow": "Contact",

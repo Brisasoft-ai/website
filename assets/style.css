@@ -848,3 +848,29 @@ a.info-v:hover{color:var(--link);}
 @media (min-width:901px){.contact-aside{position:sticky;top:96px;}}
 select{color:var(--text);}
 select option{background:var(--surface);color:var(--text);}
+
+/* ---------- Portfolio teaser (one representative per category, rest kept private) ---------- */
+.tgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.tgroup{display:flex;flex-direction:column;gap:10px;}
+.tcard{height:100%;}
+.tcard .pid{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand);}
+.tmore{display:flex;gap:8px;align-items:center;margin:0;font-size:.85rem;color:var(--text-muted);padding:10px 14px;border:1px dashed var(--border);border-radius:10px;background:var(--surface);}
+.tmore svg{flex:none;width:16px;height:16px;color:var(--text-muted);}
+.unlock .unlock-note{margin:16px 0 0;font-size:.82rem;color:rgba(255,255,255,.62);}
+section.band-blue .cta-box{background:rgba(255,255,255,.05);border:1px solid rgba(143,220,255,.22);box-shadow:none;}
+section.band-blue .cta-box h2,section.band-blue .cta-box p{color:#fff;}
+section.band-blue .cta-box .section-sub{color:rgba(255,255,255,.82);}
+@media (max-width:1000px){.tgrid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media (max-width:640px){.tgrid{grid-template-columns:1fr;}}
+
+/* White cards inside dark bands must keep dark text (carousel cards sit on the navy band) */
+.ccard, .ccard *{color:inherit;}
+.ccard h3{color:#101a30!important;}
+.ccard p{color:#4a5a75!important;}
+.ccard .pcat{color:#64748b!important;}
+.ccard .pid{color:#64748b!important;}
+.ccard .pbadge{color:#101a30;}
+.ccard .pbadge.existing{color:#0f8a5f;}
+.ccard .pbadge.prototype{color:#b7791f;}
+.ccard .pbadge.concept{color:#155eef;}
+.ccard .btn-case{color:#fff!important;}

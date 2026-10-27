@@ -9,23 +9,23 @@
 
 <section class="band-mist">
   <div class="wrap">
-    <div class="pfilter-bar" id="portfolioFilter" role="group" aria-label="{{portfolio.filterLabel}}">
-      {{@portfolioFilters}}
-    </div>
-    <div class="pgrid" id="portfolioGrid">
-      {{@portfolioGrid}}
+    <h2 class="section-title">{{portfolio.homeTitle}}</h2>
+    <p class="section-sub">{{portfolio.homeSub}}</p>
+    <div class="tgrid">
+      {{@portfolioTeaser}}
     </div>
     <p class="center mt muted">{{portfolio.count}}</p>
   </div>
 </section>
 
-<section class="band-paper">
+<section class="band-blue">
   <div class="wrap">
-    <div class="cta-box">
-      <span class="eyebrow">{{contact.eyebrow}}</span>
-      <h2 class="section-title">{{contact.title}}</h2>
-      <p class="section-sub">{{contact.text}}</p>
-      <a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a>
+    <div class="cta-box unlock">
+      <span class="eyebrow">{{portfolio.eyebrow}}</span>
+      <h2 class="section-title">{{portfolio.unlockTitle}}</h2>
+      <p class="section-sub">{{portfolio.unlockText}}</p>
+      <a href="{{@url.contact}}" class="btn btn-primary">{{portfolio.unlockCta}}</a>
+      <p class="unlock-note">{{portfolio.unlockNote}}</p>
     </div>
   </div>
 </section>

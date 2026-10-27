@@ -301,10 +301,38 @@ const caseCard = (p, d, lang) => `<article class="ccard" data-cat="${p.category}
     <a class="btn btn-case" href="${url(lang, 'portfolio')}#pf-${esc(p.id)}">${esc(d.portfolio.detail)}</a>
   </div>
 </article>`;
-const caseIds = ['bis', 'aab', 'meeting-to-action', 'ai-twin-chief-of-staff', 'mcp-hub', 'agentops-control-plane'];
-const casesTrack = (d, lang) => PORTFOLIO.filter((p) => caseIds.includes(p.id)).map((p) => caseCard(p, d, lang)).join('');
-const portfolioGrid = (d, lang) => PORTFOLIO.map((p, i) => portfolioCard(p, d, lang, i)).join('');
-const portfolioFilters = (d) => `<button class="pfilter active" data-filter="all">${esc(d.portfolio.all)}</button>` + PORTFOLIO_CATS.map((c) => `<button class="pfilter" data-filter="${c}">${esc(pcat(d, c))}</button>`).join('');
+// Teaser model: one representative per category; the full 50-item list stays private (sent on request).
+const REPRESENTATIVE = {
+  'ai-agents': 'meeting-to-action',
+  workflow: 'aab',
+  data: 'bi-copilot',
+  industry: 'bis',
+  growth: 'lead-intelligence',
+  platform: 'mcp-hub',
+};
+const repOf = (cat) => PORTFOLIO.find((p) => p.id === REPRESENTATIVE[cat]) || PORTFOLIO.find((p) => p.category === cat);
+const categoryCounts = () => PORTFOLIO.reduce((m, p) => ((m[p.category] = (m[p.category] || 0) + 1), m), {});
+
+const teaserCard = (p, d, lang) => `<article class="pcard tcard" id="pf-${esc(p.id)}">
+  <div class="pcard-top"><span class="pcat">${esc(pcat(d, p.category))}</span><span class="pbadge ${p.status}">${esc(pstatus(d, p.status))}</span></div>
+  <div class="pmark" aria-hidden="true"><img class="picon" src="/assets/portfolio/icons/${esc(p.id)}.svg" alt="" width="44" height="44"></div>
+  <h3>${esc(p.name)}</h3>
+  <p>${esc(pdesc(p, d, lang))}</p>
+  <span class="pid">${esc(d.portfolio.repLabel)}</span>
+</article>`;
+
+const portfolioTeaser = (d, lang) => {
+  const counts = categoryCounts();
+  return PORTFOLIO_CATS.map((cat) => {
+    const rep = repOf(cat);
+    const more = Math.max(0, (counts[cat] || 0) - 1);
+    const note = d.portfolio.moreInCat.replace('{n}', String(more));
+    return `<div class="tgroup">${rep ? teaserCard(rep, d, lang) : ''}<p class="tmore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="10.5" width="16" height="10" rx="2"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/></svg>${esc(note)}</p></div>`;
+  }).join('');
+};
+
+// Home carousel uses the same six representatives so both surfaces tell one story.
+const homeCases = (d, lang) => PORTFOLIO_CATS.map(repOf).filter(Boolean).map((p) => caseCard(p, d, lang)).join('');
 
 const layout = read('src/layout.html');
 // Cache-busting version for CSS/JS, derived from their content
@@ -351,9 +379,8 @@ for (const l of LANGS) {
       techBlock: techBlock(d),
       bisAction: bisAction(d),
       bpmnDiagram: p.key === 'aab' ? bpmnDiagram(d) : '',
-      portfolioGrid: p.key === 'portfolio' ? portfolioGrid(d, l.code) : '',
-      casesTrack: p.key === 'home' ? casesTrack(d, l.code) : '',
-      portfolioFilters: p.key === 'portfolio' ? portfolioFilters(d) : '',
+      portfolioTeaser: p.key === 'portfolio' ? portfolioTeaser(d, l.code) : '',
+      casesTrack: p.key === 'home' ? homeCases(d, l.code) : '',
     };
     const content = render(pageTpl[p.key], ctx, d);
     const html = render(
