@@ -1,0 +1,52 @@
+Subject: Request to move brisasoft.net (Cloudflare Registrar domain + zone) to my account
+
+Hello Cloudflare Support,
+
+I am the owner of brisasoft.net and I need the domain registration and its DNS zone moved to my
+Cloudflare account. The domain is currently held by an old partner account that I no longer have
+access to.
+
+DOMAIN
+  Domain:                 brisasoft.net
+  Registrar (WHOIS):      Cloudflare, Inc.
+  Registered:             2026-10-10
+  Expires:                2027-10-10
+  Current nameservers:    dakota.ns.cloudflare.com, diana.ns.cloudflare.com
+
+MY COMPANY (registrant / domain owner)
+  Legal name:             Brisasoft Joint Stock Company (Công ty Cổ phần Brisasoft)
+  Business registration:  0110870824 (Vietnam)
+  Address:                3rd floor, No. 3, Lane 114 Kim Quan Thuong, Viet Hung Ward,
+                          Long Bien District, Hanoi, Vietnam
+  Website contact:        contact@brisasoft.net
+  Phone:                  +84 927 997 699
+
+TARGET CLOUDFLARE ACCOUNT (mine)
+  Login email:            binhnt@brisasoft.net
+  Account ID:             6f56b113dc43a6fbe7630e21f54efd50
+  Existing zone in it:    brisasoft.net
+  Zone ID:                32245237a8de0249e30e8afb57976052
+  Zone status:            pending (assigned NS: kristina.ns.cloudflare.com, miguel.ns.cloudflare.com)
+  DNS already prepared:   A/AAAA for apex and www (proxied), MX smtp.google.com, SPF,
+                          Google site verification, DKIM google._domainkey, DMARC _dmarc
+
+WHAT I NEED
+  1. Move / release the domain registration from the old account to the account above
+     (or, if a registrar transfer is required, tell me the exact steps).
+  2. Point the domain to the nameservers assigned to my zone (kristina / miguel) so the zone
+     can become active.
+  3. Keep the existing registration term (expires 2027-10-10).
+
+PROOF OF OWNERSHIP I CAN PROVIDE
+  - Business registration certificate (Brisasoft Joint Stock Company, no. 0110870824)
+  - CEO identity document
+  - Cloudflare registration / renewal receipts sent to the registrant or billing email
+  - WHOIS record for brisasoft.net showing Cloudflare as registrar
+  - Screenshot of my Cloudflare account showing the pending zone and prepared DNS records
+
+I am happy to complete any verification step you require. Please advise how to proceed.
+
+Thank you,
+Nguyen Thanh Binh
+Founder & CEO, Brisasoft Joint Stock Company
+binhnt@brisasoft.net  |  +84 927 997 699
