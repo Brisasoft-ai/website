@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none" role="img" aria-label="Workflow automation illustration">
+  <defs>
+    <linearGradient id="cf-main" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ea8ff"/><stop offset=".5" stop-color="#2f6bff"/><stop offset="1" stop-color="#1e3fae"/>
+    </linearGradient>
+    <linearGradient id="cf-soft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity=".08"/><stop offset="1" stop-color="#2f6bff" stop-opacity=".22"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="#f2f5ff"/>
+  <path d="M-20 200 C 80 200, 90 60, 200 60 S 330 160, 430 150" stroke="url(#cf-soft)" stroke-width="70" stroke-linecap="round"/>
+  <path d="M60 190 C 130 190, 120 84, 196 84 C 258 84, 250 150, 320 150 L 352 150" stroke="#9dbcfb" stroke-width="26" stroke-linecap="round"/>
+  <path d="M60 190 C 130 190, 120 84, 196 84 C 258 84, 250 150, 320 150 L 352 150" stroke="url(#cf-main)" stroke-width="26" stroke-linecap="round" stroke-dasharray="4 10" opacity=".9"/>
+  <path d="M352 150 l-14 -7 v14 z" fill="#2f6bff"/>
+  <g fill="#ffffff" stroke="#2f6bff" stroke-opacity=".35" stroke-width="2">
+    <circle cx="60" cy="190" r="20"/>
+    <rect x="176" y="64" width="40" height="40" rx="10" transform="rotate(45 196 84)"/>
+    <circle cx="320" cy="150" r="20"/>
+  </g>
+  <g fill="#2f6bff">
+    <circle cx="60" cy="190" r="6"/>
+    <rect x="189" y="77" width="14" height="14" rx="3" transform="rotate(45 196 84)"/>
+    <circle cx="320" cy="150" r="6"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#5b79c9">
+    <text x="36" y="232">START</text>
+    <text x="176" y="140">AUTO</text>
+    <text x="300" y="196">DONE</text>
+  </g>
+</svg>

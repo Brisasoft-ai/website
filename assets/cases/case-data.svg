@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none" role="img" aria-label="Data analytics illustration">
+  <defs>
+    <linearGradient id="cd-cube" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7db1ff"/><stop offset="1" stop-color="#2f6bff"/>
+    </linearGradient>
+    <linearGradient id="cd-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#d5e4ff" stop-opacity=".45"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="#eef3ff"/>
+  <g stroke="#2f6bff" stroke-opacity=".18" stroke-width="1.5" stroke-dasharray="5 5">
+    <path d="M40 210 L200 60 L360 210 Z"/>
+  </g>
+  <g>
+    <rect x="60" y="150" width="90" height="60" rx="8" transform="skewX(-12)" fill="url(#cd-glass)" stroke="#2f6bff" stroke-opacity=".35" stroke-width="2"/>
+    <rect x="170" y="110" width="90" height="60" rx="8" transform="skewX(-12)" fill="url(#cd-glass)" stroke="#2f6bff" stroke-opacity=".5" stroke-width="2"/>
+    <rect x="280" y="70" width="70" height="50" rx="8" transform="skewX(-12)" fill="url(#cd-cube)" opacity=".9"/>
+  </g>
+  <g stroke="#2f6bff" stroke-width="3" stroke-linecap="round">
+    <path d="M150 165 L185 140"/>
+    <path d="M260 125 L292 105"/>
+  </g>
+  <g fill="#2f6bff">
+    <path d="M185 140 l-9 1 5 8z"/>
+    <path d="M292 105 l-9 1 5 8z"/>
+  </g>
+  <g fill="#14a8de">
+    <rect x="86" y="168" width="10" height="26" rx="2" opacity=".55"/>
+    <rect x="102" y="158" width="10" height="36" rx="2" opacity=".75"/>
+    <rect x="118" y="146" width="10" height="48" rx="2"/>
+  </g>
+  <g fill="#fbbf24">
+    <path d="M316 150 l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/>
+  </g>
+  <text x="315" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#2f6bff">+38%</text>
+</svg>

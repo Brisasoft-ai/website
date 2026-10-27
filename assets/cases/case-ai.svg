@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none" role="img" aria-label="AI solution illustration">
+  <defs>
+    <linearGradient id="ca-orb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5aa2ff"/><stop offset=".55" stop-color="#2f6bff"/><stop offset="1" stop-color="#1740b8"/>
+    </linearGradient>
+    <linearGradient id="ca-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#cfe0ff" stop-opacity=".35"/>
+    </linearGradient>
+    <linearGradient id="ca-base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbe7ff"/><stop offset="1" stop-color="#a9c2f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="#eef3ff"/>
+  <g fill="#2f6bff" opacity=".08">
+    <circle cx="30" cy="30" r="2"/><circle cx="70" cy="30" r="2"/><circle cx="110" cy="30" r="2"/><circle cx="150" cy="30" r="2"/><circle cx="190" cy="30" r="2"/><circle cx="230" cy="30" r="2"/><circle cx="270" cy="30" r="2"/><circle cx="310" cy="30" r="2"/><circle cx="350" cy="30" r="2"/>
+    <circle cx="30" cy="70" r="2"/><circle cx="70" cy="70" r="2"/><circle cx="310" cy="70" r="2"/><circle cx="350" cy="70" r="2"/>
+    <circle cx="30" cy="220" r="2"/><circle cx="350" cy="220" r="2"/>
+  </g>
+  <rect x="120" y="196" width="160" height="18" rx="6" fill="url(#ca-base)"/>
+  <rect x="140" y="178" width="120" height="20" rx="6" fill="#c3d5fa"/>
+  <ellipse cx="200" cy="178" rx="86" ry="16" fill="#ffffff" opacity=".7"/>
+  <ellipse cx="200" cy="120" rx="104" ry="30" stroke="#2f6bff" stroke-opacity=".35" stroke-width="2"/>
+  <ellipse cx="200" cy="120" rx="104" ry="30" stroke="#ffffff" stroke-opacity=".6" stroke-width="6"/>
+  <circle cx="200" cy="112" r="46" fill="url(#ca-orb)"/>
+  <ellipse cx="186" cy="98" rx="16" ry="10" fill="#ffffff" opacity=".35"/>
+  <text x="200" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#ffffff">AI</text>
+  <g fill="#14a8de">
+    <rect x="272" y="52" width="12" height="34" rx="2" opacity=".85"/>
+    <rect x="290" y="40" width="12" height="46" rx="2"/>
+    <rect x="308" y="60" width="12" height="26" rx="2" opacity=".7"/>
+  </g>
+  <path d="M284 92v14M302 92v8" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <g fill="url(#ca-glass)" stroke="#2f6bff" stroke-opacity=".3">
+    <rect x="52" y="120" width="64" height="44" rx="8"/>
+    <rect x="52" y="120" width="64" height="44" rx="8" fill="#ffffff" opacity=".4" stroke="none"/>
+  </g>
+  <g fill="#2f6bff" opacity=".8">
+    <rect x="62" y="132" width="34" height="5" rx="2.5"/><rect x="62" y="142" width="26" height="5" rx="2.5" opacity=".5"/>
+  </g>
+</svg>

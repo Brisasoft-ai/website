@@ -90,13 +90,17 @@
   </div>
 </section>
 
-<section id="portfolio" class="alt">
+<section id="portfolio" class="cases-sec dark">
   <div class="wrap">
     <span class="eyebrow center">{{portfolio.eyebrow}}</span>
     <h2 class="section-title">{{portfolio.homeTitle}}</h2>
     <p class="section-sub">{{portfolio.homeSub}}</p>
-    <div class="pgrid pgrid-featured">
-      {{@portfolioFeatured}}
+    <div class="cases-nav">
+      <button class="cases-btn" data-dir="-1" aria-label="{{portfolio.prev}}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="cases-track" tabindex="0">
+{{@casesTrack}}
+      </div>
+      <button class="cases-btn" data-dir="1" aria-label="{{portfolio.next}}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
     <p class="center mt"><a href="{{@url.portfolio}}" class="btn btn-outline">{{portfolio.viewAll}}</a></p>
   </div>

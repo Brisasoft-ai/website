@@ -115,3 +115,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
+// Case-study carousel: arrow buttons scroll the snap track by one card
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.cases-nav').forEach(function (nav) {
+    var track = nav.querySelector('.cases-track');
+    if (!track) return;
+    nav.querySelectorAll('.cases-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var card = track.querySelector('.ccard');
+        var step = card ? card.getBoundingClientRect().width + 18 : 360;
+        track.scrollBy({ left: step * Number(btn.getAttribute('data-dir') || 1), behavior: 'smooth' });
+      });
+    });
+  });
+});
