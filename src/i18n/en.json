@@ -61,6 +61,10 @@
     "portfolio": {
       "title": "Solution portfolio — Brisasoft",
       "description": "50 solution concepts across AI, workflow, data, industry, growth and platform. Each has a problem, solution, ontology, architecture and prototype."
+    },
+    "cookies": {
+      "title": "Cookie policy | Brisasoft",
+      "description": "Cookies used by the Brisasoft website, how long they last and how to change your choice."
     }
   },
   "facts": {
@@ -158,7 +162,8 @@
       "email": "Email"
     },
     "rights": "All rights reserved.",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "cookieSettings": "Cookie settings"
   },
   "process": {
     "eyebrow": "Engineering approach",
@@ -458,23 +463,51 @@
   "privacy": {
     "eyebrow": "Legal",
     "title": "Privacy notice",
-    "text": "How this website handles information.",
-    "updated": "Last updated: 12 October 2026.",
+    "text": "This notice explains what Brisasoft collects when you use this website, why, how long we keep it and what you can ask us to do.",
+    "updated": "Version 2.0 — updated 27 October 2026. Replaces all earlier versions.",
     "s1": {
-      "title": "Who we are",
-      "text": "This website is operated by Brisasoft Joint Stock Company (Công ty Cổ phần Brisasoft), Hanoi, Vietnam. Contact: contact@brisasoft.net."
+      "title": "1. Who is responsible",
+      "text": "Brisasoft Joint Stock Company, business registration 0110870824, 3rd floor, No. 3, Lane 114 Kim Quan Thuong, Viet Hung Ward, Long Bien District, Hanoi, Vietnam — is the controller of data collected through this website. Write to contact@brisasoft.net for any data question."
     },
     "s2": {
-      "title": "What we collect",
-      "text": "This website has no accounts, forms or advertising, and we do not set tracking cookies. Our hosting provider, Cloudflare, may measure visits in aggregate (pages viewed, country, device type) to keep the site running and to understand how it is used. If your browser allows it, the site remembers your language choice in local storage on your device."
+      "title": "2. What we collect",
+      "text": "We collect only what the purposes in section 3 require: (a) what you send through the contact form — last name, first name, work email, company, job title, country/region and your message; (b) minimal technical data when you visit — IP address, browser type, time and requested page, recorded by our infrastructure provider to run and protect the site; (c) preferences stored on your device — display language and your cookie choice. We do not ask for sensitive data, and you should not send it through the form."
     },
     "s3": {
-      "title": "Emails you send us",
-      "text": "If you email us, we use your message and address only to reply and to follow up on your enquiry, and keep them as long as needed for that purpose. We do not sell them or share them for marketing."
+      "title": "3. Why we use it, and on what basis",
+      "text": "Answering your enquiry: necessary to take steps at your request before entering a contract. Operating, securing and debugging the site: our legitimate interest in keeping it available and safe. Measuring usage and improving content: only with your consent through the cookie settings. We do not use your data for automated advertising and we do not sell it."
     },
     "s4": {
-      "title": "Your choices",
-      "text": "You can ask us to correct or delete the emails we hold about you by writing to contact@brisasoft.net. You can clear the stored language choice by clearing this site data in your browser."
+      "title": "4. Cookies and similar technologies",
+      "text": "By default the site uses only what it needs: a local preference for display language and a record of your cookie decision. Measurement cookies are enabled only after you consent and can be refused without losing any functionality. Types, retention and how to change your choice are set out in the Cookie policy."
+    },
+    "s5": {
+      "title": "5. Sharing and transfers",
+      "text": "We share the minimum necessary with providers that run the site and deliver enquiries: infrastructure and content delivery (Cloudflare) and the email service that sends and receives enquiries. They act on our instructions and may not use the data for their own purposes. Data may be processed outside Vietnam; where that happens we rely on contractual safeguards and select providers with comparable security commitments. We disclose information where a competent authority lawfully requires it."
+    },
+    "s6": {
+      "title": "6. How long we keep it",
+      "text": "Form enquiries and correspondence are kept for up to 24 months from the last contact, then deleted or anonymised. Server logs are short-lived (normally no more than 30 days). Your cookie record is kept for 12 months. Where accounting or dispute rules require a longer period, we keep the data only for that period."
+    },
+    "s7": {
+      "title": "7. Security",
+      "text": "The whole site is served over HTTPS; access to the mailbox and systems is restricted; we minimise what we collect; providers are required to encrypt data at rest. No system is perfectly secure. If an incident affects your data, we notify as required by law."
+    },
+    "s8": {
+      "title": "8. Your rights",
+      "text": "You may ask what data we hold, request access, correction, deletion, restriction or object to processing, ask for portability where technically feasible, and withdraw consent at any time for consent-based purposes. Write to contact@brisasoft.net; we answer within 30 days and may ask you to verify identity to protect your data. You may also complain to the data protection authority where you live."
+    },
+    "s9": {
+      "title": "9. Children",
+      "text": "This site is aimed at business customers and is not intended for anyone under 16. We do not knowingly collect children's data and will delete it if we learn we have."
+    },
+    "s10": {
+      "title": "10. Changes",
+      "text": "When the content changes we update the version number and effective date at the top. Material changes to purposes or scope are announced on the site before they take effect."
+    },
+    "s11": {
+      "title": "11. Contact",
+      "text": "Brisasoft Joint Stock Company · contact@brisasoft.net · +84 927 997 699 · 3rd floor, No. 3, Lane 114 Kim Quan Thuong, Viet Hung Ward, Long Bien District, Hanoi, Vietnam."
     }
   },
   "stats": {
@@ -739,5 +772,52 @@
     "trust1": "NDA before detailed discussion",
     "trust2": "Work in Vietnamese, Japanese or English",
     "trust3": "Fixed-scope quotes, no hidden fees"
+  },
+  "cookies": {
+    "eyebrow": "Legal",
+    "title": "Cookie policy",
+    "text": "This website uses a minimal set of cookies. You decide which categories run.",
+    "updated": "Version 1.0 — 27 October 2026.",
+    "s1": {
+      "title": "1. What cookies are",
+      "text": "Cookies are small files stored on your device when you visit a website; local storage works in a similar way. They let the site remember your choices and, with consent, measure how content is used."
+    },
+    "s2": {
+      "title": "2. The categories we use",
+      "text": "Necessary (always on): keeps your display language and a record of your cookie decision; stored 12 months; no personal identification. Measurement (off by default): aggregate page views, popular pages, country and device type; kept up to 6 months. Marketing (off, not currently used): if we later measure campaign performance, this policy is updated first."
+    },
+    "s3": {
+      "title": "3. Changing your choice",
+      "text": "Open the cookie settings at any time from the footer link, or clear site data in your browser to return to defaults. Refusing measurement cookies does not affect reading content or sending the contact form."
+    },
+    "s4": {
+      "title": "4. Third parties",
+      "text": "Infrastructure and content delivery are provided by Cloudflare, which may set strictly necessary technical cookies to protect the site. We do not embed social-media advertising trackers."
+    },
+    "s5": {
+      "title": "5. Changes and contact",
+      "text": "If the categories change we update this page and the version number. Questions: contact@brisasoft.net."
+    }
+  },
+  "consent": {
+    "title": "Cookies on this website",
+    "text": "We use necessary cookies to run the site and, with your consent, measurement cookies to understand which content helps. You can accept, reject or choose per category. See the Cookie policy and Privacy notice.",
+    "accept": "Accept all cookies",
+    "reject": "Reject all",
+    "settings": "Cookies settings",
+    "save": "Save preferences",
+    "close": "Close",
+    "settingsTitle": "Cookie settings",
+    "settingsText": "Turn each category on or off. Necessary cookies stay on because the site cannot work without them.",
+    "necessary": "Necessary",
+    "necessaryText": "Display language and your cookie decision. No personal identification.",
+    "analytics": "Measurement",
+    "analyticsText": "Aggregate page views and device statistics, used to improve content.",
+    "marketing": "Marketing",
+    "marketingText": "Not used today. If enabled later, it measures campaign performance.",
+    "alwaysOn": "Always on",
+    "cookiePolicy": "Cookie policy",
+    "privacyPolicy": "Privacy notice",
+    "footerLink": "Cookie settings"
   }
 }

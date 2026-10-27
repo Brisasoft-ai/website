@@ -61,6 +61,10 @@
     "portfolio": {
       "title": "Danh mục giải pháp — Brisasoft",
       "description": "50 giải pháp trong AI, quy trình, dữ liệu, ngành, tăng trưởng và nền tảng. Mỗi mục có bài toán, hướng giải, ontology, kiến trúc và prototype."
+    },
+    "cookies": {
+      "title": "Chính sách cookie | Brisasoft",
+      "description": "Cookie website Brisasoft dùng, thời hạn lưu và cách thay đổi lựa chọn."
     }
   },
   "facts": {
@@ -158,7 +162,8 @@
       "email": "Email"
     },
     "rights": "Bảo lưu mọi quyền.",
-    "privacy": "Quyền riêng tư"
+    "privacy": "Quyền riêng tư",
+    "cookieSettings": "Thiết lập cookie"
   },
   "process": {
     "eyebrow": "Phương pháp kỹ thuật",
@@ -458,23 +463,51 @@
   "privacy": {
     "eyebrow": "Pháp lý",
     "title": "Thông báo quyền riêng tư",
-    "text": "Cách website này xử lý thông tin.",
-    "updated": "Cập nhật lần cuối: 12/10/2026.",
+    "text": "Thông báo này giải thích Brisasoft thu thập dữ liệu gì khi bạn dùng website, vì sao, giữ trong bao lâu và bạn có những quyền nào.",
+    "updated": "Phiên bản 2.0 — cập nhật ngày 27/10/2026. Thay thế mọi bản trước đó.",
     "s1": {
-      "title": "Chúng tôi là ai",
-      "text": "Website này do Công ty Cổ phần Brisasoft (Brisasoft Joint Stock Company) tại Hà Nội, Việt Nam vận hành. Liên hệ: contact@brisasoft.net."
+      "title": "1. Đơn vị chịu trách nhiệm",
+      "text": "Công ty Cổ phần Brisasoft (Brisasoft Joint Stock Company), mã số doanh nghiệp 0110870824, Tầng 3 số 3 ngõ 114 Kim Quan Thượng, phường Việt Hưng, Long Biên, Hà Nội, Việt Nam — là đơn vị kiểm soát dữ liệu thu được qua website này. Mọi câu hỏi về dữ liệu xin gửi tới contact@brisasoft.net."
     },
     "s2": {
-      "title": "Chúng tôi thu thập gì",
-      "text": "Website không có tài khoản, biểu mẫu hay quảng cáo, và chúng tôi không đặt cookie theo dõi. Nhà cung cấp hosting là Cloudflare có thể đo lượt truy cập ở dạng tổng hợp (trang đã xem, quốc gia, loại thiết bị) để duy trì site và hiểu cách site được sử dụng. Nếu trình duyệt cho phép, site ghi nhớ lựa chọn ngôn ngữ của bạn trong bộ nhớ cục bộ trên thiết bị."
+      "title": "2. Dữ liệu chúng tôi thu thập",
+      "text": "Chúng tôi chỉ thu thập dữ liệu cần cho mục đích nêu ở mục 3: (a) thông tin bạn tự gửi qua biểu mẫu liên hệ — họ, tên, email công việc, tên công ty, chức vụ, quốc gia/khu vực và nội dung yêu cầu; (b) dữ liệu kỹ thuật tối thiểu khi bạn truy cập — địa chỉ IP, loại trình duyệt, thời điểm và trang được yêu cầu, do nhà cung cấp hạ tầng ghi lại để vận hành và bảo vệ website; (c) lựa chọn lưu trên thiết bị của bạn — ngôn ngữ hiển thị và quyết định về cookie. Chúng tôi không thu thập dữ liệu nhạy cảm và không yêu cầu bạn gửi thông tin đó qua biểu mẫu."
     },
     "s3": {
-      "title": "Email bạn gửi cho chúng tôi",
-      "text": "Nếu bạn gửi email, chúng tôi chỉ dùng nội dung và địa chỉ đó để trả lời và theo dõi yêu cầu của bạn, và lưu trong thời gian cần thiết cho mục đích đó. Chúng tôi không bán hay chia sẻ chúng cho mục đích tiếp thị."
+      "title": "3. Mục đích và cơ sở pháp lý",
+      "text": "Phản hồi yêu cầu của bạn: cần thiết để thực hiện các bước trước khi ký hợp đồng theo yêu cầu của bạn. Vận hành, bảo mật và chẩn đoán lỗi website: lợi ích hợp pháp của chúng tôi trong việc giữ hệ thống hoạt động và an toàn. Đo lường mức độ sử dụng và cải thiện nội dung: chỉ khi bạn đồng ý qua phần thiết lập cookie. Chúng tôi không dùng dữ liệu của bạn cho quảng cáo tự động và không bán dữ liệu."
     },
     "s4": {
-      "title": "Lựa chọn của bạn",
-      "text": "Bạn có thể yêu cầu chúng tôi chỉnh sửa hoặc xóa các email chúng tôi lưu về bạn bằng cách viết tới contact@brisasoft.net. Bạn có thể xóa lựa chọn ngôn ngữ đã lưu bằng cách xóa dữ liệu của trang này trong trình duyệt."
+      "title": "4. Cookie và công nghệ tương tự",
+      "text": "Website mặc định chỉ dùng cookie và bộ nhớ cục bộ cần thiết: giữ lựa chọn ngôn ngữ và ghi nhận quyết định cookie của bạn. Cookie đo lường chỉ được bật sau khi bạn đồng ý và có thể từ chối mà không ảnh hưởng chức năng. Chi tiết theo từng loại, thời hạn lưu và cách thay đổi lựa chọn nằm trong Chính sách cookie."
+    },
+    "s5": {
+      "title": "5. Chia sẻ và chuyển dữ liệu",
+      "text": "Chúng tôi chia sẻ dữ liệu ở mức tối thiểu với nhà cung cấp dịch vụ cần thiết để vận hành website và nhận yêu cầu: hạ tầng và phân phối nội dung (Cloudflare) và dịch vụ email gửi/nhận thư liên hệ. Các nhà cung cấp này chỉ xử lý dữ liệu theo hướng dẫn của chúng tôi và không được dùng cho mục đích riêng. Dữ liệu có thể được xử lý ngoài Việt Nam; khi đó chúng tôi áp dụng biện pháp bảo vệ theo hợp đồng và chỉ chọn nhà cung cấp có cam kết bảo mật tương đương. Chúng tôi công bố thông tin khi có yêu cầu hợp pháp của cơ quan có thẩm quyền."
+    },
+    "s6": {
+      "title": "6. Thời gian lưu trữ",
+      "text": "Yêu cầu gửi qua biểu mẫu và thư trao đổi được lưu tối đa 24 tháng kể từ lần liên hệ cuối, sau đó xoá hoặc ẩn danh hoá. Nhật ký máy chủ được lưu ngắn hạn (thường không quá 30 ngày). Bản ghi lựa chọn cookie được lưu 12 tháng. Khi pháp luật yêu cầu giữ lâu hơn cho mục đích kế toán hoặc giải quyết tranh chấp, chúng tôi giữ đúng thời hạn đó."
+    },
+    "s7": {
+      "title": "7. Bảo mật",
+      "text": "Chúng tôi dùng HTTPS cho toàn bộ website, giới hạn quyền truy cập vào hộp thư và hệ thống, thu thập dữ liệu tối thiểu và yêu cầu nhà cung cấp mã hoá dữ liệu khi lưu trữ. Không có hệ thống nào an toàn tuyệt đối; nếu xảy ra sự cố ảnh hưởng đến dữ liệu của bạn, chúng tôi thông báo theo quy định pháp luật."
+    },
+    "s8": {
+      "title": "8. Quyền của bạn",
+      "text": "Bạn có quyền được biết dữ liệu nào đang được xử lý, yêu cầu truy cập, chỉnh sửa, xoá, hạn chế hoặc phản đối việc xử lý, yêu cầu chuyển dữ liệu sang đơn vị khác khi khả thi về kỹ thuật, và rút lại sự đồng ý bất cứ lúc nào cho các mục đích dựa trên đồng ý. Gửi yêu cầu tới contact@brisasoft.net; chúng tôi phản hồi trong vòng 30 ngày và có thể đề nghị xác minh danh tính để bảo vệ dữ liệu của bạn. Bạn cũng có quyền khiếu nại tới cơ quan quản lý về bảo vệ dữ liệu cá nhân tại nơi bạn cư trú."
+    },
+    "s9": {
+      "title": "9. Trẻ vị thành niên",
+      "text": "Website hướng tới khách hàng doanh nghiệp và không dành cho người dưới 16 tuổi. Chúng tôi không chủ động thu thập dữ liệu của trẻ em; nếu phát hiện, chúng tôi sẽ xoá."
+    },
+    "s10": {
+      "title": "10. Thay đổi thông báo",
+      "text": "Khi nội dung thay đổi, chúng tôi cập nhật số phiên bản và ngày hiệu lực ở đầu trang. Thay đổi quan trọng về mục đích hoặc phạm vi xử lý sẽ được thông báo trên website trước khi áp dụng."
+    },
+    "s11": {
+      "title": "11. Liên hệ",
+      "text": "Công ty Cổ phần Brisasoft · contact@brisasoft.net · +84 927 997 699 · Tầng 3 số 3 ngõ 114 Kim Quan Thượng, phường Việt Hưng, Long Biên, Hà Nội, Việt Nam."
     }
   },
   "stats": {
@@ -739,5 +772,52 @@
     "trust1": "NDA trước khi trao đổi chi tiết",
     "trust2": "Trao đổi bằng tiếng Việt, Nhật hoặc Anh",
     "trust3": "Báo giá theo phạm vi, không phí ẩn"
+  },
+  "cookies": {
+    "eyebrow": "Pháp lý",
+    "title": "Chính sách cookie",
+    "text": "Website dùng một lượng cookie tối thiểu. Bạn quyết định loại nào được bật.",
+    "updated": "Phiên bản 1.0 — 27/10/2026.",
+    "s1": {
+      "title": "1. Cookie là gì",
+      "text": "Cookie là tệp nhỏ được lưu trên thiết bị khi bạn truy cập website; bộ nhớ cục bộ (local storage) có chức năng tương tự. Chúng giúp website ghi nhớ lựa chọn của bạn và, khi được đồng ý, đo lường cách nội dung được sử dụng."
+    },
+    "s2": {
+      "title": "2. Loại cookie chúng tôi dùng",
+      "text": "Cần thiết (luôn bật): giữ ngôn ngữ hiển thị và bản ghi quyết định cookie; lưu 12 tháng; không định danh cá nhân. Đo lường (mặc định tắt): thống kê tổng hợp lượt xem, trang phổ biến, quốc gia và loại thiết bị; lưu tối đa 6 tháng. Tiếp thị (mặc định tắt, hiện chưa sử dụng): nếu sau này dùng để đo hiệu quả chiến dịch, chúng tôi sẽ cập nhật chính sách trước."
+    },
+    "s3": {
+      "title": "3. Thay đổi lựa chọn",
+      "text": "Mở phần thiết lập cookie bất cứ lúc nào từ liên kết ở chân trang, hoặc xoá dữ liệu trang trong trình duyệt để đưa mọi thứ về mặc định. Từ chối cookie đo lường không ảnh hưởng đến việc đọc nội dung hay gửi biểu mẫu."
+    },
+    "s4": {
+      "title": "4. Bên thứ ba",
+      "text": "Hạ tầng và phân phối nội dung do Cloudflare cung cấp; Cloudflare có thể đặt cookie kỹ thuật cần thiết để bảo vệ website. Chúng tôi không nhúng trình theo dõi quảng cáo của mạng xã hội."
+    },
+    "s5": {
+      "title": "5. Thay đổi và liên hệ",
+      "text": "Khi danh mục cookie thay đổi, chúng tôi cập nhật trang này và số phiên bản. Câu hỏi xin gửi tới contact@brisasoft.net."
+    }
+  },
+  "consent": {
+    "title": "Cookie trên website này",
+    "text": "Chúng tôi dùng cookie cần thiết để website hoạt động và, khi bạn đồng ý, cookie đo lường để hiểu nội dung nào hữu ích. Bạn có thể chấp nhận, từ chối hoặc chọn từng loại. Xem Chính sách cookie và Thông báo quyền riêng tư.",
+    "accept": "Chấp nhận tất cả",
+    "reject": "Từ chối tất cả",
+    "settings": "Thiết lập cookie",
+    "save": "Lưu lựa chọn",
+    "close": "Đóng",
+    "settingsTitle": "Thiết lập cookie",
+    "settingsText": "Bật hoặc tắt từng loại. Cookie cần thiết luôn bật vì website không hoạt động thiếu chúng.",
+    "necessary": "Cần thiết",
+    "necessaryText": "Ngôn ngữ hiển thị và bản ghi quyết định cookie. Không định danh cá nhân.",
+    "analytics": "Đo lường",
+    "analyticsText": "Thống kê tổng hợp về lượt xem và thiết bị để cải thiện nội dung.",
+    "marketing": "Tiếp thị",
+    "marketingText": "Hiện chưa dùng. Nếu bật sau này sẽ dùng để đo hiệu quả chiến dịch.",
+    "alwaysOn": "Luôn bật",
+    "cookiePolicy": "Chính sách cookie",
+    "privacyPolicy": "Thông báo quyền riêng tư",
+    "footerLink": "Thiết lập cookie"
   }
 }

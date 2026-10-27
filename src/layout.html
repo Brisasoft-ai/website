@@ -27,6 +27,47 @@
 {{@content}}
 </main>
 {{@footer}}
+<div class="cookie-banner" id="cookie-banner" hidden role="region" aria-label="{{consent.title}}">
+  <div class="cookie-inner">
+    <div class="cookie-copy">
+      <h2>{{consent.title}}</h2>
+      <p>{{consent.text}}</p>
+      <p class="cookie-links">
+        <a href="{{@url.cookies}}">{{consent.cookiePolicy}}</a>
+        <span aria-hidden="true">·</span>
+        <a href="{{@url.privacy}}">{{consent.privacyPolicy}}</a>
+      </p>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn-ghost" data-consent="settings">{{consent.settings}}</button>
+      <button type="button" class="btn btn-ghost" data-consent="reject">{{consent.reject}}</button>
+      <button type="button" class="btn btn-primary" data-consent="accept">{{consent.accept}}</button>
+    </div>
+  </div>
+</div>
+
+<dialog class="cookie-dialog" id="cookie-settings" aria-labelledby="cookie-settings-title">
+  <form method="dialog" class="cookie-form">
+    <h2 id="cookie-settings-title">{{consent.settingsTitle}}</h2>
+    <p>{{consent.settingsText}}</p>
+    <div class="cookie-row">
+      <div><b>{{consent.necessary}}</b><p>{{consent.necessaryText}}</p></div>
+      <span class="cookie-always">{{consent.alwaysOn}}</span>
+    </div>
+    <label class="cookie-row">
+      <div><b>{{consent.analytics}}</b><p>{{consent.analyticsText}}</p></div>
+      <input type="checkbox" name="analytics" value="1">
+    </label>
+    <label class="cookie-row">
+      <div><b>{{consent.marketing}}</b><p>{{consent.marketingText}}</p></div>
+      <input type="checkbox" name="marketing" value="1">
+    </label>
+    <div class="cookie-dialog-actions">
+      <button type="button" class="btn btn-ghost" data-consent="close">{{consent.close}}</button>
+      <button type="submit" class="btn btn-primary" data-consent="save">{{consent.save}}</button>
+    </div>
+  </form>
+</dialog>
 <script src="/assets/main.js?v={{@ver}}"></script>
 </body>
 </html>

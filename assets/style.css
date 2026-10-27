@@ -896,3 +896,40 @@ section.band-blue .cta-box .section-sub{color:rgba(255,255,255,.82);}
   .hero-stats .numbers div:nth-child(2){border-right:0;}
   .hero-stats .numbers div:nth-child(-n+2){border-bottom:1px solid rgba(143,220,255,.16);}
 }
+
+/* ---------- Cookie consent (banner + settings dialog) ---------- */
+.cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:90;background:#0b1226;border-top:1px solid rgba(143,220,255,.22);color:#e8eefb;box-shadow:0 -18px 50px -30px rgba(0,0,0,.8);}
+.cookie-banner[hidden]{display:none;}
+.cookie-inner{max-width:1160px;margin:0 auto;padding:22px 24px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;}
+.cookie-copy h2{font-size:1rem;margin:0 0 6px;color:#fff;}
+.cookie-copy p{margin:0;font-size:.86rem;line-height:1.55;color:#b7c3d8;}
+.cookie-links{margin-top:6px!important;}
+.cookie-links a{color:#8fdcff;text-decoration:underline;text-underline-offset:2px;}
+.cookie-links span{margin-inline:8px;color:#5b6b85;}
+.cookie-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;}
+.cookie-actions .btn{white-space:nowrap;padding:11px 18px;font-size:.88rem;}
+.btn-ghost{background:transparent;border:1px solid rgba(143,220,255,.38);color:#dbe7ff;}
+.btn-ghost:hover{background:rgba(143,220,255,.12);border-color:#8fdcff;color:#fff;}
+.cookie-dialog{max-width:620px;width:calc(100% - 32px);border:1px solid var(--border);border-radius:18px;padding:0;background:var(--surface);color:var(--text);box-shadow:0 30px 80px -30px rgba(2,8,30,.6);}
+.cookie-dialog::backdrop{background:rgba(4,10,24,.6);backdrop-filter:blur(2px);}
+.cookie-form{padding:26px 26px 22px;display:grid;gap:14px;margin:0;}
+.cookie-form h2{margin:0;font-size:1.2rem;}
+.cookie-form>p{margin:0;font-size:.9rem;color:var(--text-muted);}
+.cookie-row{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin:0;background:var(--band-mist);}
+.cookie-row b{font-size:.94rem;}
+.cookie-row p{margin:4px 0 0;font-size:.83rem;color:var(--text-muted);line-height:1.5;}
+.cookie-row input[type="checkbox"]{width:20px;height:20px;accent-color:var(--brand);}
+.cookie-always{font-size:.78rem;font-weight:700;color:#0f8a5f;border:1px solid rgba(15,138,95,.4);border-radius:999px;padding:4px 10px;white-space:nowrap;}
+.cookie-dialog-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:6px;}
+.footer-legal{display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:2px;}
+.linkbtn:hover{color:#7fb0ff;}
+@media(max-width:860px){
+  .cookie-inner{grid-template-columns:1fr;gap:14px;}
+  .cookie-actions{justify-content:flex-start;}
+}
+
+/* Dialog sits on a light surface: give the secondary button proper contrast there */
+.cookie-dialog .btn-ghost{color:var(--text);border-color:var(--border);}
+.cookie-dialog .btn-ghost:hover{background:var(--band-mist);border-color:var(--brand);color:var(--brand);}
+.cookie-dialog .btn-primary{color:#fff;}

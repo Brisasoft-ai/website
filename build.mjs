@@ -29,6 +29,7 @@ const PAGES = [
   { key: 'insights', path: 'insights/' },
   { key: 'contact', path: 'contact/' },
   { key: 'privacy', path: 'privacy/' },
+  { key: 'cookies', path: 'privacy/cookies/' },
 ];
 
 const read = (p) => readFileSync(join(root, p), 'utf8');
@@ -147,7 +148,11 @@ function footer(lang, d) {
     </div>
     <div class="footer-bottom">
       <span>© <span id="year">2026</span> Brisasoft. ${esc(d.footer.rights)}</span>
-      <span><a href="${url(lang, 'privacy')}">${esc(d.footer.privacy)}</a></span>
+      <span class="footer-legal">
+        <a href="${url(lang, 'privacy')}">${esc(d.footer.privacy)}</a>
+        <a href="${url(lang, 'cookies')}">${esc(d.consent.cookiePolicy)}</a>
+        <button type="button" class="linkbtn" data-consent="settings">${esc(d.consent.footerLink)}</button>
+      </span>
     </div>
   </div>
 </footer>`;
@@ -395,6 +400,7 @@ for (const l of LANGS) {
         ogLocale: l.og,
         site: SITE,
         ver: VER,
+        url: urls,
         jsonld,
         skip: esc(l.skip),
         header: header(l.code, p.key, d),

@@ -182,3 +182,78 @@ document.addEventListener('DOMContentLoaded', function () {
       .finally(function () { btn.disabled = false; });
   });
 });
+
+// Cookie consent: banner + settings dialog. Nothing non-essential runs before a choice.
+// Consent is stored in localStorage under brisa-consent and exposed as window.brisaConsent.
+document.addEventListener('DOMContentLoaded', function () {
+  var KEY = 'brisa-consent';
+  var banner = document.getElementById('cookie-banner');
+  var dialog = document.getElementById('cookie-settings');
+  if (!banner) return;
+
+  var read = function () {
+    try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { return null; }
+  };
+  var write = function (analytics, marketing) {
+    var value = { v: 1, analytics: !!analytics, marketing: !!marketing, ts: new Date().toISOString() };
+    try { localStorage.setItem(KEY, JSON.stringify(value)); } catch (e) {}
+    window.brisaConsent = value;
+    document.documentElement.setAttribute('data-consent', analytics ? 'all' : 'necessary');
+    applyAnalytics(value);
+    return value;
+  };
+
+  // Analytics hook: only loads when the visitor allowed measurement and a token is configured.
+  var applyAnalytics = function (value) {
+    if (!value || !value.analytics) return;
+    if (window.__brisaAnalyticsLoaded) return;
+    var token = document.documentElement.getAttribute('data-cf-beacon');
+    if (!token) return;
+    window.__brisaAnalyticsLoaded = true;
+    var s = document.createElement('script');
+    s.defer = true;
+    s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    s.setAttribute('data-cf-beacon', JSON.stringify({ token: token }));
+    document.body.appendChild(s);
+  };
+
+  if (location.hash === '#cookie-settings' || location.search.indexOf('cookie-settings') !== -1) {
+    setTimeout(function () { openSettings(); }, 30);
+  }
+
+  var existing = read();
+  if (!existing) banner.hidden = false;
+  else { window.brisaConsent = existing; applyAnalytics(existing); }
+
+  var close = function () { banner.hidden = true; };
+
+  var openSettings = function () {
+    if (!dialog || typeof dialog.showModal !== 'function') { close(); return; }
+    var c = read() || { analytics: false, marketing: false };
+    var a = dialog.querySelector('input[name="analytics"]');
+    var m = dialog.querySelector('input[name="marketing"]');
+    if (a) a.checked = !!c.analytics;
+    if (m) m.checked = !!c.marketing;
+    banner.hidden = true;
+    if (!dialog.open) dialog.showModal();
+  };
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-consent]');
+    if (!btn) return;
+    var action = btn.getAttribute('data-consent');
+    if (action === 'accept') { write(true, true); close(); }
+    else if (action === 'reject') { write(false, false); close(); }
+    else if (action === 'settings') { openSettings(); }
+    else if (action === 'close') { if (dialog && dialog.open) dialog.close(); }
+  });
+
+  if (dialog) {
+    dialog.addEventListener('close', function () {});
+    dialog.addEventListener('submit', function () {
+      var a = dialog.querySelector('input[name="analytics"]');
+      var m = dialog.querySelector('input[name="marketing"]');
+      write(a && a.checked, m && m.checked);
+    });
+  }
+});
