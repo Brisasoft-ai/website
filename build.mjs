@@ -23,6 +23,7 @@ const PAGES = [
   { key: 'founder', path: 'about/founder/' },
   { key: 'services', path: 'services/' },
   { key: 'products', path: 'products/' },
+  { key: 'portfolio', path: 'portfolio/' },
   { key: 'bis', path: 'products/bis/' },
   { key: 'aab', path: 'products/aab/' },
   { key: 'insights', path: 'insights/' },
@@ -81,6 +82,7 @@ function header(lang, pageKey, d) {
     ['about', url(lang, 'about'), ['about', 'founder']],
     ['services', url(lang, 'services'), 'services'],
     ['products', url(lang, 'products'), ['products', 'bis', 'aab']],
+    ['portfolio', url(lang, 'portfolio'), 'portfolio'],
     ['insights', url(lang, 'insights'), 'insights'],
     ['contact', url(lang, 'contact'), 'contact'],
   ];
@@ -265,6 +267,28 @@ ${text(t.yes, 640, 72, 'cap')}${text(t.no, 440, 292, 'cap')}
 <h3 class="sr">${esc(t.steps)}</h3><ol class="bpmn-list">${steps}</ol>`;
 };
 
+
+// ---------- Portfolio (50 concepts) ----------
+// Synced from Solution/portfolio/catalog.json (kept inside the site so the build is self-contained).
+const PORTFOLIO = JSON.parse(readFileSync(join(root, 'src/portfolio.json'), 'utf8'));
+const PORTFOLIO_CATS = ['ai-agents', 'workflow', 'data', 'industry', 'growth', 'platform'];
+const pcat = (d, c) => (d.portfolio.categories && d.portfolio.categories[c]) || c;
+const pstatus = (d, s) => (d.portfolio.status && d.portfolio.status[s]) || s;
+const pdesc = (p, d, lang) => (lang === 'vi' ? p.tagline : (d.portfolio.categoryText && d.portfolio.categoryText[p.category]) || p.tagline);
+const portfolioCard = (p, d, lang, i) => `<article class="pcard" data-cat="${p.category}">
+  <div class="pcard-top"><span class="pcat">${esc(pcat(d, p.category))}</span><span class="pbadge ${p.status}">${esc(pstatus(d, p.status))}</span></div>
+  <div class="pmark" aria-hidden="true">${esc(p.name.replace(/[^A-Za-z0-9 ]/g, ' ').split(/\s+/).filter(Boolean).map((w) => w[0]).join('').slice(0, 3).toUpperCase())}</div>
+  <h3>${esc(p.name)}</h3>
+  <p>${esc(pdesc(p, d, lang))}</p>
+  <span class="pid">#${String(i + 1).padStart(2, '0')}</span>
+</article>`;
+const portfolioGrid = (d, lang) => PORTFOLIO.map((p, i) => portfolioCard(p, d, lang, i)).join('');
+const portfolioFeatured = (d, lang) => {
+  const ids = ['bis', 'aab', 'meeting-to-action', 'ai-twin-chief-of-staff', 'mcp-hub', 'agentops-control-plane'];
+  return PORTFOLIO.filter((p) => ids.includes(p.id)).map((p) => portfolioCard(p, d, lang, PORTFOLIO.indexOf(p))).join('');
+};
+const portfolioFilters = (d) => `<button class="pfilter active" data-filter="all">${esc(d.portfolio.all)}</button>` + PORTFOLIO_CATS.map((c) => `<button class="pfilter" data-filter="${c}">${esc(pcat(d, c))}</button>`).join('');
+
 const layout = read('src/layout.html');
 // Cache-busting version for CSS/JS, derived from their content
 const VER = createHash('sha1').update(read('assets/style.css') + read('assets/main.js')).digest('hex').slice(0, 8);
@@ -307,6 +331,9 @@ for (const l of LANGS) {
       techBlock: techBlock(d),
       bisAction: bisAction(d),
       bpmnDiagram: p.key === 'aab' ? bpmnDiagram(d) : '',
+      portfolioGrid: p.key === 'portfolio' ? portfolioGrid(d, l.code) : '',
+      portfolioFeatured: p.key === 'home' ? portfolioFeatured(d, l.code) : '',
+      portfolioFilters: p.key === 'portfolio' ? portfolioFilters(d) : '',
     };
     const content = render(pageTpl[p.key], ctx, d);
     const html = render(

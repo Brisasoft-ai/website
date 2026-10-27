@@ -7,7 +7,8 @@
     "language": "Ngôn ngữ",
     "services": "Dịch vụ",
     "insights": "Chuyên môn",
-    "founder": "Thông điệp CEO"
+    "founder": "Thông điệp CEO",
+    "portfolio": "Danh mục"
   },
   "cta": {
     "sendEmail": "Gửi email",
@@ -39,7 +40,7 @@
     },
     "insights": {
       "title": "Lĩnh vực chuyên môn | Brisasoft",
-      "description": "Các lĩnh vực nhà sáng lập và đội ngũ nòng cốt của Brisasoft đã phát triển hệ thống, chủ yếu cho khách hàng Nhật Bản: SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI."
+      "description": "Các lĩnh vực chúng tôi triển khai hệ thống, chủ yếu cho khách hàng Nhật Bản: SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI."
     },
     "products": {
       "title": "Sản phẩm | Brisasoft",
@@ -56,6 +57,10 @@
     "founder": {
       "title": "Thông điệp từ Nhà sáng lập & CEO | Brisasoft",
       "description": "Lý do thành lập Brisasoft, triết lý kỹ thuật AI-native và tư duy Forward Deployed Engineer, cùng tiểu sử nhà sáng lập."
+    },
+    "portfolio": {
+      "title": "Danh mục giải pháp — Brisasoft",
+      "description": "50 giải pháp trong AI, quy trình, dữ liệu, ngành, tăng trưởng và nền tảng. Mỗi mục có bài toán, hướng giải, ontology, kiến trúc và prototype."
     }
   },
   "facts": {
@@ -343,7 +348,7 @@
   "insights": {
     "eyebrow": "Chuyên môn",
     "title": "Lĩnh vực chuyên môn",
-    "text": "Năm lĩnh vực nhà sáng lập và đội ngũ nòng cốt đã phát triển hệ thống, chủ yếu cho khách hàng Nhật Bản, bao gồm cả kinh nghiệm trước khi thành lập Brisasoft.",
+    "text": "Năm lĩnh vực chúng tôi triển khai hệ thống, chủ yếu cho khách hàng Nhật Bản.",
     "khTitle": "Cách chúng tôi tiếp cận từng lĩnh vực",
     "k1": {
       "title": "SAP / ERP",
@@ -483,7 +488,7 @@
   "stats": {
     "eyebrow": "Tổng quan",
     "title": "Công ty trẻ, kinh nghiệm triển khai sâu",
-    "note": "Brisasoft thành lập tháng 10/2024. Số dự án là kinh nghiệm triển khai của nhà sáng lập và đội ngũ kỹ sư nòng cốt từ năm 2011, bao gồm cả các dự án trước khi Brisasoft ra đời. Tỷ lệ phần trăm tính theo số lượng các dự án đó.",
+    "note": "Brisasoft thành lập tháng 10/2024. Tỷ lệ phần trăm tính theo số lượng dự án.",
     "founded": {
       "label": "Thành lập Brisasoft tại Hà Nội"
     },
@@ -571,7 +576,7 @@
       },
       "sap": {
         "area": "ERP",
-        "text": "Tích hợp và mở rộng ERP trong các dự án thị trường Nhật Bản của nhà sáng lập và đội ngũ nòng cốt, trước khi có Brisasoft."
+        "text": "Tích hợp và mở rộng ERP trong các dự án thị trường Nhật Bản."
       },
       "intramart": {
         "area": "Nền tảng ứng dụng nghiệp vụ và workflow (Nhật Bản)",
@@ -606,7 +611,6 @@
     "bio2": "Từ đó tham gia và dẫn dắt các dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI.",
     "bio3": "Đi từ kỹ sư phần mềm đến quản lý dự án và triển khai: làm rõ yêu cầu, quản lý chất lượng, điều phối đội ngũ và khách hàng.",
     "bio4": "Năm 2024 thành lập Brisasoft để xây dựng một công ty kỹ thuật AI-native tại Việt Nam.",
-    "note": "Các dự án trước tháng 10/2024 được thực hiện tại các tổ chức khác. Đó là kinh nghiệm của nhà sáng lập và đội ngũ nòng cốt, không phải thành tích của Brisasoft với tư cách công ty.",
     "bio0": "Tốt nghiệp chương trình HEDSPI tại Đại học Bách khoa Hà Nội, chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ, với nội dung học sâu về tiếng Nhật và văn hóa làm việc Nhật Bản.",
     "sinceLabel": "2011 – nay",
     "careerLabel": "Sự nghiệp"
@@ -651,5 +655,38 @@
   "team": {
     "title": "Đội ngũ",
     "text": "Kỹ sư của Brisasoft tốt nghiệp từ các trường đại học hàng đầu về CNTT tại Việt Nam như Đại học Bách khoa Hà Nội và Đại học Công nghiệp Hà Nội. 70% kỹ sư là kỹ sư AI, đồng thời phát triển được cả back end và front end; mọi kỹ sư đều dùng công cụ AI trong công việc hằng ngày. Với dự án lớn, chúng tôi phối hợp cùng các công ty đối tác để xây dựng đội ngũ phù hợp."
+  },
+  "portfolio": {
+    "eyebrow": "Danh mục giải pháp",
+    "title": "50 giải pháp cho bài toán kinh doanh thật",
+    "text": "Danh mục sản phẩm/giải pháp: mỗi mục có bài toán, hướng giải, ontology, kiến trúc và prototype tĩnh. Một số là dự án đã có; phần lớn là concept sẵn sàng pilot.",
+    "note": "Trạng thái được ghi rõ: dự án đã có, prototype, hoặc concept. Không trình bày concept như sản phẩm đã bàn giao.",
+    "homeTitle": "Danh mục 50 giải pháp",
+    "homeSub": "Tổng hợp từ các dự án của Brisasoft và pattern của các nền tảng AI/workflow/data hàng đầu — điều chỉnh cho Việt Nam và Nhật Bản.",
+    "viewAll": "Xem đủ 50",
+    "all": "Tất cả",
+    "filterLabel": "Lọc theo nhóm",
+    "count": "50 concept trong 6 nhóm.",
+    "categories": {
+      "ai-agents": "AI & Agents",
+      "workflow": "Quy trình & Vận hành",
+      "data": "Dữ liệu & Phân tích",
+      "industry": "Giải pháp ngành",
+      "growth": "Khách hàng & Tăng trưởng",
+      "platform": "Nền tảng & Developer"
+    },
+    "categoryText": {
+      "ai-agents": "Agent, RAG, copilot và quản trị AI.",
+      "workflow": "BPMN, phê duyệt, hợp đồng và vận hành.",
+      "data": "Nền tảng dữ liệu, BI, chất lượng và master data.",
+      "industry": "Giáo dục, y tế, xây dựng, bán lẻ, logistics.",
+      "growth": "CRM, thương mại điện tử, loyalty, nội dung và lead intelligence.",
+      "platform": "MCP, tích hợp, low-code, test/review/incident copilot."
+    },
+    "status": {
+      "existing": "Dự án đã có",
+      "prototype": "Prototype",
+      "concept": "Concept"
+    }
   }
 }

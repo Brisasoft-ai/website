@@ -1,0 +1,31 @@
+<section class="hero small">
+  <div class="wrap">
+    <span class="eyebrow">{{portfolio.eyebrow}}</span>
+    <h1>{{portfolio.title}}</h1>
+    <p>{{portfolio.text}}</p>
+    <p class="muted">{{portfolio.note}}</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="pfilter-bar" id="portfolioFilter" role="group" aria-label="{{portfolio.filterLabel}}">
+      {{@portfolioFilters}}
+    </div>
+    <div class="pgrid" id="portfolioGrid">
+      {{@portfolioGrid}}
+    </div>
+    <p class="center mt muted">{{portfolio.count}}</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-box">
+      <span class="eyebrow">{{contact.eyebrow}}</span>
+      <h2 class="section-title">{{contact.title}}</h2>
+      <p class="section-sub">{{contact.text}}</p>
+      <a href="{{@mailto}}" class="btn btn-primary">{{cta.discuss}}</a>
+    </div>
+  </div>
+</section>

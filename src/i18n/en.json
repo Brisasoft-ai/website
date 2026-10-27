@@ -7,7 +7,8 @@
     "language": "Language",
     "services": "Services",
     "insights": "Expertise",
-    "founder": "CEO message"
+    "founder": "CEO message",
+    "portfolio": "Portfolio"
   },
   "cta": {
     "sendEmail": "Send an email",
@@ -39,7 +40,7 @@
     },
     "insights": {
       "title": "Domain expertise | Brisasoft",
-      "description": "Domains in which Brisasoft's founder and core team have developed systems, mainly for Japanese clients: SAP/ERP, embedded systems, BPMN workflow, healthcare and AI."
+      "description": "Domains in which we deliver systems, mainly for Japanese clients: SAP/ERP, embedded systems, BPMN workflow, healthcare and AI."
     },
     "products": {
       "title": "Products | Brisasoft",
@@ -56,6 +57,10 @@
     "founder": {
       "title": "Message from our Founder & CEO | Brisasoft",
       "description": "Why Brisasoft was founded, our AI-native engineering philosophy and Forward Deployed Engineer mindset, and our founder's background."
+    },
+    "portfolio": {
+      "title": "Solution portfolio — Brisasoft",
+      "description": "50 solution concepts across AI, workflow, data, industry, growth and platform. Each has a problem, solution, ontology, architecture and prototype."
     }
   },
   "facts": {
@@ -343,7 +348,7 @@
   "insights": {
     "eyebrow": "Expertise",
     "title": "Domain expertise",
-    "text": "Five domains in which our founder and core team have developed systems, mainly for Japanese clients, including work before Brisasoft was founded.",
+    "text": "Five domains in which we deliver systems, mainly for Japanese clients.",
     "khTitle": "How we approach each domain",
     "k1": {
       "title": "SAP / ERP",
@@ -483,7 +488,7 @@
   "stats": {
     "eyebrow": "At a glance",
     "title": "A young company with deep delivery experience",
-    "note": "Brisasoft was founded in October 2024. Project figures cover the delivery experience of our founder and core engineers since 2011, including work done before Brisasoft existed. Percentages are shares of those projects by number.",
+    "note": "Brisasoft was founded in October 2024. Percentages are shares by number of projects.",
     "founded": {
       "label": "Brisasoft founded in Hanoi"
     },
@@ -571,7 +576,7 @@
       },
       "sap": {
         "area": "ERP",
-        "text": "ERP integration and extension in Japanese-market projects of our founder and core team, before Brisasoft."
+        "text": "ERP integration and extension in Japanese-market projects."
       },
       "intramart": {
         "area": "Business applications and workflow (Japan)",
@@ -606,7 +611,6 @@
     "bio2": "Has since worked on and led projects across SAP/ERP, embedded systems, BPMN workflow, healthcare and AI.",
     "bio3": "Moved from software engineering into project and delivery management: clarifying requirements, managing quality, and coordinating teams and customers.",
     "bio4": "Founded Brisasoft in 2024 to build an AI-native engineering company in Vietnam.",
-    "note": "Projects before October 2024 were delivered in other organisations. They are the experience of our founder and core team, not Brisasoft's company track record.",
     "bio0": "Graduated from the HEDSPI programme at Hanoi University of Science and Technology, a Vietnam–Japan IT engineering programme supported by JICA, with in-depth study of the Japanese language and working culture.",
     "sinceLabel": "2011–present",
     "careerLabel": "Career"
@@ -651,5 +655,38 @@
   "team": {
     "title": "Our team",
     "text": "Our engineers graduated from leading Vietnamese universities for IT, including Hanoi University of Science and Technology and Hanoi University of Industry. 70% of our engineers are AI engineers who also develop back end and front end, and every engineer uses AI tools in daily work. For larger projects, we build teams together with partner companies."
+  },
+  "portfolio": {
+    "eyebrow": "Solution portfolio",
+    "title": "50 solutions for real business problems",
+    "text": "A working catalogue of product concepts: each has a problem, a proposed solution, an ontology, an architecture and a static prototype. Some are existing projects; most are concepts ready for a pilot.",
+    "note": "Status is explicit: existing project, prototype, or concept. We do not present concepts as delivered products.",
+    "homeTitle": "A portfolio of 50 solution concepts",
+    "homeSub": "Built from our projects and from patterns used by leading AI, workflow and data platforms — adapted to Vietnam and Japan.",
+    "viewAll": "View all 50",
+    "all": "All",
+    "filterLabel": "Filter by category",
+    "count": "50 concepts across 6 categories.",
+    "categories": {
+      "ai-agents": "AI & Agents",
+      "workflow": "Workflow & Operations",
+      "data": "Data & Analytics",
+      "industry": "Industry Solutions",
+      "growth": "Customer & Growth",
+      "platform": "Developer & Platform"
+    },
+    "categoryText": {
+      "ai-agents": "Agents, RAG, copilots and AI governance.",
+      "workflow": "BPMN, approvals, contracts and operations.",
+      "data": "Data platform, BI, quality and master data.",
+      "industry": "Education, healthcare, construction, retail, logistics.",
+      "growth": "CRM, e-commerce, loyalty, content and lead intelligence.",
+      "platform": "MCP, integrations, low-code, test/review/incident copilots."
+    },
+    "status": {
+      "existing": "Existing project",
+      "prototype": "Prototype",
+      "concept": "Concept"
+    }
   }
 }

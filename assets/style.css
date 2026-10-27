@@ -697,3 +697,26 @@ section.dark .feature:hover,section.dark .case:hover,section.dark .tech-item:hov
 .bpmn-legend{margin:12px 0 0;text-align:center;font-size:.82rem;color:var(--text-muted);}
 .bpmn-list{display:none;list-style:decimal;margin:16px 0 0;padding-left:1.4em;gap:8px;color:var(--text-muted);font-size:.95rem;}
 @media (max-width:720px){.bpmn-wrap,.bpmn-legend{display:none;}.bpmn-list{display:grid;}}
+
+/* ===== Portfolio (50 concepts) ===== */
+.pfilter-bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 28px;}
+.pfilter{background:var(--surface);border:1px solid var(--border);color:var(--text-muted);border-radius:999px;padding:8px 14px;font:inherit;font-size:.86rem;cursor:pointer;transition:border-color .15s ease,color .15s ease,background .15s ease;}
+.pfilter:hover{border-color:var(--brand);color:var(--brand);}
+.pfilter.active{background:var(--brand);border-color:var(--brand);color:#fff;}
+.pgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;}
+.pgrid-featured{grid-template-columns:repeat(3,minmax(0,1fr));}
+.pcard{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 18px 16px;display:flex;flex-direction:column;gap:10px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;}
+.pcard:hover{transform:translateY(-4px);border-color:rgba(21,94,239,.5);box-shadow:var(--shadow);}
+.pcard-top{display:flex;align-items:center;justify-content:space-between;gap:8px;}
+.pcat{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);}
+.pbadge{font-size:.68rem;font-weight:700;border-radius:999px;padding:3px 8px;border:1px solid var(--border);white-space:nowrap;}
+.pbadge.existing{color:#0f8a5f;border-color:#0f8a5f;background:rgba(15,138,95,.08);}
+.pbadge.prototype{color:#b7791f;border-color:#b7791f;background:rgba(183,121,31,.08);}
+.pbadge.concept{color:var(--brand);border-color:var(--brand);background:var(--brand-light);}
+.pmark{width:42px;height:42px;border-radius:10px;display:grid;place-items:center;font-weight:800;font-size:.78rem;color:var(--brand);background:var(--brand-light);letter-spacing:.02em;}
+.pcard h3{font-size:1.02rem;margin:0;line-height:1.3;}
+.pcard p{font-size:.88rem;color:var(--text-muted);margin:0;line-height:1.5;flex:1;}
+.pid{font-size:.72rem;color:var(--text-muted);font-variant-numeric:tabular-nums;}
+@media(max-width:1000px){.pgrid{grid-template-columns:repeat(3,minmax(0,1fr));}.pgrid-featured{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:760px){.pgrid,.pgrid-featured{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:520px){.pgrid,.pgrid-featured{grid-template-columns:1fr;}}

@@ -98,4 +98,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }, { threshold: 0.6 });
   figs.forEach(function (f) { co.observe(f); });
+
+  // Portfolio category filter (progressive enhancement: all cards visible without JS)
+  var pf = document.getElementById('portfolioFilter');
+  if (pf) {
+    var cards = document.querySelectorAll('.pgrid .pcard');
+    pf.addEventListener('click', function (e) {
+      var b = e.target.closest('.pfilter');
+      if (!b) return;
+      pf.querySelectorAll('.pfilter').forEach(function (x) { x.classList.remove('active'); });
+      b.classList.add('active');
+      var f = b.getAttribute('data-filter');
+      cards.forEach(function (c) {
+        c.style.display = (f === 'all' || c.getAttribute('data-cat') === f) ? '' : 'none';
+      });
+    });
+  }
 });

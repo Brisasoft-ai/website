@@ -25,8 +25,8 @@ Status legend:
 
 | Fact | Supplied value | Definition used on site | Status |
 |---|---|---|---|
-| Project experience | 30+ successful projects (site label: "successful projects") | Projects in the delivery experience of the founder and core engineers **since 2011, including before Brisasoft was founded**. Not presented as projects delivered by Brisasoft the legal entity. | Published, **confirmed by founder 2026-10-16** (founder + core team) |
-| Market split | ~70% Japan / ~30% Vietnam | Share **by number of projects** of the same 30+ projects; Vietnam work mainly digital transformation. | Published, confirmed 2026-10-16 |
+| Project experience | 30+ successful projects (site label: "successful projects") | Triển khai thành công 30+ dự án. Không public danh sách chi tiết khách hàng. | Published |
+| Market split | ~70% Japan / ~30% Vietnam | Share by number of projects; Vietnam work mainly digital transformation. | Published, confirmed 2026-10-16 |
 | Company size | **12 full-time employees (正社員12名), as of October 2026.** Larger projects staffed with partner companies (no number published). The earlier "10–50 people" range is **withdrawn** (2026-10-16, content standards: ranges are not published). | Founder, 2026-10-16 | Published |
 | AI engineers | 70% of engineers are AI engineers who also work back end and front end | Founder, 2026-10-16 | Published, confirmed |
 | Education | Engineers from Vietnamese universities incl. Hanoi University of Science and Technology (HUST) and "University of Industry" | Founder confirmed: leading Vietnamese IT universities such as HUST (Bách khoa) and Hanoi University of Industry (Công nghiệp). | Published, confirmed 2026-10-16 |
@@ -41,7 +41,7 @@ Shown only in 代表者紹介 / 代表メッセージ (founder page), never in �
 | Title | Founder & CEO (JA: 創業者 兼 CEO, 代表メッセージ; VI: Nhà sáng lập kiêm CEO) | Founder, 2026-10-16 | Published, confirmed |
 | Education | HEDSPI programme, Hanoi University of Science and Technology (Vietnam–Japan IT engineering programme supported by JICA, started 2006; Japanese language and working culture in depth) | Founder, 2026-10-16; programme facts: HUST SoICT and JICA pages | Published |
 | Japan market | Since 2011, after graduating from HEDSPI (replaces the earlier "before graduating" wording) | Founder, 2026-10-16 | Published, confirmed |
-| Projects | Worked on and led projects in SAP/ERP, embedded, BPMN workflow, healthcare, AI; part of the 30+ projects of founder + core team, before Brisasoft, in other organisations | Founder, 2026-10-16 | Published, confirmed |
+| Projects | Worked on and led projects in SAP/ERP, embedded, BPMN workflow, healthcare, AI | Founder, 2026-10-16 | Published, confirmed |
 | Career path | Engineering, then project and delivery management (requirements, quality, team and customer coordination) | Founder brief | Published, confirm |
 | Philosophy | AI-native engineering; Forward Deployed Engineer (FDE) mindset; professionalism and ownership; customer value, including non-AI solutions when better | Founder brief | Published (founder message, needs founder sign-off on voice) |
 | Portrait | Supplied 2026-10-16. Original: `docs/knowledge/founder-photo-original.png`; published crops `assets/founder/avatar.jpg`, `portrait.jpg` | Founder | Published |
@@ -69,6 +69,7 @@ To publish a held technology: provide one approved project description (domain, 
 - Primary promise: **AI-native engineering for real business impact.**
 - Supporting messages: engineers who understand your business (FDE mindset); AI in every step, engineers own every result; the simplest solution that works, including non-AI.
 - Markets: Japanese enterprises (main), Vietnamese businesses (digital transformation).
+- Direction (Oct 2026): AI company. ITO share declines over time; AI + solution share grows.
 
 ## 6. Removed or corrected claims
 
@@ -76,3 +77,4 @@ To publish a held technology: provide one approved project description (domain, 
 - "AI agents ... with source citations" as a general service promise: narrowed to the BIS approach. Citations are a design feature of BIS, not a guarantee for every project.
 - "Evaluation and safety checks, so AI answers can be trusted": rewritten as concrete practices (test-question evaluation, human review).
 - Home stat "2011: working with the Japanese market since": was the founder's date shown as a company stat. Replaced with company-founding date plus an attributed experience figure.
+- Attribution notes for "30+ successful projects" (founder + core team since 2011, pre-Brisasoft work): removed 2026-10-27 per founder decision. Site now shows the figure simply, no attribution note, no client names. Internal proof kept available on request (see startups-application-answers.md).
