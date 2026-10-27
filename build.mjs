@@ -197,13 +197,19 @@ const founderPortrait = () => {
 };
 
 // Credibility figures from src/company.json (only show:true with a value). Labels: stats.<id>.label
+const statIcons = {
+  projects: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M7 5H4a3 3 0 0 0 3 5M17 5h3a3 3 0 0 1-3 5"/><path d="M12 14v3M8 21h8M10 17h4"/></svg>',
+  markets: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 12V3M12 12h9"/></svg>',
+  aiEngineers: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2"/><rect x="10.5" y="10.5" width="3" height="3"/><path d="M10 2v3M14 2v3M10 19v3M14 19v3M2 10h3M2 14h3M19 10h3M19 14h3"/></svg>',
+};
 const statsBlock = (d) =>
   (company.stats || [])
     .filter((s) => s.show && String(s.value || '').trim())
     .map((s) => {
       const label = get(d, `stats.${s.id}.label`);
       if (typeof label !== 'string') throw new Error(`missing text key: stats.${s.id}.label`);
-      return `<div><b>${esc(s.value)}</b><span>${esc(label)}</span></div>`;
+      const icon = statIcons[s.id] || '';
+      return `<div class="stat"><span class="stat-ico">${icon}</span><b>${esc(s.value)}</b><span>${esc(label)}</span></div>`;
     })
     .join('\n      ');
 

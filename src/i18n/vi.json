@@ -496,13 +496,13 @@
       "label": "dự án thành công"
     },
     "markets": {
-      "label": "tỷ lệ dự án thị trường Nhật Bản / Việt Nam (ước tính, theo số dự án); mảng Việt Nam chủ yếu là chuyển đổi số"
+      "label": "tỷ lệ dự án Nhật / Việt (ước tính)"
     },
     "products": {
       "label": "sản phẩm AI của riêng chúng tôi đang phát triển: BIS và AAB"
     },
     "aiEngineers": {
-      "label": "kỹ sư là kỹ sư AI, làm được cả back end và front end"
+      "label": "kỹ sư AI làm cả back-end lẫn front-end"
     },
     "team": {
       "label": "nhân viên chính thức (tính đến tháng 10/2026)"
