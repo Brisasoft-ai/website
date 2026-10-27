@@ -24,16 +24,13 @@
       </div>
       <p class="hf-end hf-impact">{{home.flow.impact}}<svg class="hf-ico evt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><circle cx="12" cy="12" r="8"/></svg></p>
     </div>
-  </div>
-</section>
-
-<section class="numbers-sec" aria-labelledby="stats-title">
-  <div class="wrap">
-    <h2 id="stats-title" class="sr">{{stats.title}}</h2>
-    <div class="numbers">
-      {{@statsBlock}}
+    <div class="hero-stats" aria-labelledby="stats-title">
+      <h2 id="stats-title" class="sr">{{stats.title}}</h2>
+      <div class="numbers">
+        {{@statsBlock}}
+      </div>
+      <p class="numbers-note">{{stats.note}}</p>
     </div>
-    <p class="numbers-note">{{stats.note}}</p>
   </div>
 </section>
 

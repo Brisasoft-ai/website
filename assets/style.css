@@ -874,3 +874,25 @@ section.band-blue .cta-box .section-sub{color:rgba(255,255,255,.82);}
 .ccard .pbadge.prototype{color:#b7791f;}
 .ccard .pbadge.concept{color:#155eef;}
 .ccard .btn-case{color:#fff!important;}
+
+/* ---------- Stats strip lives inside the hero band (no seam between two bands) ---------- */
+.hero-stats{margin-top:56px;position:relative;z-index:1;grid-column:1/-1;width:100%;}
+.hero-stats .numbers{
+  background:rgba(255,255,255,.055);
+  border:1px solid rgba(143,220,255,.26);
+  border-radius:18px;
+  box-shadow:0 24px 60px -30px rgba(2,8,30,.85);
+  backdrop-filter:blur(6px);
+  overflow:hidden;
+}
+.hero-stats .numbers div,.hero-stats .numbers div:last-child{background:transparent;border-right:1px solid rgba(143,220,255,.16);}
+.hero-stats .numbers div:last-child{border-right:0;}
+.hero-stats .numbers b{background:linear-gradient(90deg,#8fdcff,#ffffff);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.hero-stats .numbers span{color:#c3d2e8;}
+.hero-stats .numbers-note{color:#8ea3c2;margin-top:14px;}
+.hero.home{padding-bottom:72px;}
+@media (max-width:720px){
+  .hero-stats{margin-top:36px;}
+  .hero-stats .numbers div:nth-child(2){border-right:0;}
+  .hero-stats .numbers div:nth-child(-n+2){border-bottom:1px solid rgba(143,220,255,.16);}
+}
