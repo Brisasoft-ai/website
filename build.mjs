@@ -84,7 +84,7 @@ function header(lang, pageKey, d) {
     ['products', url(lang, 'products'), ['products', 'bis', 'aab']],
     ['portfolio', url(lang, 'portfolio'), 'portfolio'],
     ['insights', url(lang, 'insights'), 'insights'],
-    ['contact', url(lang, 'contact'), 'contact'],
+    // Contact is intentionally NOT a nav item: the header CTA is the single entry point.
   ];
   const links = items
     .map(([k, href, active]) => `<a href="${href}"${[].concat(active).includes(pageKey) ? ' class="active" aria-current="page"' : ''}>${esc(d.nav[k])}</a>`)
@@ -331,8 +331,9 @@ const portfolioTeaser = (d, lang) => {
   }).join('');
 };
 
-// Home carousel uses the same six representatives so both surfaces tell one story.
-const homeCases = (d, lang) => PORTFOLIO_CATS.map(repOf).filter(Boolean).map((p) => caseCard(p, d, lang)).join('');
+// Home shows 4 of the 6 representatives (teaser); the portfolio page shows all six grouped.
+const HOME_CATS = ['ai-agents', 'workflow', 'industry', 'platform'];
+const homeCases = (d, lang) => HOME_CATS.map(repOf).filter(Boolean).map((p) => caseCard(p, d, lang)).join('');
 
 const layout = read('src/layout.html');
 // Cache-busting version for CSS/JS, derived from their content

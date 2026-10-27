@@ -11,7 +11,6 @@
     "portfolio": "Portfolio"
   },
   "cta": {
-    "sendEmail": "Send an email",
     "viewServices": "View our services",
     "discuss": "Discuss your project",
     "seeWork": "See our products",
@@ -143,15 +142,7 @@
     "eyebrow": "Contact",
     "title": "Contact us",
     "text": "Tell us about your business challenge or your current system. We will reply by email.",
-    "emailLabel": "Email",
-    "subject": "Project enquiry",
-    "include": {
-      "title": "Helpful to include",
-      "i1": "Your company and role",
-      "i2": "The business problem or goal",
-      "i3": "Current systems and constraints",
-      "i4": "Timeline and preferred language (Japanese, English or Vietnamese)"
-    }
+    "subject": "Project enquiry"
   },
   "footer": {
     "tagline": "AI-native software engineering. Hanoi, Vietnam.",
@@ -662,14 +653,12 @@
     "title": "50 solutions for real business problems",
     "text": "A working catalogue of product concepts: each has a problem, a proposed solution, an ontology, an architecture and a static prototype. Some are existing projects; most are concepts ready for a pilot.",
     "note": "Status is explicit: existing project, prototype, or concept. We do not present concepts as delivered products.",
-    "homeTitle": "One representative per category",
-    "homeSub": "50 solutions across 6 categories. Below is one representative each; the full catalogue is shared on request.",
-    "viewAll": "Browse by category",
+    "homeTitle": "A few representative solutions",
+    "homeSub": "4 of 50 solutions, one example per category. The full catalogue is shared on request.",
+    "viewAll": "See all 6 categories",
     "detail": "View details",
     "prev": "Previous",
     "next": "Next",
-    "all": "All",
-    "filterLabel": "Filter by category",
     "count": "50 concepts across 6 categories.",
     "categories": {
       "ai-agents": "AI & Agents",
@@ -697,7 +686,9 @@
     "unlockTitle": "The full catalogue of 50 solutions",
     "unlockText": "The full version covers the problem, architecture, screen list and roadmap for each solution. We send it on request, with the categories that fit your case.",
     "unlockCta": "Request the full catalogue",
-    "unlockNote": "We keep the full list private to protect our approach and our clients."
+    "unlockNote": "We keep the full list private to protect our approach and our clients.",
+    "pageTitle": "One representative per category",
+    "pageSub": "50 solutions across 6 categories. Below is one representative each; the full catalogue is shared on request."
   },
   "contactForm": {
     "eyebrow": "Contact",

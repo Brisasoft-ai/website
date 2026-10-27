@@ -11,12 +11,11 @@
     "portfolio": "Danh mục"
   },
   "cta": {
-    "sendEmail": "Gửi email",
     "viewServices": "Xem dịch vụ",
     "discuss": "Trao đổi về dự án",
     "seeWork": "Xem sản phẩm",
     "readMessage": "Đọc toàn bộ thông điệp",
-    "contact": "Nhận tư vấn"
+    "contact": "Liên hệ tư vấn"
   },
   "meta": {
     "home": {
@@ -143,15 +142,7 @@
     "eyebrow": "Liên hệ",
     "title": "Liên hệ",
     "text": "Hãy chia sẻ bài toán kinh doanh hoặc hệ thống hiện tại của bạn. Chúng tôi sẽ phản hồi qua email.",
-    "emailLabel": "Email",
-    "subject": "Trao đổi dự án",
-    "include": {
-      "title": "Nên có trong email",
-      "i1": "Tên công ty và vai trò của bạn",
-      "i2": "Bài toán hoặc mục tiêu kinh doanh",
-      "i3": "Hệ thống hiện có và các ràng buộc",
-      "i4": "Thời gian mong muốn và ngôn ngữ trao đổi (tiếng Nhật, tiếng Anh hoặc tiếng Việt)"
-    }
+    "subject": "Trao đổi dự án"
   },
   "footer": {
     "tagline": "Phát triển phần mềm AI-native. Hà Nội, Việt Nam.",
@@ -662,14 +653,12 @@
     "title": "50 giải pháp cho bài toán kinh doanh thật",
     "text": "Danh mục sản phẩm/giải pháp: mỗi mục có bài toán, hướng giải, ontology, kiến trúc và prototype tĩnh. Một số là dự án đã có; phần lớn là concept sẵn sàng pilot.",
     "note": "Trạng thái được ghi rõ: dự án đã có, prototype, hoặc concept. Không trình bày concept như sản phẩm đã bàn giao.",
-    "homeTitle": "Mỗi nhóm một đại diện",
-    "homeSub": "50 giải pháp chia 6 nhóm. Dưới đây là đại diện mỗi nhóm; danh mục đầy đủ gửi khi trao đổi.",
-    "viewAll": "Xem theo nhóm",
+    "homeTitle": "Một vài giải pháp tiêu biểu",
+    "homeSub": "4 trong 50 giải pháp, mỗi nhóm một ví dụ. Danh mục đầy đủ gửi khi trao đổi.",
+    "viewAll": "Xem 6 nhóm giải pháp",
     "detail": "Xem chi tiết",
     "prev": "Trước",
     "next": "Kế tiếp",
-    "all": "Tất cả",
-    "filterLabel": "Lọc theo nhóm",
     "count": "50 concept trong 6 nhóm.",
     "categories": {
       "ai-agents": "AI & Agents",
@@ -697,7 +686,9 @@
     "unlockTitle": "Danh mục đầy đủ 50 giải pháp",
     "unlockText": "Bản đầy đủ gồm bài toán, kiến trúc, danh sách màn hình và lộ trình cho từng giải pháp. Chúng tôi gửi trực tiếp khi trao đổi — kèm gợi ý nhóm phù hợp với bài toán của bạn.",
     "unlockCta": "Nhận danh mục đầy đủ",
-    "unlockNote": "Không công khai toàn bộ để bảo vệ cách làm và quyền lợi khách hàng."
+    "unlockNote": "Không công khai toàn bộ để bảo vệ cách làm và quyền lợi khách hàng.",
+    "pageTitle": "Mỗi nhóm một đại diện",
+    "pageSub": "50 giải pháp chia 6 nhóm. Dưới đây là đại diện mỗi nhóm; danh mục đầy đủ gửi khi trao đổi."
   },
   "contactForm": {
     "eyebrow": "Liên hệ",

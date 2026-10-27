@@ -27,6 +27,7 @@ Facts come from `company-profile.md`; this file defines **how** they are present
 | AI engineer ratio | "70% of engineers": the denominator is engineers, not all staff. |
 | Representative | Name and title as one table row (代表者: 創業者 兼 CEO　Nguyễn Thanh Bình). Full profile on the founder page. |
 | Capital (資本金), banks, major clients | Only if confirmed and approved; otherwise omitted (not "TBD"). |
+| Navigation | One entry per destination. The header CTA is the only contact entry; do not add a "Contact" nav item next to it. In-page CTAs link to the contact page (mailto stays a secondary text link only). |
 | Technology names | Only with a project where the technology was used; never implies partnership or certification. |
 
 ## 3. 会社概要 table (order)
