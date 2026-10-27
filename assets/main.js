@@ -95,6 +95,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (p < 1) requestAnimationFrame(step); else el.textContent = finalText;
       };
       requestAnimationFrame(step);
+      // Safety net: if rAF is paused (background tab, print) the figure must never stay at 0.
+      setTimeout(function () { if (el.textContent !== finalText) el.textContent = finalText; }, dur + 1200);
     });
   }, { threshold: 0.6 });
   figs.forEach(function (f) { co.observe(f); });
@@ -128,5 +130,76 @@ document.addEventListener('DOMContentLoaded', function () {
         track.scrollBy({ left: step * Number(btn.getAttribute('data-dir') || 1), behavior: 'smooth' });
       });
     });
+  });
+});
+
+// Contact form: client validation, POST /api/contact, mailto fallback if the endpoint is not configured
+document.addEventListener('DOMContentLoaded', function () {
+  var form = document.getElementById('contact-form');
+  if (!form) return;
+  var status = document.getElementById('form-status');
+  var btn = form.querySelector('button[type="submit"]');
+  var L = {
+    required: form.getAttribute('data-required') || 'Required',
+    sending: form.getAttribute('data-sending') || 'Sending…',
+    ok: form.getAttribute('data-ok') || 'Sent.',
+    err: form.getAttribute('data-error') || 'Could not send.'
+  };
+  var email = form.getAttribute('data-email') || '';
+
+  var setStatus = function (msg, cls) {
+    status.textContent = msg;
+    status.className = 'form-status' + (cls ? ' ' + cls : '');
+  };
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var data = new FormData(form);
+    var bad = [];
+    form.querySelectorAll('[required]').forEach(function (el) {
+      var wrap = el.closest('.field');
+      var ok = String(el.value || '').trim().length > 0;
+      if (el.type === 'email' && ok) ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(el.value);
+      if (wrap) wrap.classList.toggle('invalid', !ok);
+      if (!ok) bad.push(el);
+    });
+    if (bad.length) { bad[0].focus(); setStatus(L.required, 'err'); return; }
+
+    var payload = {};
+    data.forEach(function (v, k) { payload[k] = v; });
+    payload.page = location.href;
+    payload.lang = document.documentElement.lang;
+
+    btn.disabled = true;
+    setStatus(L.sending, '');
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify(payload)
+    })
+      .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
+      .then(function (res) {
+        if (res && res.ok) {
+          form.reset();
+          setStatus(L.ok, 'ok');
+          return;
+        }
+        if (res && res.mailto) {
+          setStatus(L.ok, 'ok');
+          location.href = res.mailto;
+          return;
+        }
+        throw new Error('not ok');
+      })
+      .catch(function () {
+        var body = 'Name: ' + (payload.lastName || '') + ' ' + (payload.firstName || '') +
+          '\nCompany: ' + (payload.company || '') + '\nRole: ' + (payload.role || '') +
+          '\nWebsite: ' + (payload.website || '') + '\nCountry: ' + (payload.country || '') +
+          '\n\n' + (payload.message || '');
+        setStatus(L.err, 'err');
+        if (email) location.href = 'mailto:' + email + '?subject=' + encodeURIComponent('Website enquiry') +
+          '&body=' + encodeURIComponent(body);
+      })
+      .finally(function () { btn.disabled = false; });
   });
 });

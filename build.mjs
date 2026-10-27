@@ -100,6 +100,7 @@ function header(lang, pageKey, d) {
       ${links}
     </nav>
     <div class="nav-actions">
+      <a class="nav-cta" href="${url(lang, 'contact')}">${esc(d.cta.contact)}</a>
       <details class="lang">
         <summary aria-label="${cur.short} ${esc(d.nav.language)}"><img src="/assets/flags/${cur.flag}.svg" alt="" width="22" height="15"><span>${cur.short}</span></summary>
         <ul>
@@ -345,6 +346,9 @@ for (const l of LANGS) {
     const ctx = {
       url: urls,
       email: EMAIL,
+      phone: pick(company.phone, l.code),
+      phoneDigits: String(pick(company.phone, 'en') || '').replace(/[^\d+]/g, ''),
+      address: pick(company.address, l.code),
       mailto: `mailto:${EMAIL}?subject=${encodeURIComponent(`${d.contact.subject} (Brisasoft website)`)}`,
       detailsRows: detailsRows(l.code, d),
       founderCard: founderCard(d),
