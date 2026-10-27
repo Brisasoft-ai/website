@@ -20,6 +20,23 @@
     "not_found_handling": "404-page"
   },
   "env": {
+    "preview": {
+      "name": "brisasoft-web-preview",
+      "workers_dev": true,
+      "routes": [],
+      "build": {
+        "command": "node build.mjs"
+      },
+      "observability": {
+        "enabled": true
+      },
+      "assets": {
+        "directory": "dist",
+        "binding": "ASSETS",
+        "run_worker_first": true,
+        "not_found_handling": "404-page"
+      }
+    },
     "staging": {
       "name": "brisasoft-web-stg",
       "build": {
