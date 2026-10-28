@@ -13,6 +13,7 @@ Status legend:
 | Fact | Value | Source | Status |
 |---|---|---|---|
 | Brand | Brisasoft, brand element "Brisa" | Existing site | Published |
+| Industry | IT Services and IT Consulting | Founder, 2026-10-28 | Published |
 | Legal name | Brisasoft Joint Stock Company / Công ty Cổ phần Brisasoft | `src/company.json` | Published |
 | Business registration no. | 0110870824 | `src/company.json` | Published |
 | Established | October 2024 (JSON-LD `foundingDate` 2024-10-23) | Founder brief (2024) + existing site | Published |

@@ -13,6 +13,7 @@ Facts come from `company-profile.md`; this file defines **how** they are present
    - 代表者紹介 (Representative profile): the founder's personal background (HEDSPI, Japan market since 2011, projects in other organisations).
    - 代表メッセージ (Message): the founder's beliefs and commitments.
    The founder's history (e.g. 2011) never appears as a company milestone.
+   **Never name another employer or company on the website.** Zensho, Fujitsu, Rikkeisoft, Ominext, GMO and any other employer are personal-history facts and stay out of company-facing pages. Describe experience generically: "software for Japanese clients since 2011; ERP, embedded, BPMN workflow, healthcare, AI."
 5. **Cut what does not help a customer or partner decide.** No long, repetitive lists or generic statements ("cutting-edge", "best quality"). Prefer one concrete fact over three adjectives.
 6. **Unverified = not published.** If a value is not confirmed, mark it "needs confirmation" in the knowledge base and leave it off the site. Never use an example or placeholder number.
 
@@ -39,6 +40,7 @@ EN and VI use the same order with their own labels.
 
 - [ ] Each new number has definition, scope and date, and matches `company-profile.md`.
 - [ ] No founder history inside company sections, and vice versa.
+- [ ] No other employer/company name on the founder page or anywhere on the site (Zensho, Fujitsu, Rikkeisoft, Ominext, GMO…).
 - [ ] Japanese text reviewed for corporate register (not a literal translation).
 - [ ] Same facts in JA, EN and VI.
 - [ ] No ranges, placeholders or unverified claims.

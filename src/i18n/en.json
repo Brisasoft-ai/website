@@ -28,7 +28,7 @@
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
-      "description": "BIS (Biology Intellectual System) is Brisasoft's AI learning system for Biology. Working prototype in development."
+      "description": "BIS (Biology Intellectual System) is Brisasoft's AI learning system for Biology, currently a working prototype."
     },
     "contact": {
       "title": "Contact | Brisasoft",
@@ -59,7 +59,7 @@
       "description": "Why Brisasoft was founded, our AI-native engineering philosophy and Forward Deployed Engineer mindset, and our founder's background."
     },
     "portfolio": {
-      "title": "Solution portfolio — Brisasoft",
+      "title": "Solution portfolio | Brisasoft",
       "description": "50 solution concepts across AI, workflow, data, industry, growth and platform. Each has a problem, solution, ontology, architecture and prototype."
     },
     "cookies": {
@@ -100,7 +100,7 @@
       },
       "i2": {
         "title": "Forward Deployed Engineer mindset",
-        "text": "Our engineers work close to your team, learn the business context, investigate the real problem and propose better options, instead of only implementing tickets. It is the standard we train every engineer towards."
+        "text": "Our engineers work closely with your team, learn the business context, investigate the real problem and propose better options, instead of only implementing tickets. It is the standard we hold every engineer to."
       },
       "i3": {
         "title": "Professionalism and ownership",
@@ -127,7 +127,7 @@
   "about": {
     "eyebrow": "About",
     "title": "Company profile",
-    "text": "Brisasoft is a software development company founded in Hanoi, Vietnam, in October 2024. We develop AI applications and business systems for clients in Japan and Vietnam.",
+    "text": "Brisasoft is a software engineering company founded in Hanoi, Vietnam, in October 2024. We develop AI applications and business systems for clients in Japan and Vietnam.",
     "companyTitle": "Corporate information",
     "founderLink": "Message and profile of our representative",
     "repTitle": "Representative"
@@ -135,7 +135,7 @@
   "bispage": {
     "focusTitle": "Initial focus",
     "focusText": "We are initially focusing on advanced high-school Biology education and competition preparation.",
-    "openApp": "Open the experimental version"
+    "openApp": "Open the working prototype"
   },
   "founder": {
     "title": "Founder & CEO",
@@ -203,14 +203,14 @@
   },
   "services": {
     "eyebrow": "Services",
-    "title": "From requirements to operation",
+    "title": "From requirements to operations",
     "text": "Four service lines, delivered by AI-native engineering teams for clients in Japan and Vietnam. For Vietnamese companies, we combine them to support digital transformation.",
     "ai": {
       "title": "AI application development",
       "text": "Assistants, agents and AI features built on your own data and evaluated before release.",
       "b1": "Knowledge assistants that answer from your documents (RAG) and show their sources",
       "b2": "AI agents that classify requests, extract data from documents and draft replies",
-      "b3": "Evaluation with test questions before release, and human review of sensitive outputs",
+      "b3": "Evaluation with test questions before release, and human review of important outputs",
       "b4": "Combining open-source models and commercial APIs, with usage cost control"
     },
     "data": {
@@ -282,10 +282,10 @@
     },
     "f6": {
       "title": "Trustworthy material",
-      "text": "Only self-written or openly licensed material is used, and every change is recorded."
+      "text": "We use only material we write ourselves or that has an open licence, and we record every change."
     },
     "todayTitle": "What works today",
-    "todayText": "The current prototype includes a student portal with practice questions, a source-cited AI tutor, mastery tracking and an admin review workflow. Content is still draft and is being prepared for review by Biology teachers.",
+    "todayText": "The current prototype includes a student portal with practice questions, a source-cited AI tutor, mastery tracking and an admin review workflow. Content is still in draft and is being prepared for review by Biology teachers.",
     "roadTitle": "Roadmap",
     "road1": {
       "title": "Now",
@@ -306,7 +306,7 @@
     },
     "q2": {
       "title": "Is BIS available now?",
-      "text": "BIS is an experimental prototype. If you are a teacher or school interested in a pilot or in giving feedback, please email us."
+      "text": "BIS is a working prototype. If you are a teacher or school interested in a pilot or in giving feedback, please email us."
     },
     "q3": {
       "title": "How do you keep AI answers accurate?",
@@ -323,7 +323,7 @@
     "timelineTitle": "Company history",
     "t1": {
       "date": "October 2024",
-      "title": "Brisasoft founded in Hanoi, Vietnam. Started software development services, mainly for Japanese clients."
+      "title": "Founded in Hanoi, Vietnam; began software development services, mainly for Japanese clients."
     },
     "t2": {
       "date": "April 2025",
@@ -467,11 +467,11 @@
     "updated": "Version 2.0 — updated 27 October 2026. Replaces all earlier versions.",
     "s1": {
       "title": "1. Who is responsible",
-      "text": "Brisasoft Joint Stock Company, business registration 0110870824, 3rd floor, No. 3, Lane 114 Kim Quan Thuong, Viet Hung Ward, Long Bien District, Hanoi, Vietnam — is the controller of data collected through this website. Write to contact@brisasoft.net for any data question."
+      "text": "Brisasoft Joint Stock Company (business registration 0110870824, 3rd floor, No. 3, Lane 114 Kim Quan Thuong, Viet Hung Ward, Long Bien District, Hanoi, Vietnam) is the controller of data collected through this website. Write to contact@brisasoft.net for any data question."
     },
     "s2": {
       "title": "2. What we collect",
-      "text": "We collect only what the purposes in section 3 require: (a) what you send through the contact form — last name, first name, work email, company, job title, country/region and your message; (b) minimal technical data when you visit — IP address, browser type, time and requested page, recorded by our infrastructure provider to run and protect the site; (c) preferences stored on your device — display language and your cookie choice. We do not ask for sensitive data, and you should not send it through the form."
+      "text": "We collect only what the purposes in section 3 require: (a) what you send through the contact form — last name, first name, work email, company, company website, job title, country/region and your message; (b) minimal technical data when you visit — IP address, browser type, time and requested page, recorded by our infrastructure provider to run and protect the site; (c) preferences stored on your device — display language and your cookie choice. We do not ask for sensitive data, and you should not send it through the form."
     },
     "s3": {
       "title": "3. Why we use it, and on what basis",
@@ -479,7 +479,7 @@
     },
     "s4": {
       "title": "4. Cookies and similar technologies",
-      "text": "By default the site uses only what it needs: a local preference for display language and a record of your cookie decision. Measurement cookies are enabled only after you consent and can be refused without losing any functionality. Types, retention and how to change your choice are set out in the Cookie policy."
+      "text": "By default the site uses only what it needs: a local preference for display language and a record of your cookie decision. Measurement cookies are enabled only after you consent and can be refused without losing any functionality. Cookie types, retention periods and how to change your choice are set out in the Cookie policy."
     },
     "s5": {
       "title": "5. Sharing and transfers",
@@ -495,7 +495,7 @@
     },
     "s8": {
       "title": "8. Your rights",
-      "text": "You may ask what data we hold, request access, correction, deletion, restriction or object to processing, ask for portability where technically feasible, and withdraw consent at any time for consent-based purposes. Write to contact@brisasoft.net; we answer within 30 days and may ask you to verify identity to protect your data. You may also complain to the data protection authority where you live."
+      "text": "You may ask what data we hold, request access, correction, deletion or restriction, or object to processing, ask for portability where technically feasible, and withdraw consent at any time for consent-based purposes. Write to contact@brisasoft.net; we answer within 30 days and may ask you to verify identity to protect your data. You may also complain to the data protection authority where you live."
     },
     "s9": {
       "title": "9. Children",
@@ -513,7 +513,7 @@
   "stats": {
     "eyebrow": "At a glance",
     "title": "A young company with deep delivery experience",
-    "note": "Brisasoft was founded in October 2024. Percentages are shares by number of projects.",
+    "note": "Brisasoft was founded in October 2024. The 70 / 30 split is by number of projects; 70% is the share of our engineers.",
     "founded": {
       "label": "Brisasoft founded in Hanoi"
     },
@@ -527,7 +527,7 @@
       "label": "AI products of our own in development: BIS and AAB"
     },
     "aiEngineers": {
-      "label": "AI engineers covering back end and front end"
+      "label": "of our engineers are AI engineers who also work on back end and front end"
     },
     "team": {
       "label": "full-time employees (as of October 2026)"
@@ -547,7 +547,7 @@
     },
     "c3": {
       "title": "Business systems and integration",
-      "text": "Web, mobile and internal systems, integrated with ERP and Microsoft 365, with the documentation and change control Japanese projects require."
+      "text": "Web, mobile and internal systems, integrated with ERP and Microsoft 365, with the documentation and change control that Japanese projects require."
     },
     "c4": {
       "title": "Infrastructure and operations",
@@ -563,7 +563,7 @@
     "stack": "Technology",
     "bis": {
       "title": "BIS · AI-native Biology education",
-      "challenge": "Students who misunderstand a concept are rarely detected, and teachers cannot personalise explanations for every learner.",
+      "challenge": "Misunderstandings are rarely detected, and teachers cannot personalise explanations for every learner.",
       "approach": "Biology modelled as concepts, relations and misconceptions; an AI tutor that answers from approved sources with citations; mastery tracking; teacher review before content is served.",
       "stack": "Structured knowledge model, retrieval-augmented AI tutor, web application"
     },
@@ -584,7 +584,7 @@
   },
   "tech": {
     "eyebrow": "Technology in context",
-    "title": "Platforms we have actually worked with",
+    "title": "Platforms we have used in real projects",
     "sub": "Each technology is listed with where we used it. Listing a product does not mean a partnership with, or certification by, its vendor.",
     "items": {
       "dify": {
@@ -613,20 +613,31 @@
       },
       "pega": {
         "area": "Workflow and case management",
-        "text": "Case management and process automation applications."
+        "text": "Case management and process automation application development."
       }
     }
   },
   "founderMsg": {
     "eyebrow": "Message from our Founder & CEO",
     "title": "Building an AI-native engineering company",
-    "quote": "Technology creates its greatest value when the engineers building it understand the business problem behind it.",
-    "p1": "I trained in the HEDSPI programme at Hanoi University of Science and Technology, a Vietnam–Japan IT engineering programme supported by JICA. Alongside the technical curriculum, we studied the Japanese language and Japanese working culture in depth. After graduating, I began working on software for Japanese clients in 2011, and over the following years moved from writing code to leading projects and delivery, across ERP, embedded systems, business workflow, healthcare and AI. One lesson kept repeating: technology creates its greatest value when the engineers building it understand the business problem behind it.",
-    "p2": "Too often, outsourcing turns engineers into ticket-takers. The specification arrives, the code is delivered, and nobody asks whether it solves the real problem. That model breaks down when a customer's challenge is unclear, spans several systems, or changes as the work progresses.",
-    "p3": "I founded Brisasoft in 2024 because AI is changing how software is designed, built and operated, and engineering teams must change with it. We use AI throughout our work so that engineers can spend more of their time on what matters: understanding the context, challenging assumptions and exploring better solutions.",
-    "p4": "Our ambition is for every Brisasoft engineer to develop a Forward Deployed Engineer mindset: technical depth, business understanding, practical problem-solving and close collaboration with customers. We are building that capability step by step, and it is the standard we hold ourselves to.",
-    "p5": "AI helps us work more effectively, but it does not replace engineering judgement, responsibility, or the trust built between people. We value professionalism, dedication, transparency and continuous improvement, and we will tell you plainly when a simpler or non-AI solution is the better choice.",
-    "p6": "We want to be more than a software vendor: a dependable technology partner that helps you turn business challenges into practical, sustainable solutions. Thank you for considering Brisasoft."
+    "quote": "AI can accelerate human progress by transforming how we work, build, and discover.",
+    "p1": "I am a technology leader with 15 years of experience in software engineering and IT delivery for Japanese clients. A graduate of the HEDSPI program at Hanoi University of Science and Technology, supported by JICA, I combine technical expertise with an understanding of Japanese language and business culture. Since 2011, I have progressed from software engineer to project leadership and delivery management across ERP, embedded systems, business workflows, healthcare, and AI.",
+    "p2": "I founded Brisasoft JSC in 2024, an AI-native engineering company in Hanoi, with a clear belief: AI can accelerate human progress by transforming how we work, build, and discover.",
+    "p3": "Anthropic CEO Dario Amodei envisions AI potentially compressing decades of biological and medical progress into years. At Brisasoft, we aim to turn this potential into practical value through three focus areas:",
+    "f1": {
+      "title": "AI Commerce",
+      "text": "Shopify and cross-border e-commerce solutions."
+    },
+    "f2": {
+      "title": "Workflow Automation",
+      "text": "BPMN, RPA, document AI, and AI agents."
+    },
+    "f3": {
+      "title": "Life Sciences & Longevity",
+      "text": "AI-powered biology education, scientific knowledge, and research."
+    },
+    "p4": "Our Forward Deployed Engineering (FDE) approach combines strong engineering, domain expertise, and close customer collaboration to deliver real-world outcomes.",
+    "p5": "Human-centered. AI-powered. Outcome-driven."
   },
   "founderPage": {
     "eyebrow": "Founder & CEO",
@@ -687,12 +698,12 @@
     "text": "A working catalogue of product concepts: each has a problem, a proposed solution, an ontology, an architecture and a static prototype. Some are existing projects; most are concepts ready for a pilot.",
     "note": "Status is explicit: existing project, prototype, or concept. We do not present concepts as delivered products.",
     "homeTitle": "A few representative solutions",
-    "homeSub": "4 of 50 solutions, one example per category. The full catalogue is shared on request.",
+    "homeSub": "4 of 50 solutions, one from four of the six categories. The full catalogue is shared on request.",
     "viewAll": "See all 6 categories",
     "detail": "View details",
     "prev": "Previous",
     "next": "Next",
-    "count": "50 concepts across 6 categories.",
+    "count": "50 solutions across 6 categories.",
     "categories": {
       "ai-agents": "AI & Agents",
       "workflow": "Workflow & Operations",
@@ -725,7 +736,7 @@
   },
   "contactForm": {
     "eyebrow": "Contact",
-    "title": "Start with Brisasoft",
+    "title": "Tell us about your project",
     "text": "Let's turn your business goal into the right technology solution. Use the form, or email us directly.",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
@@ -754,18 +765,18 @@
     "cOther": "Other",
     "message": "Your request",
     "messagePh": "Describe the problem, current systems and your target timeline…",
-    "consent": "By submitting this form you agree to Brisasoft's Privacy Policy and Terms of Use.",
+    "consent": "By submitting this form you agree to Brisasoft's Privacy notice.",
     "optIn": "I would like to receive information from Brisasoft relevant to my needs.",
     "submit": "Send",
     "sending": "Sending…",
     "ok": "Sent. We will reply within one business day.",
     "error": "Could not send. Please try again or email us directly.",
-    "required": "Required",
+    "required": "This field is required",
     "faqTitle": "Frequently asked questions",
     "q1": "What kind of projects do you take on?",
     "a1": "AI applications (RAG, agents), BPMN workflow automation, business systems and integration, with the infrastructure and operations behind them.",
     "q2": "Which languages do you work in?",
-    "a2": "Vietnamese, Japanese and English. Documents and day-to-day communication use the language you choose.",
+    "a2": "Vietnamese, Japanese and English. We work in the language you choose, for documents and day-to-day communication.",
     "q3": "How fast can we get a proposal?",
     "a3": "Usually 3–5 business days after the first conversation, depending on the complexity of the problem.",
     "trustTitle": "How we work",
@@ -784,7 +795,7 @@
     },
     "s2": {
       "title": "2. The categories we use",
-      "text": "Necessary (always on): keeps your display language and a record of your cookie decision; stored 12 months; no personal identification. Measurement (off by default): aggregate page views, popular pages, country and device type; kept up to 6 months. Marketing (off, not currently used): if we later measure campaign performance, this policy is updated first."
+      "text": "Necessary (always on): keeps your display language and a record of your cookie decision; stored for 12 months; no personal identification. Measurement (off by default): aggregate page views, popular pages, country and device type; kept up to 6 months. Marketing (off, not currently used): if we later measure campaign performance, this policy is updated first."
     },
     "s3": {
       "title": "3. Changing your choice",
@@ -804,7 +815,7 @@
     "text": "We use necessary cookies to run the site and, with your consent, measurement cookies to understand which content helps. You can accept, reject or choose per category. See the Cookie policy and Privacy notice.",
     "accept": "Accept all cookies",
     "reject": "Reject all",
-    "settings": "Cookies settings",
+    "settings": "Cookie settings",
     "save": "Save preferences",
     "close": "Close",
     "settingsTitle": "Cookie settings",

@@ -7,6 +7,7 @@
   "scripts": {
     "build": "node build.mjs",
     "build:stg": "SITE_ENV=staging node build.mjs",
+    "test": "node --test",
     "dev": "node build.mjs && node serve.mjs",
     "deploy:stg": "SITE_ENV=staging wrangler deploy --env staging",
     "deploy:prod": "wrangler deploy",

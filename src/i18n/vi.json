@@ -24,11 +24,11 @@
     },
     "about": {
       "title": "Hồ sơ công ty | Brisasoft",
-      "description": "Hồ sơ công ty Brisasoft: thành lập tại Hà Nội tháng 10/2024. Tên công ty, người đại diện, địa chỉ, nhân sự, lĩnh vực hoạt động và lịch sử phát triển."
+      "description": "Hồ sơ công ty Brisasoft: thành lập tại Hà Nội vào tháng 10/2024. Tên công ty, người đại diện, địa chỉ, nhân sự, lĩnh vực hoạt động và lịch sử phát triển."
     },
     "bis": {
       "title": "BIS, Biology Intellectual System | Brisasoft",
-      "description": "BIS (Biology Intellectual System) là hệ thống học Sinh học có AI do Brisasoft phát triển, hiện ở giai đoạn prototype."
+      "description": "BIS (Biology Intellectual System) là hệ thống học Sinh học có AI do Brisasoft phát triển, hiện là bản prototype đang chạy."
     },
     "contact": {
       "title": "Liên hệ | Brisasoft",
@@ -89,22 +89,22 @@
       "eyebrow": "Kỹ thuật AI-native · Nhật Bản & Việt Nam",
       "titleA": "Kỹ thuật AI-native",
       "titleB": "tạo giá trị kinh doanh thực.",
-      "text": "Brisasoft là công ty kỹ thuật phần mềm tại Hà Nội. Chúng tôi bắt đầu từ bài toán kinh doanh của bạn, dùng AI trong phân tích, phát triển và kiểm thử, và chịu trách nhiệm đến kết quả cuối cùng. Khách hàng của chúng tôi ở Nhật Bản và Việt Nam."
+      "text": "Brisasoft là công ty kỹ thuật phần mềm tại Hà Nội. Chúng tôi bắt đầu từ bài toán kinh doanh của bạn, dùng AI trong phân tích, phát triển và kiểm thử, và chịu trách nhiệm về kết quả cuối cùng. Khách hàng của chúng tôi ở Nhật Bản và Việt Nam."
     },
     "why": {
       "eyebrow": "Cách chúng tôi nghĩ",
       "title": "Bốn nguyên tắc trong cách chúng tôi làm việc",
       "i1": {
         "title": "Kỹ thuật AI-native",
-        "text": "AI là một phần trong cách chúng tôi phân tích yêu cầu, viết và review code, kiểm thử và viết tài liệu, không phải một dịch vụ gắn thêm. Kỹ sư vẫn chịu trách nhiệm cho mọi kết quả."
+        "text": "AI là một phần trong cách chúng tôi phân tích yêu cầu, viết và rà soát mã nguồn, kiểm thử và viết tài liệu, không phải một dịch vụ gắn thêm. Kỹ sư vẫn chịu trách nhiệm cho mọi kết quả."
       },
       "i2": {
         "title": "Tư duy Forward Deployed Engineer (FDE)",
-        "text": "Kỹ sư làm việc sát với đội ngũ của bạn, hiểu bối cảnh kinh doanh, tìm ra vấn đề thật và đề xuất phương án tốt hơn, thay vì chỉ làm theo ticket. Đây là chuẩn mực chúng tôi đào tạo cho mọi kỹ sư."
+        "text": "Kỹ sư làm việc trực tiếp cùng đội ngũ của bạn, hiểu bối cảnh kinh doanh, tìm ra vấn đề thật và đề xuất phương án tốt hơn, thay vì chỉ làm theo ticket. Đây là chuẩn mực chúng tôi đào tạo mọi kỹ sư hướng tới."
       },
       "i3": {
         "title": "Chuyên nghiệp và tinh thần làm chủ",
-        "text": "Giao tiếp rõ ràng, báo cáo trung thực, thực thi kỷ luật và học hỏi liên tục. Khi có vấn đề, chúng tôi báo sớm và xử lý."
+        "text": "Giao tiếp rõ ràng, báo cáo trung thực, thực thi có kỷ luật và học hỏi liên tục. Khi có vấn đề, chúng tôi báo sớm và xử lý."
       },
       "i4": {
         "title": "Giá trị khách hàng là trên hết",
@@ -127,7 +127,7 @@
   "about": {
     "eyebrow": "Giới thiệu",
     "title": "Hồ sơ công ty",
-    "text": "Brisasoft là công ty phát triển phần mềm thành lập tại Hà Nội tháng 10/2024, chuyên phát triển ứng dụng AI và hệ thống nghiệp vụ cho khách hàng tại Nhật Bản và Việt Nam.",
+    "text": "Brisasoft là công ty kỹ thuật phần mềm thành lập tại Hà Nội vào tháng 10/2024, chuyên xây dựng ứng dụng AI và hệ thống nghiệp vụ cho khách hàng tại Nhật Bản và Việt Nam.",
     "companyTitle": "Thông tin doanh nghiệp",
     "founderLink": "Thông điệp và tiểu sử người đại diện",
     "repTitle": "Người đại diện"
@@ -186,25 +186,25 @@
     },
     "s4": {
       "title": "Xây dựng",
-      "text": "Phát triển theo từng phần nhỏ, dễ review, demo định kỳ.",
-      "ai": "Hỗ trợ sinh code và review, luôn được kỹ sư kiểm tra."
+      "text": "Phát triển theo từng phần nhỏ, dễ rà soát, demo định kỳ.",
+      "ai": "Hỗ trợ sinh code và rà soát, luôn được kỹ sư kiểm tra."
     },
     "aiLabel": "AI hỗ trợ",
     "s5": {
       "title": "Kiểm chứng",
-      "text": "Kiểm thử chức năng, bảo mật cơ bản và, với tính năng AI, chất lượng câu trả lời.",
+      "text": "Kiểm thử chức năng và bảo mật cơ bản; với tính năng AI, kiểm thử cả chất lượng câu trả lời.",
       "ai": "Sinh test case và dữ liệu test; đánh giá đầu ra AI bằng bộ câu hỏi kiểm thử."
     },
     "s6": {
       "title": "Vận hành và cải tiến",
       "text": "Phát hành, giám sát và tiếp tục cải tiến cùng bạn sau khi ra mắt.",
-      "ai": "Soạn tài liệu và tài liệu bàn giao."
+      "ai": "Soạn tài liệu và hồ sơ bàn giao."
     }
   },
   "services": {
     "eyebrow": "Dịch vụ",
     "title": "Từ phân tích yêu cầu đến vận hành",
-    "text": "Bốn mảng dịch vụ, triển khai bởi đội ngũ kỹ thuật AI-native cho khách hàng tại Nhật Bản và Việt Nam. Với doanh nghiệp Việt Nam, chúng tôi kết hợp các dịch vụ này để hỗ trợ chuyển đổi số.",
+    "text": "Bốn mảng dịch vụ do đội ngũ kỹ thuật AI-native triển khai cho khách hàng tại Nhật Bản và Việt Nam. Với doanh nghiệp Việt Nam, chúng tôi kết hợp các dịch vụ này để hỗ trợ chuyển đổi số.",
     "ai": {
       "title": "Phát triển ứng dụng AI",
       "text": "Trợ lý, AI agent và tính năng AI dựa trên dữ liệu của bạn, được đánh giá trước khi phát hành.",
@@ -214,7 +214,7 @@
       "b4": "Kết hợp mô hình mã nguồn mở và API thương mại, kiểm soát chi phí sử dụng"
     },
     "data": {
-      "title": "Tự động hóa quy trình và dữ liệu",
+      "title": "Tự động hóa quy trình nghiệp vụ và dữ liệu",
       "text": "Làm rõ và tự động hóa quy trình, tổ chức dữ liệu để con người và AI cùng sử dụng.",
       "b1": "Mô hình hóa quy trình bằng BPMN và vận hành trên Camunda",
       "b2": "Phê duyệt và thông báo qua Microsoft 365",
@@ -246,14 +246,14 @@
       "title": "Phát triển và bảo trì dài hạn",
       "text": "Tiếp tục cải tiến và bảo trì hệ thống sau khi phát hành."
     },
-    "ctaTitle": "Bạn đang có một dự án?",
+    "ctaTitle": "Bạn đang có dự án cần triển khai?",
     "ctaText": "Hãy chia sẻ ý tưởng hoặc hệ thống hiện tại của bạn. Chúng tôi sẽ phản hồi qua email."
   },
   "bis2": {
     "eyebrow": "Sản phẩm",
     "heroTitle": "BIS: hệ thống học tập AI dựa trên tri thức Sinh học có cấu trúc",
     "heroText": "BIS mô hình hóa Sinh học thành khái niệm và quan hệ, để gia sư AI giải thích kèm nguồn, kiểm tra mức độ hiểu và theo dõi tiến độ từng học sinh. Nội dung được giáo viên duyệt trước khi sử dụng.",
-    "status": "Bản prototype",
+    "status": "Bản prototype đang chạy",
     "problemEyebrow": "Vấn đề",
     "problemTitle": "Hiểu sai khái niệm thường không được phát hiện",
     "problemText": "Việc học Sinh học phần lớn vẫn qua video, slide và giảng dạy một chiều. Khi học sinh hiểu sai khái niệm, điều đó hiếm khi được phát hiện, và giáo viên không thể giải thích riêng cho từng em.",
@@ -282,14 +282,14 @@
     },
     "f6": {
       "title": "Tài liệu đáng tin cậy",
-      "text": "Chỉ dùng tài liệu tự biên soạn hoặc có giấy phép mở, mọi thay đổi đều được ghi lại."
+      "text": "Chỉ dùng tài liệu tự biên soạn hoặc có giấy phép mở; mọi thay đổi đều được ghi lại."
     },
     "todayTitle": "Hiện đã chạy được",
-    "todayText": "Bản nguyên mẫu hiện có cổng học sinh với câu hỏi luyện tập, gia sư AI có trích dẫn nguồn, theo dõi mức nắm vững và quy trình duyệt dành cho quản trị. Nội dung vẫn là bản nháp và đang được chuẩn bị để giáo viên Sinh học rà soát.",
+    "todayText": "Bản prototype hiện có cổng dành cho học sinh với câu hỏi luyện tập, gia sư AI có trích dẫn nguồn, theo dõi mức nắm vững và quy trình duyệt dành cho quản trị viên. Nội dung vẫn là bản nháp và đang được chuẩn bị để giáo viên Sinh học rà soát.",
     "roadTitle": "Lộ trình",
     "road1": {
       "title": "Hiện tại",
-      "text": "Bản nguyên mẫu chạy được, phạm vi đầu tiên: sinh học tế bào, sinh học phân tử và di truyền."
+      "text": "Bản prototype đang chạy, phạm vi đầu tiên: sinh học tế bào, sinh học phân tử và di truyền."
     },
     "road2": {
       "title": "Tiếp theo",
@@ -306,7 +306,7 @@
     },
     "q2": {
       "title": "BIS đã dùng được chưa?",
-      "text": "BIS là bản nguyên mẫu thử nghiệm. Nếu bạn là giáo viên hoặc nhà trường muốn thử nghiệm hay góp ý, vui lòng gửi email cho chúng tôi."
+      "text": "BIS là bản prototype đang chạy. Nếu bạn là giáo viên hoặc nhà trường muốn thử nghiệm hay góp ý, vui lòng gửi email cho chúng tôi."
     },
     "q3": {
       "title": "Làm sao đảm bảo câu trả lời của AI chính xác?",
@@ -327,11 +327,11 @@
     },
     "t2": {
       "date": "Tháng 4/2025",
-      "title": "Mở rộng sang hạ tầng: triển khai trọn gói cùng môi trường cloud, on-premise và hybrid."
+      "title": "Mở rộng sang hạ tầng: cung cấp môi trường cloud, on-premise và hybrid song song với phần ứng dụng chúng tôi phát triển."
     },
     "t3": {
       "date": "Tháng 10/2025",
-      "title": "Đẩy mạnh phát triển workflow nghiệp vụ với BPMN."
+      "title": "Đẩy mạnh phát triển quy trình nghiệp vụ bằng BPMN."
     },
     "t4": {
       "date": "Tháng 4/2026",
@@ -349,7 +349,7 @@
     "khTitle": "Cách chúng tôi tiếp cận từng lĩnh vực",
     "k1": {
       "title": "SAP / ERP",
-      "text": "Tích hợp và mở rộng hệ thống ERP để dữ liệu chủ, giao diện và quy trình nghiệp vụ kết nối ổn định với các hệ thống xung quanh, kiểm soát thay đổi và tài liệu cẩn thận."
+      "text": "Tích hợp và mở rộng hệ thống ERP để dữ liệu chủ, giao diện và quy trình nghiệp vụ kết nối ổn định với các hệ thống xung quanh, với quy trình kiểm soát thay đổi và tài liệu chặt chẽ."
     },
     "k2": {
       "title": "Hệ thống nhúng",
@@ -361,7 +361,7 @@
     },
     "k4": {
       "title": "Y tế",
-      "text": "Phần mềm cho môi trường đòi hỏi dữ liệu chính xác, bảo mật và truy vết, được xây dựng với kiểm chứng và nhật ký kiểm toán ngay từ đầu."
+      "text": "Phần mềm cho môi trường y tế, nơi độ chính xác của dữ liệu, quyền riêng tư và khả năng truy vết là yếu tố then chốt; chúng tôi xây dựng kiểm chứng và nhật ký kiểm toán ngay từ đầu."
     },
     "k5": {
       "title": "AI",
@@ -377,7 +377,7 @@
       "name": "BIS",
       "full": "Biology Intellectual System",
       "text": "Hệ thống học Sinh học có AI: tri thức có cấu trúc, gia sư AI có dẫn nguồn, luyện tập theo mức độ hiểu và giáo viên duyệt nội dung.",
-      "status": "Nguyên mẫu chạy được"
+      "status": "Bản prototype đang chạy"
     },
     "aab": {
       "name": "AAB",
@@ -392,14 +392,14 @@
     "heroText": "AAB vận hành các quy trình nghiệp vụ được mô hình hóa bằng BPMN 2.0 trên workflow engine Camunda. AI agent thực hiện các tác vụ được định nghĩa trong quy trình, như phân loại yêu cầu và trích xuất dữ liệu từ tài liệu. Việc phê duyệt do con người thực hiện qua Microsoft 365.",
     "status": "Đang phát triển",
     "problemEyebrow": "Vấn đề",
-    "problemTitle": "Quy trình bị chôn trong email và bảng tính",
-    "problemText": "Nhiều quy trình nghiệp vụ vẫn chạy qua email, tệp và trí nhớ. Phê duyệt bị kẹt, tài liệu bị nhập lại, và không ai thấy hồ sơ đang kẹt ở đâu hay vì sao.",
+    "problemTitle": "Quy trình nằm rải rác trong email và bảng tính",
+    "problemText": "Nhiều quy trình nghiệp vụ vẫn chạy qua email, tệp và trí nhớ của con người. Phê duyệt bị kẹt, tài liệu bị nhập lại, và không ai thấy hồ sơ đang kẹt ở đâu hay vì sao.",
     "solutionEyebrow": "Cách tiếp cận của chúng tôi",
     "solutionTitle": "Quy trình rõ ràng, AI được kiểm soát",
-    "solutionText": "Quy trình là một mô hình BPMN: mọi bước, quyết định và bàn giao đều minh bạch và có quản lý phiên bản. AI agent chỉ được gọi ở các bước đã định nghĩa; ở nơi cần trách nhiệm, kết quả của AI được chuyển cho người xem xét trước khi quy trình tiếp tục.",
+    "solutionText": "Quy trình là một mô hình BPMN: mọi bước, quyết định và bàn giao đều được hiển thị rõ và quản lý theo phiên bản. AI agent chỉ được gọi ở các bước đã định nghĩa; ở nơi cần trách nhiệm, kết quả của AI được chuyển cho người xem xét trước khi quy trình tiếp tục.",
     "c1": {
       "title": "Quy trình BPMN 2.0 trên Camunda",
-      "text": "Camunda thực thi mô hình: lưu trạng thái từng hồ sơ, xử lý timer và hạn xử lý, đồng thời ghi lại từng bước thực thi."
+      "text": "Camunda thực thi mô hình: lưu trạng thái từng hồ sơ, xử lý bộ hẹn giờ và hạn xử lý, đồng thời ghi lại từng bước thực thi."
     },
     "c2": {
       "title": "AI agent là tác vụ trong quy trình",
@@ -432,7 +432,7 @@
     "ctaText": "Hãy cho chúng tôi biết hiện nó vận hành thế nào. Chúng tôi sẽ phản hồi qua email.",
     "q4": {
       "title": "AI được dùng ở đâu và không dùng ở đâu?",
-      "text": "AI chỉ được dùng cho các tác vụ đã định nghĩa như phân loại, trích xuất, soạn thảo. Điều hướng, hạn xử lý và phê duyệt được định nghĩa trong mô hình BPMN và do workflow engine thực thi, không do AI quyết định."
+      "text": "AI chỉ được dùng cho các tác vụ đã định nghĩa như phân loại, trích xuất, soạn thảo. Việc rẽ nhánh, hạn xử lý và phê duyệt được định nghĩa trong mô hình BPMN và do workflow engine thực thi, không do AI quyết định."
     },
     "exampleEyebrow": "Ví dụ",
     "exampleTitle": "Một yêu cầu đi qua quy trình AAB như thế nào",
@@ -450,7 +450,7 @@
       "end": "Đóng|hồ sơ",
       "yes": "Được duyệt",
       "no": "Từ chối: chỉnh sửa",
-      "legend": "Message start event · Service task (AI agent, hệ thống) · User task (con người) · Exclusive gateway · End event",
+      "legend": "Message start event (sự kiện bắt đầu) · Service task (AI agent, hệ thống) · User task (con người) · Exclusive gateway (rẽ nhánh) · End event (sự kiện kết thúc)",
       "steps": "Các bước của quy trình",
       "s1": "Yêu cầu đến (message start event) và khởi động quy trình.",
       "s2": "AI agent phân loại yêu cầu và trích xuất dữ liệu (service task).",
@@ -467,7 +467,7 @@
     "updated": "Phiên bản 2.0 — cập nhật ngày 27/10/2026. Thay thế mọi bản trước đó.",
     "s1": {
       "title": "1. Đơn vị chịu trách nhiệm",
-      "text": "Công ty Cổ phần Brisasoft (Brisasoft Joint Stock Company), mã số doanh nghiệp 0110870824, Tầng 3 số 3 ngõ 114 Kim Quan Thượng, phường Việt Hưng, Long Biên, Hà Nội, Việt Nam — là đơn vị kiểm soát dữ liệu thu được qua website này. Mọi câu hỏi về dữ liệu xin gửi tới contact@brisasoft.net."
+      "text": "Công ty Cổ phần Brisasoft (Brisasoft Joint Stock Company), mã số doanh nghiệp 0110870824, Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam là đơn vị kiểm soát dữ liệu thu được qua website này. Mọi câu hỏi về dữ liệu xin gửi tới contact@brisasoft.net."
     },
     "s2": {
       "title": "2. Dữ liệu chúng tôi thu thập",
@@ -475,7 +475,7 @@
     },
     "s3": {
       "title": "3. Mục đích và cơ sở pháp lý",
-      "text": "Phản hồi yêu cầu của bạn: cần thiết để thực hiện các bước trước khi ký hợp đồng theo yêu cầu của bạn. Vận hành, bảo mật và chẩn đoán lỗi website: lợi ích hợp pháp của chúng tôi trong việc giữ hệ thống hoạt động và an toàn. Đo lường mức độ sử dụng và cải thiện nội dung: chỉ khi bạn đồng ý qua phần thiết lập cookie. Chúng tôi không dùng dữ liệu của bạn cho quảng cáo tự động và không bán dữ liệu."
+      "text": "Phản hồi yêu cầu của bạn: cần thiết để thực hiện các bước trước khi giao kết hợp đồng mà bạn đề nghị. Vận hành, bảo mật và chẩn đoán lỗi website: lợi ích hợp pháp của chúng tôi trong việc giữ hệ thống hoạt động và an toàn. Đo lường mức độ sử dụng và cải thiện nội dung: chỉ khi bạn đồng ý qua phần thiết lập cookie. Chúng tôi không dùng dữ liệu của bạn cho quảng cáo tự động và không bán dữ liệu."
     },
     "s4": {
       "title": "4. Cookie và công nghệ tương tự",
@@ -487,18 +487,18 @@
     },
     "s6": {
       "title": "6. Thời gian lưu trữ",
-      "text": "Yêu cầu gửi qua biểu mẫu và thư trao đổi được lưu tối đa 24 tháng kể từ lần liên hệ cuối, sau đó xoá hoặc ẩn danh hoá. Nhật ký máy chủ được lưu ngắn hạn (thường không quá 30 ngày). Bản ghi lựa chọn cookie được lưu 12 tháng. Khi pháp luật yêu cầu giữ lâu hơn cho mục đích kế toán hoặc giải quyết tranh chấp, chúng tôi giữ đúng thời hạn đó."
+      "text": "Yêu cầu gửi qua biểu mẫu và thư trao đổi được lưu tối đa 24 tháng kể từ lần liên hệ cuối, sau đó xoá hoặc ẩn danh hóa. Nhật ký máy chủ được lưu ngắn hạn (thường không quá 30 ngày). Bản ghi lựa chọn cookie được lưu 12 tháng. Khi pháp luật yêu cầu giữ lâu hơn cho mục đích kế toán hoặc giải quyết tranh chấp, chúng tôi giữ đúng thời hạn đó."
     },
     "s7": {
       "title": "7. Bảo mật",
-      "text": "Chúng tôi dùng HTTPS cho toàn bộ website, giới hạn quyền truy cập vào hộp thư và hệ thống, thu thập dữ liệu tối thiểu và yêu cầu nhà cung cấp mã hoá dữ liệu khi lưu trữ. Không có hệ thống nào an toàn tuyệt đối; nếu xảy ra sự cố ảnh hưởng đến dữ liệu của bạn, chúng tôi thông báo theo quy định pháp luật."
+      "text": "Chúng tôi dùng HTTPS cho toàn bộ website, giới hạn quyền truy cập vào hộp thư và hệ thống, thu thập dữ liệu tối thiểu và yêu cầu nhà cung cấp mã hóa dữ liệu khi lưu trữ. Không có hệ thống nào an toàn tuyệt đối; nếu xảy ra sự cố ảnh hưởng đến dữ liệu của bạn, chúng tôi thông báo theo quy định pháp luật."
     },
     "s8": {
       "title": "8. Quyền của bạn",
       "text": "Bạn có quyền được biết dữ liệu nào đang được xử lý, yêu cầu truy cập, chỉnh sửa, xoá, hạn chế hoặc phản đối việc xử lý, yêu cầu chuyển dữ liệu sang đơn vị khác khi khả thi về kỹ thuật, và rút lại sự đồng ý bất cứ lúc nào cho các mục đích dựa trên đồng ý. Gửi yêu cầu tới contact@brisasoft.net; chúng tôi phản hồi trong vòng 30 ngày và có thể đề nghị xác minh danh tính để bảo vệ dữ liệu của bạn. Bạn cũng có quyền khiếu nại tới cơ quan quản lý về bảo vệ dữ liệu cá nhân tại nơi bạn cư trú."
     },
     "s9": {
-      "title": "9. Trẻ vị thành niên",
+      "title": "9. Người dưới 16 tuổi",
       "text": "Website hướng tới khách hàng doanh nghiệp và không dành cho người dưới 16 tuổi. Chúng tôi không chủ động thu thập dữ liệu của trẻ em; nếu phát hiện, chúng tôi sẽ xoá."
     },
     "s10": {
@@ -507,13 +507,13 @@
     },
     "s11": {
       "title": "11. Liên hệ",
-      "text": "Công ty Cổ phần Brisasoft · contact@brisasoft.net · +84 927 997 699 · Tầng 3 số 3 ngõ 114 Kim Quan Thượng, phường Việt Hưng, Long Biên, Hà Nội, Việt Nam."
+      "text": "Công ty Cổ phần Brisasoft · contact@brisasoft.net · +84 927 997 699 · Tầng 3, số nhà 3, ngõ 114 Kim Quan Thượng, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam."
     }
   },
   "stats": {
     "eyebrow": "Tổng quan",
-    "title": "Công ty trẻ, kinh nghiệm triển khai sâu",
-    "note": "Brisasoft thành lập tháng 10/2024. Tỷ lệ phần trăm tính theo số lượng dự án.",
+    "title": "Công ty trẻ, kinh nghiệm triển khai dày dặn",
+    "note": "Brisasoft thành lập tháng 10/2024. Tỷ lệ 70/30 tính theo số lượng dự án; tỷ lệ kỹ sư AI tính trên tổng số kỹ sư.",
     "founded": {
       "label": "Thành lập Brisasoft tại Hà Nội"
     },
@@ -556,8 +556,8 @@
   },
   "work": {
     "eyebrow": "Sản phẩm",
-    "title": "Sản phẩm của chính chúng tôi, làm theo cách chúng tôi làm cho khách hàng",
-    "sub": "Dự án khách hàng thường được bảo mật, nên chúng tôi giới thiệu trước các sản phẩm của mình. Cả hai đang phát triển, và chúng tôi chỉ mô tả những gì đã có.",
+    "title": "Sản phẩm tự phát triển, theo cùng cách chúng tôi làm cho khách hàng",
+    "sub": "Dự án khách hàng thường phải giữ bảo mật, nên chúng tôi giới thiệu trước các sản phẩm của mình. Cả hai đang phát triển, và chúng tôi chỉ mô tả những gì đã có.",
     "challenge": "Bài toán",
     "approach": "Cách tiếp cận",
     "stack": "Công nghệ",
@@ -583,8 +583,8 @@
     }
   },
   "tech": {
-    "eyebrow": "Công nghệ trong bối cảnh",
-    "title": "Nền tảng chúng tôi đã thực sự làm việc",
+    "eyebrow": "Công nghệ gắn với dự án thực tế",
+    "title": "Nền tảng chúng tôi đã trực tiếp sử dụng",
     "sub": "Mỗi công nghệ được ghi kèm nơi chúng tôi đã dùng. Việc liệt kê không có nghĩa là chúng tôi là đối tác hay được nhà cung cấp chứng nhận.",
     "items": {
       "dify": {
@@ -620,13 +620,24 @@
   "founderMsg": {
     "eyebrow": "Thông điệp từ Nhà sáng lập & CEO",
     "title": "Xây dựng một công ty kỹ thuật AI-native",
-    "quote": "Công nghệ tạo ra giá trị lớn nhất khi người kỹ sư xây dựng nó hiểu bài toán kinh doanh phía sau.",
-    "p1": "Tôi được đào tạo trong chương trình HEDSPI tại Đại học Bách khoa Hà Nội, chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ. Bên cạnh chuyên môn, chúng tôi được học sâu về tiếng Nhật và văn hóa làm việc của Nhật Bản. Sau khi tốt nghiệp, từ năm 2011 tôi làm phần mềm cho khách hàng Nhật Bản; những năm sau đó, tôi đi từ viết code đến dẫn dắt dự án và quản lý triển khai, qua nhiều lĩnh vực: ERP, hệ thống nhúng, workflow nghiệp vụ, y tế và AI. Có một bài học lặp lại nhiều lần: công nghệ tạo ra giá trị lớn nhất khi người kỹ sư xây dựng nó hiểu bài toán kinh doanh phía sau.",
-    "p2": "Thế nhưng mô hình outsourcing thường biến kỹ sư thành người “nhận ticket”. Đặc tả được gửi đến, code được bàn giao, và không ai hỏi liệu nó có giải quyết được vấn đề thật hay không. Cách làm đó không còn hiệu quả khi bài toán của khách hàng chưa rõ ràng, trải rộng trên nhiều hệ thống, hoặc thay đổi trong quá trình làm.",
-    "p3": "Tôi thành lập Brisasoft năm 2024 vì AI đang thay đổi cách phần mềm được thiết kế, xây dựng và vận hành, và đội ngũ kỹ thuật cũng phải thay đổi theo. Chúng tôi dùng AI xuyên suốt công việc để kỹ sư dành nhiều thời gian hơn cho điều quan trọng: hiểu bối cảnh, đặt câu hỏi cho các giả định và tìm giải pháp tốt hơn.",
-    "p4": "Mục tiêu của chúng tôi là mỗi kỹ sư Brisasoft đều có tư duy Forward Deployed Engineer: chiều sâu kỹ thuật, hiểu biết kinh doanh, khả năng giải quyết vấn đề thực tế và cộng tác chặt chẽ với khách hàng. Chúng tôi đang xây dựng năng lực đó từng bước, và đó là chuẩn mực chúng tôi đặt ra cho chính mình.",
-    "p5": "AI giúp chúng tôi làm việc hiệu quả hơn, nhưng không thay thế được phán đoán kỹ thuật, trách nhiệm, hay niềm tin được xây dựng giữa con người với nhau. Chúng tôi coi trọng sự chuyên nghiệp, tận tâm, minh bạch và cải tiến liên tục, và sẽ nói thẳng khi một giải pháp đơn giản hơn hoặc không dùng AI là lựa chọn tốt hơn.",
-    "p6": "Chúng tôi muốn là nhiều hơn một nhà cung cấp phần mềm: một đối tác công nghệ đáng tin cậy, giúp bạn biến thách thức kinh doanh thành giải pháp thực tế và bền vững. Cảm ơn bạn đã quan tâm đến Brisasoft."
+    "quote": "AI có thể thúc đẩy tiến bộ của con người bằng cách thay đổi cách chúng ta làm việc, xây dựng và khám phá.",
+    "p1": "Tôi là một nhà lãnh đạo công nghệ với 15 năm kinh nghiệm trong kỹ thuật phần mềm và triển khai CNTT cho khách hàng Nhật Bản. Tốt nghiệp chương trình HEDSPI tại Đại học Bách khoa Hà Nội (chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ), tôi kết hợp chuyên môn kỹ thuật với hiểu biết về tiếng Nhật và văn hóa kinh doanh Nhật Bản. Từ năm 2011, tôi đã đi từ kỹ sư phần mềm đến lãnh đạo dự án và quản lý triển khai, qua các lĩnh vực ERP, hệ thống nhúng, quy trình nghiệp vụ, y tế và AI.",
+    "p2": "Tôi thành lập Brisasoft JSC năm 2024, một công ty kỹ thuật AI-native tại Hà Nội, với niềm tin rõ ràng: AI có thể thúc đẩy tiến bộ của con người bằng cách thay đổi cách chúng ta làm việc, xây dựng và khám phá.",
+    "p3": "Dario Amodei, CEO của Anthropic, cho rằng AI có thể rút ngắn nhiều thập kỷ tiến bộ sinh học và y học xuống còn vài năm. Tại Brisasoft, chúng tôi hướng tới việc biến tiềm năng đó thành giá trị thực tiễn qua ba lĩnh vực trọng tâm:",
+    "f1": {
+      "title": "AI Commerce",
+      "text": "Shopify và các giải pháp thương mại điện tử xuyên biên giới."
+    },
+    "f2": {
+      "title": "Tự động hóa quy trình",
+      "text": "BPMN, RPA, document AI và AI agent."
+    },
+    "f3": {
+      "title": "Khoa học sự sống & Trường thọ",
+      "text": "Giáo dục sinh học, tri thức khoa học và nghiên cứu với sự hỗ trợ của AI."
+    },
+    "p4": "Cách tiếp cận Forward Deployed Engineering (FDE) của chúng tôi kết hợp năng lực kỹ thuật vững mạnh, hiểu biết lĩnh vực và cộng tác chặt chẽ với khách hàng để tạo ra kết quả thực tiễn.",
+    "p5": "Lấy con người làm trung tâm. Sức mạnh từ AI. Hướng tới kết quả."
   },
   "founderPage": {
     "eyebrow": "Nhà sáng lập & CEO",
@@ -634,7 +645,7 @@
     "profileTitle": "Tiểu sử người đại diện",
     "bio1": "Bắt đầu làm phần mềm cho thị trường Nhật Bản.",
     "bio2": "Từ đó tham gia và dẫn dắt các dự án về SAP/ERP, hệ thống nhúng, BPMN workflow, y tế và AI.",
-    "bio3": "Đi từ kỹ sư phần mềm đến quản lý dự án và triển khai: làm rõ yêu cầu, quản lý chất lượng, điều phối đội ngũ và khách hàng.",
+    "bio3": "Đi từ kỹ sư phần mềm đến quản lý dự án và triển khai: làm rõ yêu cầu, quản lý chất lượng, điều phối đội ngũ và làm việc với khách hàng.",
     "bio4": "Năm 2024 thành lập Brisasoft để xây dựng một công ty kỹ thuật AI-native tại Việt Nam.",
     "bio0": "Tốt nghiệp chương trình HEDSPI tại Đại học Bách khoa Hà Nội, chương trình đào tạo kỹ sư CNTT Việt – Nhật do JICA hỗ trợ, với nội dung học sâu về tiếng Nhật và văn hóa làm việc Nhật Bản.",
     "sinceLabel": "2011 – nay",
@@ -653,8 +664,8 @@
       "text": "Kiến trúc và tài liệu đặc tả được rà soát trước khi bắt đầu phát triển."
     },
     "q3": {
-      "title": "Review code",
-      "text": "Mọi thay đổi đều được một kỹ sư khác review. Review bằng AI là lớp kiểm tra thêm, không thay thế."
+      "title": "Rà soát mã nguồn",
+      "text": "Mọi thay đổi đều được một kỹ sư khác rà soát. AI rà soát là lớp kiểm tra thêm, không thay thế."
     },
     "q4": {
       "title": "Kiểm thử",
@@ -683,8 +694,8 @@
   },
   "portfolio": {
     "eyebrow": "Danh mục giải pháp",
-    "title": "50 giải pháp cho bài toán kinh doanh thật",
-    "text": "Danh mục sản phẩm/giải pháp: mỗi mục có bài toán, hướng giải, ontology, kiến trúc và prototype tĩnh. Một số là dự án đã có; phần lớn là concept sẵn sàng pilot.",
+    "title": "50 giải pháp cho bài toán kinh doanh thực tế",
+    "text": "Danh mục giải pháp: mỗi mục có bài toán, hướng giải pháp, ontology, kiến trúc và bản prototype tĩnh. Một số là dự án đã có; phần lớn là concept sẵn sàng pilot.",
     "note": "Trạng thái được ghi rõ: dự án đã có, prototype, hoặc concept. Không trình bày concept như sản phẩm đã bàn giao.",
     "homeTitle": "Một vài giải pháp tiêu biểu",
     "homeSub": "4 trong 50 giải pháp, mỗi nhóm một ví dụ. Danh mục đầy đủ gửi khi trao đổi.",
@@ -692,9 +703,9 @@
     "detail": "Xem chi tiết",
     "prev": "Trước",
     "next": "Kế tiếp",
-    "count": "50 concept trong 6 nhóm.",
+    "count": "50 giải pháp trong 6 nhóm.",
     "categories": {
-      "ai-agents": "AI & Agents",
+      "ai-agents": "AI & Agent",
       "workflow": "Quy trình & Vận hành",
       "data": "Dữ liệu & Phân tích",
       "industry": "Giải pháp ngành",
@@ -704,10 +715,10 @@
     "categoryText": {
       "ai-agents": "Agent, RAG, copilot và quản trị AI.",
       "workflow": "BPMN, phê duyệt, hợp đồng và vận hành.",
-      "data": "Nền tảng dữ liệu, BI, chất lượng và master data.",
+      "data": "Nền tảng dữ liệu, BI, chất lượng dữ liệu và dữ liệu chủ.",
       "industry": "Giáo dục, y tế, xây dựng, bán lẻ, logistics.",
-      "growth": "CRM, thương mại điện tử, loyalty, nội dung và lead intelligence.",
-      "platform": "MCP, tích hợp, low-code, test/review/incident copilot."
+      "growth": "CRM, thương mại điện tử, khách hàng thân thiết, nội dung và phân tích khách hàng tiềm năng.",
+      "platform": "MCP, tích hợp, low-code, copilot cho kiểm thử, rà soát và xử lý sự cố."
     },
     "status": {
       "existing": "Dự án đã có",
@@ -725,8 +736,8 @@
   },
   "contactForm": {
     "eyebrow": "Liên hệ",
-    "title": "Bắt đầu cùng Brisasoft",
-    "text": "Hãy cùng biến mục tiêu kinh doanh của bạn thành giải pháp công nghệ phù hợp. Điền form bên cạnh hoặc gửi email trực tiếp.",
+    "title": "Hãy cho chúng tôi biết về dự án của bạn",
+    "text": "Hãy cùng biến mục tiêu kinh doanh của bạn thành giải pháp công nghệ phù hợp. Điền biểu mẫu bên cạnh hoặc gửi email trực tiếp.",
     "emailLabel": "Email",
     "phoneLabel": "Điện thoại",
     "addressLabel": "Văn phòng",
@@ -754,7 +765,7 @@
     "cOther": "Khác",
     "message": "Nội dung yêu cầu",
     "messagePh": "Mô tả bài toán, hệ thống hiện tại và thời gian mong muốn…",
-    "consent": "Bằng việc gửi form, bạn đồng ý với Chính sách bảo mật và Điều khoản sử dụng của Brisasoft.",
+    "consent": "Bằng việc gửi biểu mẫu, bạn đồng ý với Thông báo quyền riêng tư của Brisasoft.",
     "optIn": "Tôi muốn nhận thông tin từ Brisasoft theo nhu cầu của mình.",
     "submit": "Gửi",
     "sending": "Đang gửi…",
@@ -763,7 +774,7 @@
     "required": "Trường bắt buộc",
     "faqTitle": "Câu hỏi thường gặp",
     "q1": "Brisasoft nhận những loại dự án nào?",
-    "a1": "Ứng dụng AI (RAG, agent), tự động hoá quy trình BPMN, hệ thống nghiệp vụ và tích hợp, cùng hạ tầng/vận hành đi kèm.",
+    "a1": "Ứng dụng AI (RAG, agent), tự động hóa quy trình BPMN, hệ thống nghiệp vụ và tích hợp, cùng hạ tầng/vận hành đi kèm.",
     "q2": "Làm việc bằng ngôn ngữ nào?",
     "a2": "Tiếng Việt, tiếng Nhật và tiếng Anh. Tài liệu và trao đổi hằng ngày dùng ngôn ngữ bạn chọn.",
     "q3": "Bao lâu thì có bản đề xuất?",

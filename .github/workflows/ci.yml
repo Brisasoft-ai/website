@@ -16,3 +16,5 @@ jobs:
           node-version: 22
       - name: Build site (fails on missing i18n keys)
         run: node build.mjs
+      - name: Test content and build
+        run: npm test

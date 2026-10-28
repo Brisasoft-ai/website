@@ -15,7 +15,7 @@ const EMAIL = 'contact@brisasoft.net';
 const LANGS = [
   { code: 'en', label: 'English', short: 'EN', flag: 'gb', htmlLang: 'en', og: 'en_US', skip: 'Skip to content' },
   { code: 'ja', label: '日本語', short: 'JA', flag: 'jp', htmlLang: 'ja', og: 'ja_JP', skip: '本文へスキップ' },
-  { code: 'vi', label: 'Tiếng Việt', short: 'VI', flag: 'vn', htmlLang: 'vi', og: 'vi_VN', skip: 'Bỏ qua đến nội dung' },
+  { code: 'vi', label: 'Tiếng Việt', short: 'VI', flag: 'vn', htmlLang: 'vi', og: 'vi_VN', skip: 'Chuyển đến nội dung chính' },
 ];
 const PAGES = [
   { key: 'home', path: '' },
@@ -466,7 +466,7 @@ if (existsSync(join(root, 'public'))) cpSync(join(root, 'public'), dist, { recur
 
 // 404 page (served by Workers static assets with not_found_handling: "404-page")
 {
-  const N = {"en":["Page not found","The page you are looking for does not exist or has moved.","Go to the homepage"],"ja":["ページが見つかりません","お探しのページは存在しないか、移動した可能性があります。","トップページへ"],"vi":["Không tìm thấy trang","Trang bạn tìm không tồn tại hoặc đã được chuyển.","Về trang chủ"]};
+  const N = {"en":["Page not found","The page you are looking for does not exist or has moved.","Go to the homepage"],"ja":["ページが見つかりません","お探しのページは存在しないか、移動した可能性があります。","トップページへ"],"vi":["Không tìm thấy trang","Trang bạn tìm không tồn tại hoặc đã được di chuyển.","Về trang chủ"]};
   const html = `<!doctype html>
 <html lang="en">
 <head>
